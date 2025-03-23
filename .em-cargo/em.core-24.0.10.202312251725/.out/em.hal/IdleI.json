@@ -1,0 +1,102 @@
+{
+    "flags": 1,
+    "pkgName": {
+        "segs": [
+            {
+                "type": "IDENT",
+                "upath": "em.hal/IdleI",
+                "beg": {
+                    "line": 1,
+                    "col": 9,
+                    "pos": 8
+                },
+                "end": {
+                    "line": 1,
+                    "col": 10,
+                    "pos": 9
+                },
+                "text": "em"
+            },
+            {
+                "type": "IDENT",
+                "upath": "em.hal/IdleI",
+                "beg": {
+                    "line": 1,
+                    "col": 12,
+                    "pos": 11
+                },
+                "end": {
+                    "line": 1,
+                    "col": 14,
+                    "pos": 13
+                },
+                "text": "hal"
+            }
+        ]
+    },
+    "imps": [],
+    "exps": [],
+    "sup": {
+        "ident": {
+            "type": "IDENT",
+            "upath": "em.hal/IdleI",
+            "beg": {
+                "line": 5,
+                "col": 11,
+                "pos": 70
+            },
+            "end": {
+                "line": 5,
+                "col": 15,
+                "pos": 74
+            },
+            "text": "IdleI"
+        }
+    },
+    "decls": [
+        {
+            "$KIND": "Fxn",
+            "flags": 0,
+            "ident": {
+                "type": "IDENT",
+                "upath": "em.hal/IdleI",
+                "beg": {
+                    "line": 8,
+                    "col": 14,
+                    "pos": 142
+                },
+                "end": {
+                    "line": 8,
+                    "col": 17,
+                    "pos": 145
+                },
+                "text": "exec"
+            },
+            "docs": [],
+            "args": []
+        },
+        {
+            "$KIND": "Fxn",
+            "flags": 0,
+            "ident": {
+                "type": "IDENT",
+                "upath": "em.hal/IdleI",
+                "beg": {
+                    "line": 11,
+                    "col": 14,
+                    "pos": 216
+                },
+                "end": {
+                    "line": 11,
+                    "col": 19,
+                    "pos": 221
+                },
+                "text": "wakeup"
+            },
+            "docs": [],
+            "args": []
+        }
+    ],
+    "bodies": [],
+    "docs": []
+}

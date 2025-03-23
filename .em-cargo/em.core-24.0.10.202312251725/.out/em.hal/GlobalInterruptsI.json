@@ -1,0 +1,229 @@
+{
+    "flags": 1,
+    "pkgName": {
+        "segs": [
+            {
+                "type": "IDENT",
+                "upath": "em.hal/GlobalInterruptsI",
+                "beg": {
+                    "line": 1,
+                    "col": 9,
+                    "pos": 8
+                },
+                "end": {
+                    "line": 1,
+                    "col": 10,
+                    "pos": 9
+                },
+                "text": "em"
+            },
+            {
+                "type": "IDENT",
+                "upath": "em.hal/GlobalInterruptsI",
+                "beg": {
+                    "line": 1,
+                    "col": 12,
+                    "pos": 11
+                },
+                "end": {
+                    "line": 1,
+                    "col": 14,
+                    "pos": 13
+                },
+                "text": "hal"
+            }
+        ]
+    },
+    "imps": [],
+    "exps": [],
+    "sup": {
+        "ident": {
+            "type": "IDENT",
+            "upath": "em.hal/GlobalInterruptsI",
+            "beg": {
+                "line": 5,
+                "col": 11,
+                "pos": 95
+            },
+            "end": {
+                "line": 5,
+                "col": 27,
+                "pos": 111
+            },
+            "text": "GlobalInterruptsI"
+        }
+    },
+    "decls": [
+        {
+            "$KIND": "Typedef",
+            "flags": 0,
+            "ident": {
+                "type": "IDENT",
+                "upath": "em.hal/GlobalInterruptsI",
+                "beg": {
+                    "line": 7,
+                    "col": 10,
+                    "pos": 124
+                },
+                "end": {
+                    "line": 7,
+                    "col": 12,
+                    "pos": 126
+                },
+                "text": "Key"
+            },
+            "docs": [],
+            "type": {
+                "$KIND": "Std",
+                "ident": {
+                    "type": "TY_UARG",
+                    "upath": "em.hal/GlobalInterruptsI",
+                    "beg": {
+                        "line": 7,
+                        "col": 15,
+                        "pos": 129
+                    },
+                    "end": {
+                        "line": 7,
+                        "col": 20,
+                        "pos": 134
+                    },
+                    "text": "uarg_t"
+                },
+                "tmods": 0
+            }
+        },
+        {
+            "$KIND": "Fxn",
+            "flags": 0,
+            "ident": {
+                "type": "IDENT",
+                "upath": "em.hal/GlobalInterruptsI",
+                "beg": {
+                    "line": 10,
+                    "col": 14,
+                    "pos": 197
+                },
+                "end": {
+                    "line": 10,
+                    "col": 20,
+                    "pos": 203
+                },
+                "text": "disable"
+            },
+            "docs": [],
+            "args": [],
+            "type": {
+                "$KIND": "Def",
+                "tdef": {
+                    "segs": [
+                        {
+                            "type": "IDENT",
+                            "upath": "em.hal/GlobalInterruptsI",
+                            "beg": {
+                                "line": 10,
+                                "col": 25,
+                                "pos": 208
+                            },
+                            "end": {
+                                "line": 10,
+                                "col": 27,
+                                "pos": 210
+                            },
+                            "text": "Key"
+                        }
+                    ]
+                },
+                "tmods": 0
+            }
+        },
+        {
+            "$KIND": "Fxn",
+            "flags": 0,
+            "ident": {
+                "type": "IDENT",
+                "upath": "em.hal/GlobalInterruptsI",
+                "beg": {
+                    "line": 13,
+                    "col": 14,
+                    "pos": 256
+                },
+                "end": {
+                    "line": 13,
+                    "col": 19,
+                    "pos": 261
+                },
+                "text": "enable"
+            },
+            "docs": [],
+            "args": []
+        },
+        {
+            "$KIND": "Fxn",
+            "flags": 0,
+            "ident": {
+                "type": "IDENT",
+                "upath": "em.hal/GlobalInterruptsI",
+                "beg": {
+                    "line": 16,
+                    "col": 14,
+                    "pos": 328
+                },
+                "end": {
+                    "line": 16,
+                    "col": 20,
+                    "pos": 334
+                },
+                "text": "restore"
+            },
+            "docs": [],
+            "args": [
+                {
+                    "$KIND": "Arg",
+                    "flags": 0,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.hal/GlobalInterruptsI",
+                        "beg": {
+                            "line": 16,
+                            "col": 22,
+                            "pos": 336
+                        },
+                        "end": {
+                            "line": 16,
+                            "col": 24,
+                            "pos": 338
+                        },
+                        "text": "key"
+                    },
+                    "docs": [],
+                    "type": {
+                        "$KIND": "Def",
+                        "tdef": {
+                            "segs": [
+                                {
+                                    "type": "IDENT",
+                                    "upath": "em.hal/GlobalInterruptsI",
+                                    "beg": {
+                                        "line": 16,
+                                        "col": 27,
+                                        "pos": 341
+                                    },
+                                    "end": {
+                                        "line": 16,
+                                        "col": 29,
+                                        "pos": 343
+                                    },
+                                    "text": "Key"
+                                }
+                            ]
+                        },
+                        "tmods": 0
+                    }
+                }
+            ]
+        }
+    ],
+    "bodies": [],
+    "docs": []
+}

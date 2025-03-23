@@ -1,0 +1,126 @@
+{
+    "flags": 1,
+    "pkgName": {
+        "segs": [
+            {
+                "type": "IDENT",
+                "upath": "em.hal/BusyWaitI",
+                "beg": {
+                    "line": 1,
+                    "col": 9,
+                    "pos": 8
+                },
+                "end": {
+                    "line": 1,
+                    "col": 10,
+                    "pos": 9
+                },
+                "text": "em"
+            },
+            {
+                "type": "IDENT",
+                "upath": "em.hal/BusyWaitI",
+                "beg": {
+                    "line": 1,
+                    "col": 12,
+                    "pos": 11
+                },
+                "end": {
+                    "line": 1,
+                    "col": 14,
+                    "pos": 13
+                },
+                "text": "hal"
+            }
+        ]
+    },
+    "imps": [],
+    "exps": [],
+    "sup": {
+        "ident": {
+            "type": "IDENT",
+            "upath": "em.hal/BusyWaitI",
+            "beg": {
+                "line": 3,
+                "col": 11,
+                "pos": 26
+            },
+            "end": {
+                "line": 3,
+                "col": 19,
+                "pos": 34
+            },
+            "text": "BusyWaitI"
+        }
+    },
+    "decls": [
+        {
+            "$KIND": "Fxn",
+            "flags": 0,
+            "ident": {
+                "type": "IDENT",
+                "upath": "em.hal/BusyWaitI",
+                "beg": {
+                    "line": 5,
+                    "col": 14,
+                    "pos": 91
+                },
+                "end": {
+                    "line": 5,
+                    "col": 17,
+                    "pos": 94
+                },
+                "text": "wait"
+            },
+            "docs": [
+                "enter a spin-loop",
+                "@usecs - duration in microseconds"
+            ],
+            "args": [
+                {
+                    "$KIND": "Arg",
+                    "flags": 0,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.hal/BusyWaitI",
+                        "beg": {
+                            "line": 5,
+                            "col": 19,
+                            "pos": 96
+                        },
+                        "end": {
+                            "line": 5,
+                            "col": 23,
+                            "pos": 100
+                        },
+                        "text": "usecs"
+                    },
+                    "docs": [],
+                    "type": {
+                        "$KIND": "Std",
+                        "ident": {
+                            "type": "TY_UINT32",
+                            "upath": "em.hal/BusyWaitI",
+                            "beg": {
+                                "line": 5,
+                                "col": 26,
+                                "pos": 103
+                            },
+                            "end": {
+                                "line": 5,
+                                "col": 31,
+                                "pos": 108
+                            },
+                            "text": "uint32"
+                        },
+                        "tmods": 0
+                    }
+                }
+            ]
+        }
+    ],
+    "bodies": [],
+    "docs": [
+        "abstraction of a spin-loop"
+    ]
+}

@@ -1,0 +1,142 @@
+{
+    "flags": 4,
+    "pkgName": {
+        "segs": [
+            {
+                "type": "IDENT",
+                "upath": "ti.mcu.cc23xx/Regs",
+                "beg": {
+                    "line": 1,
+                    "col": 9,
+                    "pos": 8
+                },
+                "end": {
+                    "line": 1,
+                    "col": 10,
+                    "pos": 9
+                },
+                "text": "ti"
+            },
+            {
+                "type": "IDENT",
+                "upath": "ti.mcu.cc23xx/Regs",
+                "beg": {
+                    "line": 1,
+                    "col": 12,
+                    "pos": 11
+                },
+                "end": {
+                    "line": 1,
+                    "col": 14,
+                    "pos": 13
+                },
+                "text": "mcu"
+            },
+            {
+                "type": "IDENT",
+                "upath": "ti.mcu.cc23xx/Regs",
+                "beg": {
+                    "line": 1,
+                    "col": 16,
+                    "pos": 15
+                },
+                "end": {
+                    "line": 1,
+                    "col": 21,
+                    "pos": 20
+                },
+                "text": "cc23xx"
+            }
+        ]
+    },
+    "imps": [],
+    "exps": [],
+    "sup": {
+        "ident": {
+            "type": "IDENT",
+            "upath": "ti.mcu.cc23xx/Regs",
+            "beg": {
+                "line": 3,
+                "col": 8,
+                "pos": 30
+            },
+            "end": {
+                "line": 3,
+                "col": 11,
+                "pos": 33
+            },
+            "text": "Regs"
+        }
+    },
+    "decls": [],
+    "bodies": [
+        {
+            "name": {
+                "segs": [
+                    {
+                        "type": "IDENT",
+                        "upath": "ti.mcu.cc23xx/Regs",
+                        "beg": {
+                            "line": 7,
+                            "col": 5,
+                            "pos": 45
+                        },
+                        "end": {
+                            "line": 7,
+                            "col": 19,
+                            "pos": 59
+                        },
+                        "text": "em$generateCode"
+                    }
+                ]
+            },
+            "args": [
+                {
+                    "$KIND": "Arg",
+                    "flags": 0,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "ti.mcu.cc23xx/Regs",
+                        "beg": {
+                            "line": 7,
+                            "col": 21,
+                            "pos": 61
+                        },
+                        "end": {
+                            "line": 7,
+                            "col": 26,
+                            "pos": 66
+                        },
+                        "text": "prefix"
+                    },
+                    "docs": []
+                }
+            ],
+            "block": {
+                "$KIND": "Block",
+                "serial": 1,
+                "stmts": [
+                    {
+                        "$KIND": "Text",
+                        "textTok": {
+                            "type": "TEMB",
+                            "upath": "ti.mcu.cc23xx/Regs",
+                            "beg": {
+                                "line": 8,
+                                "col": 1,
+                                "pos": 69
+                            },
+                            "end": {
+                                "line": 214,
+                                "col": 5,
+                                "pos": 10096
+                            },
+                            "text": "|->>>\n    #include \"cmsis/cc23x0r5.h\"\n    #include \"cmsis/core/core_cm0plus.h\"\n\n    #include \"driverlib/hapi.h\"\n\n    #include \"inc/hw_memmap.h\"\n    #include \"inc/hw_types.h\"\n\n    #include \"inc/hw_ckmd.h\"\n    #include \"inc/hw_clkctl.h\"\n    #include \"inc/hw_evtull.h\"\n    #include \"inc/hw_evtsvt.h\"\n    #include \"inc/hw_gpio.h\"\n    #include \"inc/hw_ioc.h\"\n    #include \"inc/hw_lgpt.h\"\n    #include \"inc/hw_lgpt3.h\"\n    #include \"inc/hw_pmctl.h\"\n    #include \"inc/hw_rtc.h\"\n    #include \"inc/hw_systim.h\"\n    #include \"inc/hw_uart.h\"\n    #include \"inc/hw_vims.h\"\n\n    #include \"inc/hw_ccfg.h\"\n\n#if 0\n\n    extern \"C\" const ccfg_t __ccfg __attribute__((section(\".ccfg\"), used)) = {\n\n        .bootCfg.pBldrVtor = XCFG_BC_PBLDR_UNDEF,\n\n        .bootCfg.bldrParam.serialRomBldrParamStruct.bldrEnabled = XCFG_BC_BLDR_DIS,\n        .bootCfg.bldrParam.serialRomBldrParamStruct.serialIoCfgIndex = 0,\n        .bootCfg.bldrParam.serialRomBldrParamStruct.pinTriggerDio = 0,\n        .bootCfg.bldrParam.serialRomBldrParamStruct.pinTriggerEnabled = XCFG_BC_PINTRIG_DIS,\n        .bootCfg.bldrParam.serialRomBldrParamStruct.pinTriggerLevel = XCFG_BC_PINTRIG_LEVEL_LO,\n        .bootCfg.pAppVtor = (void*)0x0,\n\n        .hwOpts = {0xffffffff, 0xffffffff},\n\n        .permissions.allowDebugPort = CCFG_PERMISSION_ALLOW,\n        .permissions.allowEnergyTrace = CCFG_PERMISSION_ALLOW,\n        .permissions.allowFlashVerify = CCFG_PERMISSION_ALLOW,\n        .permissions.allowFlashProgram = CCFG_PERMISSION_ALLOW,\n        .permissions.allowChipErase = CCFG_PERMISSION_ALLOW,\n        .permissions.allowToolsClientMode = CCFG_PERMISSION_ALLOW,\n        .permissions.allowFakeStby = CCFG_PERMISSION_ALLOW,\n        .permissions.allowReturnToFactory = CCFG_PERMISSION_ALLOW,\n\n        .misc.saciTimeoutOverride = 1U,\n        .misc.saciTimeoutExp = 7,\n\n        .flashProt.writeEraseProt.mainSectors0_31 = 0xffffffff,\n        .flashProt.writeEraseProt.mainSectors32_255 = 0xffffffff,\n\n        .flashProt.writeEraseProt.ccfgSector = 0,\n        .flashProt.writeEraseProt.fcfgSector = 0,\n        .flashProt.writeEraseProt.engrSector = 0,\n\n        .flashProt.res = 0xFFFFFFFFU,\n\n        .flashProt.chipEraseRetain.mainSectors0_31 = 0x0,\n        .flashProt.chipEraseRetain.mainSectors32_255 = 0x0,\n\n        .debugCfg.authorization = CCFG_DBGAUTH_DBGOPEN,\n        .debugCfg.allowBldr = CCFG_DBGBLDR_ALLOW,\n        .debugCfg.pwdId = {0x01, 0x01, 0x02, 0x03, 0x05, 0x08, 0x0d, 0x15},\n        .debugCfg.pwdHash = {0x6d, 0xd7, 0xe4, 0x36, 0xeb, 0xf4, 0x31, 0xdf,\n                            0x95, 0xae, 0x15, 0xee, 0x03, 0xba, 0x8e, 0xe4,\n                            0xc4, 0xc6, 0x3f, 0xd8, 0x45, 0x3f, 0x67, 0x5e,\n                            0x74, 0xd7, 0xc2, 0x01, 0x2c, 0x90, 0x58, 0xe5},\n    };\n\n#else\n\n    extern \"C\" const uint32_t __ccfg[] __attribute__((section(\".ccfg\"), used)) = {\n        0xFFFFFFFF, 0x00000000, 0x00000000, 0x00000000,\n        0xFFFFFFFF, 0xFFFFFFFF, 0xAAAAAAAA, 0x0000000F,\n        0xFFFFFFFF, 0xFFFFFFFF, 0x00000000, 0xFFFFFFFF,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x00000000, 0x00000000, 0x00000000, 0x00000000,\n        0x0000A55A, 0x03020101, 0x150D0805, 0x36E4D76D,\n        0xDF31F4EB, 0xEE15AE95, 0xE48EBA03, 0xD83FC6C4,\n        0x5E673F45, 0x01C2D774, 0xE558902C, 0x00000000,\n    };\n#endif\n|-<<<"
+                        }
+                    }
+                ]
+            }
+        }
+    ],
+    "docs": []
+}

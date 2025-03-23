@@ -1,0 +1,259 @@
+{
+    "flags": 3,
+    "pkgName": {
+        "segs": [
+            {
+                "type": "IDENT",
+                "upath": "em.build.misc/BuilderBaseI",
+                "beg": {
+                    "line": 1,
+                    "col": 9,
+                    "pos": 8
+                },
+                "end": {
+                    "line": 1,
+                    "col": 10,
+                    "pos": 9
+                },
+                "text": "em"
+            },
+            {
+                "type": "IDENT",
+                "upath": "em.build.misc/BuilderBaseI",
+                "beg": {
+                    "line": 1,
+                    "col": 12,
+                    "pos": 11
+                },
+                "end": {
+                    "line": 1,
+                    "col": 16,
+                    "pos": 15
+                },
+                "text": "build"
+            },
+            {
+                "type": "IDENT",
+                "upath": "em.build.misc/BuilderBaseI",
+                "beg": {
+                    "line": 1,
+                    "col": 18,
+                    "pos": 17
+                },
+                "end": {
+                    "line": 1,
+                    "col": 21,
+                    "pos": 20
+                },
+                "text": "misc"
+            }
+        ]
+    },
+    "imps": [
+        {
+            "from": {
+                "segs": [
+                    {
+                        "type": "IDENT",
+                        "upath": "em.build.misc/BuilderBaseI",
+                        "beg": {
+                            "line": 3,
+                            "col": 6,
+                            "pos": 28
+                        },
+                        "end": {
+                            "line": 3,
+                            "col": 7,
+                            "pos": 29
+                        },
+                        "text": "em"
+                    },
+                    {
+                        "type": "IDENT",
+                        "upath": "em.build.misc/BuilderBaseI",
+                        "beg": {
+                            "line": 3,
+                            "col": 9,
+                            "pos": 31
+                        },
+                        "end": {
+                            "line": 3,
+                            "col": 12,
+                            "pos": 34
+                        },
+                        "text": "lang"
+                    }
+                ]
+            },
+            "uname": {
+                "type": "IDENT",
+                "upath": "em.build.misc/BuilderBaseI",
+                "beg": {
+                    "line": 3,
+                    "col": 21,
+                    "pos": 43
+                },
+                "end": {
+                    "line": 3,
+                    "col": 28,
+                    "pos": 50
+                },
+                "text": "BuilderI"
+            }
+        }
+    ],
+    "exps": [],
+    "sup": {
+        "ident": {
+            "type": "IDENT",
+            "upath": "em.build.misc/BuilderBaseI",
+            "beg": {
+                "line": 5,
+                "col": 16,
+                "pos": 68
+            },
+            "end": {
+                "line": 5,
+                "col": 27,
+                "pos": 79
+            },
+            "text": "BuilderBaseI"
+        },
+        "inter": {
+            "type": "IDENT",
+            "upath": "em.build.misc/BuilderBaseI",
+            "beg": {
+                "line": 5,
+                "col": 30,
+                "pos": 82
+            },
+            "end": {
+                "line": 5,
+                "col": 37,
+                "pos": 89
+            },
+            "text": "BuilderI"
+        }
+    },
+    "decls": [
+        {
+            "$KIND": "Config",
+            "flags": 2,
+            "ident": {
+                "type": "IDENT",
+                "upath": "em.build.misc/BuilderBaseI",
+                "beg": {
+                    "line": 7,
+                    "col": 12,
+                    "pos": 103
+                },
+                "end": {
+                    "line": 7,
+                    "col": 15,
+                    "pos": 106
+                },
+                "text": "arch"
+            },
+            "docs": [],
+            "type": {
+                "$KIND": "Std",
+                "ident": {
+                    "type": "TY_STRING",
+                    "upath": "em.build.misc/BuilderBaseI",
+                    "beg": {
+                        "line": 7,
+                        "col": 18,
+                        "pos": 109
+                    },
+                    "end": {
+                        "line": 7,
+                        "col": 23,
+                        "pos": 114
+                    },
+                    "text": "string"
+                },
+                "tmods": 0
+            }
+        },
+        {
+            "$KIND": "Config",
+            "flags": 2,
+            "ident": {
+                "type": "IDENT",
+                "upath": "em.build.misc/BuilderBaseI",
+                "beg": {
+                    "line": 8,
+                    "col": 12,
+                    "pos": 127
+                },
+                "end": {
+                    "line": 8,
+                    "col": 14,
+                    "pos": 129
+                },
+                "text": "cpu"
+            },
+            "docs": [],
+            "type": {
+                "$KIND": "Std",
+                "ident": {
+                    "type": "TY_STRING",
+                    "upath": "em.build.misc/BuilderBaseI",
+                    "beg": {
+                        "line": 8,
+                        "col": 17,
+                        "pos": 132
+                    },
+                    "end": {
+                        "line": 8,
+                        "col": 22,
+                        "pos": 137
+                    },
+                    "text": "string"
+                },
+                "tmods": 0
+            }
+        },
+        {
+            "$KIND": "Config",
+            "flags": 2,
+            "ident": {
+                "type": "IDENT",
+                "upath": "em.build.misc/BuilderBaseI",
+                "beg": {
+                    "line": 9,
+                    "col": 12,
+                    "pos": 150
+                },
+                "end": {
+                    "line": 9,
+                    "col": 14,
+                    "pos": 152
+                },
+                "text": "mcu"
+            },
+            "docs": [],
+            "type": {
+                "$KIND": "Std",
+                "ident": {
+                    "type": "TY_STRING",
+                    "upath": "em.build.misc/BuilderBaseI",
+                    "beg": {
+                        "line": 9,
+                        "col": 17,
+                        "pos": 155
+                    },
+                    "end": {
+                        "line": 9,
+                        "col": 22,
+                        "pos": 160
+                    },
+                    "text": "string"
+                },
+                "tmods": 0
+            }
+        }
+    ],
+    "bodies": [],
+    "docs": []
+}

@@ -1,0 +1,317 @@
+{
+    "flags": 1,
+    "pkgName": {
+        "segs": [
+            {
+                "type": "IDENT",
+                "upath": "em.lang/AssertProviderI",
+                "beg": {
+                    "line": 1,
+                    "col": 9,
+                    "pos": 8
+                },
+                "end": {
+                    "line": 1,
+                    "col": 10,
+                    "pos": 9
+                },
+                "text": "em"
+            },
+            {
+                "type": "IDENT",
+                "upath": "em.lang/AssertProviderI",
+                "beg": {
+                    "line": 1,
+                    "col": 12,
+                    "pos": 11
+                },
+                "end": {
+                    "line": 1,
+                    "col": 15,
+                    "pos": 14
+                },
+                "text": "lang"
+            }
+        ]
+    },
+    "imps": [],
+    "exps": [],
+    "sup": {
+        "ident": {
+            "type": "IDENT",
+            "upath": "em.lang/AssertProviderI",
+            "beg": {
+                "line": 3,
+                "col": 11,
+                "pos": 27
+            },
+            "end": {
+                "line": 3,
+                "col": 25,
+                "pos": 41
+            },
+            "text": "AssertProviderI"
+        }
+    },
+    "decls": [
+        {
+            "$KIND": "Fxn",
+            "flags": 0,
+            "ident": {
+                "type": "IDENT",
+                "upath": "em.lang/AssertProviderI",
+                "beg": {
+                    "line": 5,
+                    "col": 14,
+                    "pos": 57
+                },
+                "end": {
+                    "line": 5,
+                    "col": 20,
+                    "pos": 63
+                },
+                "text": "enabled"
+            },
+            "docs": [],
+            "args": [],
+            "type": {
+                "$KIND": "Std",
+                "ident": {
+                    "type": "TY_BOOL",
+                    "upath": "em.lang/AssertProviderI",
+                    "beg": {
+                        "line": 5,
+                        "col": 25,
+                        "pos": 68
+                    },
+                    "end": {
+                        "line": 5,
+                        "col": 28,
+                        "pos": 71
+                    },
+                    "text": "bool"
+                },
+                "tmods": 0
+            }
+        },
+        {
+            "$KIND": "Fxn",
+            "flags": 0,
+            "ident": {
+                "type": "IDENT",
+                "upath": "em.lang/AssertProviderI",
+                "beg": {
+                    "line": 6,
+                    "col": 14,
+                    "pos": 86
+                },
+                "end": {
+                    "line": 6,
+                    "col": 20,
+                    "pos": 92
+                },
+                "text": "trigger"
+            },
+            "docs": [],
+            "args": [
+                {
+                    "$KIND": "Arg",
+                    "flags": 0,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.lang/AssertProviderI",
+                        "beg": {
+                            "line": 6,
+                            "col": 22,
+                            "pos": 94
+                        },
+                        "end": {
+                            "line": 6,
+                            "col": 26,
+                            "pos": 98
+                        },
+                        "text": "upath"
+                    },
+                    "docs": [],
+                    "type": {
+                        "$KIND": "Std",
+                        "ident": {
+                            "type": "TY_ATOM",
+                            "upath": "em.lang/AssertProviderI",
+                            "beg": {
+                                "line": 6,
+                                "col": 29,
+                                "pos": 101
+                            },
+                            "end": {
+                                "line": 6,
+                                "col": 34,
+                                "pos": 106
+                            },
+                            "text": "atom_t"
+                        },
+                        "tmods": 0
+                    }
+                },
+                {
+                    "$KIND": "Arg",
+                    "flags": 0,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.lang/AssertProviderI",
+                        "beg": {
+                            "line": 6,
+                            "col": 37,
+                            "pos": 109
+                        },
+                        "end": {
+                            "line": 6,
+                            "col": 40,
+                            "pos": 112
+                        },
+                        "text": "line"
+                    },
+                    "docs": [],
+                    "type": {
+                        "$KIND": "Std",
+                        "ident": {
+                            "type": "TY_UINT16",
+                            "upath": "em.lang/AssertProviderI",
+                            "beg": {
+                                "line": 6,
+                                "col": 43,
+                                "pos": 115
+                            },
+                            "end": {
+                                "line": 6,
+                                "col": 48,
+                                "pos": 120
+                            },
+                            "text": "uint16"
+                        },
+                        "tmods": 0
+                    }
+                },
+                {
+                    "$KIND": "Arg",
+                    "flags": 0,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.lang/AssertProviderI",
+                        "beg": {
+                            "line": 6,
+                            "col": 51,
+                            "pos": 123
+                        },
+                        "end": {
+                            "line": 6,
+                            "col": 53,
+                            "pos": 125
+                        },
+                        "text": "msg"
+                    },
+                    "docs": [],
+                    "type": {
+                        "$KIND": "Std",
+                        "ident": {
+                            "type": "TY_ATOM",
+                            "upath": "em.lang/AssertProviderI",
+                            "beg": {
+                                "line": 6,
+                                "col": 56,
+                                "pos": 128
+                            },
+                            "end": {
+                                "line": 6,
+                                "col": 61,
+                                "pos": 133
+                            },
+                            "text": "atom_t"
+                        },
+                        "tmods": 0
+                    }
+                },
+                {
+                    "$KIND": "Arg",
+                    "flags": 0,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.lang/AssertProviderI",
+                        "beg": {
+                            "line": 6,
+                            "col": 64,
+                            "pos": 136
+                        },
+                        "end": {
+                            "line": 6,
+                            "col": 67,
+                            "pos": 139
+                        },
+                        "text": "arg1"
+                    },
+                    "docs": [],
+                    "type": {
+                        "$KIND": "Std",
+                        "ident": {
+                            "type": "TY_IARG",
+                            "upath": "em.lang/AssertProviderI",
+                            "beg": {
+                                "line": 6,
+                                "col": 70,
+                                "pos": 142
+                            },
+                            "end": {
+                                "line": 6,
+                                "col": 75,
+                                "pos": 147
+                            },
+                            "text": "iarg_t"
+                        },
+                        "tmods": 0
+                    }
+                },
+                {
+                    "$KIND": "Arg",
+                    "flags": 0,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.lang/AssertProviderI",
+                        "beg": {
+                            "line": 6,
+                            "col": 78,
+                            "pos": 150
+                        },
+                        "end": {
+                            "line": 6,
+                            "col": 81,
+                            "pos": 153
+                        },
+                        "text": "arg2"
+                    },
+                    "docs": [],
+                    "type": {
+                        "$KIND": "Std",
+                        "ident": {
+                            "type": "TY_IARG",
+                            "upath": "em.lang/AssertProviderI",
+                            "beg": {
+                                "line": 6,
+                                "col": 84,
+                                "pos": 156
+                            },
+                            "end": {
+                                "line": 6,
+                                "col": 89,
+                                "pos": 161
+                            },
+                            "text": "iarg_t"
+                        },
+                        "tmods": 0
+                    }
+                }
+            ]
+        }
+    ],
+    "bodies": [],
+    "docs": []
+}

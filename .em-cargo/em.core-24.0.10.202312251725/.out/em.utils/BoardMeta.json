@@ -1,0 +1,721 @@
+{
+    "flags": 6,
+    "pkgName": {
+        "segs": [
+            {
+                "type": "IDENT",
+                "upath": "em.utils/BoardMeta",
+                "beg": {
+                    "line": 1,
+                    "col": 9,
+                    "pos": 8
+                },
+                "end": {
+                    "line": 1,
+                    "col": 10,
+                    "pos": 9
+                },
+                "text": "em"
+            },
+            {
+                "type": "IDENT",
+                "upath": "em.utils/BoardMeta",
+                "beg": {
+                    "line": 1,
+                    "col": 12,
+                    "pos": 11
+                },
+                "end": {
+                    "line": 1,
+                    "col": 16,
+                    "pos": 15
+                },
+                "text": "utils"
+            }
+        ]
+    },
+    "imps": [],
+    "exps": [],
+    "sup": {
+        "ident": {
+            "type": "IDENT",
+            "upath": "em.utils/BoardMeta",
+            "beg": {
+                "line": 3,
+                "col": 13,
+                "pos": 30
+            },
+            "end": {
+                "line": 3,
+                "col": 21,
+                "pos": 38
+            },
+            "text": "BoardMeta"
+        }
+    },
+    "decls": [
+        {
+            "$KIND": "Agg",
+            "flags": 2,
+            "ident": {
+                "type": "IDENT",
+                "upath": "em.utils/BoardMeta",
+                "beg": {
+                    "line": 5,
+                    "col": 10,
+                    "pos": 50
+                },
+                "end": {
+                    "line": 5,
+                    "col": 15,
+                    "pos": 55
+                },
+                "text": "PinMap"
+            },
+            "docs": [],
+            "kw": {
+                "type": "KW_STRUCT",
+                "upath": "em.utils/BoardMeta",
+                "beg": {
+                    "line": 5,
+                    "col": 18,
+                    "pos": 58
+                },
+                "end": {
+                    "line": 5,
+                    "col": 23,
+                    "pos": 63
+                },
+                "text": "struct"
+            },
+            "fields": [
+                {
+                    "$KIND": "Field",
+                    "flags": 2,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.utils/BoardMeta",
+                        "beg": {
+                            "line": 6,
+                            "col": 9,
+                            "pos": 73
+                        },
+                        "end": {
+                            "line": 6,
+                            "col": 11,
+                            "pos": 75
+                        },
+                        "text": "pin"
+                    },
+                    "docs": [],
+                    "type": {
+                        "$KIND": "Std",
+                        "ident": {
+                            "type": "TY_INT8",
+                            "upath": "em.utils/BoardMeta",
+                            "beg": {
+                                "line": 6,
+                                "col": 14,
+                                "pos": 78
+                            },
+                            "end": {
+                                "line": 6,
+                                "col": 17,
+                                "pos": 81
+                            },
+                            "text": "int8"
+                        },
+                        "tmods": 0
+                    }
+                }
+            ],
+            "fxns": []
+        },
+        {
+            "$KIND": "Agg",
+            "flags": 2,
+            "ident": {
+                "type": "IDENT",
+                "upath": "em.utils/BoardMeta",
+                "beg": {
+                    "line": 9,
+                    "col": 10,
+                    "pos": 101
+                },
+                "end": {
+                    "line": 9,
+                    "col": 16,
+                    "pos": 107
+                },
+                "text": "DrvDesc"
+            },
+            "docs": [],
+            "kw": {
+                "type": "KW_STRUCT",
+                "upath": "em.utils/BoardMeta",
+                "beg": {
+                    "line": 9,
+                    "col": 19,
+                    "pos": 110
+                },
+                "end": {
+                    "line": 9,
+                    "col": 24,
+                    "pos": 115
+                },
+                "text": "struct"
+            },
+            "fields": [
+                {
+                    "$KIND": "Field",
+                    "flags": 2,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.utils/BoardMeta",
+                        "beg": {
+                            "line": 10,
+                            "col": 9,
+                            "pos": 125
+                        },
+                        "end": {
+                            "line": 10,
+                            "col": 12,
+                            "pos": 128
+                        },
+                        "text": "name"
+                    },
+                    "docs": [],
+                    "type": {
+                        "$KIND": "Std",
+                        "ident": {
+                            "type": "TY_STRING",
+                            "upath": "em.utils/BoardMeta",
+                            "beg": {
+                                "line": 10,
+                                "col": 15,
+                                "pos": 131
+                            },
+                            "end": {
+                                "line": 10,
+                                "col": 20,
+                                "pos": 136
+                            },
+                            "text": "string"
+                        },
+                        "tmods": 0
+                    }
+                },
+                {
+                    "$KIND": "Field",
+                    "flags": 2,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.utils/BoardMeta",
+                        "beg": {
+                            "line": 11,
+                            "col": 9,
+                            "pos": 146
+                        },
+                        "end": {
+                            "line": 11,
+                            "col": 14,
+                            "pos": 151
+                        },
+                        "text": "driver"
+                    },
+                    "docs": [],
+                    "type": {
+                        "$KIND": "Std",
+                        "ident": {
+                            "type": "TY_STRING",
+                            "upath": "em.utils/BoardMeta",
+                            "beg": {
+                                "line": 11,
+                                "col": 17,
+                                "pos": 154
+                            },
+                            "end": {
+                                "line": 11,
+                                "col": 22,
+                                "pos": 159
+                            },
+                            "text": "string"
+                        },
+                        "tmods": 0
+                    }
+                },
+                {
+                    "$KIND": "Field",
+                    "flags": 2,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.utils/BoardMeta",
+                        "beg": {
+                            "line": 12,
+                            "col": 9,
+                            "pos": 169
+                        },
+                        "end": {
+                            "line": 12,
+                            "col": 14,
+                            "pos": 174
+                        },
+                        "text": "params"
+                    },
+                    "docs": [],
+                    "type": {
+                        "$KIND": "Std",
+                        "ident": {
+                            "type": "TY_PTR",
+                            "upath": "em.utils/BoardMeta",
+                            "beg": {
+                                "line": 12,
+                                "col": 17,
+                                "pos": 177
+                            },
+                            "end": {
+                                "line": 12,
+                                "col": 21,
+                                "pos": 181
+                            },
+                            "text": "ptr_t"
+                        },
+                        "tmods": 0
+                    }
+                }
+            ],
+            "fxns": []
+        },
+        {
+            "$KIND": "Agg",
+            "flags": 2,
+            "ident": {
+                "type": "IDENT",
+                "upath": "em.utils/BoardMeta",
+                "beg": {
+                    "line": 15,
+                    "col": 10,
+                    "pos": 209
+                },
+                "end": {
+                    "line": 15,
+                    "col": 15,
+                    "pos": 214
+                },
+                "text": "Record"
+            },
+            "docs": [],
+            "kw": {
+                "type": "KW_STRUCT",
+                "upath": "em.utils/BoardMeta",
+                "beg": {
+                    "line": 15,
+                    "col": 18,
+                    "pos": 217
+                },
+                "end": {
+                    "line": 15,
+                    "col": 23,
+                    "pos": 222
+                },
+                "text": "struct"
+            },
+            "fields": [
+                {
+                    "$KIND": "Field",
+                    "flags": 2,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.utils/BoardMeta",
+                        "beg": {
+                            "line": 16,
+                            "col": 9,
+                            "pos": 232
+                        },
+                        "end": {
+                            "line": 16,
+                            "col": 12,
+                            "pos": 235
+                        },
+                        "text": "attr"
+                    },
+                    "docs": [],
+                    "type": {
+                        "$KIND": "Std",
+                        "ident": {
+                            "type": "TY_BOOL",
+                            "upath": "em.utils/BoardMeta",
+                            "beg": {
+                                "line": 16,
+                                "col": 15,
+                                "pos": 238
+                            },
+                            "end": {
+                                "line": 16,
+                                "col": 18,
+                                "pos": 241
+                            },
+                            "text": "bool"
+                        },
+                        "tmods": 0
+                    }
+                },
+                {
+                    "$KIND": "Field",
+                    "flags": 2,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.utils/BoardMeta",
+                        "beg": {
+                            "line": 17,
+                            "col": 9,
+                            "pos": 251
+                        },
+                        "end": {
+                            "line": 17,
+                            "col": 14,
+                            "pos": 256
+                        },
+                        "text": "pinMap"
+                    },
+                    "docs": [],
+                    "type": {
+                        "$KIND": "Ptr",
+                        "base": {
+                            "$KIND": "Def",
+                            "tdef": {
+                                "segs": [
+                                    {
+                                        "type": "IDENT",
+                                        "upath": "em.utils/BoardMeta",
+                                        "beg": {
+                                            "line": 17,
+                                            "col": 17,
+                                            "pos": 259
+                                        },
+                                        "end": {
+                                            "line": 17,
+                                            "col": 22,
+                                            "pos": 264
+                                        },
+                                        "text": "PinMap"
+                                    }
+                                ]
+                            },
+                            "tmods": 0
+                        },
+                        "tmods": 0,
+                        "isRef": true
+                    }
+                },
+                {
+                    "$KIND": "Field",
+                    "flags": 2,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.utils/BoardMeta",
+                        "beg": {
+                            "line": 18,
+                            "col": 9,
+                            "pos": 275
+                        },
+                        "end": {
+                            "line": 18,
+                            "col": 16,
+                            "pos": 282
+                        },
+                        "text": "drvDescs"
+                    },
+                    "docs": [],
+                    "type": {
+                        "$KIND": "ArrC",
+                        "base": {
+                            "$KIND": "Ptr",
+                            "base": {
+                                "$KIND": "Def",
+                                "tdef": {
+                                    "segs": [
+                                        {
+                                            "type": "IDENT",
+                                            "upath": "em.utils/BoardMeta",
+                                            "beg": {
+                                                "line": 18,
+                                                "col": 19,
+                                                "pos": 285
+                                            },
+                                            "end": {
+                                                "line": 18,
+                                                "col": 25,
+                                                "pos": 291
+                                            },
+                                            "text": "DrvDesc"
+                                        }
+                                    ]
+                                },
+                                "tmods": 0
+                            },
+                            "tmods": 0,
+                            "isRef": true
+                        }
+                    }
+                }
+            ],
+            "fxns": []
+        },
+        {
+            "$KIND": "Config",
+            "flags": 2,
+            "ident": {
+                "type": "IDENT",
+                "upath": "em.utils/BoardMeta",
+                "beg": {
+                    "line": 21,
+                    "col": 12,
+                    "pos": 316
+                },
+                "end": {
+                    "line": 21,
+                    "col": 22,
+                    "pos": 326
+                },
+                "text": "baseFileLoc"
+            },
+            "docs": [],
+            "type": {
+                "$KIND": "Std",
+                "ident": {
+                    "type": "TY_STRING",
+                    "upath": "em.utils/BoardMeta",
+                    "beg": {
+                        "line": 21,
+                        "col": 25,
+                        "pos": 329
+                    },
+                    "end": {
+                        "line": 21,
+                        "col": 30,
+                        "pos": 334
+                    },
+                    "text": "string"
+                },
+                "tmods": 0
+            },
+            "init": {
+                "$KIND": "Const",
+                "val": {
+                    "type": "STRING",
+                    "upath": "em.utils/BoardMeta",
+                    "beg": {
+                        "line": 21,
+                        "col": 34,
+                        "pos": 338
+                    },
+                    "end": {
+                        "line": 21,
+                        "col": 72,
+                        "pos": 376
+                    },
+                    "text": "\"biz.biosbob.distro.axm0f343/em-boards\""
+                }
+            }
+        },
+        {
+            "$KIND": "Config",
+            "flags": 2,
+            "ident": {
+                "type": "IDENT",
+                "upath": "em.utils/BoardMeta",
+                "beg": {
+                    "line": 23,
+                    "col": 12,
+                    "pos": 390
+                },
+                "end": {
+                    "line": 23,
+                    "col": 20,
+                    "pos": 398
+                },
+                "text": "attrNames"
+            },
+            "docs": [],
+            "type": {
+                "$KIND": "ArrC",
+                "base": {
+                    "$KIND": "Std",
+                    "ident": {
+                        "type": "TY_STRING",
+                        "upath": "em.utils/BoardMeta",
+                        "beg": {
+                            "line": 23,
+                            "col": 23,
+                            "pos": 401
+                        },
+                        "end": {
+                            "line": 23,
+                            "col": 28,
+                            "pos": 406
+                        },
+                        "text": "string"
+                    },
+                    "tmods": 0
+                }
+            },
+            "init": {
+                "$KIND": "Vec",
+                "vals": [
+                    {
+                        "$KIND": "Const",
+                        "val": {
+                            "type": "STRING",
+                            "upath": "em.utils/BoardMeta",
+                            "beg": {
+                                "line": 24,
+                                "col": 9,
+                                "pos": 422
+                            },
+                            "end": {
+                                "line": 24,
+                                "col": 19,
+                                "pos": 432
+                            },
+                            "text": "\"$inherits\""
+                        }
+                    },
+                    {
+                        "$KIND": "Const",
+                        "val": {
+                            "type": "STRING",
+                            "upath": "em.utils/BoardMeta",
+                            "beg": {
+                                "line": 25,
+                                "col": 9,
+                                "pos": 443
+                            },
+                            "end": {
+                                "line": 25,
+                                "col": 20,
+                                "pos": 454
+                            },
+                            "text": "\"$overrides\""
+                        }
+                    },
+                    {
+                        "$KIND": "Const",
+                        "val": {
+                            "type": "STRING",
+                            "upath": "em.utils/BoardMeta",
+                            "beg": {
+                                "line": 26,
+                                "col": 9,
+                                "pos": 465
+                            },
+                            "end": {
+                                "line": 26,
+                                "col": 14,
+                                "pos": 470
+                            },
+                            "text": "\"attr\""
+                        }
+                    }
+                ],
+                "brack": {
+                    "type": "LBRACK",
+                    "upath": "em.utils/BoardMeta",
+                    "beg": {
+                        "line": 23,
+                        "col": 34,
+                        "pos": 412
+                    },
+                    "end": {
+                        "line": 23,
+                        "col": 34,
+                        "pos": 412
+                    },
+                    "text": "["
+                }
+            }
+        },
+        {
+            "$KIND": "Config",
+            "flags": 2,
+            "ident": {
+                "type": "IDENT",
+                "upath": "em.utils/BoardMeta",
+                "beg": {
+                    "line": 29,
+                    "col": 12,
+                    "pos": 491
+                },
+                "end": {
+                    "line": 29,
+                    "col": 19,
+                    "pos": 498
+                },
+                "text": "pinNames"
+            },
+            "docs": [],
+            "type": {
+                "$KIND": "ArrC",
+                "base": {
+                    "$KIND": "Std",
+                    "ident": {
+                        "type": "TY_STRING",
+                        "upath": "em.utils/BoardMeta",
+                        "beg": {
+                            "line": 29,
+                            "col": 22,
+                            "pos": 501
+                        },
+                        "end": {
+                            "line": 29,
+                            "col": 27,
+                            "pos": 506
+                        },
+                        "text": "string"
+                    },
+                    "tmods": 0
+                }
+            },
+            "init": {
+                "$KIND": "Vec",
+                "vals": [
+                    {
+                        "$KIND": "Const",
+                        "val": {
+                            "type": "STRING",
+                            "upath": "em.utils/BoardMeta",
+                            "beg": {
+                                "line": 30,
+                                "col": 9,
+                                "pos": 522
+                            },
+                            "end": {
+                                "line": 30,
+                                "col": 13,
+                                "pos": 526
+                            },
+                            "text": "\"pin\""
+                        }
+                    }
+                ],
+                "brack": {
+                    "type": "LBRACK",
+                    "upath": "em.utils/BoardMeta",
+                    "beg": {
+                        "line": 29,
+                        "col": 33,
+                        "pos": 512
+                    },
+                    "end": {
+                        "line": 29,
+                        "col": 33,
+                        "pos": 512
+                    },
+                    "text": "["
+                }
+            }
+        }
+    ],
+    "bodies": [],
+    "docs": []
+}

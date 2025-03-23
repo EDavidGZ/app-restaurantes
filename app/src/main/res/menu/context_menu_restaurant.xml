@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_food"
+        android:title="Ver Comidas" />
+    <item
+        android:id="@+id/action_drinks"
+        android:title="Ver Bebidas" />
+    <item
+        android:id="@+id/action_complements"
+        android:title="Ver Complementos" />
+</menu> 

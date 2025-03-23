@@ -1,0 +1,450 @@
+{
+    "flags": 4,
+    "pkgName": {
+        "segs": [
+            {
+                "type": "IDENT",
+                "upath": "em.hal/FlashN",
+                "beg": {
+                    "line": 1,
+                    "col": 9,
+                    "pos": 8
+                },
+                "end": {
+                    "line": 1,
+                    "col": 10,
+                    "pos": 9
+                },
+                "text": "em"
+            },
+            {
+                "type": "IDENT",
+                "upath": "em.hal/FlashN",
+                "beg": {
+                    "line": 1,
+                    "col": 12,
+                    "pos": 11
+                },
+                "end": {
+                    "line": 1,
+                    "col": 14,
+                    "pos": 13
+                },
+                "text": "hal"
+            }
+        ]
+    },
+    "imps": [
+        {
+            "from": {
+                "segs": [
+                    {
+                        "type": "IDENT",
+                        "upath": "em.hal/FlashN",
+                        "beg": {
+                            "line": 1,
+                            "col": 9,
+                            "pos": 8
+                        },
+                        "end": {
+                            "line": 1,
+                            "col": 10,
+                            "pos": 9
+                        },
+                        "text": "em"
+                    },
+                    {
+                        "type": "IDENT",
+                        "upath": "em.hal/FlashN",
+                        "beg": {
+                            "line": 1,
+                            "col": 12,
+                            "pos": 11
+                        },
+                        "end": {
+                            "line": 1,
+                            "col": 14,
+                            "pos": 13
+                        },
+                        "text": "hal"
+                    }
+                ]
+            },
+            "uname": {
+                "type": "IDENT",
+                "upath": "em.hal/FlashN",
+                "beg": {
+                    "line": 3,
+                    "col": 8,
+                    "pos": 23
+                },
+                "end": {
+                    "line": 3,
+                    "col": 13,
+                    "pos": 28
+                },
+                "text": "FlashI"
+            }
+        }
+    ],
+    "exps": [],
+    "sup": {
+        "ident": {
+            "type": "IDENT",
+            "upath": "em.hal/FlashN",
+            "beg": {
+                "line": 5,
+                "col": 8,
+                "pos": 38
+            },
+            "end": {
+                "line": 5,
+                "col": 13,
+                "pos": 43
+            },
+            "text": "FlashN"
+        },
+        "inter": {
+            "type": "IDENT",
+            "upath": "em.hal/FlashN",
+            "beg": {
+                "line": 5,
+                "col": 16,
+                "pos": 46
+            },
+            "end": {
+                "line": 5,
+                "col": 21,
+                "pos": 51
+            },
+            "text": "FlashI"
+        }
+    },
+    "decls": [],
+    "bodies": [
+        {
+            "name": {
+                "segs": [
+                    {
+                        "type": "IDENT",
+                        "upath": "em.hal/FlashN",
+                        "beg": {
+                            "line": 9,
+                            "col": 5,
+                            "pos": 116
+                        },
+                        "end": {
+                            "line": 9,
+                            "col": 18,
+                            "pos": 129
+                        },
+                        "text": "getSectorSizeH"
+                    }
+                ]
+            },
+            "args": [],
+            "block": {
+                "$KIND": "Block",
+                "serial": 1,
+                "stmts": [
+                    {
+                        "$KIND": "Return",
+                        "kw": {
+                            "type": "KW_RETURN",
+                            "upath": "em.hal/FlashN",
+                            "beg": {
+                                "line": 10,
+                                "col": 5,
+                                "pos": 137
+                            },
+                            "end": {
+                                "line": 10,
+                                "col": 10,
+                                "pos": 142
+                            },
+                            "text": "return"
+                        },
+                        "expr": {
+                            "$KIND": "Const",
+                            "val": {
+                                "type": "NUM",
+                                "upath": "em.hal/FlashN",
+                                "beg": {
+                                    "line": 10,
+                                    "col": 12,
+                                    "pos": 144
+                                },
+                                "end": {
+                                    "line": 10,
+                                    "col": 12,
+                                    "pos": 144
+                                },
+                                "text": "0"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": {
+                "segs": [
+                    {
+                        "type": "IDENT",
+                        "upath": "em.hal/FlashN",
+                        "beg": {
+                            "line": 13,
+                            "col": 5,
+                            "pos": 155
+                        },
+                        "end": {
+                            "line": 13,
+                            "col": 18,
+                            "pos": 168
+                        },
+                        "text": "getWriteChunkH"
+                    }
+                ]
+            },
+            "args": [],
+            "block": {
+                "$KIND": "Block",
+                "serial": 2,
+                "stmts": [
+                    {
+                        "$KIND": "Return",
+                        "kw": {
+                            "type": "KW_RETURN",
+                            "upath": "em.hal/FlashN",
+                            "beg": {
+                                "line": 14,
+                                "col": 5,
+                                "pos": 176
+                            },
+                            "end": {
+                                "line": 14,
+                                "col": 10,
+                                "pos": 181
+                            },
+                            "text": "return"
+                        },
+                        "expr": {
+                            "$KIND": "Const",
+                            "val": {
+                                "type": "NUM",
+                                "upath": "em.hal/FlashN",
+                                "beg": {
+                                    "line": 14,
+                                    "col": 12,
+                                    "pos": 183
+                                },
+                                "end": {
+                                    "line": 14,
+                                    "col": 12,
+                                    "pos": 183
+                                },
+                                "text": "0"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": {
+                "segs": [
+                    {
+                        "type": "IDENT",
+                        "upath": "em.hal/FlashN",
+                        "beg": {
+                            "line": 17,
+                            "col": 5,
+                            "pos": 194
+                        },
+                        "end": {
+                            "line": 17,
+                            "col": 9,
+                            "pos": 198
+                        },
+                        "text": "erase"
+                    }
+                ]
+            },
+            "args": [
+                {
+                    "$KIND": "Arg",
+                    "flags": 0,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.hal/FlashN",
+                        "beg": {
+                            "line": 17,
+                            "col": 11,
+                            "pos": 200
+                        },
+                        "end": {
+                            "line": 17,
+                            "col": 14,
+                            "pos": 203
+                        },
+                        "text": "addr"
+                    },
+                    "docs": []
+                },
+                {
+                    "$KIND": "Arg",
+                    "flags": 0,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.hal/FlashN",
+                        "beg": {
+                            "line": 17,
+                            "col": 17,
+                            "pos": 206
+                        },
+                        "end": {
+                            "line": 17,
+                            "col": 20,
+                            "pos": 209
+                        },
+                        "text": "upto"
+                    },
+                    "docs": []
+                }
+            ],
+            "block": {
+                "$KIND": "Block",
+                "serial": 3,
+                "stmts": []
+            }
+        },
+        {
+            "name": {
+                "segs": [
+                    {
+                        "type": "IDENT",
+                        "upath": "em.hal/FlashN",
+                        "beg": {
+                            "line": 20,
+                            "col": 5,
+                            "pos": 221
+                        },
+                        "end": {
+                            "line": 20,
+                            "col": 9,
+                            "pos": 225
+                        },
+                        "text": "write"
+                    }
+                ]
+            },
+            "args": [
+                {
+                    "$KIND": "Arg",
+                    "flags": 0,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.hal/FlashN",
+                        "beg": {
+                            "line": 20,
+                            "col": 11,
+                            "pos": 227
+                        },
+                        "end": {
+                            "line": 20,
+                            "col": 14,
+                            "pos": 230
+                        },
+                        "text": "addr"
+                    },
+                    "docs": []
+                },
+                {
+                    "$KIND": "Arg",
+                    "flags": 0,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.hal/FlashN",
+                        "beg": {
+                            "line": 20,
+                            "col": 17,
+                            "pos": 233
+                        },
+                        "end": {
+                            "line": 20,
+                            "col": 20,
+                            "pos": 236
+                        },
+                        "text": "data"
+                    },
+                    "docs": []
+                },
+                {
+                    "$KIND": "Arg",
+                    "flags": 0,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.hal/FlashN",
+                        "beg": {
+                            "line": 20,
+                            "col": 23,
+                            "pos": 239
+                        },
+                        "end": {
+                            "line": 20,
+                            "col": 25,
+                            "pos": 241
+                        },
+                        "text": "len"
+                    },
+                    "docs": []
+                }
+            ],
+            "block": {
+                "$KIND": "Block",
+                "serial": 4,
+                "stmts": [
+                    {
+                        "$KIND": "Return",
+                        "kw": {
+                            "type": "KW_RETURN",
+                            "upath": "em.hal/FlashN",
+                            "beg": {
+                                "line": 21,
+                                "col": 5,
+                                "pos": 248
+                            },
+                            "end": {
+                                "line": 21,
+                                "col": 10,
+                                "pos": 253
+                            },
+                            "text": "return"
+                        },
+                        "expr": {
+                            "$KIND": "Const",
+                            "val": {
+                                "type": "NUM",
+                                "upath": "em.hal/FlashN",
+                                "beg": {
+                                    "line": 21,
+                                    "col": 12,
+                                    "pos": 255
+                                },
+                                "end": {
+                                    "line": 21,
+                                    "col": 12,
+                                    "pos": 255
+                                },
+                                "text": "0"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ],
+    "docs": [
+        "Nil implementation of the FlashI interface"
+    ]
+}

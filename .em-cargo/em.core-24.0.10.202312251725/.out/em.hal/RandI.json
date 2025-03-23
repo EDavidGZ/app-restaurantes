@@ -1,0 +1,100 @@
+{
+    "flags": 1,
+    "pkgName": {
+        "segs": [
+            {
+                "type": "IDENT",
+                "upath": "em.hal/RandI",
+                "beg": {
+                    "line": 1,
+                    "col": 9,
+                    "pos": 8
+                },
+                "end": {
+                    "line": 1,
+                    "col": 10,
+                    "pos": 9
+                },
+                "text": "em"
+            },
+            {
+                "type": "IDENT",
+                "upath": "em.hal/RandI",
+                "beg": {
+                    "line": 1,
+                    "col": 12,
+                    "pos": 11
+                },
+                "end": {
+                    "line": 1,
+                    "col": 14,
+                    "pos": 13
+                },
+                "text": "hal"
+            }
+        ]
+    },
+    "imps": [],
+    "exps": [],
+    "sup": {
+        "ident": {
+            "type": "IDENT",
+            "upath": "em.hal/RandI",
+            "beg": {
+                "line": 3,
+                "col": 11,
+                "pos": 26
+            },
+            "end": {
+                "line": 3,
+                "col": 15,
+                "pos": 30
+            },
+            "text": "RandI"
+        }
+    },
+    "decls": [
+        {
+            "$KIND": "Fxn",
+            "flags": 0,
+            "ident": {
+                "type": "IDENT",
+                "upath": "em.hal/RandI",
+                "beg": {
+                    "line": 5,
+                    "col": 14,
+                    "pos": 46
+                },
+                "end": {
+                    "line": 5,
+                    "col": 16,
+                    "pos": 48
+                },
+                "text": "gen"
+            },
+            "docs": [],
+            "args": [],
+            "type": {
+                "$KIND": "Std",
+                "ident": {
+                    "type": "TY_UINT32",
+                    "upath": "em.hal/RandI",
+                    "beg": {
+                        "line": 5,
+                        "col": 21,
+                        "pos": 53
+                    },
+                    "end": {
+                        "line": 5,
+                        "col": 26,
+                        "pos": 58
+                    },
+                    "text": "uint32"
+                },
+                "tmods": 0
+            }
+        }
+    ],
+    "bodies": [],
+    "docs": []
+}

@@ -1,0 +1,545 @@
+{
+    "flags": 1,
+    "pkgName": {
+        "segs": [
+            {
+                "type": "IDENT",
+                "upath": "em.lang/ConsoleProviderI",
+                "beg": {
+                    "line": 1,
+                    "col": 9,
+                    "pos": 8
+                },
+                "end": {
+                    "line": 1,
+                    "col": 10,
+                    "pos": 9
+                },
+                "text": "em"
+            },
+            {
+                "type": "IDENT",
+                "upath": "em.lang/ConsoleProviderI",
+                "beg": {
+                    "line": 1,
+                    "col": 12,
+                    "pos": 11
+                },
+                "end": {
+                    "line": 1,
+                    "col": 15,
+                    "pos": 14
+                },
+                "text": "lang"
+            }
+        ]
+    },
+    "imps": [],
+    "exps": [],
+    "sup": {
+        "ident": {
+            "type": "IDENT",
+            "upath": "em.lang/ConsoleProviderI",
+            "beg": {
+                "line": 3,
+                "col": 11,
+                "pos": 27
+            },
+            "end": {
+                "line": 3,
+                "col": 26,
+                "pos": 42
+            },
+            "text": "ConsoleProviderI"
+        }
+    },
+    "decls": [
+        {
+            "$KIND": "Fxn",
+            "flags": 0,
+            "ident": {
+                "type": "IDENT",
+                "upath": "em.lang/ConsoleProviderI",
+                "beg": {
+                    "line": 5,
+                    "col": 14,
+                    "pos": 58
+                },
+                "end": {
+                    "line": 5,
+                    "col": 18,
+                    "pos": 62
+                },
+                "text": "flush"
+            },
+            "docs": [],
+            "args": []
+        },
+        {
+            "$KIND": "Fxn",
+            "flags": 0,
+            "ident": {
+                "type": "IDENT",
+                "upath": "em.lang/ConsoleProviderI",
+                "beg": {
+                    "line": 6,
+                    "col": 14,
+                    "pos": 79
+                },
+                "end": {
+                    "line": 6,
+                    "col": 18,
+                    "pos": 83
+                },
+                "text": "print"
+            },
+            "docs": [],
+            "args": [
+                {
+                    "$KIND": "Arg",
+                    "flags": 0,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.lang/ConsoleProviderI",
+                        "beg": {
+                            "line": 6,
+                            "col": 20,
+                            "pos": 85
+                        },
+                        "end": {
+                            "line": 6,
+                            "col": 22,
+                            "pos": 87
+                        },
+                        "text": "fmt"
+                    },
+                    "docs": [],
+                    "type": {
+                        "$KIND": "Std",
+                        "ident": {
+                            "type": "TY_STRING",
+                            "upath": "em.lang/ConsoleProviderI",
+                            "beg": {
+                                "line": 6,
+                                "col": 25,
+                                "pos": 90
+                            },
+                            "end": {
+                                "line": 6,
+                                "col": 30,
+                                "pos": 95
+                            },
+                            "text": "string"
+                        },
+                        "tmods": 0
+                    }
+                },
+                {
+                    "$KIND": "Arg",
+                    "flags": 0,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.lang/ConsoleProviderI",
+                        "beg": {
+                            "line": 6,
+                            "col": 33,
+                            "pos": 98
+                        },
+                        "end": {
+                            "line": 6,
+                            "col": 34,
+                            "pos": 99
+                        },
+                        "text": "a1"
+                    },
+                    "docs": [],
+                    "type": {
+                        "$KIND": "Std",
+                        "ident": {
+                            "type": "TY_IARG",
+                            "upath": "em.lang/ConsoleProviderI",
+                            "beg": {
+                                "line": 6,
+                                "col": 37,
+                                "pos": 102
+                            },
+                            "end": {
+                                "line": 6,
+                                "col": 42,
+                                "pos": 107
+                            },
+                            "text": "iarg_t"
+                        },
+                        "tmods": 0
+                    },
+                    "init": {
+                        "$KIND": "Const",
+                        "val": {
+                            "type": "NUM",
+                            "upath": "em.lang/ConsoleProviderI",
+                            "beg": {
+                                "line": 6,
+                                "col": 46,
+                                "pos": 111
+                            },
+                            "end": {
+                                "line": 6,
+                                "col": 46,
+                                "pos": 111
+                            },
+                            "text": "0"
+                        }
+                    }
+                },
+                {
+                    "$KIND": "Arg",
+                    "flags": 0,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.lang/ConsoleProviderI",
+                        "beg": {
+                            "line": 6,
+                            "col": 49,
+                            "pos": 114
+                        },
+                        "end": {
+                            "line": 6,
+                            "col": 50,
+                            "pos": 115
+                        },
+                        "text": "a2"
+                    },
+                    "docs": [],
+                    "type": {
+                        "$KIND": "Std",
+                        "ident": {
+                            "type": "TY_IARG",
+                            "upath": "em.lang/ConsoleProviderI",
+                            "beg": {
+                                "line": 6,
+                                "col": 53,
+                                "pos": 118
+                            },
+                            "end": {
+                                "line": 6,
+                                "col": 58,
+                                "pos": 123
+                            },
+                            "text": "iarg_t"
+                        },
+                        "tmods": 0
+                    },
+                    "init": {
+                        "$KIND": "Const",
+                        "val": {
+                            "type": "NUM",
+                            "upath": "em.lang/ConsoleProviderI",
+                            "beg": {
+                                "line": 6,
+                                "col": 62,
+                                "pos": 127
+                            },
+                            "end": {
+                                "line": 6,
+                                "col": 62,
+                                "pos": 127
+                            },
+                            "text": "0"
+                        }
+                    }
+                },
+                {
+                    "$KIND": "Arg",
+                    "flags": 0,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.lang/ConsoleProviderI",
+                        "beg": {
+                            "line": 6,
+                            "col": 65,
+                            "pos": 130
+                        },
+                        "end": {
+                            "line": 6,
+                            "col": 66,
+                            "pos": 131
+                        },
+                        "text": "a3"
+                    },
+                    "docs": [],
+                    "type": {
+                        "$KIND": "Std",
+                        "ident": {
+                            "type": "TY_IARG",
+                            "upath": "em.lang/ConsoleProviderI",
+                            "beg": {
+                                "line": 6,
+                                "col": 69,
+                                "pos": 134
+                            },
+                            "end": {
+                                "line": 6,
+                                "col": 74,
+                                "pos": 139
+                            },
+                            "text": "iarg_t"
+                        },
+                        "tmods": 0
+                    },
+                    "init": {
+                        "$KIND": "Const",
+                        "val": {
+                            "type": "NUM",
+                            "upath": "em.lang/ConsoleProviderI",
+                            "beg": {
+                                "line": 6,
+                                "col": 78,
+                                "pos": 143
+                            },
+                            "end": {
+                                "line": 6,
+                                "col": 78,
+                                "pos": 143
+                            },
+                            "text": "0"
+                        }
+                    }
+                },
+                {
+                    "$KIND": "Arg",
+                    "flags": 0,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.lang/ConsoleProviderI",
+                        "beg": {
+                            "line": 6,
+                            "col": 81,
+                            "pos": 146
+                        },
+                        "end": {
+                            "line": 6,
+                            "col": 82,
+                            "pos": 147
+                        },
+                        "text": "a4"
+                    },
+                    "docs": [],
+                    "type": {
+                        "$KIND": "Std",
+                        "ident": {
+                            "type": "TY_IARG",
+                            "upath": "em.lang/ConsoleProviderI",
+                            "beg": {
+                                "line": 6,
+                                "col": 85,
+                                "pos": 150
+                            },
+                            "end": {
+                                "line": 6,
+                                "col": 90,
+                                "pos": 155
+                            },
+                            "text": "iarg_t"
+                        },
+                        "tmods": 0
+                    },
+                    "init": {
+                        "$KIND": "Const",
+                        "val": {
+                            "type": "NUM",
+                            "upath": "em.lang/ConsoleProviderI",
+                            "beg": {
+                                "line": 6,
+                                "col": 94,
+                                "pos": 159
+                            },
+                            "end": {
+                                "line": 6,
+                                "col": 94,
+                                "pos": 159
+                            },
+                            "text": "0"
+                        }
+                    }
+                },
+                {
+                    "$KIND": "Arg",
+                    "flags": 0,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.lang/ConsoleProviderI",
+                        "beg": {
+                            "line": 6,
+                            "col": 97,
+                            "pos": 162
+                        },
+                        "end": {
+                            "line": 6,
+                            "col": 98,
+                            "pos": 163
+                        },
+                        "text": "a5"
+                    },
+                    "docs": [],
+                    "type": {
+                        "$KIND": "Std",
+                        "ident": {
+                            "type": "TY_IARG",
+                            "upath": "em.lang/ConsoleProviderI",
+                            "beg": {
+                                "line": 6,
+                                "col": 101,
+                                "pos": 166
+                            },
+                            "end": {
+                                "line": 6,
+                                "col": 106,
+                                "pos": 171
+                            },
+                            "text": "iarg_t"
+                        },
+                        "tmods": 0
+                    },
+                    "init": {
+                        "$KIND": "Const",
+                        "val": {
+                            "type": "NUM",
+                            "upath": "em.lang/ConsoleProviderI",
+                            "beg": {
+                                "line": 6,
+                                "col": 110,
+                                "pos": 175
+                            },
+                            "end": {
+                                "line": 6,
+                                "col": 110,
+                                "pos": 175
+                            },
+                            "text": "0"
+                        }
+                    }
+                },
+                {
+                    "$KIND": "Arg",
+                    "flags": 0,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.lang/ConsoleProviderI",
+                        "beg": {
+                            "line": 6,
+                            "col": 113,
+                            "pos": 178
+                        },
+                        "end": {
+                            "line": 6,
+                            "col": 114,
+                            "pos": 179
+                        },
+                        "text": "a6"
+                    },
+                    "docs": [],
+                    "type": {
+                        "$KIND": "Std",
+                        "ident": {
+                            "type": "TY_IARG",
+                            "upath": "em.lang/ConsoleProviderI",
+                            "beg": {
+                                "line": 6,
+                                "col": 117,
+                                "pos": 182
+                            },
+                            "end": {
+                                "line": 6,
+                                "col": 122,
+                                "pos": 187
+                            },
+                            "text": "iarg_t"
+                        },
+                        "tmods": 0
+                    },
+                    "init": {
+                        "$KIND": "Const",
+                        "val": {
+                            "type": "NUM",
+                            "upath": "em.lang/ConsoleProviderI",
+                            "beg": {
+                                "line": 6,
+                                "col": 126,
+                                "pos": 191
+                            },
+                            "end": {
+                                "line": 6,
+                                "col": 126,
+                                "pos": 191
+                            },
+                            "text": "0"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "$KIND": "Fxn",
+            "flags": 0,
+            "ident": {
+                "type": "IDENT",
+                "upath": "em.lang/ConsoleProviderI",
+                "beg": {
+                    "line": 7,
+                    "col": 14,
+                    "pos": 207
+                },
+                "end": {
+                    "line": 7,
+                    "col": 16,
+                    "pos": 209
+                },
+                "text": "put"
+            },
+            "docs": [],
+            "args": [
+                {
+                    "$KIND": "Arg",
+                    "flags": 0,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.lang/ConsoleProviderI",
+                        "beg": {
+                            "line": 7,
+                            "col": 18,
+                            "pos": 211
+                        },
+                        "end": {
+                            "line": 7,
+                            "col": 21,
+                            "pos": 214
+                        },
+                        "text": "data"
+                    },
+                    "docs": [],
+                    "type": {
+                        "$KIND": "Std",
+                        "ident": {
+                            "type": "TY_UINT8",
+                            "upath": "em.lang/ConsoleProviderI",
+                            "beg": {
+                                "line": 7,
+                                "col": 24,
+                                "pos": 217
+                            },
+                            "end": {
+                                "line": 7,
+                                "col": 28,
+                                "pos": 221
+                            },
+                            "text": "uint8"
+                        },
+                        "tmods": 0
+                    }
+                }
+            ]
+        }
+    ],
+    "bodies": [],
+    "docs": []
+}

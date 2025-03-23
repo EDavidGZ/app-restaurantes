@@ -1,0 +1,579 @@
+{
+    "flags": 4,
+    "pkgName": {
+        "segs": [
+            {
+                "type": "IDENT",
+                "upath": "em.utils/MinConsole",
+                "beg": {
+                    "line": 1,
+                    "col": 9,
+                    "pos": 8
+                },
+                "end": {
+                    "line": 1,
+                    "col": 10,
+                    "pos": 9
+                },
+                "text": "em"
+            },
+            {
+                "type": "IDENT",
+                "upath": "em.utils/MinConsole",
+                "beg": {
+                    "line": 1,
+                    "col": 12,
+                    "pos": 11
+                },
+                "end": {
+                    "line": 1,
+                    "col": 16,
+                    "pos": 15
+                },
+                "text": "utils"
+            }
+        ]
+    },
+    "imps": [
+        {
+            "from": {
+                "segs": [
+                    {
+                        "type": "IDENT",
+                        "upath": "em.utils/MinConsole",
+                        "beg": {
+                            "line": 3,
+                            "col": 6,
+                            "pos": 23
+                        },
+                        "end": {
+                            "line": 3,
+                            "col": 7,
+                            "pos": 24
+                        },
+                        "text": "em"
+                    },
+                    {
+                        "type": "IDENT",
+                        "upath": "em.utils/MinConsole",
+                        "beg": {
+                            "line": 3,
+                            "col": 9,
+                            "pos": 26
+                        },
+                        "end": {
+                            "line": 3,
+                            "col": 12,
+                            "pos": 29
+                        },
+                        "text": "lang"
+                    }
+                ]
+            },
+            "uname": {
+                "type": "IDENT",
+                "upath": "em.utils/MinConsole",
+                "beg": {
+                    "line": 3,
+                    "col": 21,
+                    "pos": 38
+                },
+                "end": {
+                    "line": 3,
+                    "col": 36,
+                    "pos": 53
+                },
+                "text": "ConsoleProviderI"
+            }
+        },
+        {
+            "from": {
+                "segs": [
+                    {
+                        "type": "IDENT",
+                        "upath": "em.utils/MinConsole",
+                        "beg": {
+                            "line": 5,
+                            "col": 6,
+                            "pos": 61
+                        },
+                        "end": {
+                            "line": 5,
+                            "col": 7,
+                            "pos": 62
+                        },
+                        "text": "em"
+                    },
+                    {
+                        "type": "IDENT",
+                        "upath": "em.utils/MinConsole",
+                        "beg": {
+                            "line": 5,
+                            "col": 9,
+                            "pos": 64
+                        },
+                        "end": {
+                            "line": 5,
+                            "col": 11,
+                            "pos": 66
+                        },
+                        "text": "mcu"
+                    }
+                ]
+            },
+            "uname": {
+                "type": "IDENT",
+                "upath": "em.utils/MinConsole",
+                "beg": {
+                    "line": 5,
+                    "col": 20,
+                    "pos": 75
+                },
+                "end": {
+                    "line": 5,
+                    "col": 30,
+                    "pos": 85
+                },
+                "text": "ConsoleUart"
+            }
+        },
+        {
+            "from": {
+                "segs": [
+                    {
+                        "type": "IDENT",
+                        "upath": "em.utils/MinConsole",
+                        "beg": {
+                            "line": 1,
+                            "col": 9,
+                            "pos": 8
+                        },
+                        "end": {
+                            "line": 1,
+                            "col": 10,
+                            "pos": 9
+                        },
+                        "text": "em"
+                    },
+                    {
+                        "type": "IDENT",
+                        "upath": "em.utils/MinConsole",
+                        "beg": {
+                            "line": 1,
+                            "col": 12,
+                            "pos": 11
+                        },
+                        "end": {
+                            "line": 1,
+                            "col": 16,
+                            "pos": 15
+                        },
+                        "text": "utils"
+                    }
+                ]
+            },
+            "uname": {
+                "type": "IDENT",
+                "upath": "em.utils/MinConsole",
+                "beg": {
+                    "line": 7,
+                    "col": 8,
+                    "pos": 95
+                },
+                "end": {
+                    "line": 7,
+                    "col": 16,
+                    "pos": 103
+                },
+                "text": "Formatter"
+            }
+        }
+    ],
+    "exps": [],
+    "sup": {
+        "ident": {
+            "type": "IDENT",
+            "upath": "em.utils/MinConsole",
+            "beg": {
+                "line": 9,
+                "col": 8,
+                "pos": 113
+            },
+            "end": {
+                "line": 9,
+                "col": 17,
+                "pos": 122
+            },
+            "text": "MinConsole"
+        },
+        "inter": {
+            "type": "IDENT",
+            "upath": "em.utils/MinConsole",
+            "beg": {
+                "line": 9,
+                "col": 20,
+                "pos": 125
+            },
+            "end": {
+                "line": 9,
+                "col": 35,
+                "pos": 140
+            },
+            "text": "ConsoleProviderI"
+        }
+    },
+    "decls": [],
+    "bodies": [
+        {
+            "name": {
+                "segs": [
+                    {
+                        "type": "IDENT",
+                        "upath": "em.utils/MinConsole",
+                        "beg": {
+                            "line": 13,
+                            "col": 5,
+                            "pos": 152
+                        },
+                        "end": {
+                            "line": 13,
+                            "col": 9,
+                            "pos": 156
+                        },
+                        "text": "flush"
+                    }
+                ]
+            },
+            "args": [],
+            "block": {
+                "$KIND": "Block",
+                "serial": 1,
+                "stmts": [
+                    {
+                        "$KIND": "Assign",
+                        "expr": {
+                            "$KIND": "Call",
+                            "base": {
+                                "$KIND": "Select",
+                                "base": {
+                                    "$KIND": "Ident",
+                                    "ident": {
+                                        "type": "IDENT",
+                                        "upath": "em.utils/MinConsole",
+                                        "beg": {
+                                            "line": 14,
+                                            "col": 5,
+                                            "pos": 164
+                                        },
+                                        "end": {
+                                            "line": 14,
+                                            "col": 15,
+                                            "pos": 174
+                                        },
+                                        "text": "ConsoleUart"
+                                    }
+                                },
+                                "ident": {
+                                    "type": "IDENT",
+                                    "upath": "em.utils/MinConsole",
+                                    "beg": {
+                                        "line": 14,
+                                        "col": 17,
+                                        "pos": 176
+                                    },
+                                    "end": {
+                                        "line": 14,
+                                        "col": 21,
+                                        "pos": 180
+                                    },
+                                    "text": "flush"
+                                }
+                            },
+                            "args": []
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": {
+                "segs": [
+                    {
+                        "type": "IDENT",
+                        "upath": "em.utils/MinConsole",
+                        "beg": {
+                            "line": 17,
+                            "col": 5,
+                            "pos": 193
+                        },
+                        "end": {
+                            "line": 17,
+                            "col": 9,
+                            "pos": 197
+                        },
+                        "text": "print"
+                    }
+                ]
+            },
+            "args": [
+                {
+                    "$KIND": "Arg",
+                    "flags": 0,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.utils/MinConsole",
+                        "beg": {
+                            "line": 17,
+                            "col": 11,
+                            "pos": 199
+                        },
+                        "end": {
+                            "line": 17,
+                            "col": 13,
+                            "pos": 201
+                        },
+                        "text": "fmt"
+                    },
+                    "docs": []
+                },
+                {
+                    "$KIND": "Arg",
+                    "flags": 0,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.utils/MinConsole",
+                        "beg": {
+                            "line": 17,
+                            "col": 16,
+                            "pos": 204
+                        },
+                        "end": {
+                            "line": 17,
+                            "col": 17,
+                            "pos": 205
+                        },
+                        "text": "a1"
+                    },
+                    "docs": []
+                },
+                {
+                    "$KIND": "Arg",
+                    "flags": 0,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.utils/MinConsole",
+                        "beg": {
+                            "line": 17,
+                            "col": 20,
+                            "pos": 208
+                        },
+                        "end": {
+                            "line": 17,
+                            "col": 21,
+                            "pos": 209
+                        },
+                        "text": "a2"
+                    },
+                    "docs": []
+                },
+                {
+                    "$KIND": "Arg",
+                    "flags": 0,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.utils/MinConsole",
+                        "beg": {
+                            "line": 17,
+                            "col": 24,
+                            "pos": 212
+                        },
+                        "end": {
+                            "line": 17,
+                            "col": 25,
+                            "pos": 213
+                        },
+                        "text": "a3"
+                    },
+                    "docs": []
+                },
+                {
+                    "$KIND": "Arg",
+                    "flags": 0,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.utils/MinConsole",
+                        "beg": {
+                            "line": 17,
+                            "col": 28,
+                            "pos": 216
+                        },
+                        "end": {
+                            "line": 17,
+                            "col": 29,
+                            "pos": 217
+                        },
+                        "text": "a4"
+                    },
+                    "docs": []
+                },
+                {
+                    "$KIND": "Arg",
+                    "flags": 0,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.utils/MinConsole",
+                        "beg": {
+                            "line": 17,
+                            "col": 32,
+                            "pos": 220
+                        },
+                        "end": {
+                            "line": 17,
+                            "col": 33,
+                            "pos": 221
+                        },
+                        "text": "a5"
+                    },
+                    "docs": []
+                },
+                {
+                    "$KIND": "Arg",
+                    "flags": 0,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.utils/MinConsole",
+                        "beg": {
+                            "line": 17,
+                            "col": 36,
+                            "pos": 224
+                        },
+                        "end": {
+                            "line": 17,
+                            "col": 37,
+                            "pos": 225
+                        },
+                        "text": "a6"
+                    },
+                    "docs": []
+                }
+            ],
+            "block": {
+                "$KIND": "Block",
+                "serial": 2,
+                "stmts": []
+            }
+        },
+        {
+            "name": {
+                "segs": [
+                    {
+                        "type": "IDENT",
+                        "upath": "em.utils/MinConsole",
+                        "beg": {
+                            "line": 20,
+                            "col": 5,
+                            "pos": 237
+                        },
+                        "end": {
+                            "line": 20,
+                            "col": 7,
+                            "pos": 239
+                        },
+                        "text": "put"
+                    }
+                ]
+            },
+            "args": [
+                {
+                    "$KIND": "Arg",
+                    "flags": 0,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.utils/MinConsole",
+                        "beg": {
+                            "line": 20,
+                            "col": 9,
+                            "pos": 241
+                        },
+                        "end": {
+                            "line": 20,
+                            "col": 12,
+                            "pos": 244
+                        },
+                        "text": "data"
+                    },
+                    "docs": []
+                }
+            ],
+            "block": {
+                "$KIND": "Block",
+                "serial": 3,
+                "stmts": [
+                    {
+                        "$KIND": "Assign",
+                        "expr": {
+                            "$KIND": "Call",
+                            "base": {
+                                "$KIND": "Select",
+                                "base": {
+                                    "$KIND": "Ident",
+                                    "ident": {
+                                        "type": "IDENT",
+                                        "upath": "em.utils/MinConsole",
+                                        "beg": {
+                                            "line": 21,
+                                            "col": 5,
+                                            "pos": 251
+                                        },
+                                        "end": {
+                                            "line": 21,
+                                            "col": 15,
+                                            "pos": 261
+                                        },
+                                        "text": "ConsoleUart"
+                                    }
+                                },
+                                "ident": {
+                                    "type": "IDENT",
+                                    "upath": "em.utils/MinConsole",
+                                    "beg": {
+                                        "line": 21,
+                                        "col": 17,
+                                        "pos": 263
+                                    },
+                                    "end": {
+                                        "line": 21,
+                                        "col": 19,
+                                        "pos": 265
+                                    },
+                                    "text": "put"
+                                }
+                            },
+                            "args": [
+                                {
+                                    "$KIND": "Ident",
+                                    "ident": {
+                                        "type": "IDENT",
+                                        "upath": "em.utils/MinConsole",
+                                        "beg": {
+                                            "line": 21,
+                                            "col": 21,
+                                            "pos": 267
+                                        },
+                                        "end": {
+                                            "line": 21,
+                                            "col": 24,
+                                            "pos": 270
+                                        },
+                                        "text": "data"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ],
+    "docs": []
+}

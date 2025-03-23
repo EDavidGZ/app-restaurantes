@@ -1,0 +1,255 @@
+{
+    "flags": 6,
+    "pkgName": {
+        "segs": [
+            {
+                "type": "IDENT",
+                "upath": "em.build.misc/MSPFlasher",
+                "beg": {
+                    "line": 1,
+                    "col": 9,
+                    "pos": 8
+                },
+                "end": {
+                    "line": 1,
+                    "col": 10,
+                    "pos": 9
+                },
+                "text": "em"
+            },
+            {
+                "type": "IDENT",
+                "upath": "em.build.misc/MSPFlasher",
+                "beg": {
+                    "line": 1,
+                    "col": 12,
+                    "pos": 11
+                },
+                "end": {
+                    "line": 1,
+                    "col": 16,
+                    "pos": 15
+                },
+                "text": "build"
+            },
+            {
+                "type": "IDENT",
+                "upath": "em.build.misc/MSPFlasher",
+                "beg": {
+                    "line": 1,
+                    "col": 18,
+                    "pos": 17
+                },
+                "end": {
+                    "line": 1,
+                    "col": 21,
+                    "pos": 20
+                },
+                "text": "misc"
+            }
+        ]
+    },
+    "imps": [
+        {
+            "from": {
+                "segs": [
+                    {
+                        "type": "IDENT",
+                        "upath": "em.build.misc/MSPFlasher",
+                        "beg": {
+                            "line": 3,
+                            "col": 6,
+                            "pos": 28
+                        },
+                        "end": {
+                            "line": 3,
+                            "col": 7,
+                            "pos": 29
+                        },
+                        "text": "em"
+                    },
+                    {
+                        "type": "IDENT",
+                        "upath": "em.build.misc/MSPFlasher",
+                        "beg": {
+                            "line": 3,
+                            "col": 9,
+                            "pos": 31
+                        },
+                        "end": {
+                            "line": 3,
+                            "col": 12,
+                            "pos": 34
+                        },
+                        "text": "lang"
+                    }
+                ]
+            },
+            "uname": {
+                "type": "IDENT",
+                "upath": "em.build.misc/MSPFlasher",
+                "beg": {
+                    "line": 3,
+                    "col": 21,
+                    "pos": 43
+                },
+                "end": {
+                    "line": 3,
+                    "col": 26,
+                    "pos": 48
+                },
+                "text": "BuildC"
+            }
+        }
+    ],
+    "exps": [],
+    "sup": {
+        "ident": {
+            "type": "IDENT",
+            "upath": "em.build.misc/MSPFlasher",
+            "beg": {
+                "line": 5,
+                "col": 13,
+                "pos": 63
+            },
+            "end": {
+                "line": 5,
+                "col": 22,
+                "pos": 72
+            },
+            "text": "MSPFlasher"
+        }
+    },
+    "decls": [
+        {
+            "$KIND": "Fxn",
+            "flags": 34,
+            "ident": {
+                "type": "IDENT",
+                "upath": "em.build.misc/MSPFlasher",
+                "beg": {
+                    "line": 7,
+                    "col": 14,
+                    "pos": 88
+                },
+                "end": {
+                    "line": 7,
+                    "col": 20,
+                    "pos": 94
+                },
+                "text": "genLoad"
+            },
+            "docs": [],
+            "args": []
+        }
+    ],
+    "bodies": [
+        {
+            "name": {
+                "segs": [
+                    {
+                        "type": "IDENT",
+                        "upath": "em.build.misc/MSPFlasher",
+                        "beg": {
+                            "line": 11,
+                            "col": 5,
+                            "pos": 108
+                        },
+                        "end": {
+                            "line": 11,
+                            "col": 11,
+                            "pos": 114
+                        },
+                        "text": "genLoad"
+                    }
+                ]
+            },
+            "args": [],
+            "block": {
+                "$KIND": "Block",
+                "serial": 1,
+                "stmts": [
+                    {
+                        "$KIND": "Decl0",
+                        "decl": {
+                            "$KIND": "VarL",
+                            "flags": 0,
+                            "ident": {
+                                "type": "IDENT",
+                                "upath": "em.build.misc/MSPFlasher",
+                                "beg": {
+                                    "line": 12,
+                                    "col": 9,
+                                    "pos": 126
+                                },
+                                "end": {
+                                    "line": 12,
+                                    "col": 12,
+                                    "pos": 129
+                                },
+                                "text": "tool"
+                            },
+                            "docs": [],
+                            "type": {
+                                "$KIND": "Std",
+                                "ident": {
+                                    "type": "TY_STRING",
+                                    "upath": "em.build.misc/MSPFlasher",
+                                    "beg": {
+                                        "line": 12,
+                                        "col": 15,
+                                        "pos": 132
+                                    },
+                                    "end": {
+                                        "line": 12,
+                                        "col": 20,
+                                        "pos": 137
+                                    },
+                                    "text": "string"
+                                },
+                                "tmods": 0
+                            },
+                            "init": {
+                                "$KIND": "Const",
+                                "val": {
+                                    "type": "STRING",
+                                    "upath": "em.build.misc/MSPFlasher",
+                                    "beg": {
+                                        "line": 12,
+                                        "col": 24,
+                                        "pos": 141
+                                    },
+                                    "end": {
+                                        "line": 12,
+                                        "col": 62,
+                                        "pos": 179
+                                    },
+                                    "text": "\"C:/ti/MSPFlasher_1.3.20/MSP430Flasher\""
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "$KIND": "Text",
+                        "textTok": {
+                            "type": "TEML",
+                            "upath": "em.build.misc/MSPFlasher",
+                            "beg": {
+                                "line": 13,
+                                "col": 9,
+                                "pos": 189
+                            },
+                            "end": {
+                                "line": 13,
+                                "col": 101,
+                                "pos": 281
+                            },
+                            "text": "|->`tool` -i USB -j fast -e ERASE_MAIN -q -n `BuildC.cpu` -w main.out.txt -z [VCC] -g -s 1>&2"
+                        }
+                    }
+                ]
+            }
+        }
+    ],
+    "docs": []
+}

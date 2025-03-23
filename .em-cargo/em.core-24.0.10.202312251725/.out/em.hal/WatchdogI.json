@@ -1,0 +1,267 @@
+{
+    "flags": 1,
+    "pkgName": {
+        "segs": [
+            {
+                "type": "IDENT",
+                "upath": "em.hal/WatchdogI",
+                "beg": {
+                    "line": 1,
+                    "col": 9,
+                    "pos": 8
+                },
+                "end": {
+                    "line": 1,
+                    "col": 10,
+                    "pos": 9
+                },
+                "text": "em"
+            },
+            {
+                "type": "IDENT",
+                "upath": "em.hal/WatchdogI",
+                "beg": {
+                    "line": 1,
+                    "col": 12,
+                    "pos": 11
+                },
+                "end": {
+                    "line": 1,
+                    "col": 14,
+                    "pos": 13
+                },
+                "text": "hal"
+            }
+        ]
+    },
+    "imps": [],
+    "exps": [],
+    "sup": {
+        "ident": {
+            "type": "IDENT",
+            "upath": "em.hal/WatchdogI",
+            "beg": {
+                "line": 3,
+                "col": 11,
+                "pos": 26
+            },
+            "end": {
+                "line": 3,
+                "col": 19,
+                "pos": 34
+            },
+            "text": "WatchdogI"
+        }
+    },
+    "decls": [
+        {
+            "$KIND": "Fxn",
+            "flags": 131072,
+            "ident": {
+                "type": "IDENT",
+                "upath": "em.hal/WatchdogI",
+                "beg": {
+                    "line": 5,
+                    "col": 10,
+                    "pos": 46
+                },
+                "end": {
+                    "line": 5,
+                    "col": 16,
+                    "pos": 52
+                },
+                "text": "Handler"
+            },
+            "docs": [],
+            "args": []
+        },
+        {
+            "$KIND": "Fxn",
+            "flags": 0,
+            "ident": {
+                "type": "IDENT",
+                "upath": "em.hal/WatchdogI",
+                "beg": {
+                    "line": 7,
+                    "col": 14,
+                    "pos": 80
+                },
+                "end": {
+                    "line": 7,
+                    "col": 20,
+                    "pos": 86
+                },
+                "text": "didBite"
+            },
+            "docs": [],
+            "args": [],
+            "type": {
+                "$KIND": "Std",
+                "ident": {
+                    "type": "TY_BOOL",
+                    "upath": "em.hal/WatchdogI",
+                    "beg": {
+                        "line": 7,
+                        "col": 25,
+                        "pos": 91
+                    },
+                    "end": {
+                        "line": 7,
+                        "col": 28,
+                        "pos": 94
+                    },
+                    "text": "bool"
+                },
+                "tmods": 0
+            }
+        },
+        {
+            "$KIND": "Fxn",
+            "flags": 0,
+            "ident": {
+                "type": "IDENT",
+                "upath": "em.hal/WatchdogI",
+                "beg": {
+                    "line": 8,
+                    "col": 14,
+                    "pos": 109
+                },
+                "end": {
+                    "line": 8,
+                    "col": 20,
+                    "pos": 115
+                },
+                "text": "disable"
+            },
+            "docs": [],
+            "args": []
+        },
+        {
+            "$KIND": "Fxn",
+            "flags": 0,
+            "ident": {
+                "type": "IDENT",
+                "upath": "em.hal/WatchdogI",
+                "beg": {
+                    "line": 9,
+                    "col": 14,
+                    "pos": 132
+                },
+                "end": {
+                    "line": 9,
+                    "col": 19,
+                    "pos": 137
+                },
+                "text": "enable"
+            },
+            "docs": [],
+            "args": [
+                {
+                    "$KIND": "Arg",
+                    "flags": 0,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.hal/WatchdogI",
+                        "beg": {
+                            "line": 9,
+                            "col": 21,
+                            "pos": 139
+                        },
+                        "end": {
+                            "line": 9,
+                            "col": 24,
+                            "pos": 142
+                        },
+                        "text": "secs"
+                    },
+                    "docs": [],
+                    "type": {
+                        "$KIND": "Std",
+                        "ident": {
+                            "type": "TY_UINT16",
+                            "upath": "em.hal/WatchdogI",
+                            "beg": {
+                                "line": 9,
+                                "col": 27,
+                                "pos": 145
+                            },
+                            "end": {
+                                "line": 9,
+                                "col": 32,
+                                "pos": 150
+                            },
+                            "text": "uint16"
+                        },
+                        "tmods": 0
+                    }
+                },
+                {
+                    "$KIND": "Arg",
+                    "flags": 0,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.hal/WatchdogI",
+                        "beg": {
+                            "line": 9,
+                            "col": 35,
+                            "pos": 153
+                        },
+                        "end": {
+                            "line": 9,
+                            "col": 41,
+                            "pos": 159
+                        },
+                        "text": "handler"
+                    },
+                    "docs": [],
+                    "type": {
+                        "$KIND": "Def",
+                        "tdef": {
+                            "segs": [
+                                {
+                                    "type": "IDENT",
+                                    "upath": "em.hal/WatchdogI",
+                                    "beg": {
+                                        "line": 9,
+                                        "col": 44,
+                                        "pos": 162
+                                    },
+                                    "end": {
+                                        "line": 9,
+                                        "col": 50,
+                                        "pos": 168
+                                    },
+                                    "text": "Handler"
+                                }
+                            ]
+                        },
+                        "tmods": 0
+                    }
+                }
+            ]
+        },
+        {
+            "$KIND": "Fxn",
+            "flags": 0,
+            "ident": {
+                "type": "IDENT",
+                "upath": "em.hal/WatchdogI",
+                "beg": {
+                    "line": 10,
+                    "col": 14,
+                    "pos": 184
+                },
+                "end": {
+                    "line": 10,
+                    "col": 16,
+                    "pos": 186
+                },
+                "text": "pet"
+            },
+            "docs": [],
+            "args": []
+        }
+    ],
+    "bodies": [],
+    "docs": []
+}

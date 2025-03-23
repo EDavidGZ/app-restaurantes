@@ -1,0 +1,3431 @@
+{
+    "flags": 6,
+    "pkgName": {
+        "segs": [
+            {
+                "type": "IDENT",
+                "upath": "em.build.misc/Utils",
+                "beg": {
+                    "line": 1,
+                    "col": 9,
+                    "pos": 8
+                },
+                "end": {
+                    "line": 1,
+                    "col": 10,
+                    "pos": 9
+                },
+                "text": "em"
+            },
+            {
+                "type": "IDENT",
+                "upath": "em.build.misc/Utils",
+                "beg": {
+                    "line": 1,
+                    "col": 12,
+                    "pos": 11
+                },
+                "end": {
+                    "line": 1,
+                    "col": 16,
+                    "pos": 15
+                },
+                "text": "build"
+            },
+            {
+                "type": "IDENT",
+                "upath": "em.build.misc/Utils",
+                "beg": {
+                    "line": 1,
+                    "col": 18,
+                    "pos": 17
+                },
+                "end": {
+                    "line": 1,
+                    "col": 21,
+                    "pos": 20
+                },
+                "text": "misc"
+            }
+        ]
+    },
+    "imps": [
+        {
+            "from": {
+                "segs": [
+                    {
+                        "type": "IDENT",
+                        "upath": "em.build.misc/Utils",
+                        "beg": {
+                            "line": 3,
+                            "col": 6,
+                            "pos": 28
+                        },
+                        "end": {
+                            "line": 3,
+                            "col": 7,
+                            "pos": 29
+                        },
+                        "text": "em"
+                    },
+                    {
+                        "type": "IDENT",
+                        "upath": "em.build.misc/Utils",
+                        "beg": {
+                            "line": 3,
+                            "col": 9,
+                            "pos": 31
+                        },
+                        "end": {
+                            "line": 3,
+                            "col": 12,
+                            "pos": 34
+                        },
+                        "text": "lang"
+                    }
+                ]
+            },
+            "uname": {
+                "type": "IDENT",
+                "upath": "em.build.misc/Utils",
+                "beg": {
+                    "line": 3,
+                    "col": 21,
+                    "pos": 43
+                },
+                "end": {
+                    "line": 3,
+                    "col": 26,
+                    "pos": 48
+                },
+                "text": "BuildC"
+            }
+        }
+    ],
+    "exps": [],
+    "sup": {
+        "ident": {
+            "type": "IDENT",
+            "upath": "em.build.misc/Utils",
+            "beg": {
+                "line": 5,
+                "col": 13,
+                "pos": 63
+            },
+            "end": {
+                "line": 5,
+                "col": 17,
+                "pos": 67
+            },
+            "text": "Utils"
+        }
+    },
+    "decls": [
+        {
+            "$KIND": "Agg",
+            "flags": 2,
+            "ident": {
+                "type": "IDENT",
+                "upath": "em.build.misc/Utils",
+                "beg": {
+                    "line": 7,
+                    "col": 10,
+                    "pos": 79
+                },
+                "end": {
+                    "line": 7,
+                    "col": 17,
+                    "pos": 86
+                },
+                "text": "SectDesc"
+            },
+            "docs": [],
+            "kw": {
+                "type": "KW_STRUCT",
+                "upath": "em.build.misc/Utils",
+                "beg": {
+                    "line": 7,
+                    "col": 20,
+                    "pos": 89
+                },
+                "end": {
+                    "line": 7,
+                    "col": 25,
+                    "pos": 94
+                },
+                "text": "struct"
+            },
+            "fields": [
+                {
+                    "$KIND": "Field",
+                    "flags": 2,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.build.misc/Utils",
+                        "beg": {
+                            "line": 8,
+                            "col": 9,
+                            "pos": 104
+                        },
+                        "end": {
+                            "line": 8,
+                            "col": 12,
+                            "pos": 107
+                        },
+                        "text": "addr"
+                    },
+                    "docs": [],
+                    "type": {
+                        "$KIND": "Std",
+                        "ident": {
+                            "type": "TY_UINT32",
+                            "upath": "em.build.misc/Utils",
+                            "beg": {
+                                "line": 8,
+                                "col": 15,
+                                "pos": 110
+                            },
+                            "end": {
+                                "line": 8,
+                                "col": 20,
+                                "pos": 115
+                            },
+                            "text": "uint32"
+                        },
+                        "tmods": 0
+                    }
+                },
+                {
+                    "$KIND": "Field",
+                    "flags": 2,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.build.misc/Utils",
+                        "beg": {
+                            "line": 9,
+                            "col": 9,
+                            "pos": 125
+                        },
+                        "end": {
+                            "line": 9,
+                            "col": 12,
+                            "pos": 128
+                        },
+                        "text": "size"
+                    },
+                    "docs": [],
+                    "type": {
+                        "$KIND": "Std",
+                        "ident": {
+                            "type": "TY_UINT32",
+                            "upath": "em.build.misc/Utils",
+                            "beg": {
+                                "line": 9,
+                                "col": 15,
+                                "pos": 131
+                            },
+                            "end": {
+                                "line": 9,
+                                "col": 20,
+                                "pos": 136
+                            },
+                            "text": "uint32"
+                        },
+                        "tmods": 0
+                    }
+                },
+                {
+                    "$KIND": "Field",
+                    "flags": 2,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.build.misc/Utils",
+                        "beg": {
+                            "line": 10,
+                            "col": 9,
+                            "pos": 146
+                        },
+                        "end": {
+                            "line": 10,
+                            "col": 14,
+                            "pos": 151
+                        },
+                        "text": "memory"
+                    },
+                    "docs": [],
+                    "type": {
+                        "$KIND": "Std",
+                        "ident": {
+                            "type": "TY_STRING",
+                            "upath": "em.build.misc/Utils",
+                            "beg": {
+                                "line": 10,
+                                "col": 17,
+                                "pos": 154
+                            },
+                            "end": {
+                                "line": 10,
+                                "col": 22,
+                                "pos": 159
+                            },
+                            "text": "string"
+                        },
+                        "tmods": 0
+                    }
+                },
+                {
+                    "$KIND": "Field",
+                    "flags": 2,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.build.misc/Utils",
+                        "beg": {
+                            "line": 11,
+                            "col": 9,
+                            "pos": 169
+                        },
+                        "end": {
+                            "line": 11,
+                            "col": 14,
+                            "pos": 174
+                        },
+                        "text": "sectid"
+                    },
+                    "docs": [],
+                    "type": {
+                        "$KIND": "Std",
+                        "ident": {
+                            "type": "TY_STRING",
+                            "upath": "em.build.misc/Utils",
+                            "beg": {
+                                "line": 11,
+                                "col": 17,
+                                "pos": 177
+                            },
+                            "end": {
+                                "line": 11,
+                                "col": 22,
+                                "pos": 182
+                            },
+                            "text": "string"
+                        },
+                        "tmods": 0
+                    }
+                }
+            ],
+            "fxns": []
+        },
+        {
+            "$KIND": "Fxn",
+            "flags": 2,
+            "ident": {
+                "type": "IDENT",
+                "upath": "em.build.misc/Utils",
+                "beg": {
+                    "line": 14,
+                    "col": 14,
+                    "pos": 206
+                },
+                "end": {
+                    "line": 14,
+                    "col": 23,
+                    "pos": 215
+                },
+                "text": "addInclude"
+            },
+            "docs": [],
+            "args": [
+                {
+                    "$KIND": "Arg",
+                    "flags": 2,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.build.misc/Utils",
+                        "beg": {
+                            "line": 14,
+                            "col": 25,
+                            "pos": 217
+                        },
+                        "end": {
+                            "line": 14,
+                            "col": 28,
+                            "pos": 220
+                        },
+                        "text": "path"
+                    },
+                    "docs": [],
+                    "type": {
+                        "$KIND": "Std",
+                        "ident": {
+                            "type": "TY_STRING",
+                            "upath": "em.build.misc/Utils",
+                            "beg": {
+                                "line": 14,
+                                "col": 31,
+                                "pos": 223
+                            },
+                            "end": {
+                                "line": 14,
+                                "col": 36,
+                                "pos": 228
+                            },
+                            "text": "string"
+                        },
+                        "tmods": 0
+                    }
+                }
+            ]
+        },
+        {
+            "$KIND": "Fxn",
+            "flags": 2,
+            "ident": {
+                "type": "IDENT",
+                "upath": "em.build.misc/Utils",
+                "beg": {
+                    "line": 15,
+                    "col": 14,
+                    "pos": 244
+                },
+                "end": {
+                    "line": 15,
+                    "col": 26,
+                    "pos": 256
+                },
+                "text": "addObjectFile"
+            },
+            "docs": [],
+            "args": [
+                {
+                    "$KIND": "Arg",
+                    "flags": 2,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.build.misc/Utils",
+                        "beg": {
+                            "line": 15,
+                            "col": 28,
+                            "pos": 258
+                        },
+                        "end": {
+                            "line": 15,
+                            "col": 31,
+                            "pos": 261
+                        },
+                        "text": "path"
+                    },
+                    "docs": [],
+                    "type": {
+                        "$KIND": "Std",
+                        "ident": {
+                            "type": "TY_STRING",
+                            "upath": "em.build.misc/Utils",
+                            "beg": {
+                                "line": 15,
+                                "col": 34,
+                                "pos": 264
+                            },
+                            "end": {
+                                "line": 15,
+                                "col": 39,
+                                "pos": 269
+                            },
+                            "text": "string"
+                        },
+                        "tmods": 0
+                    }
+                }
+            ]
+        },
+        {
+            "$KIND": "Fxn",
+            "flags": 2,
+            "ident": {
+                "type": "IDENT",
+                "upath": "em.build.misc/Utils",
+                "beg": {
+                    "line": 16,
+                    "col": 14,
+                    "pos": 285
+                },
+                "end": {
+                    "line": 16,
+                    "col": 22,
+                    "pos": 293
+                },
+                "text": "addOption"
+            },
+            "docs": [],
+            "args": [
+                {
+                    "$KIND": "Arg",
+                    "flags": 2,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.build.misc/Utils",
+                        "beg": {
+                            "line": 16,
+                            "col": 24,
+                            "pos": 295
+                        },
+                        "end": {
+                            "line": 16,
+                            "col": 26,
+                            "pos": 297
+                        },
+                        "text": "opt"
+                    },
+                    "docs": [],
+                    "type": {
+                        "$KIND": "Std",
+                        "ident": {
+                            "type": "TY_STRING",
+                            "upath": "em.build.misc/Utils",
+                            "beg": {
+                                "line": 16,
+                                "col": 29,
+                                "pos": 300
+                            },
+                            "end": {
+                                "line": 16,
+                                "col": 34,
+                                "pos": 305
+                            },
+                            "text": "string"
+                        },
+                        "tmods": 0
+                    }
+                }
+            ]
+        },
+        {
+            "$KIND": "Fxn",
+            "flags": 2,
+            "ident": {
+                "type": "IDENT",
+                "upath": "em.build.misc/Utils",
+                "beg": {
+                    "line": 17,
+                    "col": 14,
+                    "pos": 321
+                },
+                "end": {
+                    "line": 17,
+                    "col": 23,
+                    "pos": 330
+                },
+                "text": "addSection"
+            },
+            "docs": [],
+            "args": [
+                {
+                    "$KIND": "Arg",
+                    "flags": 2,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.build.misc/Utils",
+                        "beg": {
+                            "line": 17,
+                            "col": 25,
+                            "pos": 332
+                        },
+                        "end": {
+                            "line": 17,
+                            "col": 28,
+                            "pos": 335
+                        },
+                        "text": "addr"
+                    },
+                    "docs": [],
+                    "type": {
+                        "$KIND": "Std",
+                        "ident": {
+                            "type": "TY_UINT32",
+                            "upath": "em.build.misc/Utils",
+                            "beg": {
+                                "line": 17,
+                                "col": 31,
+                                "pos": 338
+                            },
+                            "end": {
+                                "line": 17,
+                                "col": 36,
+                                "pos": 343
+                            },
+                            "text": "uint32"
+                        },
+                        "tmods": 0
+                    }
+                },
+                {
+                    "$KIND": "Arg",
+                    "flags": 2,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.build.misc/Utils",
+                        "beg": {
+                            "line": 17,
+                            "col": 39,
+                            "pos": 346
+                        },
+                        "end": {
+                            "line": 17,
+                            "col": 42,
+                            "pos": 349
+                        },
+                        "text": "size"
+                    },
+                    "docs": [],
+                    "type": {
+                        "$KIND": "Std",
+                        "ident": {
+                            "type": "TY_UINT32",
+                            "upath": "em.build.misc/Utils",
+                            "beg": {
+                                "line": 17,
+                                "col": 45,
+                                "pos": 352
+                            },
+                            "end": {
+                                "line": 17,
+                                "col": 50,
+                                "pos": 357
+                            },
+                            "text": "uint32"
+                        },
+                        "tmods": 0
+                    }
+                },
+                {
+                    "$KIND": "Arg",
+                    "flags": 2,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.build.misc/Utils",
+                        "beg": {
+                            "line": 17,
+                            "col": 53,
+                            "pos": 360
+                        },
+                        "end": {
+                            "line": 17,
+                            "col": 58,
+                            "pos": 365
+                        },
+                        "text": "memory"
+                    },
+                    "docs": [],
+                    "type": {
+                        "$KIND": "Std",
+                        "ident": {
+                            "type": "TY_STRING",
+                            "upath": "em.build.misc/Utils",
+                            "beg": {
+                                "line": 17,
+                                "col": 61,
+                                "pos": 368
+                            },
+                            "end": {
+                                "line": 17,
+                                "col": 66,
+                                "pos": 373
+                            },
+                            "text": "string"
+                        },
+                        "tmods": 0
+                    }
+                },
+                {
+                    "$KIND": "Arg",
+                    "flags": 2,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.build.misc/Utils",
+                        "beg": {
+                            "line": 17,
+                            "col": 69,
+                            "pos": 376
+                        },
+                        "end": {
+                            "line": 17,
+                            "col": 74,
+                            "pos": 381
+                        },
+                        "text": "sectid"
+                    },
+                    "docs": [],
+                    "type": {
+                        "$KIND": "Std",
+                        "ident": {
+                            "type": "TY_STRING",
+                            "upath": "em.build.misc/Utils",
+                            "beg": {
+                                "line": 17,
+                                "col": 77,
+                                "pos": 384
+                            },
+                            "end": {
+                                "line": 17,
+                                "col": 82,
+                                "pos": 389
+                            },
+                            "text": "string"
+                        },
+                        "tmods": 0
+                    }
+                }
+            ]
+        },
+        {
+            "$KIND": "Fxn",
+            "flags": 2,
+            "ident": {
+                "type": "IDENT",
+                "upath": "em.build.misc/Utils",
+                "beg": {
+                    "line": 18,
+                    "col": 14,
+                    "pos": 405
+                },
+                "end": {
+                    "line": 18,
+                    "col": 17,
+                    "pos": 408
+                },
+                "text": "copy"
+            },
+            "docs": [],
+            "args": [
+                {
+                    "$KIND": "Arg",
+                    "flags": 2,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.build.misc/Utils",
+                        "beg": {
+                            "line": 18,
+                            "col": 19,
+                            "pos": 410
+                        },
+                        "end": {
+                            "line": 18,
+                            "col": 24,
+                            "pos": 415
+                        },
+                        "text": "dstdir"
+                    },
+                    "docs": [],
+                    "type": {
+                        "$KIND": "Std",
+                        "ident": {
+                            "type": "TY_STRING",
+                            "upath": "em.build.misc/Utils",
+                            "beg": {
+                                "line": 18,
+                                "col": 27,
+                                "pos": 418
+                            },
+                            "end": {
+                                "line": 18,
+                                "col": 32,
+                                "pos": 423
+                            },
+                            "text": "string"
+                        },
+                        "tmods": 0
+                    }
+                },
+                {
+                    "$KIND": "Arg",
+                    "flags": 2,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.build.misc/Utils",
+                        "beg": {
+                            "line": 18,
+                            "col": 35,
+                            "pos": 426
+                        },
+                        "end": {
+                            "line": 18,
+                            "col": 41,
+                            "pos": 432
+                        },
+                        "text": "srcfile"
+                    },
+                    "docs": [],
+                    "type": {
+                        "$KIND": "Std",
+                        "ident": {
+                            "type": "TY_STRING",
+                            "upath": "em.build.misc/Utils",
+                            "beg": {
+                                "line": 18,
+                                "col": 44,
+                                "pos": 435
+                            },
+                            "end": {
+                                "line": 18,
+                                "col": 49,
+                                "pos": 440
+                            },
+                            "text": "string"
+                        },
+                        "tmods": 0
+                    }
+                },
+                {
+                    "$KIND": "Arg",
+                    "flags": 2,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.build.misc/Utils",
+                        "beg": {
+                            "line": 18,
+                            "col": 52,
+                            "pos": 443
+                        },
+                        "end": {
+                            "line": 18,
+                            "col": 57,
+                            "pos": 448
+                        },
+                        "text": "srcpkg"
+                    },
+                    "docs": [],
+                    "type": {
+                        "$KIND": "Std",
+                        "ident": {
+                            "type": "TY_STRING",
+                            "upath": "em.build.misc/Utils",
+                            "beg": {
+                                "line": 18,
+                                "col": 60,
+                                "pos": 451
+                            },
+                            "end": {
+                                "line": 18,
+                                "col": 65,
+                                "pos": 456
+                            },
+                            "text": "string"
+                        },
+                        "tmods": 0
+                    }
+                }
+            ]
+        },
+        {
+            "$KIND": "Fxn",
+            "flags": 2,
+            "ident": {
+                "type": "IDENT",
+                "upath": "em.build.misc/Utils",
+                "beg": {
+                    "line": 19,
+                    "col": 14,
+                    "pos": 472
+                },
+                "end": {
+                    "line": 19,
+                    "col": 26,
+                    "pos": 484
+                },
+                "text": "findCanonical"
+            },
+            "docs": [],
+            "args": [
+                {
+                    "$KIND": "Arg",
+                    "flags": 2,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.build.misc/Utils",
+                        "beg": {
+                            "line": 19,
+                            "col": 28,
+                            "pos": 486
+                        },
+                        "end": {
+                            "line": 19,
+                            "col": 31,
+                            "pos": 489
+                        },
+                        "text": "path"
+                    },
+                    "docs": [],
+                    "type": {
+                        "$KIND": "Std",
+                        "ident": {
+                            "type": "TY_STRING",
+                            "upath": "em.build.misc/Utils",
+                            "beg": {
+                                "line": 19,
+                                "col": 34,
+                                "pos": 492
+                            },
+                            "end": {
+                                "line": 19,
+                                "col": 39,
+                                "pos": 497
+                            },
+                            "text": "string"
+                        },
+                        "tmods": 0
+                    }
+                }
+            ],
+            "type": {
+                "$KIND": "Std",
+                "ident": {
+                    "type": "TY_STRING",
+                    "upath": "em.build.misc/Utils",
+                    "beg": {
+                        "line": 19,
+                        "col": 43,
+                        "pos": 501
+                    },
+                    "end": {
+                        "line": 19,
+                        "col": 48,
+                        "pos": 506
+                    },
+                    "text": "string"
+                },
+                "tmods": 0
+            }
+        },
+        {
+            "$KIND": "Fxn",
+            "flags": 34,
+            "ident": {
+                "type": "IDENT",
+                "upath": "em.build.misc/Utils",
+                "beg": {
+                    "line": 20,
+                    "col": 14,
+                    "pos": 521
+                },
+                "end": {
+                    "line": 20,
+                    "col": 23,
+                    "pos": 530
+                },
+                "text": "genDefines"
+            },
+            "docs": [],
+            "args": []
+        },
+        {
+            "$KIND": "Fxn",
+            "flags": 2,
+            "ident": {
+                "type": "IDENT",
+                "upath": "em.build.misc/Utils",
+                "beg": {
+                    "line": 21,
+                    "col": 14,
+                    "pos": 547
+                },
+                "end": {
+                    "line": 21,
+                    "col": 24,
+                    "pos": 557
+                },
+                "text": "getSections"
+            },
+            "docs": [],
+            "args": [],
+            "type": {
+                "$KIND": "ArrC",
+                "base": {
+                    "$KIND": "Ptr",
+                    "base": {
+                        "$KIND": "Def",
+                        "tdef": {
+                            "segs": [
+                                {
+                                    "type": "IDENT",
+                                    "upath": "em.build.misc/Utils",
+                                    "beg": {
+                                        "line": 21,
+                                        "col": 29,
+                                        "pos": 562
+                                    },
+                                    "end": {
+                                        "line": 21,
+                                        "col": 36,
+                                        "pos": 569
+                                    },
+                                    "text": "SectDesc"
+                                }
+                            ]
+                        },
+                        "tmods": 0
+                    },
+                    "tmods": 0,
+                    "isRef": true
+                }
+            }
+        },
+        {
+            "$KIND": "Fxn",
+            "flags": 2,
+            "ident": {
+                "type": "IDENT",
+                "upath": "em.build.misc/Utils",
+                "beg": {
+                    "line": 22,
+                    "col": 14,
+                    "pos": 587
+                },
+                "end": {
+                    "line": 22,
+                    "col": 24,
+                    "pos": 597
+                },
+                "text": "setOptimize"
+            },
+            "docs": [],
+            "args": [
+                {
+                    "$KIND": "Arg",
+                    "flags": 2,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.build.misc/Utils",
+                        "beg": {
+                            "line": 22,
+                            "col": 26,
+                            "pos": 599
+                        },
+                        "end": {
+                            "line": 22,
+                            "col": 30,
+                            "pos": 603
+                        },
+                        "text": "level"
+                    },
+                    "docs": [],
+                    "type": {
+                        "$KIND": "Std",
+                        "ident": {
+                            "type": "TY_STRING",
+                            "upath": "em.build.misc/Utils",
+                            "beg": {
+                                "line": 22,
+                                "col": 33,
+                                "pos": 606
+                            },
+                            "end": {
+                                "line": 22,
+                                "col": 38,
+                                "pos": 611
+                            },
+                            "text": "string"
+                        },
+                        "tmods": 0
+                    }
+                }
+            ]
+        },
+        {
+            "$KIND": "Fxn",
+            "flags": 10,
+            "ident": {
+                "type": "IDENT",
+                "upath": "em.build.misc/Utils",
+                "beg": {
+                    "line": 26,
+                    "col": 14,
+                    "pos": 638
+                },
+                "end": {
+                    "line": 26,
+                    "col": 17,
+                    "pos": 641
+                },
+                "text": "mkId"
+            },
+            "docs": [],
+            "args": [
+                {
+                    "$KIND": "Arg",
+                    "flags": 10,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.build.misc/Utils",
+                        "beg": {
+                            "line": 26,
+                            "col": 19,
+                            "pos": 643
+                        },
+                        "end": {
+                            "line": 26,
+                            "col": 22,
+                            "pos": 646
+                        },
+                        "text": "pval"
+                    },
+                    "docs": [],
+                    "type": {
+                        "$KIND": "Std",
+                        "ident": {
+                            "type": "TY_STRING",
+                            "upath": "em.build.misc/Utils",
+                            "beg": {
+                                "line": 26,
+                                "col": 25,
+                                "pos": 649
+                            },
+                            "end": {
+                                "line": 26,
+                                "col": 30,
+                                "pos": 654
+                            },
+                            "text": "string"
+                        },
+                        "tmods": 0
+                    }
+                }
+            ],
+            "type": {
+                "$KIND": "Std",
+                "ident": {
+                    "type": "TY_STRING",
+                    "upath": "em.build.misc/Utils",
+                    "beg": {
+                        "line": 26,
+                        "col": 34,
+                        "pos": 658
+                    },
+                    "end": {
+                        "line": 26,
+                        "col": 39,
+                        "pos": 663
+                    },
+                    "text": "string"
+                },
+                "tmods": 0
+            }
+        },
+        {
+            "$KIND": "VarD",
+            "flags": 10,
+            "ident": {
+                "type": "IDENT",
+                "upath": "em.build.misc/Utils",
+                "beg": {
+                    "line": 27,
+                    "col": 9,
+                    "pos": 673
+                },
+                "end": {
+                    "line": 27,
+                    "col": 15,
+                    "pos": 679
+                },
+                "text": "sectTab"
+            },
+            "docs": [],
+            "type": {
+                "$KIND": "ArrC",
+                "base": {
+                    "$KIND": "Ptr",
+                    "base": {
+                        "$KIND": "Def",
+                        "tdef": {
+                            "segs": [
+                                {
+                                    "type": "IDENT",
+                                    "upath": "em.build.misc/Utils",
+                                    "beg": {
+                                        "line": 27,
+                                        "col": 18,
+                                        "pos": 682
+                                    },
+                                    "end": {
+                                        "line": 27,
+                                        "col": 25,
+                                        "pos": 689
+                                    },
+                                    "text": "SectDesc"
+                                }
+                            ]
+                        },
+                        "tmods": 0
+                    },
+                    "tmods": 0,
+                    "isRef": true
+                }
+            }
+        }
+    ],
+    "bodies": [
+        {
+            "name": {
+                "segs": [
+                    {
+                        "type": "IDENT",
+                        "upath": "em.build.misc/Utils",
+                        "beg": {
+                            "line": 31,
+                            "col": 5,
+                            "pos": 704
+                        },
+                        "end": {
+                            "line": 31,
+                            "col": 14,
+                            "pos": 713
+                        },
+                        "text": "addInclude"
+                    }
+                ]
+            },
+            "args": [
+                {
+                    "$KIND": "Arg",
+                    "flags": 0,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.build.misc/Utils",
+                        "beg": {
+                            "line": 31,
+                            "col": 16,
+                            "pos": 715
+                        },
+                        "end": {
+                            "line": 31,
+                            "col": 19,
+                            "pos": 718
+                        },
+                        "text": "path"
+                    },
+                    "docs": []
+                }
+            ],
+            "block": {
+                "$KIND": "Block",
+                "serial": 1,
+                "stmts": [
+                    {
+                        "$KIND": "Decl0",
+                        "decl": {
+                            "$KIND": "VarL",
+                            "flags": 0,
+                            "ident": {
+                                "type": "IDENT",
+                                "upath": "em.build.misc/Utils",
+                                "beg": {
+                                    "line": 32,
+                                    "col": 9,
+                                    "pos": 729
+                                },
+                                "end": {
+                                    "line": 32,
+                                    "col": 13,
+                                    "pos": 733
+                                },
+                                "text": "cincs"
+                            },
+                            "docs": [],
+                            "type": {
+                                "$KIND": "Std",
+                                "ident": {
+                                    "type": "TY_STRING",
+                                    "upath": "em.build.misc/Utils",
+                                    "beg": {
+                                        "line": 32,
+                                        "col": 16,
+                                        "pos": 736
+                                    },
+                                    "end": {
+                                        "line": 32,
+                                        "col": 21,
+                                        "pos": 741
+                                    },
+                                    "text": "string"
+                                },
+                                "tmods": 0
+                            },
+                            "init": {
+                                "$KIND": "Esc",
+                                "esc": {
+                                    "type": "CODE2",
+                                    "upath": "em.build.misc/Utils",
+                                    "beg": {
+                                        "line": 32,
+                                        "col": 25,
+                                        "pos": 745
+                                    },
+                                    "end": {
+                                        "line": 32,
+                                        "col": 68,
+                                        "pos": 788
+                                    },
+                                    "text": "em$props.get('em.build.CompileIncludes')"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "$KIND": "Assign",
+                        "expr": {
+                            "$KIND": "Binary",
+                            "left": {
+                                "$KIND": "Ident",
+                                "ident": {
+                                    "type": "IDENT",
+                                    "upath": "em.build.misc/Utils",
+                                    "beg": {
+                                        "line": 33,
+                                        "col": 5,
+                                        "pos": 794
+                                    },
+                                    "end": {
+                                        "line": 33,
+                                        "col": 9,
+                                        "pos": 798
+                                    },
+                                    "text": "cincs"
+                                }
+                            },
+                            "op": {
+                                "type": "PLUSEQ",
+                                "upath": "em.build.misc/Utils",
+                                "beg": {
+                                    "line": 33,
+                                    "col": 11,
+                                    "pos": 800
+                                },
+                                "end": {
+                                    "line": 33,
+                                    "col": 12,
+                                    "pos": 801
+                                },
+                                "text": "+="
+                            },
+                            "right": {
+                                "$KIND": "Esc",
+                                "esc": {
+                                    "type": "CODE2",
+                                    "upath": "em.build.misc/Utils",
+                                    "beg": {
+                                        "line": 33,
+                                        "col": 14,
+                                        "pos": 803
+                                    },
+                                    "end": {
+                                        "line": 33,
+                                        "col": 36,
+                                        "pos": 825
+                                    },
+                                    "text": "em$find(path) + ';'"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "$KIND": "Assign",
+                        "expr": {
+                            "$KIND": "Esc",
+                            "esc": {
+                                "type": "CODE2",
+                                "upath": "em.build.misc/Utils",
+                                "beg": {
+                                    "line": 34,
+                                    "col": 5,
+                                    "pos": 831
+                                },
+                                "end": {
+                                    "line": 34,
+                                    "col": 55,
+                                    "pos": 881
+                                },
+                                "text": "em$props.set('em.build.CompileIncludes', cincs)"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": {
+                "segs": [
+                    {
+                        "type": "IDENT",
+                        "upath": "em.build.misc/Utils",
+                        "beg": {
+                            "line": 37,
+                            "col": 5,
+                            "pos": 892
+                        },
+                        "end": {
+                            "line": 37,
+                            "col": 17,
+                            "pos": 904
+                        },
+                        "text": "addObjectFile"
+                    }
+                ]
+            },
+            "args": [
+                {
+                    "$KIND": "Arg",
+                    "flags": 0,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.build.misc/Utils",
+                        "beg": {
+                            "line": 37,
+                            "col": 19,
+                            "pos": 906
+                        },
+                        "end": {
+                            "line": 37,
+                            "col": 22,
+                            "pos": 909
+                        },
+                        "text": "path"
+                    },
+                    "docs": []
+                }
+            ],
+            "block": {
+                "$KIND": "Block",
+                "serial": 2,
+                "stmts": [
+                    {
+                        "$KIND": "Decl0",
+                        "decl": {
+                            "$KIND": "VarL",
+                            "flags": 0,
+                            "ident": {
+                                "type": "IDENT",
+                                "upath": "em.build.misc/Utils",
+                                "beg": {
+                                    "line": 38,
+                                    "col": 9,
+                                    "pos": 920
+                                },
+                                "end": {
+                                    "line": 38,
+                                    "col": 13,
+                                    "pos": 924
+                                },
+                                "text": "lobjs"
+                            },
+                            "docs": [],
+                            "type": {
+                                "$KIND": "Std",
+                                "ident": {
+                                    "type": "TY_STRING",
+                                    "upath": "em.build.misc/Utils",
+                                    "beg": {
+                                        "line": 38,
+                                        "col": 16,
+                                        "pos": 927
+                                    },
+                                    "end": {
+                                        "line": 38,
+                                        "col": 21,
+                                        "pos": 932
+                                    },
+                                    "text": "string"
+                                },
+                                "tmods": 0
+                            },
+                            "init": {
+                                "$KIND": "Esc",
+                                "esc": {
+                                    "type": "CODE2",
+                                    "upath": "em.build.misc/Utils",
+                                    "beg": {
+                                        "line": 38,
+                                        "col": 25,
+                                        "pos": 936
+                                    },
+                                    "end": {
+                                        "line": 38,
+                                        "col": 66,
+                                        "pos": 977
+                                    },
+                                    "text": "em$props.get('em.build.LinkerObjects')"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "$KIND": "Assign",
+                        "expr": {
+                            "$KIND": "Binary",
+                            "left": {
+                                "$KIND": "Ident",
+                                "ident": {
+                                    "type": "IDENT",
+                                    "upath": "em.build.misc/Utils",
+                                    "beg": {
+                                        "line": 39,
+                                        "col": 5,
+                                        "pos": 983
+                                    },
+                                    "end": {
+                                        "line": 39,
+                                        "col": 9,
+                                        "pos": 987
+                                    },
+                                    "text": "lobjs"
+                                }
+                            },
+                            "op": {
+                                "type": "PLUSEQ",
+                                "upath": "em.build.misc/Utils",
+                                "beg": {
+                                    "line": 39,
+                                    "col": 11,
+                                    "pos": 989
+                                },
+                                "end": {
+                                    "line": 39,
+                                    "col": 12,
+                                    "pos": 990
+                                },
+                                "text": "+="
+                            },
+                            "right": {
+                                "$KIND": "Esc",
+                                "esc": {
+                                    "type": "CODE2",
+                                    "upath": "em.build.misc/Utils",
+                                    "beg": {
+                                        "line": 39,
+                                        "col": 14,
+                                        "pos": 992
+                                    },
+                                    "end": {
+                                        "line": 39,
+                                        "col": 36,
+                                        "pos": 1014
+                                    },
+                                    "text": "em$find(path) + ';'"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "$KIND": "Assign",
+                        "expr": {
+                            "$KIND": "Esc",
+                            "esc": {
+                                "type": "CODE2",
+                                "upath": "em.build.misc/Utils",
+                                "beg": {
+                                    "line": 40,
+                                    "col": 5,
+                                    "pos": 1020
+                                },
+                                "end": {
+                                    "line": 40,
+                                    "col": 53,
+                                    "pos": 1068
+                                },
+                                "text": "em$props.set('em.build.LinkerObjects', lobjs)"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": {
+                "segs": [
+                    {
+                        "type": "IDENT",
+                        "upath": "em.build.misc/Utils",
+                        "beg": {
+                            "line": 43,
+                            "col": 5,
+                            "pos": 1079
+                        },
+                        "end": {
+                            "line": 43,
+                            "col": 13,
+                            "pos": 1087
+                        },
+                        "text": "addOption"
+                    }
+                ]
+            },
+            "args": [
+                {
+                    "$KIND": "Arg",
+                    "flags": 0,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.build.misc/Utils",
+                        "beg": {
+                            "line": 43,
+                            "col": 15,
+                            "pos": 1089
+                        },
+                        "end": {
+                            "line": 43,
+                            "col": 17,
+                            "pos": 1091
+                        },
+                        "text": "opt"
+                    },
+                    "docs": []
+                }
+            ],
+            "block": {
+                "$KIND": "Block",
+                "serial": 3,
+                "stmts": [
+                    {
+                        "$KIND": "Decl0",
+                        "decl": {
+                            "$KIND": "VarL",
+                            "flags": 0,
+                            "ident": {
+                                "type": "IDENT",
+                                "upath": "em.build.misc/Utils",
+                                "beg": {
+                                    "line": 44,
+                                    "col": 9,
+                                    "pos": 1102
+                                },
+                                "end": {
+                                    "line": 44,
+                                    "col": 13,
+                                    "pos": 1106
+                                },
+                                "text": "copts"
+                            },
+                            "docs": [],
+                            "type": {
+                                "$KIND": "Std",
+                                "ident": {
+                                    "type": "TY_STRING",
+                                    "upath": "em.build.misc/Utils",
+                                    "beg": {
+                                        "line": 44,
+                                        "col": 16,
+                                        "pos": 1109
+                                    },
+                                    "end": {
+                                        "line": 44,
+                                        "col": 21,
+                                        "pos": 1114
+                                    },
+                                    "text": "string"
+                                },
+                                "tmods": 0
+                            },
+                            "init": {
+                                "$KIND": "Esc",
+                                "esc": {
+                                    "type": "CODE2",
+                                    "upath": "em.build.misc/Utils",
+                                    "beg": {
+                                        "line": 44,
+                                        "col": 25,
+                                        "pos": 1118
+                                    },
+                                    "end": {
+                                        "line": 44,
+                                        "col": 67,
+                                        "pos": 1160
+                                    },
+                                    "text": "em$props.get('em.build.CompileOptions')"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "$KIND": "Assign",
+                        "expr": {
+                            "$KIND": "Binary",
+                            "left": {
+                                "$KIND": "Ident",
+                                "ident": {
+                                    "type": "IDENT",
+                                    "upath": "em.build.misc/Utils",
+                                    "beg": {
+                                        "line": 45,
+                                        "col": 5,
+                                        "pos": 1166
+                                    },
+                                    "end": {
+                                        "line": 45,
+                                        "col": 9,
+                                        "pos": 1170
+                                    },
+                                    "text": "copts"
+                                }
+                            },
+                            "op": {
+                                "type": "PLUSEQ",
+                                "upath": "em.build.misc/Utils",
+                                "beg": {
+                                    "line": 45,
+                                    "col": 11,
+                                    "pos": 1172
+                                },
+                                "end": {
+                                    "line": 45,
+                                    "col": 12,
+                                    "pos": 1173
+                                },
+                                "text": "+="
+                            },
+                            "right": {
+                                "$KIND": "Binary",
+                                "left": {
+                                    "$KIND": "Const",
+                                    "val": {
+                                        "type": "STRING",
+                                        "upath": "em.build.misc/Utils",
+                                        "beg": {
+                                            "line": 45,
+                                            "col": 14,
+                                            "pos": 1175
+                                        },
+                                        "end": {
+                                            "line": 45,
+                                            "col": 16,
+                                            "pos": 1177
+                                        },
+                                        "text": "\" \""
+                                    }
+                                },
+                                "op": {
+                                    "type": "PLUS",
+                                    "upath": "em.build.misc/Utils",
+                                    "beg": {
+                                        "line": 45,
+                                        "col": 18,
+                                        "pos": 1179
+                                    },
+                                    "end": {
+                                        "line": 45,
+                                        "col": 18,
+                                        "pos": 1179
+                                    },
+                                    "text": "+"
+                                },
+                                "right": {
+                                    "$KIND": "Ident",
+                                    "ident": {
+                                        "type": "IDENT",
+                                        "upath": "em.build.misc/Utils",
+                                        "beg": {
+                                            "line": 45,
+                                            "col": 20,
+                                            "pos": 1181
+                                        },
+                                        "end": {
+                                            "line": 45,
+                                            "col": 22,
+                                            "pos": 1183
+                                        },
+                                        "text": "opt"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "$KIND": "Assign",
+                        "expr": {
+                            "$KIND": "Esc",
+                            "esc": {
+                                "type": "CODE2",
+                                "upath": "em.build.misc/Utils",
+                                "beg": {
+                                    "line": 46,
+                                    "col": 5,
+                                    "pos": 1189
+                                },
+                                "end": {
+                                    "line": 46,
+                                    "col": 54,
+                                    "pos": 1238
+                                },
+                                "text": "em$props.set('em.build.CompileOptions', copts)"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": {
+                "segs": [
+                    {
+                        "type": "IDENT",
+                        "upath": "em.build.misc/Utils",
+                        "beg": {
+                            "line": 49,
+                            "col": 5,
+                            "pos": 1249
+                        },
+                        "end": {
+                            "line": 49,
+                            "col": 14,
+                            "pos": 1258
+                        },
+                        "text": "addSection"
+                    }
+                ]
+            },
+            "args": [
+                {
+                    "$KIND": "Arg",
+                    "flags": 0,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.build.misc/Utils",
+                        "beg": {
+                            "line": 49,
+                            "col": 16,
+                            "pos": 1260
+                        },
+                        "end": {
+                            "line": 49,
+                            "col": 19,
+                            "pos": 1263
+                        },
+                        "text": "addr"
+                    },
+                    "docs": []
+                },
+                {
+                    "$KIND": "Arg",
+                    "flags": 0,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.build.misc/Utils",
+                        "beg": {
+                            "line": 49,
+                            "col": 22,
+                            "pos": 1266
+                        },
+                        "end": {
+                            "line": 49,
+                            "col": 25,
+                            "pos": 1269
+                        },
+                        "text": "size"
+                    },
+                    "docs": []
+                },
+                {
+                    "$KIND": "Arg",
+                    "flags": 0,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.build.misc/Utils",
+                        "beg": {
+                            "line": 49,
+                            "col": 28,
+                            "pos": 1272
+                        },
+                        "end": {
+                            "line": 49,
+                            "col": 33,
+                            "pos": 1277
+                        },
+                        "text": "memory"
+                    },
+                    "docs": []
+                },
+                {
+                    "$KIND": "Arg",
+                    "flags": 0,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.build.misc/Utils",
+                        "beg": {
+                            "line": 49,
+                            "col": 36,
+                            "pos": 1280
+                        },
+                        "end": {
+                            "line": 49,
+                            "col": 41,
+                            "pos": 1285
+                        },
+                        "text": "sectid"
+                    },
+                    "docs": []
+                }
+            ],
+            "block": {
+                "$KIND": "Block",
+                "serial": 4,
+                "stmts": [
+                    {
+                        "$KIND": "Decl0",
+                        "decl": {
+                            "$KIND": "VarL",
+                            "flags": 0,
+                            "ident": {
+                                "type": "IDENT",
+                                "upath": "em.build.misc/Utils",
+                                "beg": {
+                                    "line": 50,
+                                    "col": 10,
+                                    "pos": 1297
+                                },
+                                "end": {
+                                    "line": 50,
+                                    "col": 13,
+                                    "pos": 1300
+                                },
+                                "text": "sect"
+                            },
+                            "docs": [],
+                            "init": {
+                                "$KIND": "New",
+                                "type": {
+                                    "$KIND": "Def",
+                                    "tdef": {
+                                        "segs": [
+                                            {
+                                                "type": "IDENT",
+                                                "upath": "em.build.misc/Utils",
+                                                "beg": {
+                                                    "line": 50,
+                                                    "col": 22,
+                                                    "pos": 1309
+                                                },
+                                                "end": {
+                                                    "line": 50,
+                                                    "col": 29,
+                                                    "pos": 1316
+                                                },
+                                                "text": "SectDesc"
+                                            }
+                                        ]
+                                    },
+                                    "tmods": 0
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "$KIND": "Assign",
+                        "expr": {
+                            "$KIND": "Binary",
+                            "left": {
+                                "$KIND": "Select",
+                                "base": {
+                                    "$KIND": "Ident",
+                                    "ident": {
+                                        "type": "IDENT",
+                                        "upath": "em.build.misc/Utils",
+                                        "beg": {
+                                            "line": 51,
+                                            "col": 5,
+                                            "pos": 1323
+                                        },
+                                        "end": {
+                                            "line": 51,
+                                            "col": 8,
+                                            "pos": 1326
+                                        },
+                                        "text": "sect"
+                                    }
+                                },
+                                "ident": {
+                                    "type": "IDENT",
+                                    "upath": "em.build.misc/Utils",
+                                    "beg": {
+                                        "line": 51,
+                                        "col": 10,
+                                        "pos": 1328
+                                    },
+                                    "end": {
+                                        "line": 51,
+                                        "col": 13,
+                                        "pos": 1331
+                                    },
+                                    "text": "addr"
+                                }
+                            },
+                            "op": {
+                                "type": "EQ",
+                                "upath": "em.build.misc/Utils",
+                                "beg": {
+                                    "line": 51,
+                                    "col": 15,
+                                    "pos": 1333
+                                },
+                                "end": {
+                                    "line": 51,
+                                    "col": 15,
+                                    "pos": 1333
+                                },
+                                "text": "="
+                            },
+                            "right": {
+                                "$KIND": "Ident",
+                                "ident": {
+                                    "type": "IDENT",
+                                    "upath": "em.build.misc/Utils",
+                                    "beg": {
+                                        "line": 51,
+                                        "col": 17,
+                                        "pos": 1335
+                                    },
+                                    "end": {
+                                        "line": 51,
+                                        "col": 20,
+                                        "pos": 1338
+                                    },
+                                    "text": "addr"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "$KIND": "Assign",
+                        "expr": {
+                            "$KIND": "Binary",
+                            "left": {
+                                "$KIND": "Select",
+                                "base": {
+                                    "$KIND": "Ident",
+                                    "ident": {
+                                        "type": "IDENT",
+                                        "upath": "em.build.misc/Utils",
+                                        "beg": {
+                                            "line": 52,
+                                            "col": 5,
+                                            "pos": 1344
+                                        },
+                                        "end": {
+                                            "line": 52,
+                                            "col": 8,
+                                            "pos": 1347
+                                        },
+                                        "text": "sect"
+                                    }
+                                },
+                                "ident": {
+                                    "type": "IDENT",
+                                    "upath": "em.build.misc/Utils",
+                                    "beg": {
+                                        "line": 52,
+                                        "col": 10,
+                                        "pos": 1349
+                                    },
+                                    "end": {
+                                        "line": 52,
+                                        "col": 13,
+                                        "pos": 1352
+                                    },
+                                    "text": "size"
+                                }
+                            },
+                            "op": {
+                                "type": "EQ",
+                                "upath": "em.build.misc/Utils",
+                                "beg": {
+                                    "line": 52,
+                                    "col": 15,
+                                    "pos": 1354
+                                },
+                                "end": {
+                                    "line": 52,
+                                    "col": 15,
+                                    "pos": 1354
+                                },
+                                "text": "="
+                            },
+                            "right": {
+                                "$KIND": "Ident",
+                                "ident": {
+                                    "type": "IDENT",
+                                    "upath": "em.build.misc/Utils",
+                                    "beg": {
+                                        "line": 52,
+                                        "col": 17,
+                                        "pos": 1356
+                                    },
+                                    "end": {
+                                        "line": 52,
+                                        "col": 20,
+                                        "pos": 1359
+                                    },
+                                    "text": "size"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "$KIND": "Assign",
+                        "expr": {
+                            "$KIND": "Binary",
+                            "left": {
+                                "$KIND": "Select",
+                                "base": {
+                                    "$KIND": "Ident",
+                                    "ident": {
+                                        "type": "IDENT",
+                                        "upath": "em.build.misc/Utils",
+                                        "beg": {
+                                            "line": 53,
+                                            "col": 5,
+                                            "pos": 1365
+                                        },
+                                        "end": {
+                                            "line": 53,
+                                            "col": 8,
+                                            "pos": 1368
+                                        },
+                                        "text": "sect"
+                                    }
+                                },
+                                "ident": {
+                                    "type": "IDENT",
+                                    "upath": "em.build.misc/Utils",
+                                    "beg": {
+                                        "line": 53,
+                                        "col": 10,
+                                        "pos": 1370
+                                    },
+                                    "end": {
+                                        "line": 53,
+                                        "col": 15,
+                                        "pos": 1375
+                                    },
+                                    "text": "memory"
+                                }
+                            },
+                            "op": {
+                                "type": "EQ",
+                                "upath": "em.build.misc/Utils",
+                                "beg": {
+                                    "line": 53,
+                                    "col": 17,
+                                    "pos": 1377
+                                },
+                                "end": {
+                                    "line": 53,
+                                    "col": 17,
+                                    "pos": 1377
+                                },
+                                "text": "="
+                            },
+                            "right": {
+                                "$KIND": "Ident",
+                                "ident": {
+                                    "type": "IDENT",
+                                    "upath": "em.build.misc/Utils",
+                                    "beg": {
+                                        "line": 53,
+                                        "col": 19,
+                                        "pos": 1379
+                                    },
+                                    "end": {
+                                        "line": 53,
+                                        "col": 24,
+                                        "pos": 1384
+                                    },
+                                    "text": "memory"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "$KIND": "Assign",
+                        "expr": {
+                            "$KIND": "Binary",
+                            "left": {
+                                "$KIND": "Select",
+                                "base": {
+                                    "$KIND": "Ident",
+                                    "ident": {
+                                        "type": "IDENT",
+                                        "upath": "em.build.misc/Utils",
+                                        "beg": {
+                                            "line": 54,
+                                            "col": 5,
+                                            "pos": 1390
+                                        },
+                                        "end": {
+                                            "line": 54,
+                                            "col": 8,
+                                            "pos": 1393
+                                        },
+                                        "text": "sect"
+                                    }
+                                },
+                                "ident": {
+                                    "type": "IDENT",
+                                    "upath": "em.build.misc/Utils",
+                                    "beg": {
+                                        "line": 54,
+                                        "col": 10,
+                                        "pos": 1395
+                                    },
+                                    "end": {
+                                        "line": 54,
+                                        "col": 15,
+                                        "pos": 1400
+                                    },
+                                    "text": "sectid"
+                                }
+                            },
+                            "op": {
+                                "type": "EQ",
+                                "upath": "em.build.misc/Utils",
+                                "beg": {
+                                    "line": 54,
+                                    "col": 17,
+                                    "pos": 1402
+                                },
+                                "end": {
+                                    "line": 54,
+                                    "col": 17,
+                                    "pos": 1402
+                                },
+                                "text": "="
+                            },
+                            "right": {
+                                "$KIND": "Ident",
+                                "ident": {
+                                    "type": "IDENT",
+                                    "upath": "em.build.misc/Utils",
+                                    "beg": {
+                                        "line": 54,
+                                        "col": 19,
+                                        "pos": 1404
+                                    },
+                                    "end": {
+                                        "line": 54,
+                                        "col": 24,
+                                        "pos": 1409
+                                    },
+                                    "text": "sectid"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "$KIND": "Assign",
+                        "expr": {
+                            "$KIND": "Binary",
+                            "left": {
+                                "$KIND": "Index",
+                                "base": {
+                                    "$KIND": "Ident",
+                                    "ident": {
+                                        "type": "IDENT",
+                                        "upath": "em.build.misc/Utils",
+                                        "beg": {
+                                            "line": 55,
+                                            "col": 5,
+                                            "pos": 1415
+                                        },
+                                        "end": {
+                                            "line": 55,
+                                            "col": 11,
+                                            "pos": 1421
+                                        },
+                                        "text": "sectTab"
+                                    }
+                                },
+                                "index": {
+                                    "$KIND": "Unary",
+                                    "rator": {
+                                        "type": "PLUSPLUS",
+                                        "upath": "em.build.misc/Utils",
+                                        "beg": {
+                                            "line": 55,
+                                            "col": 27,
+                                            "pos": 1437
+                                        },
+                                        "end": {
+                                            "line": 55,
+                                            "col": 28,
+                                            "pos": 1438
+                                        },
+                                        "text": "++"
+                                    },
+                                    "rand": {
+                                        "$KIND": "Select",
+                                        "base": {
+                                            "$KIND": "Ident",
+                                            "ident": {
+                                                "type": "IDENT",
+                                                "upath": "em.build.misc/Utils",
+                                                "beg": {
+                                                    "line": 55,
+                                                    "col": 13,
+                                                    "pos": 1423
+                                                },
+                                                "end": {
+                                                    "line": 55,
+                                                    "col": 19,
+                                                    "pos": 1429
+                                                },
+                                                "text": "sectTab"
+                                            }
+                                        },
+                                        "ident": {
+                                            "type": "IDENT",
+                                            "upath": "em.build.misc/Utils",
+                                            "beg": {
+                                                "line": 55,
+                                                "col": 21,
+                                                "pos": 1431
+                                            },
+                                            "end": {
+                                                "line": 55,
+                                                "col": 26,
+                                                "pos": 1436
+                                            },
+                                            "text": "length"
+                                        }
+                                    },
+                                    "isPostfix": true
+                                }
+                            },
+                            "op": {
+                                "type": "EQ",
+                                "upath": "em.build.misc/Utils",
+                                "beg": {
+                                    "line": 55,
+                                    "col": 31,
+                                    "pos": 1441
+                                },
+                                "end": {
+                                    "line": 55,
+                                    "col": 31,
+                                    "pos": 1441
+                                },
+                                "text": "="
+                            },
+                            "right": {
+                                "$KIND": "Ident",
+                                "ident": {
+                                    "type": "IDENT",
+                                    "upath": "em.build.misc/Utils",
+                                    "beg": {
+                                        "line": 55,
+                                        "col": 33,
+                                        "pos": 1443
+                                    },
+                                    "end": {
+                                        "line": 55,
+                                        "col": 36,
+                                        "pos": 1446
+                                    },
+                                    "text": "sect"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": {
+                "segs": [
+                    {
+                        "type": "IDENT",
+                        "upath": "em.build.misc/Utils",
+                        "beg": {
+                            "line": 58,
+                            "col": 5,
+                            "pos": 1457
+                        },
+                        "end": {
+                            "line": 58,
+                            "col": 8,
+                            "pos": 1460
+                        },
+                        "text": "copy"
+                    }
+                ]
+            },
+            "args": [
+                {
+                    "$KIND": "Arg",
+                    "flags": 0,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.build.misc/Utils",
+                        "beg": {
+                            "line": 58,
+                            "col": 10,
+                            "pos": 1462
+                        },
+                        "end": {
+                            "line": 58,
+                            "col": 15,
+                            "pos": 1467
+                        },
+                        "text": "dstdir"
+                    },
+                    "docs": []
+                },
+                {
+                    "$KIND": "Arg",
+                    "flags": 0,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.build.misc/Utils",
+                        "beg": {
+                            "line": 58,
+                            "col": 18,
+                            "pos": 1470
+                        },
+                        "end": {
+                            "line": 58,
+                            "col": 24,
+                            "pos": 1476
+                        },
+                        "text": "srcfile"
+                    },
+                    "docs": []
+                },
+                {
+                    "$KIND": "Arg",
+                    "flags": 0,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.build.misc/Utils",
+                        "beg": {
+                            "line": 58,
+                            "col": 27,
+                            "pos": 1479
+                        },
+                        "end": {
+                            "line": 58,
+                            "col": 32,
+                            "pos": 1484
+                        },
+                        "text": "srcpkg"
+                    },
+                    "docs": []
+                }
+            ],
+            "block": {
+                "$KIND": "Block",
+                "serial": 5,
+                "stmts": [
+                    {
+                        "$KIND": "Assign",
+                        "expr": {
+                            "$KIND": "Esc",
+                            "esc": {
+                                "type": "CODE2",
+                                "upath": "em.build.misc/Utils",
+                                "beg": {
+                                    "line": 59,
+                                    "col": 5,
+                                    "pos": 1491
+                                },
+                                "end": {
+                                    "line": 59,
+                                    "col": 53,
+                                    "pos": 1539
+                                },
+                                "text": "let srcpath = em$find(`${srcpkg}/${srcfile}`)"
+                            }
+                        }
+                    },
+                    {
+                        "$KIND": "Return",
+                        "kw": {
+                            "type": "KW_RETURN",
+                            "upath": "em.build.misc/Utils",
+                            "beg": {
+                                "line": 60,
+                                "col": 5,
+                                "pos": 1545
+                            },
+                            "end": {
+                                "line": 60,
+                                "col": 10,
+                                "pos": 1550
+                            },
+                            "text": "return"
+                        },
+                        "cond": {
+                            "$KIND": "Esc",
+                            "esc": {
+                                "type": "CODE2",
+                                "upath": "em.build.misc/Utils",
+                                "beg": {
+                                    "line": 60,
+                                    "col": 15,
+                                    "pos": 1555
+                                },
+                                "end": {
+                                    "line": 60,
+                                    "col": 26,
+                                    "pos": 1566
+                                },
+                                "text": "!srcpath"
+                            }
+                        }
+                    },
+                    {
+                        "$KIND": "Assign",
+                        "expr": {
+                            "$KIND": "Esc",
+                            "esc": {
+                                "type": "CODE2",
+                                "upath": "em.build.misc/Utils",
+                                "beg": {
+                                    "line": 61,
+                                    "col": 5,
+                                    "pos": 1572
+                                },
+                                "end": {
+                                    "line": 61,
+                                    "col": 44,
+                                    "pos": 1611
+                                },
+                                "text": "let dstpath = `${dstdir}/${srcfile}`"
+                            }
+                        }
+                    },
+                    {
+                        "$KIND": "Assign",
+                        "expr": {
+                            "$KIND": "Esc",
+                            "esc": {
+                                "type": "CODE2",
+                                "upath": "em.build.misc/Utils",
+                                "beg": {
+                                    "line": 62,
+                                    "col": 5,
+                                    "pos": 1617
+                                },
+                                "end": {
+                                    "line": 62,
+                                    "col": 61,
+                                    "pos": 1673
+                                },
+                                "text": "$Fs.writeFileSync(dstpath, $Fs.readFileSync(srcpath))"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": {
+                "segs": [
+                    {
+                        "type": "IDENT",
+                        "upath": "em.build.misc/Utils",
+                        "beg": {
+                            "line": 65,
+                            "col": 5,
+                            "pos": 1684
+                        },
+                        "end": {
+                            "line": 65,
+                            "col": 17,
+                            "pos": 1696
+                        },
+                        "text": "findCanonical"
+                    }
+                ]
+            },
+            "args": [
+                {
+                    "$KIND": "Arg",
+                    "flags": 0,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.build.misc/Utils",
+                        "beg": {
+                            "line": 65,
+                            "col": 19,
+                            "pos": 1698
+                        },
+                        "end": {
+                            "line": 65,
+                            "col": 22,
+                            "pos": 1701
+                        },
+                        "text": "path"
+                    },
+                    "docs": []
+                }
+            ],
+            "block": {
+                "$KIND": "Block",
+                "serial": 6,
+                "stmts": [
+                    {
+                        "$KIND": "Return",
+                        "kw": {
+                            "type": "KW_RETURN",
+                            "upath": "em.build.misc/Utils",
+                            "beg": {
+                                "line": 66,
+                                "col": 5,
+                                "pos": 1708
+                            },
+                            "end": {
+                                "line": 66,
+                                "col": 10,
+                                "pos": 1713
+                            },
+                            "text": "return"
+                        },
+                        "expr": {
+                            "$KIND": "Esc",
+                            "esc": {
+                                "type": "CODE2",
+                                "upath": "em.build.misc/Utils",
+                                "beg": {
+                                    "line": 66,
+                                    "col": 12,
+                                    "pos": 1715
+                                },
+                                "end": {
+                                    "line": 66,
+                                    "col": 48,
+                                    "pos": 1751
+                                },
+                                "text": "em$find(path).replace(/\\\\/g, '/')"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": {
+                "segs": [
+                    {
+                        "type": "IDENT",
+                        "upath": "em.build.misc/Utils",
+                        "beg": {
+                            "line": 69,
+                            "col": 5,
+                            "pos": 1762
+                        },
+                        "end": {
+                            "line": 69,
+                            "col": 14,
+                            "pos": 1771
+                        },
+                        "text": "genDefines"
+                    }
+                ]
+            },
+            "args": [],
+            "block": {
+                "$KIND": "Block",
+                "serial": 7,
+                "stmts": [
+                    {
+                        "$KIND": "Decl0",
+                        "decl": {
+                            "$KIND": "VarL",
+                            "flags": 0,
+                            "ident": {
+                                "type": "IDENT",
+                                "upath": "em.build.misc/Utils",
+                                "beg": {
+                                    "line": 70,
+                                    "col": 10,
+                                    "pos": 1784
+                                },
+                                "end": {
+                                    "line": 70,
+                                    "col": 18,
+                                    "pos": 1792
+                                },
+                                "text": "isWarmSrc"
+                            },
+                            "docs": [],
+                            "init": {
+                                "$KIND": "Binary",
+                                "left": {
+                                    "$KIND": "Binary",
+                                    "left": {
+                                        "$KIND": "Const",
+                                        "val": {
+                                            "type": "STRING",
+                                            "upath": "em.build.misc/Utils",
+                                            "beg": {
+                                                "line": 70,
+                                                "col": 22,
+                                                "pos": 1796
+                                            },
+                                            "end": {
+                                                "line": 70,
+                                                "col": 24,
+                                                "pos": 1798
+                                            },
+                                            "text": "\"<\""
+                                        }
+                                    },
+                                    "op": {
+                                        "type": "PLUS",
+                                        "upath": "em.build.misc/Utils",
+                                        "beg": {
+                                            "line": 70,
+                                            "col": 26,
+                                            "pos": 1800
+                                        },
+                                        "end": {
+                                            "line": 70,
+                                            "col": 26,
+                                            "pos": 1800
+                                        },
+                                        "text": "+"
+                                    },
+                                    "right": {
+                                        "$KIND": "Esc",
+                                        "esc": {
+                                            "type": "CODE2",
+                                            "upath": "em.build.misc/Utils",
+                                            "beg": {
+                                                "line": 70,
+                                                "col": 28,
+                                                "pos": 1802
+                                            },
+                                            "end": {
+                                                "line": 70,
+                                                "col": 76,
+                                                "pos": 1850
+                                            },
+                                            "text": "em$props.get('em.lang.Builder').split('/')[0]"
+                                        }
+                                    }
+                                },
+                                "op": {
+                                    "type": "PLUS",
+                                    "upath": "em.build.misc/Utils",
+                                    "beg": {
+                                        "line": 70,
+                                        "col": 78,
+                                        "pos": 1852
+                                    },
+                                    "end": {
+                                        "line": 70,
+                                        "col": 78,
+                                        "pos": 1852
+                                    },
+                                    "text": "+"
+                                },
+                                "right": {
+                                    "$KIND": "Const",
+                                    "val": {
+                                        "type": "STRING",
+                                        "upath": "em.build.misc/Utils",
+                                        "beg": {
+                                            "line": 70,
+                                            "col": 80,
+                                            "pos": 1854
+                                        },
+                                        "end": {
+                                            "line": 70,
+                                            "col": 92,
+                                            "pos": 1866
+                                        },
+                                        "text": "\"/is_warm.c>\""
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "$KIND": "Text",
+                        "textTok": {
+                            "type": "TEML",
+                            "upath": "em.build.misc/Utils",
+                            "beg": {
+                                "line": 71,
+                                "col": 9,
+                                "pos": 1876
+                            },
+                            "end": {
+                                "line": 71,
+                                "col": 45,
+                                "pos": 1912
+                            },
+                            "text": "|->    -D__EM_ARCH_`BuildC.arch`__ \\\\"
+                        }
+                    },
+                    {
+                        "$KIND": "Text",
+                        "textTok": {
+                            "type": "TEML",
+                            "upath": "em.build.misc/Utils",
+                            "beg": {
+                                "line": 72,
+                                "col": 9,
+                                "pos": 1922
+                            },
+                            "end": {
+                                "line": 72,
+                                "col": 59,
+                                "pos": 1972
+                            },
+                            "text": "|->    -D__EM_BOOT__=`BuildC.bootLoader ? 1 : 0` \\\\"
+                        }
+                    },
+                    {
+                        "$KIND": "Text",
+                        "textTok": {
+                            "type": "TEML",
+                            "upath": "em.build.misc/Utils",
+                            "beg": {
+                                "line": 73,
+                                "col": 9,
+                                "pos": 1982
+                            },
+                            "end": {
+                                "line": 73,
+                                "col": 64,
+                                "pos": 2037
+                            },
+                            "text": "|->    -D__EM_BOOT_FLASH__=`BuildC.bootFlash ? 1 : 0` \\\\"
+                        }
+                    },
+                    {
+                        "$KIND": "Text",
+                        "textTok": {
+                            "type": "TEML",
+                            "upath": "em.build.misc/Utils",
+                            "beg": {
+                                "line": 74,
+                                "col": 9,
+                                "pos": 2047
+                            },
+                            "end": {
+                                "line": 74,
+                                "col": 53,
+                                "pos": 2091
+                            },
+                            "text": "|->    -D__EM_COMPILER_`BuildC.compiler`__ \\\\"
+                        }
+                    },
+                    {
+                        "$KIND": "Text",
+                        "textTok": {
+                            "type": "TEML",
+                            "upath": "em.build.misc/Utils",
+                            "beg": {
+                                "line": 75,
+                                "col": 9,
+                                "pos": 2101
+                            },
+                            "end": {
+                                "line": 75,
+                                "col": 49,
+                                "pos": 2141
+                            },
+                            "text": "|->    -D__EM_CPU_`mkId(BuildC.cpu)`__ \\\\"
+                        }
+                    },
+                    {
+                        "$KIND": "Text",
+                        "textTok": {
+                            "type": "TEML",
+                            "upath": "em.build.misc/Utils",
+                            "beg": {
+                                "line": 76,
+                                "col": 9,
+                                "pos": 2151
+                            },
+                            "end": {
+                                "line": 76,
+                                "col": 43,
+                                "pos": 2185
+                            },
+                            "text": "|->    -D__EM_MCU_`BuildC.mcu`__ \\\\"
+                        }
+                    },
+                    {
+                        "$KIND": "Text",
+                        "textTok": {
+                            "type": "TEML",
+                            "upath": "em.build.misc/Utils",
+                            "beg": {
+                                "line": 77,
+                                "col": 9,
+                                "pos": 2195
+                            },
+                            "end": {
+                                "line": 77,
+                                "col": 48,
+                                "pos": 2234
+                            },
+                            "text": "|->    -D__EM_IS_WARM_SRC=`isWarmSrc` \\\\"
+                        }
+                    },
+                    {
+                        "$KIND": "Text",
+                        "textTok": {
+                            "type": "TEML",
+                            "upath": "em.build.misc/Utils",
+                            "beg": {
+                                "line": 78,
+                                "col": 9,
+                                "pos": 2244
+                            },
+                            "end": {
+                                "line": 78,
+                                "col": 33,
+                                "pos": 2268
+                            },
+                            "text": "|->    -D__EM_LANG__=1 \\\\"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": {
+                "segs": [
+                    {
+                        "type": "IDENT",
+                        "upath": "em.build.misc/Utils",
+                        "beg": {
+                            "line": 81,
+                            "col": 5,
+                            "pos": 2279
+                        },
+                        "end": {
+                            "line": 81,
+                            "col": 15,
+                            "pos": 2289
+                        },
+                        "text": "getSections"
+                    }
+                ]
+            },
+            "args": [],
+            "block": {
+                "$KIND": "Block",
+                "serial": 8,
+                "stmts": [
+                    {
+                        "$KIND": "Return",
+                        "kw": {
+                            "type": "KW_RETURN",
+                            "upath": "em.build.misc/Utils",
+                            "beg": {
+                                "line": 82,
+                                "col": 5,
+                                "pos": 2297
+                            },
+                            "end": {
+                                "line": 82,
+                                "col": 10,
+                                "pos": 2302
+                            },
+                            "text": "return"
+                        },
+                        "expr": {
+                            "$KIND": "Ident",
+                            "ident": {
+                                "type": "IDENT",
+                                "upath": "em.build.misc/Utils",
+                                "beg": {
+                                    "line": 82,
+                                    "col": 12,
+                                    "pos": 2304
+                                },
+                                "end": {
+                                    "line": 82,
+                                    "col": 18,
+                                    "pos": 2310
+                                },
+                                "text": "sectTab"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": {
+                "segs": [
+                    {
+                        "type": "IDENT",
+                        "upath": "em.build.misc/Utils",
+                        "beg": {
+                            "line": 85,
+                            "col": 5,
+                            "pos": 2321
+                        },
+                        "end": {
+                            "line": 85,
+                            "col": 8,
+                            "pos": 2324
+                        },
+                        "text": "mkId"
+                    }
+                ]
+            },
+            "args": [
+                {
+                    "$KIND": "Arg",
+                    "flags": 0,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.build.misc/Utils",
+                        "beg": {
+                            "line": 85,
+                            "col": 10,
+                            "pos": 2326
+                        },
+                        "end": {
+                            "line": 85,
+                            "col": 13,
+                            "pos": 2329
+                        },
+                        "text": "pval"
+                    },
+                    "docs": []
+                }
+            ],
+            "block": {
+                "$KIND": "Block",
+                "serial": 9,
+                "stmts": [
+                    {
+                        "$KIND": "Return",
+                        "kw": {
+                            "type": "KW_RETURN",
+                            "upath": "em.build.misc/Utils",
+                            "beg": {
+                                "line": 86,
+                                "col": 5,
+                                "pos": 2336
+                            },
+                            "end": {
+                                "line": 86,
+                                "col": 10,
+                                "pos": 2341
+                            },
+                            "text": "return"
+                        },
+                        "expr": {
+                            "$KIND": "Ident",
+                            "ident": {
+                                "type": "IDENT",
+                                "upath": "em.build.misc/Utils",
+                                "beg": {
+                                    "line": 86,
+                                    "col": 12,
+                                    "pos": 2343
+                                },
+                                "end": {
+                                    "line": 86,
+                                    "col": 15,
+                                    "pos": 2346
+                                },
+                                "text": "pval"
+                            }
+                        },
+                        "cond": {
+                            "$KIND": "Unary",
+                            "rator": {
+                                "type": "BANG",
+                                "upath": "em.build.misc/Utils",
+                                "beg": {
+                                    "line": 86,
+                                    "col": 20,
+                                    "pos": 2351
+                                },
+                                "end": {
+                                    "line": 86,
+                                    "col": 20,
+                                    "pos": 2351
+                                },
+                                "text": "!"
+                            },
+                            "rand": {
+                                "$KIND": "Ident",
+                                "ident": {
+                                    "type": "IDENT",
+                                    "upath": "em.build.misc/Utils",
+                                    "beg": {
+                                        "line": 86,
+                                        "col": 21,
+                                        "pos": 2352
+                                    },
+                                    "end": {
+                                        "line": 86,
+                                        "col": 24,
+                                        "pos": 2355
+                                    },
+                                    "text": "pval"
+                                }
+                            },
+                            "isPostfix": false
+                        }
+                    },
+                    {
+                        "$KIND": "Return",
+                        "kw": {
+                            "type": "KW_RETURN",
+                            "upath": "em.build.misc/Utils",
+                            "beg": {
+                                "line": 87,
+                                "col": 5,
+                                "pos": 2361
+                            },
+                            "end": {
+                                "line": 87,
+                                "col": 10,
+                                "pos": 2366
+                            },
+                            "text": "return"
+                        },
+                        "expr": {
+                            "$KIND": "Esc",
+                            "esc": {
+                                "type": "CODE2",
+                                "upath": "em.build.misc/Utils",
+                                "beg": {
+                                    "line": 87,
+                                    "col": 12,
+                                    "pos": 2368
+                                },
+                                "end": {
+                                    "line": 87,
+                                    "col": 61,
+                                    "pos": 2417
+                                },
+                                "text": "pval.replace(/-/g, '_').replace(/\\+/g, 'plus')"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": {
+                "segs": [
+                    {
+                        "type": "IDENT",
+                        "upath": "em.build.misc/Utils",
+                        "beg": {
+                            "line": 90,
+                            "col": 5,
+                            "pos": 2428
+                        },
+                        "end": {
+                            "line": 90,
+                            "col": 15,
+                            "pos": 2438
+                        },
+                        "text": "setOptimize"
+                    }
+                ]
+            },
+            "args": [
+                {
+                    "$KIND": "Arg",
+                    "flags": 0,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.build.misc/Utils",
+                        "beg": {
+                            "line": 90,
+                            "col": 17,
+                            "pos": 2440
+                        },
+                        "end": {
+                            "line": 90,
+                            "col": 21,
+                            "pos": 2444
+                        },
+                        "text": "level"
+                    },
+                    "docs": []
+                }
+            ],
+            "block": {
+                "$KIND": "Block",
+                "serial": 10,
+                "stmts": [
+                    {
+                        "$KIND": "Decl0",
+                        "decl": {
+                            "$KIND": "VarL",
+                            "flags": 0,
+                            "ident": {
+                                "type": "IDENT",
+                                "upath": "em.build.misc/Utils",
+                                "beg": {
+                                    "line": 91,
+                                    "col": 9,
+                                    "pos": 2455
+                                },
+                                "end": {
+                                    "line": 91,
+                                    "col": 13,
+                                    "pos": 2459
+                                },
+                                "text": "copts"
+                            },
+                            "docs": [],
+                            "type": {
+                                "$KIND": "Std",
+                                "ident": {
+                                    "type": "TY_STRING",
+                                    "upath": "em.build.misc/Utils",
+                                    "beg": {
+                                        "line": 91,
+                                        "col": 16,
+                                        "pos": 2462
+                                    },
+                                    "end": {
+                                        "line": 91,
+                                        "col": 21,
+                                        "pos": 2467
+                                    },
+                                    "text": "string"
+                                },
+                                "tmods": 0
+                            },
+                            "init": {
+                                "$KIND": "Esc",
+                                "esc": {
+                                    "type": "CODE2",
+                                    "upath": "em.build.misc/Utils",
+                                    "beg": {
+                                        "line": 91,
+                                        "col": 25,
+                                        "pos": 2471
+                                    },
+                                    "end": {
+                                        "line": 91,
+                                        "col": 67,
+                                        "pos": 2513
+                                    },
+                                    "text": "em$props.get('em.build.CompileOptions')"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "$KIND": "Return",
+                        "kw": {
+                            "type": "KW_RETURN",
+                            "upath": "em.build.misc/Utils",
+                            "beg": {
+                                "line": 92,
+                                "col": 5,
+                                "pos": 2519
+                            },
+                            "end": {
+                                "line": 92,
+                                "col": 10,
+                                "pos": 2524
+                            },
+                            "text": "return"
+                        },
+                        "cond": {
+                            "$KIND": "Binary",
+                            "left": {
+                                "$KIND": "Esc",
+                                "esc": {
+                                    "type": "CODE2",
+                                    "upath": "em.build.misc/Utils",
+                                    "beg": {
+                                        "line": 92,
+                                        "col": 15,
+                                        "pos": 2529
+                                    },
+                                    "end": {
+                                        "line": 92,
+                                        "col": 36,
+                                        "pos": 2550
+                                    },
+                                    "text": "copts.match(/ -O/)"
+                                }
+                            },
+                            "op": {
+                                "type": "BARBAR",
+                                "upath": "em.build.misc/Utils",
+                                "beg": {
+                                    "line": 92,
+                                    "col": 38,
+                                    "pos": 2552
+                                },
+                                "end": {
+                                    "line": 92,
+                                    "col": 39,
+                                    "pos": 2553
+                                },
+                                "text": "||"
+                            },
+                            "right": {
+                                "$KIND": "Unary",
+                                "rator": {
+                                    "type": "BANG",
+                                    "upath": "em.build.misc/Utils",
+                                    "beg": {
+                                        "line": 92,
+                                        "col": 41,
+                                        "pos": 2555
+                                    },
+                                    "end": {
+                                        "line": 92,
+                                        "col": 41,
+                                        "pos": 2555
+                                    },
+                                    "text": "!"
+                                },
+                                "rand": {
+                                    "$KIND": "Ident",
+                                    "ident": {
+                                        "type": "IDENT",
+                                        "upath": "em.build.misc/Utils",
+                                        "beg": {
+                                            "line": 92,
+                                            "col": 42,
+                                            "pos": 2556
+                                        },
+                                        "end": {
+                                            "line": 92,
+                                            "col": 46,
+                                            "pos": 2560
+                                        },
+                                        "text": "level"
+                                    }
+                                },
+                                "isPostfix": false
+                            }
+                        }
+                    },
+                    {
+                        "$KIND": "Assign",
+                        "expr": {
+                            "$KIND": "Binary",
+                            "left": {
+                                "$KIND": "Ident",
+                                "ident": {
+                                    "type": "IDENT",
+                                    "upath": "em.build.misc/Utils",
+                                    "beg": {
+                                        "line": 93,
+                                        "col": 5,
+                                        "pos": 2566
+                                    },
+                                    "end": {
+                                        "line": 93,
+                                        "col": 9,
+                                        "pos": 2570
+                                    },
+                                    "text": "copts"
+                                }
+                            },
+                            "op": {
+                                "type": "PLUSEQ",
+                                "upath": "em.build.misc/Utils",
+                                "beg": {
+                                    "line": 93,
+                                    "col": 11,
+                                    "pos": 2572
+                                },
+                                "end": {
+                                    "line": 93,
+                                    "col": 12,
+                                    "pos": 2573
+                                },
+                                "text": "+="
+                            },
+                            "right": {
+                                "$KIND": "Binary",
+                                "left": {
+                                    "$KIND": "Const",
+                                    "val": {
+                                        "type": "STRING",
+                                        "upath": "em.build.misc/Utils",
+                                        "beg": {
+                                            "line": 93,
+                                            "col": 14,
+                                            "pos": 2575
+                                        },
+                                        "end": {
+                                            "line": 93,
+                                            "col": 18,
+                                            "pos": 2579
+                                        },
+                                        "text": "\" -O\""
+                                    }
+                                },
+                                "op": {
+                                    "type": "PLUS",
+                                    "upath": "em.build.misc/Utils",
+                                    "beg": {
+                                        "line": 93,
+                                        "col": 20,
+                                        "pos": 2581
+                                    },
+                                    "end": {
+                                        "line": 93,
+                                        "col": 20,
+                                        "pos": 2581
+                                    },
+                                    "text": "+"
+                                },
+                                "right": {
+                                    "$KIND": "Ident",
+                                    "ident": {
+                                        "type": "IDENT",
+                                        "upath": "em.build.misc/Utils",
+                                        "beg": {
+                                            "line": 93,
+                                            "col": 22,
+                                            "pos": 2583
+                                        },
+                                        "end": {
+                                            "line": 93,
+                                            "col": 26,
+                                            "pos": 2587
+                                        },
+                                        "text": "level"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "$KIND": "Assign",
+                        "expr": {
+                            "$KIND": "Esc",
+                            "esc": {
+                                "type": "CODE2",
+                                "upath": "em.build.misc/Utils",
+                                "beg": {
+                                    "line": 94,
+                                    "col": 5,
+                                    "pos": 2593
+                                },
+                                "end": {
+                                    "line": 94,
+                                    "col": 54,
+                                    "pos": 2642
+                                },
+                                "text": "em$props.set('em.build.CompileOptions', copts)"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ],
+    "docs": []
+}

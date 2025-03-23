@@ -1,0 +1,670 @@
+{
+    "flags": 1,
+    "pkgName": {
+        "segs": [
+            {
+                "type": "IDENT",
+                "upath": "em.utils/ListManagerI",
+                "beg": {
+                    "line": 1,
+                    "col": 9,
+                    "pos": 8
+                },
+                "end": {
+                    "line": 1,
+                    "col": 10,
+                    "pos": 9
+                },
+                "text": "em"
+            },
+            {
+                "type": "IDENT",
+                "upath": "em.utils/ListManagerI",
+                "beg": {
+                    "line": 1,
+                    "col": 12,
+                    "pos": 11
+                },
+                "end": {
+                    "line": 1,
+                    "col": 16,
+                    "pos": 15
+                },
+                "text": "utils"
+            }
+        ]
+    },
+    "imps": [],
+    "exps": [],
+    "sup": {
+        "ident": {
+            "type": "IDENT",
+            "upath": "em.utils/ListManagerI",
+            "beg": {
+                "line": 6,
+                "col": 11,
+                "pos": 103
+            },
+            "end": {
+                "line": 6,
+                "col": 22,
+                "pos": 114
+            },
+            "text": "ListManagerI"
+        }
+    },
+    "decls": [
+        {
+            "$KIND": "Agg",
+            "flags": 64,
+            "ident": {
+                "type": "IDENT",
+                "upath": "em.utils/ListManagerI",
+                "beg": {
+                    "line": 8,
+                    "col": 10,
+                    "pos": 127
+                },
+                "end": {
+                    "line": 8,
+                    "col": 16,
+                    "pos": 133
+                },
+                "text": "Element"
+            },
+            "docs": [],
+            "kw": {
+                "type": "KW_OPAQUE",
+                "upath": "em.utils/ListManagerI",
+                "beg": {
+                    "line": 8,
+                    "col": 19,
+                    "pos": 136
+                },
+                "end": {
+                    "line": 8,
+                    "col": 24,
+                    "pos": 141
+                },
+                "text": "opaque"
+            },
+            "fields": [],
+            "fxns": [
+                {
+                    "$KIND": "Fxn",
+                    "flags": 65536,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.utils/ListManagerI",
+                        "beg": {
+                            "line": 11,
+                            "col": 18,
+                            "pos": 231
+                        },
+                        "end": {
+                            "line": 11,
+                            "col": 21,
+                            "pos": 234
+                        },
+                        "text": "init"
+                    },
+                    "docs": [],
+                    "args": []
+                },
+                {
+                    "$KIND": "Fxn",
+                    "flags": 65538,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.utils/ListManagerI",
+                        "beg": {
+                            "line": 12,
+                            "col": 23,
+                            "pos": 260
+                        },
+                        "end": {
+                            "line": 12,
+                            "col": 27,
+                            "pos": 264
+                        },
+                        "text": "initH"
+                    },
+                    "docs": [],
+                    "args": []
+                },
+                {
+                    "$KIND": "Fxn",
+                    "flags": 65536,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.utils/ListManagerI",
+                        "beg": {
+                            "line": 15,
+                            "col": 18,
+                            "pos": 369
+                        },
+                        "end": {
+                            "line": 15,
+                            "col": 25,
+                            "pos": 376
+                        },
+                        "text": "isActive"
+                    },
+                    "docs": [],
+                    "args": [],
+                    "type": {
+                        "$KIND": "Std",
+                        "ident": {
+                            "type": "TY_UARG",
+                            "upath": "em.utils/ListManagerI",
+                            "beg": {
+                                "line": 15,
+                                "col": 30,
+                                "pos": 381
+                            },
+                            "end": {
+                                "line": 15,
+                                "col": 35,
+                                "pos": 386
+                            },
+                            "text": "uarg_t"
+                        },
+                        "tmods": 0
+                    }
+                }
+            ]
+        },
+        {
+            "$KIND": "Agg",
+            "flags": 64,
+            "ident": {
+                "type": "IDENT",
+                "upath": "em.utils/ListManagerI",
+                "beg": {
+                    "line": 18,
+                    "col": 10,
+                    "pos": 410
+                },
+                "end": {
+                    "line": 18,
+                    "col": 13,
+                    "pos": 413
+                },
+                "text": "List"
+            },
+            "docs": [],
+            "kw": {
+                "type": "KW_OPAQUE",
+                "upath": "em.utils/ListManagerI",
+                "beg": {
+                    "line": 18,
+                    "col": 16,
+                    "pos": 416
+                },
+                "end": {
+                    "line": 18,
+                    "col": 21,
+                    "pos": 421
+                },
+                "text": "opaque"
+            },
+            "fields": [],
+            "fxns": [
+                {
+                    "$KIND": "Fxn",
+                    "flags": 65536,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.utils/ListManagerI",
+                        "beg": {
+                            "line": 21,
+                            "col": 18,
+                            "pos": 507
+                        },
+                        "end": {
+                            "line": 21,
+                            "col": 21,
+                            "pos": 510
+                        },
+                        "text": "init"
+                    },
+                    "docs": [],
+                    "args": []
+                },
+                {
+                    "$KIND": "Fxn",
+                    "flags": 65538,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.utils/ListManagerI",
+                        "beg": {
+                            "line": 22,
+                            "col": 23,
+                            "pos": 536
+                        },
+                        "end": {
+                            "line": 22,
+                            "col": 27,
+                            "pos": 540
+                        },
+                        "text": "initH"
+                    },
+                    "docs": [],
+                    "args": []
+                },
+                {
+                    "$KIND": "Fxn",
+                    "flags": 65536,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.utils/ListManagerI",
+                        "beg": {
+                            "line": 25,
+                            "col": 18,
+                            "pos": 640
+                        },
+                        "end": {
+                            "line": 25,
+                            "col": 20,
+                            "pos": 642
+                        },
+                        "text": "add"
+                    },
+                    "docs": [],
+                    "args": [
+                        {
+                            "$KIND": "Arg",
+                            "flags": 65536,
+                            "ident": {
+                                "type": "IDENT",
+                                "upath": "em.utils/ListManagerI",
+                                "beg": {
+                                    "line": 25,
+                                    "col": 22,
+                                    "pos": 644
+                                },
+                                "end": {
+                                    "line": 25,
+                                    "col": 25,
+                                    "pos": 647
+                                },
+                                "text": "elem"
+                            },
+                            "docs": [],
+                            "type": {
+                                "$KIND": "Ptr",
+                                "base": {
+                                    "$KIND": "Def",
+                                    "tdef": {
+                                        "segs": [
+                                            {
+                                                "type": "IDENT",
+                                                "upath": "em.utils/ListManagerI",
+                                                "beg": {
+                                                    "line": 25,
+                                                    "col": 28,
+                                                    "pos": 650
+                                                },
+                                                "end": {
+                                                    "line": 25,
+                                                    "col": 34,
+                                                    "pos": 656
+                                                },
+                                                "text": "Element"
+                                            }
+                                        ]
+                                    },
+                                    "tmods": 0
+                                },
+                                "tmods": 0,
+                                "isRef": true
+                            }
+                        }
+                    ]
+                },
+                {
+                    "$KIND": "Fxn",
+                    "flags": 65536,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.utils/ListManagerI",
+                        "beg": {
+                            "line": 28,
+                            "col": 18,
+                            "pos": 760
+                        },
+                        "end": {
+                            "line": 28,
+                            "col": 20,
+                            "pos": 762
+                        },
+                        "text": "get"
+                    },
+                    "docs": [],
+                    "args": [],
+                    "type": {
+                        "$KIND": "Std",
+                        "ident": {
+                            "type": "TY_REF",
+                            "upath": "em.utils/ListManagerI",
+                            "beg": {
+                                "line": 28,
+                                "col": 25,
+                                "pos": 767
+                            },
+                            "end": {
+                                "line": 28,
+                                "col": 29,
+                                "pos": 771
+                            },
+                            "text": "ref_t"
+                        },
+                        "tmods": 0
+                    }
+                },
+                {
+                    "$KIND": "Fxn",
+                    "flags": 65536,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.utils/ListManagerI",
+                        "beg": {
+                            "line": 31,
+                            "col": 18,
+                            "pos": 868
+                        },
+                        "end": {
+                            "line": 31,
+                            "col": 22,
+                            "pos": 872
+                        },
+                        "text": "getAt"
+                    },
+                    "docs": [],
+                    "args": [
+                        {
+                            "$KIND": "Arg",
+                            "flags": 65536,
+                            "ident": {
+                                "type": "IDENT",
+                                "upath": "em.utils/ListManagerI",
+                                "beg": {
+                                    "line": 31,
+                                    "col": 24,
+                                    "pos": 874
+                                },
+                                "end": {
+                                    "line": 31,
+                                    "col": 28,
+                                    "pos": 878
+                                },
+                                "text": "index"
+                            },
+                            "docs": [],
+                            "type": {
+                                "$KIND": "Std",
+                                "ident": {
+                                    "type": "TY_UINT8",
+                                    "upath": "em.utils/ListManagerI",
+                                    "beg": {
+                                        "line": 31,
+                                        "col": 31,
+                                        "pos": 881
+                                    },
+                                    "end": {
+                                        "line": 31,
+                                        "col": 35,
+                                        "pos": 885
+                                    },
+                                    "text": "uint8"
+                                },
+                                "tmods": 0
+                            }
+                        }
+                    ],
+                    "type": {
+                        "$KIND": "Std",
+                        "ident": {
+                            "type": "TY_REF",
+                            "upath": "em.utils/ListManagerI",
+                            "beg": {
+                                "line": 31,
+                                "col": 39,
+                                "pos": 889
+                            },
+                            "end": {
+                                "line": 31,
+                                "col": 43,
+                                "pos": 893
+                            },
+                            "text": "ref_t"
+                        },
+                        "tmods": 0
+                    }
+                },
+                {
+                    "$KIND": "Fxn",
+                    "flags": 65536,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.utils/ListManagerI",
+                        "beg": {
+                            "line": 34,
+                            "col": 18,
+                            "pos": 999
+                        },
+                        "end": {
+                            "line": 34,
+                            "col": 24,
+                            "pos": 1005
+                        },
+                        "text": "getNext"
+                    },
+                    "docs": [],
+                    "args": [
+                        {
+                            "$KIND": "Arg",
+                            "flags": 65536,
+                            "ident": {
+                                "type": "IDENT",
+                                "upath": "em.utils/ListManagerI",
+                                "beg": {
+                                    "line": 34,
+                                    "col": 26,
+                                    "pos": 1007
+                                },
+                                "end": {
+                                    "line": 34,
+                                    "col": 29,
+                                    "pos": 1010
+                                },
+                                "text": "elem"
+                            },
+                            "docs": [],
+                            "type": {
+                                "$KIND": "Ptr",
+                                "base": {
+                                    "$KIND": "Def",
+                                    "tdef": {
+                                        "segs": [
+                                            {
+                                                "type": "IDENT",
+                                                "upath": "em.utils/ListManagerI",
+                                                "beg": {
+                                                    "line": 34,
+                                                    "col": 32,
+                                                    "pos": 1013
+                                                },
+                                                "end": {
+                                                    "line": 34,
+                                                    "col": 38,
+                                                    "pos": 1019
+                                                },
+                                                "text": "Element"
+                                            }
+                                        ]
+                                    },
+                                    "tmods": 0
+                                },
+                                "tmods": 0,
+                                "isRef": true
+                            }
+                        }
+                    ],
+                    "type": {
+                        "$KIND": "Std",
+                        "ident": {
+                            "type": "TY_REF",
+                            "upath": "em.utils/ListManagerI",
+                            "beg": {
+                                "line": 34,
+                                "col": 43,
+                                "pos": 1024
+                            },
+                            "end": {
+                                "line": 34,
+                                "col": 47,
+                                "pos": 1028
+                            },
+                            "text": "ref_t"
+                        },
+                        "tmods": 0
+                    }
+                },
+                {
+                    "$KIND": "Fxn",
+                    "flags": 65536,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.utils/ListManagerI",
+                        "beg": {
+                            "line": 37,
+                            "col": 18,
+                            "pos": 1117
+                        },
+                        "end": {
+                            "line": 37,
+                            "col": 28,
+                            "pos": 1127
+                        },
+                        "text": "hasElements"
+                    },
+                    "docs": [],
+                    "args": [],
+                    "type": {
+                        "$KIND": "Std",
+                        "ident": {
+                            "type": "TY_UARG",
+                            "upath": "em.utils/ListManagerI",
+                            "beg": {
+                                "line": 37,
+                                "col": 33,
+                                "pos": 1132
+                            },
+                            "end": {
+                                "line": 37,
+                                "col": 38,
+                                "pos": 1137
+                            },
+                            "text": "uarg_t"
+                        },
+                        "tmods": 0
+                    }
+                },
+                {
+                    "$KIND": "Fxn",
+                    "flags": 65536,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.utils/ListManagerI",
+                        "beg": {
+                            "line": 40,
+                            "col": 18,
+                            "pos": 1212
+                        },
+                        "end": {
+                            "line": 40,
+                            "col": 22,
+                            "pos": 1216
+                        },
+                        "text": "print"
+                    },
+                    "docs": [],
+                    "args": []
+                },
+                {
+                    "$KIND": "Fxn",
+                    "flags": 65536,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.utils/ListManagerI",
+                        "beg": {
+                            "line": 43,
+                            "col": 18,
+                            "pos": 1301
+                        },
+                        "end": {
+                            "line": 43,
+                            "col": 23,
+                            "pos": 1306
+                        },
+                        "text": "remove"
+                    },
+                    "docs": [],
+                    "args": [
+                        {
+                            "$KIND": "Arg",
+                            "flags": 65536,
+                            "ident": {
+                                "type": "IDENT",
+                                "upath": "em.utils/ListManagerI",
+                                "beg": {
+                                    "line": 43,
+                                    "col": 25,
+                                    "pos": 1308
+                                },
+                                "end": {
+                                    "line": 43,
+                                    "col": 28,
+                                    "pos": 1311
+                                },
+                                "text": "elem"
+                            },
+                            "docs": [],
+                            "type": {
+                                "$KIND": "Ptr",
+                                "base": {
+                                    "$KIND": "Def",
+                                    "tdef": {
+                                        "segs": [
+                                            {
+                                                "type": "IDENT",
+                                                "upath": "em.utils/ListManagerI",
+                                                "beg": {
+                                                    "line": 43,
+                                                    "col": 31,
+                                                    "pos": 1314
+                                                },
+                                                "end": {
+                                                    "line": 43,
+                                                    "col": 37,
+                                                    "pos": 1320
+                                                },
+                                                "text": "Element"
+                                            }
+                                        ]
+                                    },
+                                    "tmods": 0
+                                },
+                                "tmods": 0,
+                                "isRef": true
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "bodies": [],
+    "docs": []
+}

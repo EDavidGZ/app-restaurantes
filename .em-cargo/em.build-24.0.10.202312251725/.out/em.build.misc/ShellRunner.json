@@ -1,0 +1,765 @@
+{
+    "flags": 6,
+    "pkgName": {
+        "segs": [
+            {
+                "type": "IDENT",
+                "upath": "em.build.misc/ShellRunner",
+                "beg": {
+                    "line": 1,
+                    "col": 9,
+                    "pos": 8
+                },
+                "end": {
+                    "line": 1,
+                    "col": 10,
+                    "pos": 9
+                },
+                "text": "em"
+            },
+            {
+                "type": "IDENT",
+                "upath": "em.build.misc/ShellRunner",
+                "beg": {
+                    "line": 1,
+                    "col": 12,
+                    "pos": 11
+                },
+                "end": {
+                    "line": 1,
+                    "col": 16,
+                    "pos": 15
+                },
+                "text": "build"
+            },
+            {
+                "type": "IDENT",
+                "upath": "em.build.misc/ShellRunner",
+                "beg": {
+                    "line": 1,
+                    "col": 18,
+                    "pos": 17
+                },
+                "end": {
+                    "line": 1,
+                    "col": 21,
+                    "pos": 20
+                },
+                "text": "misc"
+            }
+        ]
+    },
+    "imps": [],
+    "exps": [],
+    "sup": {
+        "ident": {
+            "type": "IDENT",
+            "upath": "em.build.misc/ShellRunner",
+            "beg": {
+                "line": 3,
+                "col": 13,
+                "pos": 35
+            },
+            "end": {
+                "line": 3,
+                "col": 23,
+                "pos": 45
+            },
+            "text": "ShellRunner"
+        }
+    },
+    "decls": [
+        {
+            "$KIND": "Agg",
+            "flags": 2,
+            "ident": {
+                "type": "IDENT",
+                "upath": "em.build.misc/ShellRunner",
+                "beg": {
+                    "line": 5,
+                    "col": 10,
+                    "pos": 57
+                },
+                "end": {
+                    "line": 5,
+                    "col": 12,
+                    "pos": 59
+                },
+                "text": "Job"
+            },
+            "docs": [],
+            "kw": {
+                "type": "KW_STRUCT",
+                "upath": "em.build.misc/ShellRunner",
+                "beg": {
+                    "line": 5,
+                    "col": 15,
+                    "pos": 62
+                },
+                "end": {
+                    "line": 5,
+                    "col": 20,
+                    "pos": 67
+                },
+                "text": "struct"
+            },
+            "fields": [
+                {
+                    "$KIND": "Field",
+                    "flags": 2,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.build.misc/ShellRunner",
+                        "beg": {
+                            "line": 6,
+                            "col": 9,
+                            "pos": 77
+                        },
+                        "end": {
+                            "line": 6,
+                            "col": 14,
+                            "pos": 82
+                        },
+                        "text": "status"
+                    },
+                    "docs": [],
+                    "type": {
+                        "$KIND": "Std",
+                        "ident": {
+                            "type": "TY_INT8",
+                            "upath": "em.build.misc/ShellRunner",
+                            "beg": {
+                                "line": 6,
+                                "col": 17,
+                                "pos": 85
+                            },
+                            "end": {
+                                "line": 6,
+                                "col": 20,
+                                "pos": 88
+                            },
+                            "text": "int8"
+                        },
+                        "tmods": 0
+                    }
+                },
+                {
+                    "$KIND": "Field",
+                    "flags": 2,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.build.misc/ShellRunner",
+                        "beg": {
+                            "line": 7,
+                            "col": 9,
+                            "pos": 98
+                        },
+                        "end": {
+                            "line": 7,
+                            "col": 16,
+                            "pos": 105
+                        },
+                        "text": "errlines"
+                    },
+                    "docs": [],
+                    "type": {
+                        "$KIND": "ArrC",
+                        "base": {
+                            "$KIND": "Std",
+                            "ident": {
+                                "type": "TY_STRING",
+                                "upath": "em.build.misc/ShellRunner",
+                                "beg": {
+                                    "line": 7,
+                                    "col": 19,
+                                    "pos": 108
+                                },
+                                "end": {
+                                    "line": 7,
+                                    "col": 24,
+                                    "pos": 113
+                                },
+                                "text": "string"
+                            },
+                            "tmods": 0
+                        }
+                    }
+                },
+                {
+                    "$KIND": "Field",
+                    "flags": 2,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.build.misc/ShellRunner",
+                        "beg": {
+                            "line": 8,
+                            "col": 9,
+                            "pos": 125
+                        },
+                        "end": {
+                            "line": 8,
+                            "col": 16,
+                            "pos": 132
+                        },
+                        "text": "outlines"
+                    },
+                    "docs": [],
+                    "type": {
+                        "$KIND": "ArrC",
+                        "base": {
+                            "$KIND": "Std",
+                            "ident": {
+                                "type": "TY_STRING",
+                                "upath": "em.build.misc/ShellRunner",
+                                "beg": {
+                                    "line": 8,
+                                    "col": 19,
+                                    "pos": 135
+                                },
+                                "end": {
+                                    "line": 8,
+                                    "col": 24,
+                                    "pos": 140
+                                },
+                                "text": "string"
+                            },
+                            "tmods": 0
+                        }
+                    }
+                }
+            ],
+            "fxns": []
+        },
+        {
+            "$KIND": "Fxn",
+            "flags": 2,
+            "ident": {
+                "type": "IDENT",
+                "upath": "em.build.misc/ShellRunner",
+                "beg": {
+                    "line": 11,
+                    "col": 14,
+                    "pos": 166
+                },
+                "end": {
+                    "line": 11,
+                    "col": 17,
+                    "pos": 169
+                },
+                "text": "exec"
+            },
+            "docs": [],
+            "args": [
+                {
+                    "$KIND": "Arg",
+                    "flags": 2,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.build.misc/ShellRunner",
+                        "beg": {
+                            "line": 11,
+                            "col": 19,
+                            "pos": 171
+                        },
+                        "end": {
+                            "line": 11,
+                            "col": 26,
+                            "pos": 178
+                        },
+                        "text": "buildDir"
+                    },
+                    "docs": [],
+                    "type": {
+                        "$KIND": "Std",
+                        "ident": {
+                            "type": "TY_STRING",
+                            "upath": "em.build.misc/ShellRunner",
+                            "beg": {
+                                "line": 11,
+                                "col": 29,
+                                "pos": 181
+                            },
+                            "end": {
+                                "line": 11,
+                                "col": 34,
+                                "pos": 186
+                            },
+                            "text": "string"
+                        },
+                        "tmods": 0
+                    }
+                },
+                {
+                    "$KIND": "Arg",
+                    "flags": 2,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.build.misc/ShellRunner",
+                        "beg": {
+                            "line": 11,
+                            "col": 37,
+                            "pos": 189
+                        },
+                        "end": {
+                            "line": 11,
+                            "col": 39,
+                            "pos": 191
+                        },
+                        "text": "cmd"
+                    },
+                    "docs": [],
+                    "type": {
+                        "$KIND": "Std",
+                        "ident": {
+                            "type": "TY_STRING",
+                            "upath": "em.build.misc/ShellRunner",
+                            "beg": {
+                                "line": 11,
+                                "col": 42,
+                                "pos": 194
+                            },
+                            "end": {
+                                "line": 11,
+                                "col": 47,
+                                "pos": 199
+                            },
+                            "text": "string"
+                        },
+                        "tmods": 0
+                    }
+                }
+            ],
+            "type": {
+                "$KIND": "Ptr",
+                "base": {
+                    "$KIND": "Def",
+                    "tdef": {
+                        "segs": [
+                            {
+                                "type": "IDENT",
+                                "upath": "em.build.misc/ShellRunner",
+                                "beg": {
+                                    "line": 11,
+                                    "col": 51,
+                                    "pos": 203
+                                },
+                                "end": {
+                                    "line": 11,
+                                    "col": 53,
+                                    "pos": 205
+                                },
+                                "text": "Job"
+                            }
+                        ]
+                    },
+                    "tmods": 0
+                },
+                "tmods": 0,
+                "isRef": true
+            }
+        }
+    ],
+    "bodies": [
+        {
+            "name": {
+                "segs": [
+                    {
+                        "type": "IDENT",
+                        "upath": "em.build.misc/ShellRunner",
+                        "beg": {
+                            "line": 15,
+                            "col": 5,
+                            "pos": 218
+                        },
+                        "end": {
+                            "line": 15,
+                            "col": 8,
+                            "pos": 221
+                        },
+                        "text": "exec"
+                    }
+                ]
+            },
+            "args": [
+                {
+                    "$KIND": "Arg",
+                    "flags": 0,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.build.misc/ShellRunner",
+                        "beg": {
+                            "line": 15,
+                            "col": 10,
+                            "pos": 223
+                        },
+                        "end": {
+                            "line": 15,
+                            "col": 17,
+                            "pos": 230
+                        },
+                        "text": "buildDir"
+                    },
+                    "docs": []
+                },
+                {
+                    "$KIND": "Arg",
+                    "flags": 0,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.build.misc/ShellRunner",
+                        "beg": {
+                            "line": 15,
+                            "col": 20,
+                            "pos": 233
+                        },
+                        "end": {
+                            "line": 15,
+                            "col": 22,
+                            "pos": 235
+                        },
+                        "text": "cmd"
+                    },
+                    "docs": []
+                }
+            ],
+            "block": {
+                "$KIND": "Block",
+                "serial": 1,
+                "stmts": [
+                    {
+                        "$KIND": "Decl0",
+                        "decl": {
+                            "$KIND": "VarL",
+                            "flags": 0,
+                            "ident": {
+                                "type": "IDENT",
+                                "upath": "em.build.misc/ShellRunner",
+                                "beg": {
+                                    "line": 16,
+                                    "col": 10,
+                                    "pos": 247
+                                },
+                                "end": {
+                                    "line": 16,
+                                    "col": 12,
+                                    "pos": 249
+                                },
+                                "text": "job"
+                            },
+                            "docs": [],
+                            "init": {
+                                "$KIND": "New",
+                                "type": {
+                                    "$KIND": "Def",
+                                    "tdef": {
+                                        "segs": [
+                                            {
+                                                "type": "IDENT",
+                                                "upath": "em.build.misc/ShellRunner",
+                                                "beg": {
+                                                    "line": 16,
+                                                    "col": 21,
+                                                    "pos": 258
+                                                },
+                                                "end": {
+                                                    "line": 16,
+                                                    "col": 23,
+                                                    "pos": 260
+                                                },
+                                                "text": "Job"
+                                            }
+                                        ]
+                                    },
+                                    "tmods": 0
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "$KIND": "Assign",
+                        "expr": {
+                            "$KIND": "Esc",
+                            "esc": {
+                                "type": "CODE2",
+                                "upath": "em.build.misc/ShellRunner",
+                                "beg": {
+                                    "line": 17,
+                                    "col": 5,
+                                    "pos": 267
+                                },
+                                "end": {
+                                    "line": 17,
+                                    "col": 95,
+                                    "pos": 357
+                                },
+                                "text": "let proc = $ChildProc.spawnSync(cmd, {cwd: buildDir, shell: em$session.getShellPath()})"
+                            }
+                        }
+                    },
+                    {
+                        "$KIND": "Assign",
+                        "expr": {
+                            "$KIND": "Binary",
+                            "left": {
+                                "$KIND": "Select",
+                                "base": {
+                                    "$KIND": "Ident",
+                                    "ident": {
+                                        "type": "IDENT",
+                                        "upath": "em.build.misc/ShellRunner",
+                                        "beg": {
+                                            "line": 18,
+                                            "col": 5,
+                                            "pos": 363
+                                        },
+                                        "end": {
+                                            "line": 18,
+                                            "col": 7,
+                                            "pos": 365
+                                        },
+                                        "text": "job"
+                                    }
+                                },
+                                "ident": {
+                                    "type": "IDENT",
+                                    "upath": "em.build.misc/ShellRunner",
+                                    "beg": {
+                                        "line": 18,
+                                        "col": 9,
+                                        "pos": 367
+                                    },
+                                    "end": {
+                                        "line": 18,
+                                        "col": 14,
+                                        "pos": 372
+                                    },
+                                    "text": "status"
+                                }
+                            },
+                            "op": {
+                                "type": "EQ",
+                                "upath": "em.build.misc/ShellRunner",
+                                "beg": {
+                                    "line": 18,
+                                    "col": 16,
+                                    "pos": 374
+                                },
+                                "end": {
+                                    "line": 18,
+                                    "col": 16,
+                                    "pos": 374
+                                },
+                                "text": "="
+                            },
+                            "right": {
+                                "$KIND": "Esc",
+                                "esc": {
+                                    "type": "CODE2",
+                                    "upath": "em.build.misc/ShellRunner",
+                                    "beg": {
+                                        "line": 18,
+                                        "col": 18,
+                                        "pos": 376
+                                    },
+                                    "end": {
+                                        "line": 18,
+                                        "col": 60,
+                                        "pos": 418
+                                    },
+                                    "text": "proc.status === null ? -1 : proc.status"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "$KIND": "Assign",
+                        "expr": {
+                            "$KIND": "Binary",
+                            "left": {
+                                "$KIND": "Select",
+                                "base": {
+                                    "$KIND": "Ident",
+                                    "ident": {
+                                        "type": "IDENT",
+                                        "upath": "em.build.misc/ShellRunner",
+                                        "beg": {
+                                            "line": 19,
+                                            "col": 5,
+                                            "pos": 424
+                                        },
+                                        "end": {
+                                            "line": 19,
+                                            "col": 7,
+                                            "pos": 426
+                                        },
+                                        "text": "job"
+                                    }
+                                },
+                                "ident": {
+                                    "type": "IDENT",
+                                    "upath": "em.build.misc/ShellRunner",
+                                    "beg": {
+                                        "line": 19,
+                                        "col": 9,
+                                        "pos": 428
+                                    },
+                                    "end": {
+                                        "line": 19,
+                                        "col": 16,
+                                        "pos": 435
+                                    },
+                                    "text": "errlines"
+                                }
+                            },
+                            "op": {
+                                "type": "EQ",
+                                "upath": "em.build.misc/ShellRunner",
+                                "beg": {
+                                    "line": 19,
+                                    "col": 18,
+                                    "pos": 437
+                                },
+                                "end": {
+                                    "line": 19,
+                                    "col": 18,
+                                    "pos": 437
+                                },
+                                "text": "="
+                            },
+                            "right": {
+                                "$KIND": "Esc",
+                                "esc": {
+                                    "type": "CODE2",
+                                    "upath": "em.build.misc/ShellRunner",
+                                    "beg": {
+                                        "line": 19,
+                                        "col": 20,
+                                        "pos": 439
+                                    },
+                                    "end": {
+                                        "line": 19,
+                                        "col": 73,
+                                        "pos": 492
+                                    },
+                                    "text": "String(proc.stderr).split('\\n').map(s => s.trim())"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "$KIND": "Assign",
+                        "expr": {
+                            "$KIND": "Binary",
+                            "left": {
+                                "$KIND": "Select",
+                                "base": {
+                                    "$KIND": "Ident",
+                                    "ident": {
+                                        "type": "IDENT",
+                                        "upath": "em.build.misc/ShellRunner",
+                                        "beg": {
+                                            "line": 20,
+                                            "col": 5,
+                                            "pos": 498
+                                        },
+                                        "end": {
+                                            "line": 20,
+                                            "col": 7,
+                                            "pos": 500
+                                        },
+                                        "text": "job"
+                                    }
+                                },
+                                "ident": {
+                                    "type": "IDENT",
+                                    "upath": "em.build.misc/ShellRunner",
+                                    "beg": {
+                                        "line": 20,
+                                        "col": 9,
+                                        "pos": 502
+                                    },
+                                    "end": {
+                                        "line": 20,
+                                        "col": 16,
+                                        "pos": 509
+                                    },
+                                    "text": "outlines"
+                                }
+                            },
+                            "op": {
+                                "type": "EQ",
+                                "upath": "em.build.misc/ShellRunner",
+                                "beg": {
+                                    "line": 20,
+                                    "col": 18,
+                                    "pos": 511
+                                },
+                                "end": {
+                                    "line": 20,
+                                    "col": 18,
+                                    "pos": 511
+                                },
+                                "text": "="
+                            },
+                            "right": {
+                                "$KIND": "Esc",
+                                "esc": {
+                                    "type": "CODE2",
+                                    "upath": "em.build.misc/ShellRunner",
+                                    "beg": {
+                                        "line": 20,
+                                        "col": 20,
+                                        "pos": 513
+                                    },
+                                    "end": {
+                                        "line": 20,
+                                        "col": 73,
+                                        "pos": 566
+                                    },
+                                    "text": "String(proc.stdout).split('\\n').map(s => s.trim())"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "$KIND": "Return",
+                        "kw": {
+                            "type": "KW_RETURN",
+                            "upath": "em.build.misc/ShellRunner",
+                            "beg": {
+                                "line": 21,
+                                "col": 5,
+                                "pos": 572
+                            },
+                            "end": {
+                                "line": 21,
+                                "col": 10,
+                                "pos": 577
+                            },
+                            "text": "return"
+                        },
+                        "expr": {
+                            "$KIND": "Ident",
+                            "ident": {
+                                "type": "IDENT",
+                                "upath": "em.build.misc/ShellRunner",
+                                "beg": {
+                                    "line": 21,
+                                    "col": 12,
+                                    "pos": 579
+                                },
+                                "end": {
+                                    "line": 21,
+                                    "col": 14,
+                                    "pos": 581
+                                },
+                                "text": "job"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ],
+    "docs": []
+}

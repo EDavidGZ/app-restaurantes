@@ -1,0 +1,984 @@
+{
+    "flags": 3,
+    "pkgName": {
+        "segs": [
+            {
+                "type": "IDENT",
+                "upath": "em.lang/BuilderI",
+                "beg": {
+                    "line": 1,
+                    "col": 9,
+                    "pos": 8
+                },
+                "end": {
+                    "line": 1,
+                    "col": 10,
+                    "pos": 9
+                },
+                "text": "em"
+            },
+            {
+                "type": "IDENT",
+                "upath": "em.lang/BuilderI",
+                "beg": {
+                    "line": 1,
+                    "col": 12,
+                    "pos": 11
+                },
+                "end": {
+                    "line": 1,
+                    "col": 15,
+                    "pos": 14
+                },
+                "text": "lang"
+            }
+        ]
+    },
+    "imps": [],
+    "exps": [],
+    "sup": {
+        "ident": {
+            "type": "IDENT",
+            "upath": "em.lang/BuilderI",
+            "beg": {
+                "line": 3,
+                "col": 16,
+                "pos": 32
+            },
+            "end": {
+                "line": 3,
+                "col": 23,
+                "pos": 39
+            },
+            "text": "BuilderI"
+        }
+    },
+    "decls": [
+        {
+            "$KIND": "Agg",
+            "flags": 2,
+            "ident": {
+                "type": "IDENT",
+                "upath": "em.lang/BuilderI",
+                "beg": {
+                    "line": 5,
+                    "col": 10,
+                    "pos": 51
+                },
+                "end": {
+                    "line": 5,
+                    "col": 20,
+                    "pos": 61
+                },
+                "text": "CompileInfo"
+            },
+            "docs": [],
+            "kw": {
+                "type": "KW_STRUCT",
+                "upath": "em.lang/BuilderI",
+                "beg": {
+                    "line": 5,
+                    "col": 23,
+                    "pos": 64
+                },
+                "end": {
+                    "line": 5,
+                    "col": 28,
+                    "pos": 69
+                },
+                "text": "struct"
+            },
+            "fields": [
+                {
+                    "$KIND": "Field",
+                    "flags": 2,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.lang/BuilderI",
+                        "beg": {
+                            "line": 6,
+                            "col": 9,
+                            "pos": 79
+                        },
+                        "end": {
+                            "line": 6,
+                            "col": 15,
+                            "pos": 85
+                        },
+                        "text": "errMsgs"
+                    },
+                    "docs": [],
+                    "type": {
+                        "$KIND": "ArrC",
+                        "base": {
+                            "$KIND": "Std",
+                            "ident": {
+                                "type": "TY_STRING",
+                                "upath": "em.lang/BuilderI",
+                                "beg": {
+                                    "line": 6,
+                                    "col": 18,
+                                    "pos": 88
+                                },
+                                "end": {
+                                    "line": 6,
+                                    "col": 23,
+                                    "pos": 93
+                                },
+                                "text": "string"
+                            },
+                            "tmods": 0
+                        }
+                    }
+                },
+                {
+                    "$KIND": "Field",
+                    "flags": 2,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.lang/BuilderI",
+                        "beg": {
+                            "line": 7,
+                            "col": 9,
+                            "pos": 105
+                        },
+                        "end": {
+                            "line": 7,
+                            "col": 18,
+                            "pos": 114
+                        },
+                        "text": "imageSizes"
+                    },
+                    "docs": [],
+                    "type": {
+                        "$KIND": "Std",
+                        "ident": {
+                            "type": "TY_STRING",
+                            "upath": "em.lang/BuilderI",
+                            "beg": {
+                                "line": 7,
+                                "col": 21,
+                                "pos": 117
+                            },
+                            "end": {
+                                "line": 7,
+                                "col": 26,
+                                "pos": 122
+                            },
+                            "text": "string"
+                        },
+                        "tmods": 0
+                    }
+                },
+                {
+                    "$KIND": "Field",
+                    "flags": 2,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.lang/BuilderI",
+                        "beg": {
+                            "line": 8,
+                            "col": 9,
+                            "pos": 132
+                        },
+                        "end": {
+                            "line": 8,
+                            "col": 16,
+                            "pos": 139
+                        },
+                        "text": "procStat"
+                    },
+                    "docs": [],
+                    "type": {
+                        "$KIND": "Std",
+                        "ident": {
+                            "type": "TY_INT8",
+                            "upath": "em.lang/BuilderI",
+                            "beg": {
+                                "line": 8,
+                                "col": 19,
+                                "pos": 142
+                            },
+                            "end": {
+                                "line": 8,
+                                "col": 22,
+                                "pos": 145
+                            },
+                            "text": "int8"
+                        },
+                        "tmods": 0
+                    }
+                }
+            ],
+            "fxns": []
+        },
+        {
+            "$KIND": "Typedef",
+            "flags": 2,
+            "ident": {
+                "type": "IDENT",
+                "upath": "em.lang/BuilderI",
+                "beg": {
+                    "line": 11,
+                    "col": 10,
+                    "pos": 165
+                },
+                "end": {
+                    "line": 11,
+                    "col": 21,
+                    "pos": 176
+                },
+                "text": "TypeInfoDesc"
+            },
+            "docs": [],
+            "type": {
+                "$KIND": "ArrV",
+                "base": {
+                    "$KIND": "Std",
+                    "ident": {
+                        "type": "TY_UINT8",
+                        "upath": "em.lang/BuilderI",
+                        "beg": {
+                            "line": 11,
+                            "col": 24,
+                            "pos": 179
+                        },
+                        "end": {
+                            "line": 11,
+                            "col": 28,
+                            "pos": 183
+                        },
+                        "text": "uint8"
+                    },
+                    "tmods": 0
+                },
+                "dim": {
+                    "$KIND": "Const",
+                    "val": {
+                        "type": "NUM",
+                        "upath": "em.lang/BuilderI",
+                        "beg": {
+                            "line": 11,
+                            "col": 30,
+                            "pos": 185
+                        },
+                        "end": {
+                            "line": 11,
+                            "col": 30,
+                            "pos": 185
+                        },
+                        "text": "2"
+                    }
+                }
+            }
+        },
+        {
+            "$KIND": "Agg",
+            "flags": 2,
+            "ident": {
+                "type": "IDENT",
+                "upath": "em.lang/BuilderI",
+                "beg": {
+                    "line": 13,
+                    "col": 10,
+                    "pos": 198
+                },
+                "end": {
+                    "line": 13,
+                    "col": 17,
+                    "pos": 205
+                },
+                "text": "TypeInfo"
+            },
+            "docs": [],
+            "kw": {
+                "type": "KW_STRUCT",
+                "upath": "em.lang/BuilderI",
+                "beg": {
+                    "line": 13,
+                    "col": 20,
+                    "pos": 208
+                },
+                "end": {
+                    "line": 13,
+                    "col": 25,
+                    "pos": 213
+                },
+                "text": "struct"
+            },
+            "fields": [
+                {
+                    "$KIND": "Field",
+                    "flags": 2,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.lang/BuilderI",
+                        "beg": {
+                            "line": 14,
+                            "col": 9,
+                            "pos": 223
+                        },
+                        "end": {
+                            "line": 14,
+                            "col": 11,
+                            "pos": 225
+                        },
+                        "text": "ARG"
+                    },
+                    "docs": [],
+                    "type": {
+                        "$KIND": "Def",
+                        "tdef": {
+                            "segs": [
+                                {
+                                    "type": "IDENT",
+                                    "upath": "em.lang/BuilderI",
+                                    "beg": {
+                                        "line": 14,
+                                        "col": 17,
+                                        "pos": 231
+                                    },
+                                    "end": {
+                                        "line": 14,
+                                        "col": 28,
+                                        "pos": 242
+                                    },
+                                    "text": "TypeInfoDesc"
+                                }
+                            ]
+                        },
+                        "tmods": 0
+                    }
+                },
+                {
+                    "$KIND": "Field",
+                    "flags": 2,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.lang/BuilderI",
+                        "beg": {
+                            "line": 15,
+                            "col": 9,
+                            "pos": 252
+                        },
+                        "end": {
+                            "line": 15,
+                            "col": 12,
+                            "pos": 255
+                        },
+                        "text": "CHAR"
+                    },
+                    "docs": [],
+                    "type": {
+                        "$KIND": "Def",
+                        "tdef": {
+                            "segs": [
+                                {
+                                    "type": "IDENT",
+                                    "upath": "em.lang/BuilderI",
+                                    "beg": {
+                                        "line": 15,
+                                        "col": 17,
+                                        "pos": 260
+                                    },
+                                    "end": {
+                                        "line": 15,
+                                        "col": 28,
+                                        "pos": 271
+                                    },
+                                    "text": "TypeInfoDesc"
+                                }
+                            ]
+                        },
+                        "tmods": 0
+                    }
+                },
+                {
+                    "$KIND": "Field",
+                    "flags": 2,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.lang/BuilderI",
+                        "beg": {
+                            "line": 16,
+                            "col": 9,
+                            "pos": 281
+                        },
+                        "end": {
+                            "line": 16,
+                            "col": 11,
+                            "pos": 283
+                        },
+                        "text": "INT"
+                    },
+                    "docs": [],
+                    "type": {
+                        "$KIND": "Def",
+                        "tdef": {
+                            "segs": [
+                                {
+                                    "type": "IDENT",
+                                    "upath": "em.lang/BuilderI",
+                                    "beg": {
+                                        "line": 16,
+                                        "col": 17,
+                                        "pos": 289
+                                    },
+                                    "end": {
+                                        "line": 16,
+                                        "col": 28,
+                                        "pos": 300
+                                    },
+                                    "text": "TypeInfoDesc"
+                                }
+                            ]
+                        },
+                        "tmods": 0
+                    }
+                },
+                {
+                    "$KIND": "Field",
+                    "flags": 2,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.lang/BuilderI",
+                        "beg": {
+                            "line": 17,
+                            "col": 9,
+                            "pos": 310
+                        },
+                        "end": {
+                            "line": 17,
+                            "col": 12,
+                            "pos": 313
+                        },
+                        "text": "INT8"
+                    },
+                    "docs": [],
+                    "type": {
+                        "$KIND": "Def",
+                        "tdef": {
+                            "segs": [
+                                {
+                                    "type": "IDENT",
+                                    "upath": "em.lang/BuilderI",
+                                    "beg": {
+                                        "line": 17,
+                                        "col": 17,
+                                        "pos": 318
+                                    },
+                                    "end": {
+                                        "line": 17,
+                                        "col": 28,
+                                        "pos": 329
+                                    },
+                                    "text": "TypeInfoDesc"
+                                }
+                            ]
+                        },
+                        "tmods": 0
+                    }
+                },
+                {
+                    "$KIND": "Field",
+                    "flags": 2,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.lang/BuilderI",
+                        "beg": {
+                            "line": 18,
+                            "col": 9,
+                            "pos": 339
+                        },
+                        "end": {
+                            "line": 18,
+                            "col": 13,
+                            "pos": 343
+                        },
+                        "text": "INT16"
+                    },
+                    "docs": [],
+                    "type": {
+                        "$KIND": "Def",
+                        "tdef": {
+                            "segs": [
+                                {
+                                    "type": "IDENT",
+                                    "upath": "em.lang/BuilderI",
+                                    "beg": {
+                                        "line": 18,
+                                        "col": 17,
+                                        "pos": 347
+                                    },
+                                    "end": {
+                                        "line": 18,
+                                        "col": 28,
+                                        "pos": 358
+                                    },
+                                    "text": "TypeInfoDesc"
+                                }
+                            ]
+                        },
+                        "tmods": 0
+                    }
+                },
+                {
+                    "$KIND": "Field",
+                    "flags": 2,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.lang/BuilderI",
+                        "beg": {
+                            "line": 19,
+                            "col": 9,
+                            "pos": 368
+                        },
+                        "end": {
+                            "line": 19,
+                            "col": 13,
+                            "pos": 372
+                        },
+                        "text": "INT32"
+                    },
+                    "docs": [],
+                    "type": {
+                        "$KIND": "Def",
+                        "tdef": {
+                            "segs": [
+                                {
+                                    "type": "IDENT",
+                                    "upath": "em.lang/BuilderI",
+                                    "beg": {
+                                        "line": 19,
+                                        "col": 17,
+                                        "pos": 376
+                                    },
+                                    "end": {
+                                        "line": 19,
+                                        "col": 28,
+                                        "pos": 387
+                                    },
+                                    "text": "TypeInfoDesc"
+                                }
+                            ]
+                        },
+                        "tmods": 0
+                    }
+                },
+                {
+                    "$KIND": "Field",
+                    "flags": 2,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.lang/BuilderI",
+                        "beg": {
+                            "line": 20,
+                            "col": 9,
+                            "pos": 397
+                        },
+                        "end": {
+                            "line": 20,
+                            "col": 12,
+                            "pos": 400
+                        },
+                        "text": "LONG"
+                    },
+                    "docs": [],
+                    "type": {
+                        "$KIND": "Def",
+                        "tdef": {
+                            "segs": [
+                                {
+                                    "type": "IDENT",
+                                    "upath": "em.lang/BuilderI",
+                                    "beg": {
+                                        "line": 20,
+                                        "col": 17,
+                                        "pos": 405
+                                    },
+                                    "end": {
+                                        "line": 20,
+                                        "col": 28,
+                                        "pos": 416
+                                    },
+                                    "text": "TypeInfoDesc"
+                                }
+                            ]
+                        },
+                        "tmods": 0
+                    }
+                },
+                {
+                    "$KIND": "Field",
+                    "flags": 2,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.lang/BuilderI",
+                        "beg": {
+                            "line": 21,
+                            "col": 9,
+                            "pos": 426
+                        },
+                        "end": {
+                            "line": 21,
+                            "col": 11,
+                            "pos": 428
+                        },
+                        "text": "PTR"
+                    },
+                    "docs": [],
+                    "type": {
+                        "$KIND": "Def",
+                        "tdef": {
+                            "segs": [
+                                {
+                                    "type": "IDENT",
+                                    "upath": "em.lang/BuilderI",
+                                    "beg": {
+                                        "line": 21,
+                                        "col": 17,
+                                        "pos": 434
+                                    },
+                                    "end": {
+                                        "line": 21,
+                                        "col": 28,
+                                        "pos": 445
+                                    },
+                                    "text": "TypeInfoDesc"
+                                }
+                            ]
+                        },
+                        "tmods": 0
+                    }
+                },
+                {
+                    "$KIND": "Field",
+                    "flags": 2,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.lang/BuilderI",
+                        "beg": {
+                            "line": 22,
+                            "col": 9,
+                            "pos": 455
+                        },
+                        "end": {
+                            "line": 22,
+                            "col": 13,
+                            "pos": 459
+                        },
+                        "text": "SHORT"
+                    },
+                    "docs": [],
+                    "type": {
+                        "$KIND": "Def",
+                        "tdef": {
+                            "segs": [
+                                {
+                                    "type": "IDENT",
+                                    "upath": "em.lang/BuilderI",
+                                    "beg": {
+                                        "line": 22,
+                                        "col": 17,
+                                        "pos": 463
+                                    },
+                                    "end": {
+                                        "line": 22,
+                                        "col": 28,
+                                        "pos": 474
+                                    },
+                                    "text": "TypeInfoDesc"
+                                }
+                            ]
+                        },
+                        "tmods": 0
+                    }
+                },
+                {
+                    "$KIND": "Field",
+                    "flags": 2,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.lang/BuilderI",
+                        "beg": {
+                            "line": 23,
+                            "col": 9,
+                            "pos": 484
+                        },
+                        "end": {
+                            "line": 23,
+                            "col": 12,
+                            "pos": 487
+                        },
+                        "text": "SIZE"
+                    },
+                    "docs": [],
+                    "type": {
+                        "$KIND": "Def",
+                        "tdef": {
+                            "segs": [
+                                {
+                                    "type": "IDENT",
+                                    "upath": "em.lang/BuilderI",
+                                    "beg": {
+                                        "line": 23,
+                                        "col": 17,
+                                        "pos": 492
+                                    },
+                                    "end": {
+                                        "line": 23,
+                                        "col": 28,
+                                        "pos": 503
+                                    },
+                                    "text": "TypeInfoDesc"
+                                }
+                            ]
+                        },
+                        "tmods": 0
+                    }
+                }
+            ],
+            "fxns": []
+        },
+        {
+            "$KIND": "Fxn",
+            "flags": 2,
+            "ident": {
+                "type": "IDENT",
+                "upath": "em.lang/BuilderI",
+                "beg": {
+                    "line": 26,
+                    "col": 14,
+                    "pos": 527
+                },
+                "end": {
+                    "line": 26,
+                    "col": 20,
+                    "pos": 533
+                },
+                "text": "compile"
+            },
+            "docs": [],
+            "args": [
+                {
+                    "$KIND": "Arg",
+                    "flags": 2,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.lang/BuilderI",
+                        "beg": {
+                            "line": 26,
+                            "col": 22,
+                            "pos": 535
+                        },
+                        "end": {
+                            "line": 26,
+                            "col": 29,
+                            "pos": 542
+                        },
+                        "text": "buildDir"
+                    },
+                    "docs": [],
+                    "type": {
+                        "$KIND": "Std",
+                        "ident": {
+                            "type": "TY_STRING",
+                            "upath": "em.lang/BuilderI",
+                            "beg": {
+                                "line": 26,
+                                "col": 32,
+                                "pos": 545
+                            },
+                            "end": {
+                                "line": 26,
+                                "col": 37,
+                                "pos": 550
+                            },
+                            "text": "string"
+                        },
+                        "tmods": 0
+                    }
+                }
+            ],
+            "type": {
+                "$KIND": "Ptr",
+                "base": {
+                    "$KIND": "Def",
+                    "tdef": {
+                        "segs": [
+                            {
+                                "type": "IDENT",
+                                "upath": "em.lang/BuilderI",
+                                "beg": {
+                                    "line": 26,
+                                    "col": 41,
+                                    "pos": 554
+                                },
+                                "end": {
+                                    "line": 26,
+                                    "col": 51,
+                                    "pos": 564
+                                },
+                                "text": "CompileInfo"
+                            }
+                        ]
+                    },
+                    "tmods": 0
+                },
+                "tmods": 0,
+                "isRef": true
+            }
+        },
+        {
+            "$KIND": "Fxn",
+            "flags": 2,
+            "ident": {
+                "type": "IDENT",
+                "upath": "em.lang/BuilderI",
+                "beg": {
+                    "line": 27,
+                    "col": 14,
+                    "pos": 580
+                },
+                "end": {
+                    "line": 27,
+                    "col": 24,
+                    "pos": 590
+                },
+                "text": "getTypeInfo"
+            },
+            "docs": [],
+            "args": [],
+            "type": {
+                "$KIND": "Ptr",
+                "base": {
+                    "$KIND": "Def",
+                    "tdef": {
+                        "segs": [
+                            {
+                                "type": "IDENT",
+                                "upath": "em.lang/BuilderI",
+                                "beg": {
+                                    "line": 27,
+                                    "col": 29,
+                                    "pos": 595
+                                },
+                                "end": {
+                                    "line": 27,
+                                    "col": 36,
+                                    "pos": 602
+                                },
+                                "text": "TypeInfo"
+                            }
+                        ]
+                    },
+                    "tmods": 0
+                },
+                "tmods": 0,
+                "isRef": true
+            }
+        },
+        {
+            "$KIND": "Fxn",
+            "flags": 2,
+            "ident": {
+                "type": "IDENT",
+                "upath": "em.lang/BuilderI",
+                "beg": {
+                    "line": 28,
+                    "col": 14,
+                    "pos": 618
+                },
+                "end": {
+                    "line": 28,
+                    "col": 21,
+                    "pos": 625
+                },
+                "text": "populate"
+            },
+            "docs": [],
+            "args": [
+                {
+                    "$KIND": "Arg",
+                    "flags": 2,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.lang/BuilderI",
+                        "beg": {
+                            "line": 28,
+                            "col": 23,
+                            "pos": 627
+                        },
+                        "end": {
+                            "line": 28,
+                            "col": 30,
+                            "pos": 634
+                        },
+                        "text": "buildDir"
+                    },
+                    "docs": [],
+                    "type": {
+                        "$KIND": "Std",
+                        "ident": {
+                            "type": "TY_STRING",
+                            "upath": "em.lang/BuilderI",
+                            "beg": {
+                                "line": 28,
+                                "col": 33,
+                                "pos": 637
+                            },
+                            "end": {
+                                "line": 28,
+                                "col": 38,
+                                "pos": 642
+                            },
+                            "text": "string"
+                        },
+                        "tmods": 0
+                    }
+                },
+                {
+                    "$KIND": "Arg",
+                    "flags": 2,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.lang/BuilderI",
+                        "beg": {
+                            "line": 28,
+                            "col": 41,
+                            "pos": 645
+                        },
+                        "end": {
+                            "line": 28,
+                            "col": 47,
+                            "pos": 651
+                        },
+                        "text": "sysFlag"
+                    },
+                    "docs": [],
+                    "type": {
+                        "$KIND": "Std",
+                        "ident": {
+                            "type": "TY_BOOL",
+                            "upath": "em.lang/BuilderI",
+                            "beg": {
+                                "line": 28,
+                                "col": 50,
+                                "pos": 654
+                            },
+                            "end": {
+                                "line": 28,
+                                "col": 53,
+                                "pos": 657
+                            },
+                            "text": "bool"
+                        },
+                        "tmods": 0
+                    }
+                }
+            ]
+        }
+    ],
+    "bodies": [],
+    "docs": []
+}

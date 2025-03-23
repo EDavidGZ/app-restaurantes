@@ -1,0 +1,953 @@
+{
+    "flags": 6,
+    "pkgName": {
+        "segs": [
+            {
+                "type": "IDENT",
+                "upath": "em.build.misc/UniFlash",
+                "beg": {
+                    "line": 1,
+                    "col": 9,
+                    "pos": 8
+                },
+                "end": {
+                    "line": 1,
+                    "col": 10,
+                    "pos": 9
+                },
+                "text": "em"
+            },
+            {
+                "type": "IDENT",
+                "upath": "em.build.misc/UniFlash",
+                "beg": {
+                    "line": 1,
+                    "col": 12,
+                    "pos": 11
+                },
+                "end": {
+                    "line": 1,
+                    "col": 16,
+                    "pos": 15
+                },
+                "text": "build"
+            },
+            {
+                "type": "IDENT",
+                "upath": "em.build.misc/UniFlash",
+                "beg": {
+                    "line": 1,
+                    "col": 18,
+                    "pos": 17
+                },
+                "end": {
+                    "line": 1,
+                    "col": 21,
+                    "pos": 20
+                },
+                "text": "misc"
+            }
+        ]
+    },
+    "imps": [
+        {
+            "from": {
+                "segs": [
+                    {
+                        "type": "IDENT",
+                        "upath": "em.build.misc/UniFlash",
+                        "beg": {
+                            "line": 3,
+                            "col": 6,
+                            "pos": 28
+                        },
+                        "end": {
+                            "line": 3,
+                            "col": 7,
+                            "pos": 29
+                        },
+                        "text": "em"
+                    },
+                    {
+                        "type": "IDENT",
+                        "upath": "em.build.misc/UniFlash",
+                        "beg": {
+                            "line": 3,
+                            "col": 9,
+                            "pos": 31
+                        },
+                        "end": {
+                            "line": 3,
+                            "col": 12,
+                            "pos": 34
+                        },
+                        "text": "lang"
+                    }
+                ]
+            },
+            "uname": {
+                "type": "IDENT",
+                "upath": "em.build.misc/UniFlash",
+                "beg": {
+                    "line": 3,
+                    "col": 21,
+                    "pos": 43
+                },
+                "end": {
+                    "line": 3,
+                    "col": 26,
+                    "pos": 48
+                },
+                "text": "BuildC"
+            }
+        }
+    ],
+    "exps": [],
+    "sup": {
+        "ident": {
+            "type": "IDENT",
+            "upath": "em.build.misc/UniFlash",
+            "beg": {
+                "line": 5,
+                "col": 13,
+                "pos": 63
+            },
+            "end": {
+                "line": 5,
+                "col": 20,
+                "pos": 70
+            },
+            "text": "UniFlash"
+        }
+    },
+    "decls": [
+        {
+            "$KIND": "Config",
+            "flags": 2,
+            "ident": {
+                "type": "IDENT",
+                "upath": "em.build.misc/UniFlash",
+                "beg": {
+                    "line": 7,
+                    "col": 12,
+                    "pos": 84
+                },
+                "end": {
+                    "line": 7,
+                    "col": 21,
+                    "pos": 93
+                },
+                "text": "installDir"
+            },
+            "docs": [],
+            "type": {
+                "$KIND": "Std",
+                "ident": {
+                    "type": "TY_STRING",
+                    "upath": "em.build.misc/UniFlash",
+                    "beg": {
+                        "line": 7,
+                        "col": 24,
+                        "pos": 96
+                    },
+                    "end": {
+                        "line": 7,
+                        "col": 29,
+                        "pos": 101
+                    },
+                    "text": "string"
+                },
+                "tmods": 0
+            }
+        },
+        {
+            "$KIND": "Fxn",
+            "flags": 34,
+            "ident": {
+                "type": "IDENT",
+                "upath": "em.build.misc/UniFlash",
+                "beg": {
+                    "line": 8,
+                    "col": 14,
+                    "pos": 116
+                },
+                "end": {
+                    "line": 8,
+                    "col": 20,
+                    "pos": 122
+                },
+                "text": "genLoad"
+            },
+            "docs": [],
+            "args": [
+                {
+                    "$KIND": "Arg",
+                    "flags": 2,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.build.misc/UniFlash",
+                        "beg": {
+                            "line": 8,
+                            "col": 22,
+                            "pos": 124
+                        },
+                        "end": {
+                            "line": 8,
+                            "col": 27,
+                            "pos": 129
+                        },
+                        "text": "device"
+                    },
+                    "docs": [],
+                    "type": {
+                        "$KIND": "Std",
+                        "ident": {
+                            "type": "TY_STRING",
+                            "upath": "em.build.misc/UniFlash",
+                            "beg": {
+                                "line": 8,
+                                "col": 30,
+                                "pos": 132
+                            },
+                            "end": {
+                                "line": 8,
+                                "col": 35,
+                                "pos": 137
+                            },
+                            "text": "string"
+                        },
+                        "tmods": 0
+                    }
+                }
+            ]
+        },
+        {
+            "$KIND": "Fxn",
+            "flags": 2,
+            "ident": {
+                "type": "IDENT",
+                "upath": "em.build.misc/UniFlash",
+                "beg": {
+                    "line": 9,
+                    "col": 14,
+                    "pos": 153
+                },
+                "end": {
+                    "line": 9,
+                    "col": 26,
+                    "pos": 165
+                },
+                "text": "genLoadScript"
+            },
+            "docs": [],
+            "args": [
+                {
+                    "$KIND": "Arg",
+                    "flags": 2,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.build.misc/UniFlash",
+                        "beg": {
+                            "line": 9,
+                            "col": 28,
+                            "pos": 167
+                        },
+                        "end": {
+                            "line": 9,
+                            "col": 35,
+                            "pos": 174
+                        },
+                        "text": "buildDir"
+                    },
+                    "docs": [],
+                    "type": {
+                        "$KIND": "Std",
+                        "ident": {
+                            "type": "TY_STRING",
+                            "upath": "em.build.misc/UniFlash",
+                            "beg": {
+                                "line": 9,
+                                "col": 38,
+                                "pos": 177
+                            },
+                            "end": {
+                                "line": 9,
+                                "col": 43,
+                                "pos": 182
+                            },
+                            "text": "string"
+                        },
+                        "tmods": 0
+                    }
+                },
+                {
+                    "$KIND": "Arg",
+                    "flags": 2,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.build.misc/UniFlash",
+                        "beg": {
+                            "line": 9,
+                            "col": 46,
+                            "pos": 185
+                        },
+                        "end": {
+                            "line": 9,
+                            "col": 51,
+                            "pos": 190
+                        },
+                        "text": "device"
+                    },
+                    "docs": [],
+                    "type": {
+                        "$KIND": "Std",
+                        "ident": {
+                            "type": "TY_STRING",
+                            "upath": "em.build.misc/UniFlash",
+                            "beg": {
+                                "line": 9,
+                                "col": 54,
+                                "pos": 193
+                            },
+                            "end": {
+                                "line": 9,
+                                "col": 59,
+                                "pos": 198
+                            },
+                            "text": "string"
+                        },
+                        "tmods": 0
+                    }
+                }
+            ]
+        }
+    ],
+    "bodies": [
+        {
+            "name": {
+                "segs": [
+                    {
+                        "type": "IDENT",
+                        "upath": "em.build.misc/UniFlash",
+                        "beg": {
+                            "line": 13,
+                            "col": 5,
+                            "pos": 211
+                        },
+                        "end": {
+                            "line": 13,
+                            "col": 11,
+                            "pos": 217
+                        },
+                        "text": "genLoad"
+                    }
+                ]
+            },
+            "args": [
+                {
+                    "$KIND": "Arg",
+                    "flags": 0,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.build.misc/UniFlash",
+                        "beg": {
+                            "line": 13,
+                            "col": 13,
+                            "pos": 219
+                        },
+                        "end": {
+                            "line": 13,
+                            "col": 18,
+                            "pos": 224
+                        },
+                        "text": "device"
+                    },
+                    "docs": []
+                }
+            ],
+            "block": {
+                "$KIND": "Block",
+                "serial": 1,
+                "stmts": [
+                    {
+                        "$KIND": "Decl0",
+                        "decl": {
+                            "$KIND": "VarL",
+                            "flags": 0,
+                            "ident": {
+                                "type": "IDENT",
+                                "upath": "em.build.misc/UniFlash",
+                                "beg": {
+                                    "line": 14,
+                                    "col": 10,
+                                    "pos": 236
+                                },
+                                "end": {
+                                    "line": 14,
+                                    "col": 12,
+                                    "pos": 238
+                                },
+                                "text": "ext"
+                            },
+                            "docs": [],
+                            "init": {
+                                "$KIND": "Cond",
+                                "test": {
+                                    "$KIND": "Esc",
+                                    "esc": {
+                                        "type": "CODE2",
+                                        "upath": "em.build.misc/UniFlash",
+                                        "beg": {
+                                            "line": 14,
+                                            "col": 16,
+                                            "pos": 242
+                                        },
+                                        "end": {
+                                            "line": 14,
+                                            "col": 46,
+                                            "pos": 272
+                                        },
+                                        "text": "process.platform == 'win32'"
+                                    }
+                                },
+                                "true0": {
+                                    "$KIND": "Const",
+                                    "val": {
+                                        "type": "STRING",
+                                        "upath": "em.build.misc/UniFlash",
+                                        "beg": {
+                                            "line": 14,
+                                            "col": 50,
+                                            "pos": 276
+                                        },
+                                        "end": {
+                                            "line": 14,
+                                            "col": 55,
+                                            "pos": 281
+                                        },
+                                        "text": "\".bat\""
+                                    }
+                                },
+                                "false": {
+                                    "$KIND": "Const",
+                                    "val": {
+                                        "type": "STRING",
+                                        "upath": "em.build.misc/UniFlash",
+                                        "beg": {
+                                            "line": 14,
+                                            "col": 59,
+                                            "pos": 285
+                                        },
+                                        "end": {
+                                            "line": 14,
+                                            "col": 63,
+                                            "pos": 289
+                                        },
+                                        "text": "\".sh\""
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "$KIND": "Assign",
+                        "expr": {
+                            "$KIND": "Binary",
+                            "left": {
+                                "$KIND": "Ident",
+                                "ident": {
+                                    "type": "IDENT",
+                                    "upath": "em.build.misc/UniFlash",
+                                    "beg": {
+                                        "line": 15,
+                                        "col": 5,
+                                        "pos": 295
+                                    },
+                                    "end": {
+                                        "line": 15,
+                                        "col": 14,
+                                        "pos": 304
+                                    },
+                                    "text": "installDir"
+                                }
+                            },
+                            "op": {
+                                "type": "EQ",
+                                "upath": "em.build.misc/UniFlash",
+                                "beg": {
+                                    "line": 15,
+                                    "col": 16,
+                                    "pos": 306
+                                },
+                                "end": {
+                                    "line": 15,
+                                    "col": 16,
+                                    "pos": 306
+                                },
+                                "text": "="
+                            },
+                            "right": {
+                                "$KIND": "Binary",
+                                "left": {
+                                    "$KIND": "Esc",
+                                    "esc": {
+                                        "type": "CODE2",
+                                        "upath": "em.build.misc/UniFlash",
+                                        "beg": {
+                                            "line": 15,
+                                            "col": 18,
+                                            "pos": 308
+                                        },
+                                        "end": {
+                                            "line": 15,
+                                            "col": 46,
+                                            "pos": 336
+                                        },
+                                        "text": "em$session.getToolsHome()"
+                                    }
+                                },
+                                "op": {
+                                    "type": "PLUS",
+                                    "upath": "em.build.misc/UniFlash",
+                                    "beg": {
+                                        "line": 15,
+                                        "col": 48,
+                                        "pos": 338
+                                    },
+                                    "end": {
+                                        "line": 15,
+                                        "col": 48,
+                                        "pos": 338
+                                    },
+                                    "text": "+"
+                                },
+                                "right": {
+                                    "$KIND": "Const",
+                                    "val": {
+                                        "type": "STRING",
+                                        "upath": "em.build.misc/UniFlash",
+                                        "beg": {
+                                            "line": 15,
+                                            "col": 50,
+                                            "pos": 340
+                                        },
+                                        "end": {
+                                            "line": 15,
+                                            "col": 63,
+                                            "pos": 353
+                                        },
+                                        "text": "\"/ti-uniflash\""
+                                    }
+                                }
+                            }
+                        },
+                        "cond": {
+                            "$KIND": "Unary",
+                            "rator": {
+                                "type": "BANG",
+                                "upath": "em.build.misc/UniFlash",
+                                "beg": {
+                                    "line": 15,
+                                    "col": 68,
+                                    "pos": 358
+                                },
+                                "end": {
+                                    "line": 15,
+                                    "col": 68,
+                                    "pos": 358
+                                },
+                                "text": "!"
+                            },
+                            "rand": {
+                                "$KIND": "Ident",
+                                "ident": {
+                                    "type": "IDENT",
+                                    "upath": "em.build.misc/UniFlash",
+                                    "beg": {
+                                        "line": 15,
+                                        "col": 69,
+                                        "pos": 359
+                                    },
+                                    "end": {
+                                        "line": 15,
+                                        "col": 78,
+                                        "pos": 368
+                                    },
+                                    "text": "installDir"
+                                }
+                            },
+                            "isPostfix": false
+                        }
+                    },
+                    {
+                        "$KIND": "Decl0",
+                        "decl": {
+                            "$KIND": "VarL",
+                            "flags": 0,
+                            "ident": {
+                                "type": "IDENT",
+                                "upath": "em.build.misc/UniFlash",
+                                "beg": {
+                                    "line": 16,
+                                    "col": 10,
+                                    "pos": 379
+                                },
+                                "end": {
+                                    "line": 16,
+                                    "col": 13,
+                                    "pos": 382
+                                },
+                                "text": "tool"
+                            },
+                            "docs": [],
+                            "init": {
+                                "$KIND": "Binary",
+                                "left": {
+                                    "$KIND": "Binary",
+                                    "left": {
+                                        "$KIND": "Ident",
+                                        "ident": {
+                                            "type": "IDENT",
+                                            "upath": "em.build.misc/UniFlash",
+                                            "beg": {
+                                                "line": 16,
+                                                "col": 17,
+                                                "pos": 386
+                                            },
+                                            "end": {
+                                                "line": 16,
+                                                "col": 26,
+                                                "pos": 395
+                                            },
+                                            "text": "installDir"
+                                        }
+                                    },
+                                    "op": {
+                                        "type": "PLUS",
+                                        "upath": "em.build.misc/UniFlash",
+                                        "beg": {
+                                            "line": 16,
+                                            "col": 28,
+                                            "pos": 397
+                                        },
+                                        "end": {
+                                            "line": 16,
+                                            "col": 28,
+                                            "pos": 397
+                                        },
+                                        "text": "+"
+                                    },
+                                    "right": {
+                                        "$KIND": "Const",
+                                        "val": {
+                                            "type": "STRING",
+                                            "upath": "em.build.misc/UniFlash",
+                                            "beg": {
+                                                "line": 16,
+                                                "col": 30,
+                                                "pos": 399
+                                            },
+                                            "end": {
+                                                "line": 16,
+                                                "col": 38,
+                                                "pos": 407
+                                            },
+                                            "text": "\"/dslite\""
+                                        }
+                                    }
+                                },
+                                "op": {
+                                    "type": "PLUS",
+                                    "upath": "em.build.misc/UniFlash",
+                                    "beg": {
+                                        "line": 16,
+                                        "col": 40,
+                                        "pos": 409
+                                    },
+                                    "end": {
+                                        "line": 16,
+                                        "col": 40,
+                                        "pos": 409
+                                    },
+                                    "text": "+"
+                                },
+                                "right": {
+                                    "$KIND": "Ident",
+                                    "ident": {
+                                        "type": "IDENT",
+                                        "upath": "em.build.misc/UniFlash",
+                                        "beg": {
+                                            "line": 16,
+                                            "col": 42,
+                                            "pos": 411
+                                        },
+                                        "end": {
+                                            "line": 16,
+                                            "col": 44,
+                                            "pos": 413
+                                        },
+                                        "text": "ext"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "$KIND": "Text",
+                        "textTok": {
+                            "type": "TEML",
+                            "upath": "em.build.misc/UniFlash",
+                            "beg": {
+                                "line": 17,
+                                "col": 9,
+                                "pos": 423
+                            },
+                            "end": {
+                                "line": 17,
+                                "col": 44,
+                                "pos": 458
+                            },
+                            "text": "|->`tool` -c `device`.ccxml main.out"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": {
+                "segs": [
+                    {
+                        "type": "IDENT",
+                        "upath": "em.build.misc/UniFlash",
+                        "beg": {
+                            "line": 20,
+                            "col": 5,
+                            "pos": 469
+                        },
+                        "end": {
+                            "line": 20,
+                            "col": 17,
+                            "pos": 481
+                        },
+                        "text": "genLoadScript"
+                    }
+                ]
+            },
+            "args": [
+                {
+                    "$KIND": "Arg",
+                    "flags": 0,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.build.misc/UniFlash",
+                        "beg": {
+                            "line": 20,
+                            "col": 19,
+                            "pos": 483
+                        },
+                        "end": {
+                            "line": 20,
+                            "col": 26,
+                            "pos": 490
+                        },
+                        "text": "buildDir"
+                    },
+                    "docs": []
+                },
+                {
+                    "$KIND": "Arg",
+                    "flags": 0,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.build.misc/UniFlash",
+                        "beg": {
+                            "line": 20,
+                            "col": 29,
+                            "pos": 493
+                        },
+                        "end": {
+                            "line": 20,
+                            "col": 34,
+                            "pos": 498
+                        },
+                        "text": "device"
+                    },
+                    "docs": []
+                }
+            ],
+            "block": {
+                "$KIND": "Block",
+                "serial": 2,
+                "stmts": [
+                    {
+                        "$KIND": "Decl0",
+                        "decl": {
+                            "$KIND": "VarL",
+                            "flags": 0,
+                            "ident": {
+                                "type": "IDENT",
+                                "upath": "em.build.misc/UniFlash",
+                                "beg": {
+                                    "line": 21,
+                                    "col": 9,
+                                    "pos": 509
+                                },
+                                "end": {
+                                    "line": 21,
+                                    "col": 10,
+                                    "pos": 510
+                                },
+                                "text": "sn"
+                            },
+                            "docs": [],
+                            "type": {
+                                "$KIND": "Std",
+                                "ident": {
+                                    "type": "TY_STRING",
+                                    "upath": "em.build.misc/UniFlash",
+                                    "beg": {
+                                        "line": 21,
+                                        "col": 13,
+                                        "pos": 513
+                                    },
+                                    "end": {
+                                        "line": 21,
+                                        "col": 18,
+                                        "pos": 518
+                                    },
+                                    "text": "string"
+                                },
+                                "tmods": 0
+                            },
+                            "init": {
+                                "$KIND": "Esc",
+                                "esc": {
+                                    "type": "CODE2",
+                                    "upath": "em.build.misc/UniFlash",
+                                    "beg": {
+                                        "line": 21,
+                                        "col": 22,
+                                        "pos": 522
+                                    },
+                                    "end": {
+                                        "line": 21,
+                                        "col": 46,
+                                        "pos": 546
+                                    },
+                                    "text": "`${buildDir}/load.sh`"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "$KIND": "Assign",
+                        "expr": {
+                            "$KIND": "Call",
+                            "base": {
+                                "$KIND": "Esc",
+                                "esc": {
+                                    "type": "CODE2",
+                                    "upath": "em.build.misc/UniFlash",
+                                    "beg": {
+                                        "line": 22,
+                                        "col": 5,
+                                        "pos": 552
+                                    },
+                                    "end": {
+                                        "line": 22,
+                                        "col": 25,
+                                        "pos": 572
+                                    },
+                                    "text": "$Fs.writeFileSync"
+                                }
+                            },
+                            "args": [
+                                {
+                                    "$KIND": "Ident",
+                                    "ident": {
+                                        "type": "IDENT",
+                                        "upath": "em.build.misc/UniFlash",
+                                        "beg": {
+                                            "line": 22,
+                                            "col": 27,
+                                            "pos": 574
+                                        },
+                                        "end": {
+                                            "line": 22,
+                                            "col": 28,
+                                            "pos": 575
+                                        },
+                                        "text": "sn"
+                                    }
+                                },
+                                {
+                                    "$KIND": "Call",
+                                    "base": {
+                                        "$KIND": "Ident",
+                                        "ident": {
+                                            "type": "IDENT",
+                                            "upath": "em.build.misc/UniFlash",
+                                            "beg": {
+                                                "line": 22,
+                                                "col": 31,
+                                                "pos": 578
+                                            },
+                                            "end": {
+                                                "line": 22,
+                                                "col": 37,
+                                                "pos": 584
+                                            },
+                                            "text": "genLoad"
+                                        }
+                                    },
+                                    "args": [
+                                        {
+                                            "$KIND": "Ident",
+                                            "ident": {
+                                                "type": "IDENT",
+                                                "upath": "em.build.misc/UniFlash",
+                                                "beg": {
+                                                    "line": 22,
+                                                    "col": 39,
+                                                    "pos": 586
+                                                },
+                                                "end": {
+                                                    "line": 22,
+                                                    "col": 44,
+                                                    "pos": 591
+                                                },
+                                                "text": "device"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "$KIND": "Assign",
+                        "expr": {
+                            "$KIND": "Esc",
+                            "esc": {
+                                "type": "CODE2",
+                                "upath": "em.build.misc/UniFlash",
+                                "beg": {
+                                    "line": 23,
+                                    "col": 5,
+                                    "pos": 599
+                                },
+                                "end": {
+                                    "line": 23,
+                                    "col": 32,
+                                    "pos": 626
+                                },
+                                "text": "$Fs.chmodSync(sn, 0o755)"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ],
+    "docs": []
+}

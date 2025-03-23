@@ -1,0 +1,710 @@
+{
+    "flags": 1,
+    "pkgName": {
+        "segs": [
+            {
+                "type": "IDENT",
+                "upath": "em.hal/McuI",
+                "beg": {
+                    "line": 1,
+                    "col": 9,
+                    "pos": 8
+                },
+                "end": {
+                    "line": 1,
+                    "col": 10,
+                    "pos": 9
+                },
+                "text": "em"
+            },
+            {
+                "type": "IDENT",
+                "upath": "em.hal/McuI",
+                "beg": {
+                    "line": 1,
+                    "col": 12,
+                    "pos": 11
+                },
+                "end": {
+                    "line": 1,
+                    "col": 14,
+                    "pos": 13
+                },
+                "text": "hal"
+            }
+        ]
+    },
+    "imps": [],
+    "exps": [],
+    "sup": {
+        "ident": {
+            "type": "IDENT",
+            "upath": "em.hal/McuI",
+            "beg": {
+                "line": 5,
+                "col": 11,
+                "pos": 59
+            },
+            "end": {
+                "line": 5,
+                "col": 14,
+                "pos": 62
+            },
+            "text": "McuI"
+        }
+    },
+    "decls": [
+        {
+            "$KIND": "Const",
+            "flags": 0,
+            "ident": {
+                "type": "IDENT",
+                "upath": "em.hal/McuI",
+                "beg": {
+                    "line": 7,
+                    "col": 11,
+                    "pos": 76
+                },
+                "end": {
+                    "line": 7,
+                    "col": 21,
+                    "pos": 86
+                },
+                "text": "ADMIN_RESET"
+            },
+            "docs": [],
+            "type": {
+                "$KIND": "Std",
+                "ident": {
+                    "type": "TY_INT8",
+                    "upath": "em.hal/McuI",
+                    "beg": {
+                        "line": 7,
+                        "col": 24,
+                        "pos": 89
+                    },
+                    "end": {
+                        "line": 7,
+                        "col": 27,
+                        "pos": 92
+                    },
+                    "text": "int8"
+                },
+                "tmods": 0
+            },
+            "init": {
+                "$KIND": "Unary",
+                "rator": {
+                    "type": "MINUS",
+                    "upath": "em.hal/McuI",
+                    "beg": {
+                        "line": 7,
+                        "col": 31,
+                        "pos": 96
+                    },
+                    "end": {
+                        "line": 7,
+                        "col": 31,
+                        "pos": 96
+                    },
+                    "text": "-"
+                },
+                "rand": {
+                    "$KIND": "Const",
+                    "val": {
+                        "type": "NUM",
+                        "upath": "em.hal/McuI",
+                        "beg": {
+                            "line": 7,
+                            "col": 32,
+                            "pos": 97
+                        },
+                        "end": {
+                            "line": 7,
+                            "col": 32,
+                            "pos": 97
+                        },
+                        "text": "1"
+                    }
+                },
+                "isPostfix": false
+            }
+        },
+        {
+            "$KIND": "Const",
+            "flags": 0,
+            "ident": {
+                "type": "IDENT",
+                "upath": "em.hal/McuI",
+                "beg": {
+                    "line": 8,
+                    "col": 11,
+                    "pos": 109
+                },
+                "end": {
+                    "line": 8,
+                    "col": 20,
+                    "pos": 118
+                },
+                "text": "HOST_RESET"
+            },
+            "docs": [],
+            "type": {
+                "$KIND": "Std",
+                "ident": {
+                    "type": "TY_INT8",
+                    "upath": "em.hal/McuI",
+                    "beg": {
+                        "line": 8,
+                        "col": 24,
+                        "pos": 122
+                    },
+                    "end": {
+                        "line": 8,
+                        "col": 27,
+                        "pos": 125
+                    },
+                    "text": "int8"
+                },
+                "tmods": 0
+            },
+            "init": {
+                "$KIND": "Unary",
+                "rator": {
+                    "type": "MINUS",
+                    "upath": "em.hal/McuI",
+                    "beg": {
+                        "line": 8,
+                        "col": 31,
+                        "pos": 129
+                    },
+                    "end": {
+                        "line": 8,
+                        "col": 31,
+                        "pos": 129
+                    },
+                    "text": "-"
+                },
+                "rand": {
+                    "$KIND": "Const",
+                    "val": {
+                        "type": "NUM",
+                        "upath": "em.hal/McuI",
+                        "beg": {
+                            "line": 8,
+                            "col": 32,
+                            "pos": 130
+                        },
+                        "end": {
+                            "line": 8,
+                            "col": 32,
+                            "pos": 130
+                        },
+                        "text": "2"
+                    }
+                },
+                "isPostfix": false
+            }
+        },
+        {
+            "$KIND": "Const",
+            "flags": 0,
+            "ident": {
+                "type": "IDENT",
+                "upath": "em.hal/McuI",
+                "beg": {
+                    "line": 9,
+                    "col": 11,
+                    "pos": 142
+                },
+                "end": {
+                    "line": 9,
+                    "col": 20,
+                    "pos": 151
+                },
+                "text": "COLD_RESET"
+            },
+            "docs": [],
+            "type": {
+                "$KIND": "Std",
+                "ident": {
+                    "type": "TY_INT8",
+                    "upath": "em.hal/McuI",
+                    "beg": {
+                        "line": 9,
+                        "col": 24,
+                        "pos": 155
+                    },
+                    "end": {
+                        "line": 9,
+                        "col": 27,
+                        "pos": 158
+                    },
+                    "text": "int8"
+                },
+                "tmods": 0
+            },
+            "init": {
+                "$KIND": "Unary",
+                "rator": {
+                    "type": "MINUS",
+                    "upath": "em.hal/McuI",
+                    "beg": {
+                        "line": 9,
+                        "col": 31,
+                        "pos": 162
+                    },
+                    "end": {
+                        "line": 9,
+                        "col": 31,
+                        "pos": 162
+                    },
+                    "text": "-"
+                },
+                "rand": {
+                    "$KIND": "Const",
+                    "val": {
+                        "type": "NUM",
+                        "upath": "em.hal/McuI",
+                        "beg": {
+                            "line": 9,
+                            "col": 32,
+                            "pos": 163
+                        },
+                        "end": {
+                            "line": 9,
+                            "col": 32,
+                            "pos": 163
+                        },
+                        "text": "3"
+                    }
+                },
+                "isPostfix": false
+            }
+        },
+        {
+            "$KIND": "Const",
+            "flags": 0,
+            "ident": {
+                "type": "IDENT",
+                "upath": "em.hal/McuI",
+                "beg": {
+                    "line": 10,
+                    "col": 11,
+                    "pos": 175
+                },
+                "end": {
+                    "line": 10,
+                    "col": 21,
+                    "pos": 185
+                },
+                "text": "FIRST_RESET"
+            },
+            "docs": [],
+            "type": {
+                "$KIND": "Std",
+                "ident": {
+                    "type": "TY_INT8",
+                    "upath": "em.hal/McuI",
+                    "beg": {
+                        "line": 10,
+                        "col": 24,
+                        "pos": 188
+                    },
+                    "end": {
+                        "line": 10,
+                        "col": 27,
+                        "pos": 191
+                    },
+                    "text": "int8"
+                },
+                "tmods": 0
+            },
+            "init": {
+                "$KIND": "Unary",
+                "rator": {
+                    "type": "MINUS",
+                    "upath": "em.hal/McuI",
+                    "beg": {
+                        "line": 10,
+                        "col": 31,
+                        "pos": 195
+                    },
+                    "end": {
+                        "line": 10,
+                        "col": 31,
+                        "pos": 195
+                    },
+                    "text": "-"
+                },
+                "rand": {
+                    "$KIND": "Const",
+                    "val": {
+                        "type": "NUM",
+                        "upath": "em.hal/McuI",
+                        "beg": {
+                            "line": 10,
+                            "col": 32,
+                            "pos": 196
+                        },
+                        "end": {
+                            "line": 10,
+                            "col": 32,
+                            "pos": 196
+                        },
+                        "text": "4"
+                    }
+                },
+                "isPostfix": false
+            }
+        },
+        {
+            "$KIND": "Config",
+            "flags": 0,
+            "ident": {
+                "type": "IDENT",
+                "upath": "em.hal/McuI",
+                "beg": {
+                    "line": 12,
+                    "col": 12,
+                    "pos": 214
+                },
+                "end": {
+                    "line": 12,
+                    "col": 24,
+                    "pos": 226
+                },
+                "text": "mclkFrequency"
+            },
+            "docs": [],
+            "type": {
+                "$KIND": "Std",
+                "ident": {
+                    "type": "TY_UINT32",
+                    "upath": "em.hal/McuI",
+                    "beg": {
+                        "line": 12,
+                        "col": 27,
+                        "pos": 229
+                    },
+                    "end": {
+                        "line": 12,
+                        "col": 32,
+                        "pos": 234
+                    },
+                    "text": "uint32"
+                },
+                "tmods": 0
+            }
+        },
+        {
+            "$KIND": "Fxn",
+            "flags": 0,
+            "ident": {
+                "type": "IDENT",
+                "upath": "em.hal/McuI",
+                "beg": {
+                    "line": 14,
+                    "col": 14,
+                    "pos": 250
+                },
+                "end": {
+                    "line": 14,
+                    "col": 25,
+                    "pos": 261
+                },
+                "text": "getResetCode"
+            },
+            "docs": [],
+            "args": [],
+            "type": {
+                "$KIND": "Std",
+                "ident": {
+                    "type": "TY_INT8",
+                    "upath": "em.hal/McuI",
+                    "beg": {
+                        "line": 14,
+                        "col": 30,
+                        "pos": 266
+                    },
+                    "end": {
+                        "line": 14,
+                        "col": 33,
+                        "pos": 269
+                    },
+                    "text": "int8"
+                },
+                "tmods": 0
+            }
+        },
+        {
+            "$KIND": "Fxn",
+            "flags": 0,
+            "ident": {
+                "type": "IDENT",
+                "upath": "em.hal/McuI",
+                "beg": {
+                    "line": 15,
+                    "col": 14,
+                    "pos": 284
+                },
+                "end": {
+                    "line": 15,
+                    "col": 25,
+                    "pos": 295
+                },
+                "text": "getStashAddr"
+            },
+            "docs": [],
+            "args": [],
+            "type": {
+                "$KIND": "Std",
+                "ident": {
+                    "type": "TY_PTR",
+                    "upath": "em.hal/McuI",
+                    "beg": {
+                        "line": 15,
+                        "col": 30,
+                        "pos": 300
+                    },
+                    "end": {
+                        "line": 15,
+                        "col": 34,
+                        "pos": 304
+                    },
+                    "text": "ptr_t"
+                },
+                "tmods": 0
+            }
+        },
+        {
+            "$KIND": "Fxn",
+            "flags": 0,
+            "ident": {
+                "type": "IDENT",
+                "upath": "em.hal/McuI",
+                "beg": {
+                    "line": 16,
+                    "col": 14,
+                    "pos": 319
+                },
+                "end": {
+                    "line": 16,
+                    "col": 19,
+                    "pos": 324
+                },
+                "text": "isWarm"
+            },
+            "docs": [],
+            "args": [],
+            "type": {
+                "$KIND": "Std",
+                "ident": {
+                    "type": "TY_BOOL",
+                    "upath": "em.hal/McuI",
+                    "beg": {
+                        "line": 16,
+                        "col": 24,
+                        "pos": 329
+                    },
+                    "end": {
+                        "line": 16,
+                        "col": 27,
+                        "pos": 332
+                    },
+                    "text": "bool"
+                },
+                "tmods": 0
+            }
+        },
+        {
+            "$KIND": "Fxn",
+            "flags": 0,
+            "ident": {
+                "type": "IDENT",
+                "upath": "em.hal/McuI",
+                "beg": {
+                    "line": 17,
+                    "col": 14,
+                    "pos": 347
+                },
+                "end": {
+                    "line": 17,
+                    "col": 22,
+                    "pos": 355
+                },
+                "text": "readEui48"
+            },
+            "docs": [],
+            "args": [
+                {
+                    "$KIND": "Arg",
+                    "flags": 0,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.hal/McuI",
+                        "beg": {
+                            "line": 17,
+                            "col": 24,
+                            "pos": 357
+                        },
+                        "end": {
+                            "line": 17,
+                            "col": 26,
+                            "pos": 359
+                        },
+                        "text": "dst"
+                    },
+                    "docs": [],
+                    "type": {
+                        "$KIND": "Ptr",
+                        "base": {
+                            "$KIND": "Std",
+                            "ident": {
+                                "type": "TY_UINT8",
+                                "upath": "em.hal/McuI",
+                                "beg": {
+                                    "line": 17,
+                                    "col": 29,
+                                    "pos": 362
+                                },
+                                "end": {
+                                    "line": 17,
+                                    "col": 33,
+                                    "pos": 366
+                                },
+                                "text": "uint8"
+                            },
+                            "tmods": 0
+                        },
+                        "tmods": 0,
+                        "isRef": false
+                    }
+                }
+            ]
+        },
+        {
+            "$KIND": "Fxn",
+            "flags": 0,
+            "ident": {
+                "type": "IDENT",
+                "upath": "em.hal/McuI",
+                "beg": {
+                    "line": 20,
+                    "col": 14,
+                    "pos": 461
+                },
+                "end": {
+                    "line": 20,
+                    "col": 18,
+                    "pos": 465
+                },
+                "text": "reset"
+            },
+            "docs": [],
+            "args": [
+                {
+                    "$KIND": "Arg",
+                    "flags": 0,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.hal/McuI",
+                        "beg": {
+                            "line": 20,
+                            "col": 20,
+                            "pos": 467
+                        },
+                        "end": {
+                            "line": 20,
+                            "col": 23,
+                            "pos": 470
+                        },
+                        "text": "code"
+                    },
+                    "docs": [],
+                    "type": {
+                        "$KIND": "Std",
+                        "ident": {
+                            "type": "TY_INT8",
+                            "upath": "em.hal/McuI",
+                            "beg": {
+                                "line": 20,
+                                "col": 26,
+                                "pos": 473
+                            },
+                            "end": {
+                                "line": 20,
+                                "col": 29,
+                                "pos": 476
+                            },
+                            "text": "int8"
+                        },
+                        "tmods": 0
+                    },
+                    "init": {
+                        "$KIND": "Const",
+                        "val": {
+                            "type": "NUM",
+                            "upath": "em.hal/McuI",
+                            "beg": {
+                                "line": 20,
+                                "col": 33,
+                                "pos": 480
+                            },
+                            "end": {
+                                "line": 20,
+                                "col": 33,
+                                "pos": 480
+                            },
+                            "text": "0"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "$KIND": "Fxn",
+            "flags": 0,
+            "ident": {
+                "type": "IDENT",
+                "upath": "em.hal/McuI",
+                "beg": {
+                    "line": 21,
+                    "col": 14,
+                    "pos": 496
+                },
+                "end": {
+                    "line": 21,
+                    "col": 20,
+                    "pos": 502
+                },
+                "text": "startup"
+            },
+            "docs": [],
+            "args": []
+        },
+        {
+            "$KIND": "Fxn",
+            "flags": 0,
+            "ident": {
+                "type": "IDENT",
+                "upath": "em.hal/McuI",
+                "beg": {
+                    "line": 22,
+                    "col": 14,
+                    "pos": 519
+                },
+                "end": {
+                    "line": 22,
+                    "col": 21,
+                    "pos": 526
+                },
+                "text": "shutdown"
+            },
+            "docs": [],
+            "args": []
+        }
+    ],
+    "bodies": [],
+    "docs": []
+}

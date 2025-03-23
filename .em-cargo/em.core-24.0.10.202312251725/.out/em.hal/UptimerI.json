@@ -1,0 +1,444 @@
+{
+    "flags": 1,
+    "pkgName": {
+        "segs": [
+            {
+                "type": "IDENT",
+                "upath": "em.hal/UptimerI",
+                "beg": {
+                    "line": 1,
+                    "col": 9,
+                    "pos": 8
+                },
+                "end": {
+                    "line": 1,
+                    "col": 10,
+                    "pos": 9
+                },
+                "text": "em"
+            },
+            {
+                "type": "IDENT",
+                "upath": "em.hal/UptimerI",
+                "beg": {
+                    "line": 1,
+                    "col": 12,
+                    "pos": 11
+                },
+                "end": {
+                    "line": 1,
+                    "col": 14,
+                    "pos": 13
+                },
+                "text": "hal"
+            }
+        ]
+    },
+    "imps": [],
+    "exps": [],
+    "sup": {
+        "ident": {
+            "type": "IDENT",
+            "upath": "em.hal/UptimerI",
+            "beg": {
+                "line": 3,
+                "col": 11,
+                "pos": 26
+            },
+            "end": {
+                "line": 3,
+                "col": 18,
+                "pos": 33
+            },
+            "text": "UptimerI"
+        }
+    },
+    "decls": [
+        {
+            "$KIND": "Agg",
+            "flags": 0,
+            "ident": {
+                "type": "IDENT",
+                "upath": "em.hal/UptimerI",
+                "beg": {
+                    "line": 5,
+                    "col": 10,
+                    "pos": 45
+                },
+                "end": {
+                    "line": 5,
+                    "col": 13,
+                    "pos": 48
+                },
+                "text": "Time"
+            },
+            "docs": [],
+            "kw": {
+                "type": "KW_STRUCT",
+                "upath": "em.hal/UptimerI",
+                "beg": {
+                    "line": 5,
+                    "col": 16,
+                    "pos": 51
+                },
+                "end": {
+                    "line": 5,
+                    "col": 21,
+                    "pos": 56
+                },
+                "text": "struct"
+            },
+            "fields": [
+                {
+                    "$KIND": "Field",
+                    "flags": 0,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.hal/UptimerI",
+                        "beg": {
+                            "line": 6,
+                            "col": 9,
+                            "pos": 66
+                        },
+                        "end": {
+                            "line": 6,
+                            "col": 12,
+                            "pos": 69
+                        },
+                        "text": "secs"
+                    },
+                    "docs": [],
+                    "type": {
+                        "$KIND": "Std",
+                        "ident": {
+                            "type": "TY_UINT32",
+                            "upath": "em.hal/UptimerI",
+                            "beg": {
+                                "line": 6,
+                                "col": 15,
+                                "pos": 72
+                            },
+                            "end": {
+                                "line": 6,
+                                "col": 20,
+                                "pos": 77
+                            },
+                            "text": "uint32"
+                        },
+                        "tmods": 0
+                    }
+                },
+                {
+                    "$KIND": "Field",
+                    "flags": 0,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.hal/UptimerI",
+                        "beg": {
+                            "line": 7,
+                            "col": 9,
+                            "pos": 87
+                        },
+                        "end": {
+                            "line": 7,
+                            "col": 12,
+                            "pos": 90
+                        },
+                        "text": "subs"
+                    },
+                    "docs": [],
+                    "type": {
+                        "$KIND": "Std",
+                        "ident": {
+                            "type": "TY_UINT32",
+                            "upath": "em.hal/UptimerI",
+                            "beg": {
+                                "line": 7,
+                                "col": 15,
+                                "pos": 93
+                            },
+                            "end": {
+                                "line": 7,
+                                "col": 20,
+                                "pos": 98
+                            },
+                            "text": "uint32"
+                        },
+                        "tmods": 0
+                    }
+                },
+                {
+                    "$KIND": "Field",
+                    "flags": 0,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.hal/UptimerI",
+                        "beg": {
+                            "line": 8,
+                            "col": 9,
+                            "pos": 108
+                        },
+                        "end": {
+                            "line": 8,
+                            "col": 13,
+                            "pos": 112
+                        },
+                        "text": "ticks"
+                    },
+                    "docs": [],
+                    "type": {
+                        "$KIND": "Std",
+                        "ident": {
+                            "type": "TY_UINT32",
+                            "upath": "em.hal/UptimerI",
+                            "beg": {
+                                "line": 8,
+                                "col": 16,
+                                "pos": 115
+                            },
+                            "end": {
+                                "line": 8,
+                                "col": 21,
+                                "pos": 120
+                            },
+                            "text": "uint32"
+                        },
+                        "tmods": 0
+                    }
+                }
+            ],
+            "fxns": []
+        },
+        {
+            "$KIND": "Fxn",
+            "flags": 0,
+            "ident": {
+                "type": "IDENT",
+                "upath": "em.hal/UptimerI",
+                "beg": {
+                    "line": 11,
+                    "col": 14,
+                    "pos": 144
+                },
+                "end": {
+                    "line": 11,
+                    "col": 22,
+                    "pos": 152
+                },
+                "text": "calibrate"
+            },
+            "docs": [],
+            "args": [
+                {
+                    "$KIND": "Arg",
+                    "flags": 0,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.hal/UptimerI",
+                        "beg": {
+                            "line": 11,
+                            "col": 24,
+                            "pos": 154
+                        },
+                        "end": {
+                            "line": 11,
+                            "col": 30,
+                            "pos": 160
+                        },
+                        "text": "secs256"
+                    },
+                    "docs": [],
+                    "type": {
+                        "$KIND": "Std",
+                        "ident": {
+                            "type": "TY_UINT32",
+                            "upath": "em.hal/UptimerI",
+                            "beg": {
+                                "line": 11,
+                                "col": 33,
+                                "pos": 163
+                            },
+                            "end": {
+                                "line": 11,
+                                "col": 38,
+                                "pos": 168
+                            },
+                            "text": "uint32"
+                        },
+                        "tmods": 0
+                    }
+                },
+                {
+                    "$KIND": "Arg",
+                    "flags": 0,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.hal/UptimerI",
+                        "beg": {
+                            "line": 11,
+                            "col": 41,
+                            "pos": 171
+                        },
+                        "end": {
+                            "line": 11,
+                            "col": 45,
+                            "pos": 175
+                        },
+                        "text": "ticks"
+                    },
+                    "docs": [],
+                    "type": {
+                        "$KIND": "Std",
+                        "ident": {
+                            "type": "TY_UINT32",
+                            "upath": "em.hal/UptimerI",
+                            "beg": {
+                                "line": 11,
+                                "col": 48,
+                                "pos": 178
+                            },
+                            "end": {
+                                "line": 11,
+                                "col": 53,
+                                "pos": 183
+                            },
+                            "text": "uint32"
+                        },
+                        "tmods": 0
+                    }
+                }
+            ],
+            "type": {
+                "$KIND": "Std",
+                "ident": {
+                    "type": "TY_UINT16",
+                    "upath": "em.hal/UptimerI",
+                    "beg": {
+                        "line": 11,
+                        "col": 57,
+                        "pos": 187
+                    },
+                    "end": {
+                        "line": 11,
+                        "col": 62,
+                        "pos": 192
+                    },
+                    "text": "uint16"
+                },
+                "tmods": 0
+            }
+        },
+        {
+            "$KIND": "Fxn",
+            "flags": 0,
+            "ident": {
+                "type": "IDENT",
+                "upath": "em.hal/UptimerI",
+                "beg": {
+                    "line": 12,
+                    "col": 14,
+                    "pos": 207
+                },
+                "end": {
+                    "line": 12,
+                    "col": 17,
+                    "pos": 210
+                },
+                "text": "read"
+            },
+            "docs": [],
+            "args": [],
+            "type": {
+                "$KIND": "Ptr",
+                "base": {
+                    "$KIND": "Def",
+                    "tdef": {
+                        "segs": [
+                            {
+                                "type": "IDENT",
+                                "upath": "em.hal/UptimerI",
+                                "beg": {
+                                    "line": 12,
+                                    "col": 22,
+                                    "pos": 215
+                                },
+                                "end": {
+                                    "line": 12,
+                                    "col": 25,
+                                    "pos": 218
+                                },
+                                "text": "Time"
+                            }
+                        ]
+                    },
+                    "tmods": 0
+                },
+                "tmods": 0,
+                "isRef": true
+            }
+        },
+        {
+            "$KIND": "Fxn",
+            "flags": 0,
+            "ident": {
+                "type": "IDENT",
+                "upath": "em.hal/UptimerI",
+                "beg": {
+                    "line": 13,
+                    "col": 14,
+                    "pos": 234
+                },
+                "end": {
+                    "line": 13,
+                    "col": 22,
+                    "pos": 242
+                },
+                "text": "resetSync"
+            },
+            "docs": [],
+            "args": []
+        },
+        {
+            "$KIND": "Fxn",
+            "flags": 0,
+            "ident": {
+                "type": "IDENT",
+                "upath": "em.hal/UptimerI",
+                "beg": {
+                    "line": 14,
+                    "col": 14,
+                    "pos": 259
+                },
+                "end": {
+                    "line": 14,
+                    "col": 17,
+                    "pos": 262
+                },
+                "text": "trim"
+            },
+            "docs": [],
+            "args": [],
+            "type": {
+                "$KIND": "Std",
+                "ident": {
+                    "type": "TY_UINT16",
+                    "upath": "em.hal/UptimerI",
+                    "beg": {
+                        "line": 14,
+                        "col": 22,
+                        "pos": 267
+                    },
+                    "end": {
+                        "line": 14,
+                        "col": 27,
+                        "pos": 272
+                    },
+                    "text": "uint16"
+                },
+                "tmods": 0
+            }
+        }
+    ],
+    "bodies": [],
+    "docs": []
+}

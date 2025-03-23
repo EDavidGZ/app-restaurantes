@@ -1,0 +1,592 @@
+{
+    "flags": 4,
+    "pkgName": {
+        "segs": [
+            {
+                "type": "IDENT",
+                "upath": "em.mcu/ConsoleUart",
+                "beg": {
+                    "line": 1,
+                    "col": 9,
+                    "pos": 8
+                },
+                "end": {
+                    "line": 1,
+                    "col": 10,
+                    "pos": 9
+                },
+                "text": "em"
+            },
+            {
+                "type": "IDENT",
+                "upath": "em.mcu/ConsoleUart",
+                "beg": {
+                    "line": 1,
+                    "col": 12,
+                    "pos": 11
+                },
+                "end": {
+                    "line": 1,
+                    "col": 14,
+                    "pos": 13
+                },
+                "text": "mcu"
+            }
+        ]
+    },
+    "imps": [
+        {
+            "from": {
+                "segs": [
+                    {
+                        "type": "IDENT",
+                        "upath": "em.mcu/ConsoleUart",
+                        "beg": {
+                            "line": 3,
+                            "col": 6,
+                            "pos": 21
+                        },
+                        "end": {
+                            "line": 3,
+                            "col": 7,
+                            "pos": 22
+                        },
+                        "text": "em"
+                    },
+                    {
+                        "type": "IDENT",
+                        "upath": "em.mcu/ConsoleUart",
+                        "beg": {
+                            "line": 3,
+                            "col": 9,
+                            "pos": 24
+                        },
+                        "end": {
+                            "line": 3,
+                            "col": 11,
+                            "pos": 26
+                        },
+                        "text": "hal"
+                    }
+                ]
+            },
+            "uname": {
+                "type": "IDENT",
+                "upath": "em.mcu/ConsoleUart",
+                "beg": {
+                    "line": 3,
+                    "col": 20,
+                    "pos": 35
+                },
+                "end": {
+                    "line": 3,
+                    "col": 31,
+                    "pos": 46
+                },
+                "text": "ConsoleUartI"
+            }
+        },
+        {
+            "from": {
+                "segs": [
+                    {
+                        "type": "IDENT",
+                        "upath": "em.mcu/ConsoleUart",
+                        "beg": {
+                            "line": 4,
+                            "col": 6,
+                            "pos": 53
+                        },
+                        "end": {
+                            "line": 4,
+                            "col": 7,
+                            "pos": 54
+                        },
+                        "text": "em"
+                    },
+                    {
+                        "type": "IDENT",
+                        "upath": "em.mcu/ConsoleUart",
+                        "beg": {
+                            "line": 4,
+                            "col": 9,
+                            "pos": 56
+                        },
+                        "end": {
+                            "line": 4,
+                            "col": 11,
+                            "pos": 58
+                        },
+                        "text": "hal"
+                    }
+                ]
+            },
+            "uname": {
+                "type": "IDENT",
+                "upath": "em.mcu/ConsoleUart",
+                "beg": {
+                    "line": 4,
+                    "col": 20,
+                    "pos": 67
+                },
+                "end": {
+                    "line": 4,
+                    "col": 31,
+                    "pos": 78
+                },
+                "text": "ConsoleUartN"
+            }
+        }
+    ],
+    "exps": [],
+    "sup": {
+        "ident": {
+            "type": "IDENT",
+            "upath": "em.mcu/ConsoleUart",
+            "beg": {
+                "line": 6,
+                "col": 8,
+                "pos": 88
+            },
+            "end": {
+                "line": 6,
+                "col": 18,
+                "pos": 98
+            },
+            "text": "ConsoleUart"
+        },
+        "inter": {
+            "type": "IDENT",
+            "upath": "em.mcu/ConsoleUart",
+            "beg": {
+                "line": 6,
+                "col": 21,
+                "pos": 101
+            },
+            "end": {
+                "line": 6,
+                "col": 32,
+                "pos": 112
+            },
+            "text": "ConsoleUartI"
+        }
+    },
+    "decls": [
+        {
+            "$KIND": "Proxy",
+            "flags": 0,
+            "ident": {
+                "type": "IDENT",
+                "upath": "em.mcu/ConsoleUart",
+                "beg": {
+                    "line": 8,
+                    "col": 11,
+                    "pos": 125
+                },
+                "end": {
+                    "line": 8,
+                    "col": 14,
+                    "pos": 128
+                },
+                "text": "Impl"
+            },
+            "docs": [],
+            "inherits": {
+                "type": "IDENT",
+                "upath": "em.mcu/ConsoleUart",
+                "beg": {
+                    "line": 8,
+                    "col": 17,
+                    "pos": 131
+                },
+                "end": {
+                    "line": 8,
+                    "col": 28,
+                    "pos": 142
+                },
+                "text": "ConsoleUartI"
+            }
+        }
+    ],
+    "bodies": [
+        {
+            "name": {
+                "segs": [
+                    {
+                        "type": "IDENT",
+                        "upath": "em.mcu/ConsoleUart",
+                        "beg": {
+                            "line": 12,
+                            "col": 5,
+                            "pos": 154
+                        },
+                        "end": {
+                            "line": 12,
+                            "col": 16,
+                            "pos": 165
+                        },
+                        "text": "em$configure"
+                    }
+                ]
+            },
+            "args": [],
+            "block": {
+                "$KIND": "Block",
+                "serial": 1,
+                "stmts": [
+                    {
+                        "$KIND": "Assign",
+                        "expr": {
+                            "$KIND": "Binary",
+                            "left": {
+                                "$KIND": "Ident",
+                                "ident": {
+                                    "type": "IDENT",
+                                    "upath": "em.mcu/ConsoleUart",
+                                    "beg": {
+                                        "line": 13,
+                                        "col": 5,
+                                        "pos": 173
+                                    },
+                                    "end": {
+                                        "line": 13,
+                                        "col": 8,
+                                        "pos": 176
+                                    },
+                                    "text": "Impl"
+                                }
+                            },
+                            "op": {
+                                "type": "QUESTEQ",
+                                "upath": "em.mcu/ConsoleUart",
+                                "beg": {
+                                    "line": 13,
+                                    "col": 10,
+                                    "pos": 178
+                                },
+                                "end": {
+                                    "line": 13,
+                                    "col": 11,
+                                    "pos": 179
+                                },
+                                "text": "?="
+                            },
+                            "right": {
+                                "$KIND": "Ident",
+                                "ident": {
+                                    "type": "IDENT",
+                                    "upath": "em.mcu/ConsoleUart",
+                                    "beg": {
+                                        "line": 13,
+                                        "col": 13,
+                                        "pos": 181
+                                    },
+                                    "end": {
+                                        "line": 13,
+                                        "col": 24,
+                                        "pos": 192
+                                    },
+                                    "text": "ConsoleUartN"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": {
+                "segs": [
+                    {
+                        "type": "IDENT",
+                        "upath": "em.mcu/ConsoleUart",
+                        "beg": {
+                            "line": 16,
+                            "col": 5,
+                            "pos": 203
+                        },
+                        "end": {
+                            "line": 16,
+                            "col": 12,
+                            "pos": 210
+                        },
+                        "text": "setBaudH"
+                    }
+                ]
+            },
+            "args": [
+                {
+                    "$KIND": "Arg",
+                    "flags": 0,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.mcu/ConsoleUart",
+                        "beg": {
+                            "line": 16,
+                            "col": 14,
+                            "pos": 212
+                        },
+                        "end": {
+                            "line": 16,
+                            "col": 17,
+                            "pos": 215
+                        },
+                        "text": "rate"
+                    },
+                    "docs": []
+                }
+            ],
+            "block": {
+                "$KIND": "Block",
+                "serial": 2,
+                "stmts": [
+                    {
+                        "$KIND": "Assign",
+                        "expr": {
+                            "$KIND": "Call",
+                            "base": {
+                                "$KIND": "Select",
+                                "base": {
+                                    "$KIND": "Ident",
+                                    "ident": {
+                                        "type": "IDENT",
+                                        "upath": "em.mcu/ConsoleUart",
+                                        "beg": {
+                                            "line": 17,
+                                            "col": 5,
+                                            "pos": 222
+                                        },
+                                        "end": {
+                                            "line": 17,
+                                            "col": 8,
+                                            "pos": 225
+                                        },
+                                        "text": "Impl"
+                                    }
+                                },
+                                "ident": {
+                                    "type": "IDENT",
+                                    "upath": "em.mcu/ConsoleUart",
+                                    "beg": {
+                                        "line": 17,
+                                        "col": 10,
+                                        "pos": 227
+                                    },
+                                    "end": {
+                                        "line": 17,
+                                        "col": 17,
+                                        "pos": 234
+                                    },
+                                    "text": "setBaudH"
+                                }
+                            },
+                            "args": [
+                                {
+                                    "$KIND": "Ident",
+                                    "ident": {
+                                        "type": "IDENT",
+                                        "upath": "em.mcu/ConsoleUart",
+                                        "beg": {
+                                            "line": 17,
+                                            "col": 19,
+                                            "pos": 236
+                                        },
+                                        "end": {
+                                            "line": 17,
+                                            "col": 22,
+                                            "pos": 239
+                                        },
+                                        "text": "rate"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": {
+                "segs": [
+                    {
+                        "type": "IDENT",
+                        "upath": "em.mcu/ConsoleUart",
+                        "beg": {
+                            "line": 20,
+                            "col": 5,
+                            "pos": 251
+                        },
+                        "end": {
+                            "line": 20,
+                            "col": 9,
+                            "pos": 255
+                        },
+                        "text": "flush"
+                    }
+                ]
+            },
+            "args": [],
+            "block": {
+                "$KIND": "Block",
+                "serial": 3,
+                "stmts": [
+                    {
+                        "$KIND": "Assign",
+                        "expr": {
+                            "$KIND": "Call",
+                            "base": {
+                                "$KIND": "Select",
+                                "base": {
+                                    "$KIND": "Ident",
+                                    "ident": {
+                                        "type": "IDENT",
+                                        "upath": "em.mcu/ConsoleUart",
+                                        "beg": {
+                                            "line": 21,
+                                            "col": 5,
+                                            "pos": 263
+                                        },
+                                        "end": {
+                                            "line": 21,
+                                            "col": 8,
+                                            "pos": 266
+                                        },
+                                        "text": "Impl"
+                                    }
+                                },
+                                "ident": {
+                                    "type": "IDENT",
+                                    "upath": "em.mcu/ConsoleUart",
+                                    "beg": {
+                                        "line": 21,
+                                        "col": 10,
+                                        "pos": 268
+                                    },
+                                    "end": {
+                                        "line": 21,
+                                        "col": 14,
+                                        "pos": 272
+                                    },
+                                    "text": "flush"
+                                }
+                            },
+                            "args": []
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": {
+                "segs": [
+                    {
+                        "type": "IDENT",
+                        "upath": "em.mcu/ConsoleUart",
+                        "beg": {
+                            "line": 24,
+                            "col": 5,
+                            "pos": 285
+                        },
+                        "end": {
+                            "line": 24,
+                            "col": 7,
+                            "pos": 287
+                        },
+                        "text": "put"
+                    }
+                ]
+            },
+            "args": [
+                {
+                    "$KIND": "Arg",
+                    "flags": 0,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.mcu/ConsoleUart",
+                        "beg": {
+                            "line": 24,
+                            "col": 9,
+                            "pos": 289
+                        },
+                        "end": {
+                            "line": 24,
+                            "col": 12,
+                            "pos": 292
+                        },
+                        "text": "data"
+                    },
+                    "docs": []
+                }
+            ],
+            "block": {
+                "$KIND": "Block",
+                "serial": 4,
+                "stmts": [
+                    {
+                        "$KIND": "Assign",
+                        "expr": {
+                            "$KIND": "Call",
+                            "base": {
+                                "$KIND": "Select",
+                                "base": {
+                                    "$KIND": "Ident",
+                                    "ident": {
+                                        "type": "IDENT",
+                                        "upath": "em.mcu/ConsoleUart",
+                                        "beg": {
+                                            "line": 25,
+                                            "col": 5,
+                                            "pos": 299
+                                        },
+                                        "end": {
+                                            "line": 25,
+                                            "col": 8,
+                                            "pos": 302
+                                        },
+                                        "text": "Impl"
+                                    }
+                                },
+                                "ident": {
+                                    "type": "IDENT",
+                                    "upath": "em.mcu/ConsoleUart",
+                                    "beg": {
+                                        "line": 25,
+                                        "col": 10,
+                                        "pos": 304
+                                    },
+                                    "end": {
+                                        "line": 25,
+                                        "col": 12,
+                                        "pos": 306
+                                    },
+                                    "text": "put"
+                                }
+                            },
+                            "args": [
+                                {
+                                    "$KIND": "Ident",
+                                    "ident": {
+                                        "type": "IDENT",
+                                        "upath": "em.mcu/ConsoleUart",
+                                        "beg": {
+                                            "line": 25,
+                                            "col": 14,
+                                            "pos": 308
+                                        },
+                                        "end": {
+                                            "line": 25,
+                                            "col": 17,
+                                            "pos": 311
+                                        },
+                                        "text": "data"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ],
+    "docs": []
+}

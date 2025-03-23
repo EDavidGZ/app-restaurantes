@@ -1,0 +1,1466 @@
+{
+    "flags": 18,
+    "pkgName": {
+        "segs": [
+            {
+                "type": "IDENT",
+                "upath": "em.lang/BuildC",
+                "beg": {
+                    "line": 1,
+                    "col": 9,
+                    "pos": 8
+                },
+                "end": {
+                    "line": 1,
+                    "col": 10,
+                    "pos": 9
+                },
+                "text": "em"
+            },
+            {
+                "type": "IDENT",
+                "upath": "em.lang/BuildC",
+                "beg": {
+                    "line": 1,
+                    "col": 12,
+                    "pos": 11
+                },
+                "end": {
+                    "line": 1,
+                    "col": 15,
+                    "pos": 14
+                },
+                "text": "lang"
+            }
+        ]
+    },
+    "imps": [],
+    "exps": [],
+    "sup": {
+        "ident": {
+            "type": "IDENT",
+            "upath": "em.lang/BuildC",
+            "beg": {
+                "line": 3,
+                "col": 11,
+                "pos": 27
+            },
+            "end": {
+                "line": 3,
+                "col": 16,
+                "pos": 32
+            },
+            "text": "BuildC"
+        }
+    },
+    "decls": [
+        {
+            "$KIND": "Config",
+            "flags": 2,
+            "ident": {
+                "type": "IDENT",
+                "upath": "em.lang/BuildC",
+                "beg": {
+                    "line": 5,
+                    "col": 12,
+                    "pos": 46
+                },
+                "end": {
+                    "line": 5,
+                    "col": 15,
+                    "pos": 49
+                },
+                "text": "arch"
+            },
+            "docs": [],
+            "type": {
+                "$KIND": "Std",
+                "ident": {
+                    "type": "TY_STRING",
+                    "upath": "em.lang/BuildC",
+                    "beg": {
+                        "line": 5,
+                        "col": 18,
+                        "pos": 52
+                    },
+                    "end": {
+                        "line": 5,
+                        "col": 23,
+                        "pos": 57
+                    },
+                    "text": "string"
+                },
+                "tmods": 0
+            }
+        },
+        {
+            "$KIND": "Config",
+            "flags": 2,
+            "ident": {
+                "type": "IDENT",
+                "upath": "em.lang/BuildC",
+                "beg": {
+                    "line": 6,
+                    "col": 12,
+                    "pos": 70
+                },
+                "end": {
+                    "line": 6,
+                    "col": 20,
+                    "pos": 78
+                },
+                "text": "bootFlash"
+            },
+            "docs": [],
+            "type": {
+                "$KIND": "Std",
+                "ident": {
+                    "type": "TY_BOOL",
+                    "upath": "em.lang/BuildC",
+                    "beg": {
+                        "line": 6,
+                        "col": 23,
+                        "pos": 81
+                    },
+                    "end": {
+                        "line": 6,
+                        "col": 26,
+                        "pos": 84
+                    },
+                    "text": "bool"
+                },
+                "tmods": 0
+            }
+        },
+        {
+            "$KIND": "Config",
+            "flags": 2,
+            "ident": {
+                "type": "IDENT",
+                "upath": "em.lang/BuildC",
+                "beg": {
+                    "line": 7,
+                    "col": 12,
+                    "pos": 97
+                },
+                "end": {
+                    "line": 7,
+                    "col": 21,
+                    "pos": 106
+                },
+                "text": "bootLoader"
+            },
+            "docs": [],
+            "type": {
+                "$KIND": "Std",
+                "ident": {
+                    "type": "TY_BOOL",
+                    "upath": "em.lang/BuildC",
+                    "beg": {
+                        "line": 7,
+                        "col": 24,
+                        "pos": 109
+                    },
+                    "end": {
+                        "line": 7,
+                        "col": 27,
+                        "pos": 112
+                    },
+                    "text": "bool"
+                },
+                "tmods": 0
+            }
+        },
+        {
+            "$KIND": "Config",
+            "flags": 2,
+            "ident": {
+                "type": "IDENT",
+                "upath": "em.lang/BuildC",
+                "beg": {
+                    "line": 8,
+                    "col": 12,
+                    "pos": 125
+                },
+                "end": {
+                    "line": 8,
+                    "col": 19,
+                    "pos": 132
+                },
+                "text": "compiler"
+            },
+            "docs": [],
+            "type": {
+                "$KIND": "Std",
+                "ident": {
+                    "type": "TY_STRING",
+                    "upath": "em.lang/BuildC",
+                    "beg": {
+                        "line": 8,
+                        "col": 22,
+                        "pos": 135
+                    },
+                    "end": {
+                        "line": 8,
+                        "col": 27,
+                        "pos": 140
+                    },
+                    "text": "string"
+                },
+                "tmods": 0
+            }
+        },
+        {
+            "$KIND": "Config",
+            "flags": 2,
+            "ident": {
+                "type": "IDENT",
+                "upath": "em.lang/BuildC",
+                "beg": {
+                    "line": 9,
+                    "col": 12,
+                    "pos": 153
+                },
+                "end": {
+                    "line": 9,
+                    "col": 14,
+                    "pos": 155
+                },
+                "text": "cpu"
+            },
+            "docs": [],
+            "type": {
+                "$KIND": "Std",
+                "ident": {
+                    "type": "TY_STRING",
+                    "upath": "em.lang/BuildC",
+                    "beg": {
+                        "line": 9,
+                        "col": 17,
+                        "pos": 158
+                    },
+                    "end": {
+                        "line": 9,
+                        "col": 22,
+                        "pos": 163
+                    },
+                    "text": "string"
+                },
+                "tmods": 0
+            }
+        },
+        {
+            "$KIND": "Config",
+            "flags": 2,
+            "ident": {
+                "type": "IDENT",
+                "upath": "em.lang/BuildC",
+                "beg": {
+                    "line": 10,
+                    "col": 12,
+                    "pos": 176
+                },
+                "end": {
+                    "line": 10,
+                    "col": 19,
+                    "pos": 183
+                },
+                "text": "jlinkDev"
+            },
+            "docs": [],
+            "type": {
+                "$KIND": "Std",
+                "ident": {
+                    "type": "TY_STRING",
+                    "upath": "em.lang/BuildC",
+                    "beg": {
+                        "line": 10,
+                        "col": 22,
+                        "pos": 186
+                    },
+                    "end": {
+                        "line": 10,
+                        "col": 27,
+                        "pos": 191
+                    },
+                    "text": "string"
+                },
+                "tmods": 0
+            }
+        },
+        {
+            "$KIND": "Config",
+            "flags": 2,
+            "ident": {
+                "type": "IDENT",
+                "upath": "em.lang/BuildC",
+                "beg": {
+                    "line": 11,
+                    "col": 12,
+                    "pos": 204
+                },
+                "end": {
+                    "line": 11,
+                    "col": 14,
+                    "pos": 206
+                },
+                "text": "mcu"
+            },
+            "docs": [],
+            "type": {
+                "$KIND": "Std",
+                "ident": {
+                    "type": "TY_STRING",
+                    "upath": "em.lang/BuildC",
+                    "beg": {
+                        "line": 11,
+                        "col": 17,
+                        "pos": 209
+                    },
+                    "end": {
+                        "line": 11,
+                        "col": 22,
+                        "pos": 214
+                    },
+                    "text": "string"
+                },
+                "tmods": 0
+            }
+        },
+        {
+            "$KIND": "Config",
+            "flags": 2,
+            "ident": {
+                "type": "IDENT",
+                "upath": "em.lang/BuildC",
+                "beg": {
+                    "line": 12,
+                    "col": 12,
+                    "pos": 227
+                },
+                "end": {
+                    "line": 12,
+                    "col": 19,
+                    "pos": 234
+                },
+                "text": "optimize"
+            },
+            "docs": [],
+            "type": {
+                "$KIND": "Std",
+                "ident": {
+                    "type": "TY_STRING",
+                    "upath": "em.lang/BuildC",
+                    "beg": {
+                        "line": 12,
+                        "col": 22,
+                        "pos": 237
+                    },
+                    "end": {
+                        "line": 12,
+                        "col": 27,
+                        "pos": 242
+                    },
+                    "text": "string"
+                },
+                "tmods": 0
+            }
+        },
+        {
+            "$KIND": "VarD",
+            "flags": 10,
+            "ident": {
+                "type": "IDENT",
+                "upath": "em.lang/BuildC",
+                "beg": {
+                    "line": 16,
+                    "col": 9,
+                    "pos": 263
+                },
+                "end": {
+                    "line": 16,
+                    "col": 15,
+                    "pos": 269
+                },
+                "text": "curPval"
+            },
+            "docs": [],
+            "type": {
+                "$KIND": "Std",
+                "ident": {
+                    "type": "TY_STRING",
+                    "upath": "em.lang/BuildC",
+                    "beg": {
+                        "line": 16,
+                        "col": 18,
+                        "pos": 272
+                    },
+                    "end": {
+                        "line": 16,
+                        "col": 23,
+                        "pos": 277
+                    },
+                    "text": "string"
+                },
+                "tmods": 0
+            }
+        },
+        {
+            "$KIND": "Fxn",
+            "flags": 10,
+            "ident": {
+                "type": "IDENT",
+                "upath": "em.lang/BuildC",
+                "beg": {
+                    "line": 18,
+                    "col": 14,
+                    "pos": 293
+                },
+                "end": {
+                    "line": 18,
+                    "col": 20,
+                    "pos": 299
+                },
+                "text": "getProp"
+            },
+            "docs": [],
+            "args": [
+                {
+                    "$KIND": "Arg",
+                    "flags": 10,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.lang/BuildC",
+                        "beg": {
+                            "line": 18,
+                            "col": 22,
+                            "pos": 301
+                        },
+                        "end": {
+                            "line": 18,
+                            "col": 26,
+                            "pos": 305
+                        },
+                        "text": "pname"
+                    },
+                    "docs": [],
+                    "type": {
+                        "$KIND": "Std",
+                        "ident": {
+                            "type": "TY_STRING",
+                            "upath": "em.lang/BuildC",
+                            "beg": {
+                                "line": 18,
+                                "col": 29,
+                                "pos": 308
+                            },
+                            "end": {
+                                "line": 18,
+                                "col": 34,
+                                "pos": 313
+                            },
+                            "text": "string"
+                        },
+                        "tmods": 0
+                    }
+                }
+            ],
+            "type": {
+                "$KIND": "Std",
+                "ident": {
+                    "type": "TY_STRING",
+                    "upath": "em.lang/BuildC",
+                    "beg": {
+                        "line": 18,
+                        "col": 38,
+                        "pos": 317
+                    },
+                    "end": {
+                        "line": 18,
+                        "col": 43,
+                        "pos": 322
+                    },
+                    "text": "string"
+                },
+                "tmods": 0
+            }
+        }
+    ],
+    "bodies": [
+        {
+            "name": {
+                "segs": [
+                    {
+                        "type": "IDENT",
+                        "upath": "em.lang/BuildC",
+                        "beg": {
+                            "line": 22,
+                            "col": 5,
+                            "pos": 334
+                        },
+                        "end": {
+                            "line": 22,
+                            "col": 19,
+                            "pos": 348
+                        },
+                        "text": "em$preconfigure"
+                    }
+                ]
+            },
+            "args": [],
+            "block": {
+                "$KIND": "Block",
+                "serial": 1,
+                "stmts": [
+                    {
+                        "$KIND": "Assign",
+                        "expr": {
+                            "$KIND": "Binary",
+                            "left": {
+                                "$KIND": "Ident",
+                                "ident": {
+                                    "type": "IDENT",
+                                    "upath": "em.lang/BuildC",
+                                    "beg": {
+                                        "line": 23,
+                                        "col": 5,
+                                        "pos": 356
+                                    },
+                                    "end": {
+                                        "line": 23,
+                                        "col": 8,
+                                        "pos": 359
+                                    },
+                                    "text": "arch"
+                                }
+                            },
+                            "op": {
+                                "type": "QUESTEQ",
+                                "upath": "em.lang/BuildC",
+                                "beg": {
+                                    "line": 23,
+                                    "col": 10,
+                                    "pos": 361
+                                },
+                                "end": {
+                                    "line": 23,
+                                    "col": 11,
+                                    "pos": 362
+                                },
+                                "text": "?="
+                            },
+                            "right": {
+                                "$KIND": "Ident",
+                                "ident": {
+                                    "type": "IDENT",
+                                    "upath": "em.lang/BuildC",
+                                    "beg": {
+                                        "line": 23,
+                                        "col": 13,
+                                        "pos": 364
+                                    },
+                                    "end": {
+                                        "line": 23,
+                                        "col": 19,
+                                        "pos": 370
+                                    },
+                                    "text": "curPval"
+                                }
+                            }
+                        },
+                        "cond": {
+                            "$KIND": "Call",
+                            "base": {
+                                "$KIND": "Ident",
+                                "ident": {
+                                    "type": "IDENT",
+                                    "upath": "em.lang/BuildC",
+                                    "beg": {
+                                        "line": 23,
+                                        "col": 24,
+                                        "pos": 375
+                                    },
+                                    "end": {
+                                        "line": 23,
+                                        "col": 30,
+                                        "pos": 381
+                                    },
+                                    "text": "getProp"
+                                }
+                            },
+                            "args": [
+                                {
+                                    "$KIND": "Const",
+                                    "val": {
+                                        "type": "STRING",
+                                        "upath": "em.lang/BuildC",
+                                        "beg": {
+                                            "line": 23,
+                                            "col": 32,
+                                            "pos": 383
+                                        },
+                                        "end": {
+                                            "line": 23,
+                                            "col": 46,
+                                            "pos": 397
+                                        },
+                                        "text": "\"em.build.Arch\""
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "$KIND": "Assign",
+                        "expr": {
+                            "$KIND": "Binary",
+                            "left": {
+                                "$KIND": "Ident",
+                                "ident": {
+                                    "type": "IDENT",
+                                    "upath": "em.lang/BuildC",
+                                    "beg": {
+                                        "line": 24,
+                                        "col": 5,
+                                        "pos": 404
+                                    },
+                                    "end": {
+                                        "line": 24,
+                                        "col": 13,
+                                        "pos": 412
+                                    },
+                                    "text": "bootFlash"
+                                }
+                            },
+                            "op": {
+                                "type": "QUESTEQ",
+                                "upath": "em.lang/BuildC",
+                                "beg": {
+                                    "line": 24,
+                                    "col": 15,
+                                    "pos": 414
+                                },
+                                "end": {
+                                    "line": 24,
+                                    "col": 16,
+                                    "pos": 415
+                                },
+                                "text": "?="
+                            },
+                            "right": {
+                                "$KIND": "Const",
+                                "val": {
+                                    "type": "KW_TRUE",
+                                    "upath": "em.lang/BuildC",
+                                    "beg": {
+                                        "line": 24,
+                                        "col": 18,
+                                        "pos": 417
+                                    },
+                                    "end": {
+                                        "line": 24,
+                                        "col": 21,
+                                        "pos": 420
+                                    },
+                                    "text": "true"
+                                }
+                            }
+                        },
+                        "cond": {
+                            "$KIND": "Call",
+                            "base": {
+                                "$KIND": "Ident",
+                                "ident": {
+                                    "type": "IDENT",
+                                    "upath": "em.lang/BuildC",
+                                    "beg": {
+                                        "line": 24,
+                                        "col": 26,
+                                        "pos": 425
+                                    },
+                                    "end": {
+                                        "line": 24,
+                                        "col": 32,
+                                        "pos": 431
+                                    },
+                                    "text": "getProp"
+                                }
+                            },
+                            "args": [
+                                {
+                                    "$KIND": "Const",
+                                    "val": {
+                                        "type": "STRING",
+                                        "upath": "em.lang/BuildC",
+                                        "beg": {
+                                            "line": 24,
+                                            "col": 34,
+                                            "pos": 433
+                                        },
+                                        "end": {
+                                            "line": 24,
+                                            "col": 53,
+                                            "pos": 452
+                                        },
+                                        "text": "\"em.build.BootFlash\""
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "$KIND": "Assign",
+                        "expr": {
+                            "$KIND": "Binary",
+                            "left": {
+                                "$KIND": "Ident",
+                                "ident": {
+                                    "type": "IDENT",
+                                    "upath": "em.lang/BuildC",
+                                    "beg": {
+                                        "line": 25,
+                                        "col": 5,
+                                        "pos": 459
+                                    },
+                                    "end": {
+                                        "line": 25,
+                                        "col": 14,
+                                        "pos": 468
+                                    },
+                                    "text": "bootLoader"
+                                }
+                            },
+                            "op": {
+                                "type": "QUESTEQ",
+                                "upath": "em.lang/BuildC",
+                                "beg": {
+                                    "line": 25,
+                                    "col": 16,
+                                    "pos": 470
+                                },
+                                "end": {
+                                    "line": 25,
+                                    "col": 17,
+                                    "pos": 471
+                                },
+                                "text": "?="
+                            },
+                            "right": {
+                                "$KIND": "Const",
+                                "val": {
+                                    "type": "KW_TRUE",
+                                    "upath": "em.lang/BuildC",
+                                    "beg": {
+                                        "line": 25,
+                                        "col": 19,
+                                        "pos": 473
+                                    },
+                                    "end": {
+                                        "line": 25,
+                                        "col": 22,
+                                        "pos": 476
+                                    },
+                                    "text": "true"
+                                }
+                            }
+                        },
+                        "cond": {
+                            "$KIND": "Call",
+                            "base": {
+                                "$KIND": "Ident",
+                                "ident": {
+                                    "type": "IDENT",
+                                    "upath": "em.lang/BuildC",
+                                    "beg": {
+                                        "line": 25,
+                                        "col": 27,
+                                        "pos": 481
+                                    },
+                                    "end": {
+                                        "line": 25,
+                                        "col": 33,
+                                        "pos": 487
+                                    },
+                                    "text": "getProp"
+                                }
+                            },
+                            "args": [
+                                {
+                                    "$KIND": "Const",
+                                    "val": {
+                                        "type": "STRING",
+                                        "upath": "em.lang/BuildC",
+                                        "beg": {
+                                            "line": 25,
+                                            "col": 35,
+                                            "pos": 489
+                                        },
+                                        "end": {
+                                            "line": 25,
+                                            "col": 54,
+                                            "pos": 508
+                                        },
+                                        "text": "\"em.lang.BootLoader\""
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "$KIND": "Assign",
+                        "expr": {
+                            "$KIND": "Binary",
+                            "left": {
+                                "$KIND": "Ident",
+                                "ident": {
+                                    "type": "IDENT",
+                                    "upath": "em.lang/BuildC",
+                                    "beg": {
+                                        "line": 26,
+                                        "col": 5,
+                                        "pos": 515
+                                    },
+                                    "end": {
+                                        "line": 26,
+                                        "col": 12,
+                                        "pos": 522
+                                    },
+                                    "text": "compiler"
+                                }
+                            },
+                            "op": {
+                                "type": "QUESTEQ",
+                                "upath": "em.lang/BuildC",
+                                "beg": {
+                                    "line": 26,
+                                    "col": 14,
+                                    "pos": 524
+                                },
+                                "end": {
+                                    "line": 26,
+                                    "col": 15,
+                                    "pos": 525
+                                },
+                                "text": "?="
+                            },
+                            "right": {
+                                "$KIND": "Ident",
+                                "ident": {
+                                    "type": "IDENT",
+                                    "upath": "em.lang/BuildC",
+                                    "beg": {
+                                        "line": 26,
+                                        "col": 17,
+                                        "pos": 527
+                                    },
+                                    "end": {
+                                        "line": 26,
+                                        "col": 23,
+                                        "pos": 533
+                                    },
+                                    "text": "curPval"
+                                }
+                            }
+                        },
+                        "cond": {
+                            "$KIND": "Call",
+                            "base": {
+                                "$KIND": "Ident",
+                                "ident": {
+                                    "type": "IDENT",
+                                    "upath": "em.lang/BuildC",
+                                    "beg": {
+                                        "line": 26,
+                                        "col": 28,
+                                        "pos": 538
+                                    },
+                                    "end": {
+                                        "line": 26,
+                                        "col": 34,
+                                        "pos": 544
+                                    },
+                                    "text": "getProp"
+                                }
+                            },
+                            "args": [
+                                {
+                                    "$KIND": "Const",
+                                    "val": {
+                                        "type": "STRING",
+                                        "upath": "em.lang/BuildC",
+                                        "beg": {
+                                            "line": 26,
+                                            "col": 36,
+                                            "pos": 546
+                                        },
+                                        "end": {
+                                            "line": 26,
+                                            "col": 54,
+                                            "pos": 564
+                                        },
+                                        "text": "\"em.build.Compiler\""
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "$KIND": "Assign",
+                        "expr": {
+                            "$KIND": "Binary",
+                            "left": {
+                                "$KIND": "Ident",
+                                "ident": {
+                                    "type": "IDENT",
+                                    "upath": "em.lang/BuildC",
+                                    "beg": {
+                                        "line": 27,
+                                        "col": 5,
+                                        "pos": 571
+                                    },
+                                    "end": {
+                                        "line": 27,
+                                        "col": 7,
+                                        "pos": 573
+                                    },
+                                    "text": "cpu"
+                                }
+                            },
+                            "op": {
+                                "type": "QUESTEQ",
+                                "upath": "em.lang/BuildC",
+                                "beg": {
+                                    "line": 27,
+                                    "col": 9,
+                                    "pos": 575
+                                },
+                                "end": {
+                                    "line": 27,
+                                    "col": 10,
+                                    "pos": 576
+                                },
+                                "text": "?="
+                            },
+                            "right": {
+                                "$KIND": "Ident",
+                                "ident": {
+                                    "type": "IDENT",
+                                    "upath": "em.lang/BuildC",
+                                    "beg": {
+                                        "line": 27,
+                                        "col": 12,
+                                        "pos": 578
+                                    },
+                                    "end": {
+                                        "line": 27,
+                                        "col": 18,
+                                        "pos": 584
+                                    },
+                                    "text": "curPval"
+                                }
+                            }
+                        },
+                        "cond": {
+                            "$KIND": "Call",
+                            "base": {
+                                "$KIND": "Ident",
+                                "ident": {
+                                    "type": "IDENT",
+                                    "upath": "em.lang/BuildC",
+                                    "beg": {
+                                        "line": 27,
+                                        "col": 23,
+                                        "pos": 589
+                                    },
+                                    "end": {
+                                        "line": 27,
+                                        "col": 29,
+                                        "pos": 595
+                                    },
+                                    "text": "getProp"
+                                }
+                            },
+                            "args": [
+                                {
+                                    "$KIND": "Const",
+                                    "val": {
+                                        "type": "STRING",
+                                        "upath": "em.lang/BuildC",
+                                        "beg": {
+                                            "line": 27,
+                                            "col": 31,
+                                            "pos": 597
+                                        },
+                                        "end": {
+                                            "line": 27,
+                                            "col": 44,
+                                            "pos": 610
+                                        },
+                                        "text": "\"em.build.Cpu\""
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "$KIND": "Assign",
+                        "expr": {
+                            "$KIND": "Binary",
+                            "left": {
+                                "$KIND": "Ident",
+                                "ident": {
+                                    "type": "IDENT",
+                                    "upath": "em.lang/BuildC",
+                                    "beg": {
+                                        "line": 28,
+                                        "col": 5,
+                                        "pos": 617
+                                    },
+                                    "end": {
+                                        "line": 28,
+                                        "col": 12,
+                                        "pos": 624
+                                    },
+                                    "text": "jlinkDev"
+                                }
+                            },
+                            "op": {
+                                "type": "QUESTEQ",
+                                "upath": "em.lang/BuildC",
+                                "beg": {
+                                    "line": 28,
+                                    "col": 14,
+                                    "pos": 626
+                                },
+                                "end": {
+                                    "line": 28,
+                                    "col": 15,
+                                    "pos": 627
+                                },
+                                "text": "?="
+                            },
+                            "right": {
+                                "$KIND": "Ident",
+                                "ident": {
+                                    "type": "IDENT",
+                                    "upath": "em.lang/BuildC",
+                                    "beg": {
+                                        "line": 28,
+                                        "col": 17,
+                                        "pos": 629
+                                    },
+                                    "end": {
+                                        "line": 28,
+                                        "col": 23,
+                                        "pos": 635
+                                    },
+                                    "text": "curPval"
+                                }
+                            }
+                        },
+                        "cond": {
+                            "$KIND": "Call",
+                            "base": {
+                                "$KIND": "Ident",
+                                "ident": {
+                                    "type": "IDENT",
+                                    "upath": "em.lang/BuildC",
+                                    "beg": {
+                                        "line": 28,
+                                        "col": 28,
+                                        "pos": 640
+                                    },
+                                    "end": {
+                                        "line": 28,
+                                        "col": 34,
+                                        "pos": 646
+                                    },
+                                    "text": "getProp"
+                                }
+                            },
+                            "args": [
+                                {
+                                    "$KIND": "Const",
+                                    "val": {
+                                        "type": "STRING",
+                                        "upath": "em.lang/BuildC",
+                                        "beg": {
+                                            "line": 28,
+                                            "col": 36,
+                                            "pos": 648
+                                        },
+                                        "end": {
+                                            "line": 28,
+                                            "col": 54,
+                                            "pos": 666
+                                        },
+                                        "text": "\"em.build.JlinkDev\""
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "$KIND": "Assign",
+                        "expr": {
+                            "$KIND": "Binary",
+                            "left": {
+                                "$KIND": "Ident",
+                                "ident": {
+                                    "type": "IDENT",
+                                    "upath": "em.lang/BuildC",
+                                    "beg": {
+                                        "line": 29,
+                                        "col": 5,
+                                        "pos": 673
+                                    },
+                                    "end": {
+                                        "line": 29,
+                                        "col": 7,
+                                        "pos": 675
+                                    },
+                                    "text": "mcu"
+                                }
+                            },
+                            "op": {
+                                "type": "QUESTEQ",
+                                "upath": "em.lang/BuildC",
+                                "beg": {
+                                    "line": 29,
+                                    "col": 9,
+                                    "pos": 677
+                                },
+                                "end": {
+                                    "line": 29,
+                                    "col": 10,
+                                    "pos": 678
+                                },
+                                "text": "?="
+                            },
+                            "right": {
+                                "$KIND": "Ident",
+                                "ident": {
+                                    "type": "IDENT",
+                                    "upath": "em.lang/BuildC",
+                                    "beg": {
+                                        "line": 29,
+                                        "col": 12,
+                                        "pos": 680
+                                    },
+                                    "end": {
+                                        "line": 29,
+                                        "col": 18,
+                                        "pos": 686
+                                    },
+                                    "text": "curPval"
+                                }
+                            }
+                        },
+                        "cond": {
+                            "$KIND": "Call",
+                            "base": {
+                                "$KIND": "Ident",
+                                "ident": {
+                                    "type": "IDENT",
+                                    "upath": "em.lang/BuildC",
+                                    "beg": {
+                                        "line": 29,
+                                        "col": 23,
+                                        "pos": 691
+                                    },
+                                    "end": {
+                                        "line": 29,
+                                        "col": 29,
+                                        "pos": 697
+                                    },
+                                    "text": "getProp"
+                                }
+                            },
+                            "args": [
+                                {
+                                    "$KIND": "Const",
+                                    "val": {
+                                        "type": "STRING",
+                                        "upath": "em.lang/BuildC",
+                                        "beg": {
+                                            "line": 29,
+                                            "col": 31,
+                                            "pos": 699
+                                        },
+                                        "end": {
+                                            "line": 29,
+                                            "col": 44,
+                                            "pos": 712
+                                        },
+                                        "text": "\"em.build.Mcu\""
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "$KIND": "Assign",
+                        "expr": {
+                            "$KIND": "Binary",
+                            "left": {
+                                "$KIND": "Ident",
+                                "ident": {
+                                    "type": "IDENT",
+                                    "upath": "em.lang/BuildC",
+                                    "beg": {
+                                        "line": 30,
+                                        "col": 5,
+                                        "pos": 719
+                                    },
+                                    "end": {
+                                        "line": 30,
+                                        "col": 12,
+                                        "pos": 726
+                                    },
+                                    "text": "optimize"
+                                }
+                            },
+                            "op": {
+                                "type": "QUESTEQ",
+                                "upath": "em.lang/BuildC",
+                                "beg": {
+                                    "line": 30,
+                                    "col": 14,
+                                    "pos": 728
+                                },
+                                "end": {
+                                    "line": 30,
+                                    "col": 15,
+                                    "pos": 729
+                                },
+                                "text": "?="
+                            },
+                            "right": {
+                                "$KIND": "Ident",
+                                "ident": {
+                                    "type": "IDENT",
+                                    "upath": "em.lang/BuildC",
+                                    "beg": {
+                                        "line": 30,
+                                        "col": 17,
+                                        "pos": 731
+                                    },
+                                    "end": {
+                                        "line": 30,
+                                        "col": 23,
+                                        "pos": 737
+                                    },
+                                    "text": "curPval"
+                                }
+                            }
+                        },
+                        "cond": {
+                            "$KIND": "Call",
+                            "base": {
+                                "$KIND": "Ident",
+                                "ident": {
+                                    "type": "IDENT",
+                                    "upath": "em.lang/BuildC",
+                                    "beg": {
+                                        "line": 30,
+                                        "col": 28,
+                                        "pos": 742
+                                    },
+                                    "end": {
+                                        "line": 30,
+                                        "col": 34,
+                                        "pos": 748
+                                    },
+                                    "text": "getProp"
+                                }
+                            },
+                            "args": [
+                                {
+                                    "$KIND": "Const",
+                                    "val": {
+                                        "type": "STRING",
+                                        "upath": "em.lang/BuildC",
+                                        "beg": {
+                                            "line": 30,
+                                            "col": 36,
+                                            "pos": 750
+                                        },
+                                        "end": {
+                                            "line": 30,
+                                            "col": 54,
+                                            "pos": 768
+                                        },
+                                        "text": "\"em.build.Optimize\""
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": {
+                "segs": [
+                    {
+                        "type": "IDENT",
+                        "upath": "em.lang/BuildC",
+                        "beg": {
+                            "line": 33,
+                            "col": 5,
+                            "pos": 780
+                        },
+                        "end": {
+                            "line": 33,
+                            "col": 11,
+                            "pos": 786
+                        },
+                        "text": "getProp"
+                    }
+                ]
+            },
+            "args": [
+                {
+                    "$KIND": "Arg",
+                    "flags": 0,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.lang/BuildC",
+                        "beg": {
+                            "line": 33,
+                            "col": 13,
+                            "pos": 788
+                        },
+                        "end": {
+                            "line": 33,
+                            "col": 17,
+                            "pos": 792
+                        },
+                        "text": "pname"
+                    },
+                    "docs": []
+                }
+            ],
+            "block": {
+                "$KIND": "Block",
+                "serial": 2,
+                "stmts": [
+                    {
+                        "$KIND": "Return",
+                        "kw": {
+                            "type": "KW_RETURN",
+                            "upath": "em.lang/BuildC",
+                            "beg": {
+                                "line": 34,
+                                "col": 5,
+                                "pos": 799
+                            },
+                            "end": {
+                                "line": 34,
+                                "col": 10,
+                                "pos": 804
+                            },
+                            "text": "return"
+                        },
+                        "expr": {
+                            "$KIND": "Binary",
+                            "left": {
+                                "$KIND": "Ident",
+                                "ident": {
+                                    "type": "IDENT",
+                                    "upath": "em.lang/BuildC",
+                                    "beg": {
+                                        "line": 34,
+                                        "col": 12,
+                                        "pos": 806
+                                    },
+                                    "end": {
+                                        "line": 34,
+                                        "col": 18,
+                                        "pos": 812
+                                    },
+                                    "text": "curPval"
+                                }
+                            },
+                            "op": {
+                                "type": "EQ",
+                                "upath": "em.lang/BuildC",
+                                "beg": {
+                                    "line": 34,
+                                    "col": 20,
+                                    "pos": 814
+                                },
+                                "end": {
+                                    "line": 34,
+                                    "col": 20,
+                                    "pos": 814
+                                },
+                                "text": "="
+                            },
+                            "right": {
+                                "$KIND": "Call",
+                                "base": {
+                                    "$KIND": "Esc",
+                                    "esc": {
+                                        "type": "CODE2",
+                                        "upath": "em.lang/BuildC",
+                                        "beg": {
+                                            "line": 34,
+                                            "col": 22,
+                                            "pos": 816
+                                        },
+                                        "end": {
+                                            "line": 34,
+                                            "col": 37,
+                                            "pos": 831
+                                        },
+                                        "text": "em$props.get"
+                                    }
+                                },
+                                "args": [
+                                    {
+                                        "$KIND": "Ident",
+                                        "ident": {
+                                            "type": "IDENT",
+                                            "upath": "em.lang/BuildC",
+                                            "beg": {
+                                                "line": 34,
+                                                "col": 39,
+                                                "pos": 833
+                                            },
+                                            "end": {
+                                                "line": 34,
+                                                "col": 43,
+                                                "pos": 837
+                                            },
+                                            "text": "pname"
+                                        }
+                                    },
+                                    {
+                                        "$KIND": "Const",
+                                        "val": {
+                                            "type": "KW_NULL",
+                                            "upath": "em.lang/BuildC",
+                                            "beg": {
+                                                "line": 34,
+                                                "col": 46,
+                                                "pos": 840
+                                            },
+                                            "end": {
+                                                "line": 34,
+                                                "col": 49,
+                                                "pos": 843
+                                            },
+                                            "text": "null"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ],
+    "docs": []
+}

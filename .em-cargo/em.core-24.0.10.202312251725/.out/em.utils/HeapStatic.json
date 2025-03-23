@@ -1,0 +1,1796 @@
+{
+    "flags": 4,
+    "pkgName": {
+        "segs": [
+            {
+                "type": "IDENT",
+                "upath": "em.utils/HeapStatic",
+                "beg": {
+                    "line": 1,
+                    "col": 9,
+                    "pos": 8
+                },
+                "end": {
+                    "line": 1,
+                    "col": 10,
+                    "pos": 9
+                },
+                "text": "em"
+            },
+            {
+                "type": "IDENT",
+                "upath": "em.utils/HeapStatic",
+                "beg": {
+                    "line": 1,
+                    "col": 12,
+                    "pos": 11
+                },
+                "end": {
+                    "line": 1,
+                    "col": 16,
+                    "pos": 15
+                },
+                "text": "utils"
+            }
+        ]
+    },
+    "imps": [
+        {
+            "from": {
+                "segs": [
+                    {
+                        "type": "IDENT",
+                        "upath": "em.utils/HeapStatic",
+                        "beg": {
+                            "line": 3,
+                            "col": 6,
+                            "pos": 23
+                        },
+                        "end": {
+                            "line": 3,
+                            "col": 7,
+                            "pos": 24
+                        },
+                        "text": "em"
+                    },
+                    {
+                        "type": "IDENT",
+                        "upath": "em.utils/HeapStatic",
+                        "beg": {
+                            "line": 3,
+                            "col": 9,
+                            "pos": 26
+                        },
+                        "end": {
+                            "line": 3,
+                            "col": 11,
+                            "pos": 28
+                        },
+                        "text": "mcu"
+                    }
+                ]
+            },
+            "uname": {
+                "type": "IDENT",
+                "upath": "em.utils/HeapStatic",
+                "beg": {
+                    "line": 3,
+                    "col": 20,
+                    "pos": 37
+                },
+                "end": {
+                    "line": 3,
+                    "col": 25,
+                    "pos": 42
+                },
+                "text": "Common"
+            }
+        }
+    ],
+    "exps": [],
+    "sup": {
+        "ident": {
+            "type": "IDENT",
+            "upath": "em.utils/HeapStatic",
+            "beg": {
+                "line": 5,
+                "col": 8,
+                "pos": 52
+            },
+            "end": {
+                "line": 5,
+                "col": 17,
+                "pos": 61
+            },
+            "text": "HeapStatic"
+        }
+    },
+    "decls": [
+        {
+            "$KIND": "Config",
+            "flags": 0,
+            "ident": {
+                "type": "IDENT",
+                "upath": "em.utils/HeapStatic",
+                "beg": {
+                    "line": 7,
+                    "col": 12,
+                    "pos": 75
+                },
+                "end": {
+                    "line": 7,
+                    "col": 19,
+                    "pos": 82
+                },
+                "text": "baseAddr"
+            },
+            "docs": [],
+            "type": {
+                "$KIND": "Std",
+                "ident": {
+                    "type": "TY_ADDR",
+                    "upath": "em.utils/HeapStatic",
+                    "beg": {
+                        "line": 7,
+                        "col": 22,
+                        "pos": 85
+                    },
+                    "end": {
+                        "line": 7,
+                        "col": 27,
+                        "pos": 90
+                    },
+                    "text": "addr_t"
+                },
+                "tmods": 0
+            }
+        },
+        {
+            "$KIND": "Config",
+            "flags": 0,
+            "ident": {
+                "type": "IDENT",
+                "upath": "em.utils/HeapStatic",
+                "beg": {
+                    "line": 8,
+                    "col": 12,
+                    "pos": 103
+                },
+                "end": {
+                    "line": 8,
+                    "col": 19,
+                    "pos": 110
+                },
+                "text": "maxBytes"
+            },
+            "docs": [],
+            "type": {
+                "$KIND": "Std",
+                "ident": {
+                    "type": "TY_UINT16",
+                    "upath": "em.utils/HeapStatic",
+                    "beg": {
+                        "line": 8,
+                        "col": 22,
+                        "pos": 113
+                    },
+                    "end": {
+                        "line": 8,
+                        "col": 27,
+                        "pos": 118
+                    },
+                    "text": "uint16"
+                },
+                "tmods": 0
+            }
+        },
+        {
+            "$KIND": "Fxn",
+            "flags": 2,
+            "ident": {
+                "type": "IDENT",
+                "upath": "em.utils/HeapStatic",
+                "beg": {
+                    "line": 10,
+                    "col": 19,
+                    "pos": 143
+                },
+                "end": {
+                    "line": 10,
+                    "col": 24,
+                    "pos": 148
+                },
+                "text": "allocH"
+            },
+            "docs": [],
+            "args": [
+                {
+                    "$KIND": "Arg",
+                    "flags": 2,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.utils/HeapStatic",
+                        "beg": {
+                            "line": 10,
+                            "col": 26,
+                            "pos": 150
+                        },
+                        "end": {
+                            "line": 10,
+                            "col": 29,
+                            "pos": 153
+                        },
+                        "text": "size"
+                    },
+                    "docs": [],
+                    "type": {
+                        "$KIND": "Std",
+                        "ident": {
+                            "type": "TY_UINT16",
+                            "upath": "em.utils/HeapStatic",
+                            "beg": {
+                                "line": 10,
+                                "col": 32,
+                                "pos": 156
+                            },
+                            "end": {
+                                "line": 10,
+                                "col": 37,
+                                "pos": 161
+                            },
+                            "text": "uint16"
+                        },
+                        "tmods": 0
+                    }
+                }
+            ],
+            "type": {
+                "$KIND": "Std",
+                "ident": {
+                    "type": "TY_PTR",
+                    "upath": "em.utils/HeapStatic",
+                    "beg": {
+                        "line": 10,
+                        "col": 41,
+                        "pos": 165
+                    },
+                    "end": {
+                        "line": 10,
+                        "col": 45,
+                        "pos": 169
+                    },
+                    "text": "ptr_t"
+                },
+                "tmods": 0
+            }
+        },
+        {
+            "$KIND": "Fxn",
+            "flags": 0,
+            "ident": {
+                "type": "IDENT",
+                "upath": "em.utils/HeapStatic",
+                "beg": {
+                    "line": 12,
+                    "col": 14,
+                    "pos": 185
+                },
+                "end": {
+                    "line": 12,
+                    "col": 23,
+                    "pos": 194
+                },
+                "text": "getTopAddr"
+            },
+            "docs": [],
+            "args": [],
+            "type": {
+                "$KIND": "Std",
+                "ident": {
+                    "type": "TY_ADDR",
+                    "upath": "em.utils/HeapStatic",
+                    "beg": {
+                        "line": 12,
+                        "col": 28,
+                        "pos": 199
+                    },
+                    "end": {
+                        "line": 12,
+                        "col": 33,
+                        "pos": 204
+                    },
+                    "text": "addr_t"
+                },
+                "tmods": 0
+            }
+        },
+        {
+            "$KIND": "Fxn",
+            "flags": 2,
+            "ident": {
+                "type": "IDENT",
+                "upath": "em.utils/HeapStatic",
+                "beg": {
+                    "line": 13,
+                    "col": 19,
+                    "pos": 224
+                },
+                "end": {
+                    "line": 13,
+                    "col": 29,
+                    "pos": 234
+                },
+                "text": "getTopAddrH"
+            },
+            "docs": [],
+            "args": [],
+            "type": {
+                "$KIND": "Std",
+                "ident": {
+                    "type": "TY_ADDR",
+                    "upath": "em.utils/HeapStatic",
+                    "beg": {
+                        "line": 13,
+                        "col": 34,
+                        "pos": 239
+                    },
+                    "end": {
+                        "line": 13,
+                        "col": 39,
+                        "pos": 244
+                    },
+                    "text": "addr_t"
+                },
+                "tmods": 0
+            }
+        },
+        {
+            "$KIND": "Const",
+            "flags": 8,
+            "ident": {
+                "type": "IDENT",
+                "upath": "em.utils/HeapStatic",
+                "beg": {
+                    "line": 17,
+                    "col": 11,
+                    "pos": 267
+                },
+                "end": {
+                    "line": 17,
+                    "col": 14,
+                    "pos": 270
+                },
+                "text": "MASK"
+            },
+            "docs": [],
+            "type": {
+                "$KIND": "Std",
+                "ident": {
+                    "type": "TY_UINT32",
+                    "upath": "em.utils/HeapStatic",
+                    "beg": {
+                        "line": 17,
+                        "col": 17,
+                        "pos": 273
+                    },
+                    "end": {
+                        "line": 17,
+                        "col": 22,
+                        "pos": 278
+                    },
+                    "text": "uint32"
+                },
+                "tmods": 0
+            },
+            "init": {
+                "$KIND": "Const",
+                "val": {
+                    "type": "NUM",
+                    "upath": "em.utils/HeapStatic",
+                    "beg": {
+                        "line": 17,
+                        "col": 26,
+                        "pos": 282
+                    },
+                    "end": {
+                        "line": 17,
+                        "col": 28,
+                        "pos": 284
+                    },
+                    "text": "0x3"
+                }
+            }
+        },
+        {
+            "$KIND": "Config",
+            "flags": 8,
+            "ident": {
+                "type": "IDENT",
+                "upath": "em.utils/HeapStatic",
+                "beg": {
+                    "line": 18,
+                    "col": 12,
+                    "pos": 297
+                },
+                "end": {
+                    "line": 18,
+                    "col": 18,
+                    "pos": 303
+                },
+                "text": "topAddr"
+            },
+            "docs": [],
+            "type": {
+                "$KIND": "Std",
+                "ident": {
+                    "type": "TY_ADDR",
+                    "upath": "em.utils/HeapStatic",
+                    "beg": {
+                        "line": 18,
+                        "col": 21,
+                        "pos": 306
+                    },
+                    "end": {
+                        "line": 18,
+                        "col": 26,
+                        "pos": 311
+                    },
+                    "text": "addr_t"
+                },
+                "tmods": 0
+            }
+        }
+    ],
+    "bodies": [
+        {
+            "name": {
+                "segs": [
+                    {
+                        "type": "IDENT",
+                        "upath": "em.utils/HeapStatic",
+                        "beg": {
+                            "line": 21,
+                            "col": 5,
+                            "pos": 322
+                        },
+                        "end": {
+                            "line": 21,
+                            "col": 16,
+                            "pos": 333
+                        },
+                        "text": "em$construct"
+                    }
+                ]
+            },
+            "args": [],
+            "block": {
+                "$KIND": "Block",
+                "serial": 1,
+                "stmts": [
+                    {
+                        "$KIND": "Return",
+                        "kw": {
+                            "type": "KW_RETURN",
+                            "upath": "em.utils/HeapStatic",
+                            "beg": {
+                                "line": 22,
+                                "col": 5,
+                                "pos": 341
+                            },
+                            "end": {
+                                "line": 22,
+                                "col": 10,
+                                "pos": 346
+                            },
+                            "text": "return"
+                        },
+                        "cond": {
+                            "$KIND": "Binary",
+                            "left": {
+                                "$KIND": "Ident",
+                                "ident": {
+                                    "type": "IDENT",
+                                    "upath": "em.utils/HeapStatic",
+                                    "beg": {
+                                        "line": 22,
+                                        "col": 15,
+                                        "pos": 351
+                                    },
+                                    "end": {
+                                        "line": 22,
+                                        "col": 22,
+                                        "pos": 358
+                                    },
+                                    "text": "baseAddr"
+                                }
+                            },
+                            "op": {
+                                "type": "BARBAR",
+                                "upath": "em.utils/HeapStatic",
+                                "beg": {
+                                    "line": 22,
+                                    "col": 24,
+                                    "pos": 360
+                                },
+                                "end": {
+                                    "line": 22,
+                                    "col": 25,
+                                    "pos": 361
+                                },
+                                "text": "||"
+                            },
+                            "right": {
+                                "$KIND": "Binary",
+                                "left": {
+                                    "$KIND": "Ident",
+                                    "ident": {
+                                        "type": "IDENT",
+                                        "upath": "em.utils/HeapStatic",
+                                        "beg": {
+                                            "line": 22,
+                                            "col": 27,
+                                            "pos": 363
+                                        },
+                                        "end": {
+                                            "line": 22,
+                                            "col": 34,
+                                            "pos": 370
+                                        },
+                                        "text": "maxBytes"
+                                    }
+                                },
+                                "op": {
+                                    "type": "EQEQ",
+                                    "upath": "em.utils/HeapStatic",
+                                    "beg": {
+                                        "line": 22,
+                                        "col": 36,
+                                        "pos": 372
+                                    },
+                                    "end": {
+                                        "line": 22,
+                                        "col": 37,
+                                        "pos": 373
+                                    },
+                                    "text": "=="
+                                },
+                                "right": {
+                                    "$KIND": "Const",
+                                    "val": {
+                                        "type": "NUM",
+                                        "upath": "em.utils/HeapStatic",
+                                        "beg": {
+                                            "line": 22,
+                                            "col": 39,
+                                            "pos": 375
+                                        },
+                                        "end": {
+                                            "line": 22,
+                                            "col": 39,
+                                            "pos": 375
+                                        },
+                                        "text": "0"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "$KIND": "Print",
+                        "fmt": {
+                            "$KIND": "Const",
+                            "val": {
+                                "type": "STRING",
+                                "upath": "em.utils/HeapStatic",
+                                "beg": {
+                                    "line": 23,
+                                    "col": 12,
+                                    "pos": 388
+                                },
+                                "end": {
+                                    "line": 23,
+                                    "col": 45,
+                                    "pos": 421
+                                },
+                                "text": "\"*** HeapStatic:  baseAddr == 0\\n\""
+                            }
+                        },
+                        "args": []
+                    },
+                    {
+                        "$KIND": "Halt",
+                        "kw": {
+                            "type": "KW_FAIL",
+                            "upath": "em.utils/HeapStatic",
+                            "beg": {
+                                "line": 24,
+                                "col": 5,
+                                "pos": 427
+                            },
+                            "end": {
+                                "line": 24,
+                                "col": 8,
+                                "pos": 430
+                            },
+                            "text": "fail"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": {
+                "segs": [
+                    {
+                        "type": "IDENT",
+                        "upath": "em.utils/HeapStatic",
+                        "beg": {
+                            "line": 27,
+                            "col": 5,
+                            "pos": 441
+                        },
+                        "end": {
+                            "line": 27,
+                            "col": 14,
+                            "pos": 450
+                        },
+                        "text": "em$startup"
+                    }
+                ]
+            },
+            "args": [],
+            "block": {
+                "$KIND": "Block",
+                "serial": 2,
+                "stmts": [
+                    {
+                        "$KIND": "Return",
+                        "kw": {
+                            "type": "KW_RETURN",
+                            "upath": "em.utils/HeapStatic",
+                            "beg": {
+                                "line": 28,
+                                "col": 5,
+                                "pos": 458
+                            },
+                            "end": {
+                                "line": 28,
+                                "col": 10,
+                                "pos": 463
+                            },
+                            "text": "return"
+                        },
+                        "cond": {
+                            "$KIND": "Call",
+                            "base": {
+                                "$KIND": "Select",
+                                "base": {
+                                    "$KIND": "Select",
+                                    "base": {
+                                        "$KIND": "Ident",
+                                        "ident": {
+                                            "type": "IDENT",
+                                            "upath": "em.utils/HeapStatic",
+                                            "beg": {
+                                                "line": 28,
+                                                "col": 15,
+                                                "pos": 468
+                                            },
+                                            "end": {
+                                                "line": 28,
+                                                "col": 20,
+                                                "pos": 473
+                                            },
+                                            "text": "Common"
+                                        }
+                                    },
+                                    "ident": {
+                                        "type": "IDENT",
+                                        "upath": "em.utils/HeapStatic",
+                                        "beg": {
+                                            "line": 28,
+                                            "col": 22,
+                                            "pos": 475
+                                        },
+                                        "end": {
+                                            "line": 28,
+                                            "col": 24,
+                                            "pos": 477
+                                        },
+                                        "text": "Mcu"
+                                    }
+                                },
+                                "ident": {
+                                    "type": "IDENT",
+                                    "upath": "em.utils/HeapStatic",
+                                    "beg": {
+                                        "line": 28,
+                                        "col": 26,
+                                        "pos": 479
+                                    },
+                                    "end": {
+                                        "line": 28,
+                                        "col": 31,
+                                        "pos": 484
+                                    },
+                                    "text": "isWarm"
+                                }
+                            },
+                            "args": []
+                        }
+                    },
+                    {
+                        "$KIND": "Assign",
+                        "expr": {
+                            "$KIND": "Call",
+                            "base": {
+                                "$KIND": "Esc",
+                                "esc": {
+                                    "type": "CODE1",
+                                    "upath": "em.utils/HeapStatic",
+                                    "beg": {
+                                        "line": 29,
+                                        "col": 5,
+                                        "pos": 492
+                                    },
+                                    "end": {
+                                        "line": 29,
+                                        "col": 11,
+                                        "pos": 498
+                                    },
+                                    "text": "memset"
+                                }
+                            },
+                            "args": [
+                                {
+                                    "$KIND": "Cast",
+                                    "type": {
+                                        "$KIND": "Std",
+                                        "ident": {
+                                            "type": "TY_PTR",
+                                            "upath": "em.utils/HeapStatic",
+                                            "beg": {
+                                                "line": 29,
+                                                "col": 14,
+                                                "pos": 501
+                                            },
+                                            "end": {
+                                                "line": 29,
+                                                "col": 18,
+                                                "pos": 505
+                                            },
+                                            "text": "ptr_t"
+                                        },
+                                        "tmods": 0
+                                    },
+                                    "rand": {
+                                        "$KIND": "Ident",
+                                        "ident": {
+                                            "type": "IDENT",
+                                            "upath": "em.utils/HeapStatic",
+                                            "beg": {
+                                                "line": 29,
+                                                "col": 20,
+                                                "pos": 507
+                                            },
+                                            "end": {
+                                                "line": 29,
+                                                "col": 27,
+                                                "pos": 514
+                                            },
+                                            "text": "baseAddr"
+                                        }
+                                    }
+                                },
+                                {
+                                    "$KIND": "Const",
+                                    "val": {
+                                        "type": "NUM",
+                                        "upath": "em.utils/HeapStatic",
+                                        "beg": {
+                                            "line": 29,
+                                            "col": 30,
+                                            "pos": 517
+                                        },
+                                        "end": {
+                                            "line": 29,
+                                            "col": 30,
+                                            "pos": 517
+                                        },
+                                        "text": "0"
+                                    }
+                                },
+                                {
+                                    "$KIND": "Binary",
+                                    "left": {
+                                        "$KIND": "Ident",
+                                        "ident": {
+                                            "type": "IDENT",
+                                            "upath": "em.utils/HeapStatic",
+                                            "beg": {
+                                                "line": 29,
+                                                "col": 33,
+                                                "pos": 520
+                                            },
+                                            "end": {
+                                                "line": 29,
+                                                "col": 39,
+                                                "pos": 526
+                                            },
+                                            "text": "topAddr"
+                                        }
+                                    },
+                                    "op": {
+                                        "type": "MINUS",
+                                        "upath": "em.utils/HeapStatic",
+                                        "beg": {
+                                            "line": 29,
+                                            "col": 41,
+                                            "pos": 528
+                                        },
+                                        "end": {
+                                            "line": 29,
+                                            "col": 41,
+                                            "pos": 528
+                                        },
+                                        "text": "-"
+                                    },
+                                    "right": {
+                                        "$KIND": "Ident",
+                                        "ident": {
+                                            "type": "IDENT",
+                                            "upath": "em.utils/HeapStatic",
+                                            "beg": {
+                                                "line": 29,
+                                                "col": 43,
+                                                "pos": 530
+                                            },
+                                            "end": {
+                                                "line": 29,
+                                                "col": 50,
+                                                "pos": 537
+                                            },
+                                            "text": "baseAddr"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        "cond": {
+                            "$KIND": "Binary",
+                            "left": {
+                                "$KIND": "Ident",
+                                "ident": {
+                                    "type": "IDENT",
+                                    "upath": "em.utils/HeapStatic",
+                                    "beg": {
+                                        "line": 29,
+                                        "col": 56,
+                                        "pos": 543
+                                    },
+                                    "end": {
+                                        "line": 29,
+                                        "col": 62,
+                                        "pos": 549
+                                    },
+                                    "text": "topAddr"
+                                }
+                            },
+                            "op": {
+                                "type": "AMPAMP",
+                                "upath": "em.utils/HeapStatic",
+                                "beg": {
+                                    "line": 29,
+                                    "col": 64,
+                                    "pos": 551
+                                },
+                                "end": {
+                                    "line": 29,
+                                    "col": 65,
+                                    "pos": 552
+                                },
+                                "text": "&&"
+                            },
+                            "right": {
+                                "$KIND": "Binary",
+                                "left": {
+                                    "$KIND": "Call",
+                                    "base": {
+                                        "$KIND": "Select",
+                                        "base": {
+                                            "$KIND": "Select",
+                                            "base": {
+                                                "$KIND": "Ident",
+                                                "ident": {
+                                                    "type": "IDENT",
+                                                    "upath": "em.utils/HeapStatic",
+                                                    "beg": {
+                                                        "line": 29,
+                                                        "col": 67,
+                                                        "pos": 554
+                                                    },
+                                                    "end": {
+                                                        "line": 29,
+                                                        "col": 72,
+                                                        "pos": 559
+                                                    },
+                                                    "text": "Common"
+                                                }
+                                            },
+                                            "ident": {
+                                                "type": "IDENT",
+                                                "upath": "em.utils/HeapStatic",
+                                                "beg": {
+                                                    "line": 29,
+                                                    "col": 74,
+                                                    "pos": 561
+                                                },
+                                                "end": {
+                                                    "line": 29,
+                                                    "col": 76,
+                                                    "pos": 563
+                                                },
+                                                "text": "Mcu"
+                                            }
+                                        },
+                                        "ident": {
+                                            "type": "IDENT",
+                                            "upath": "em.utils/HeapStatic",
+                                            "beg": {
+                                                "line": 29,
+                                                "col": 78,
+                                                "pos": 565
+                                            },
+                                            "end": {
+                                                "line": 29,
+                                                "col": 89,
+                                                "pos": 576
+                                            },
+                                            "text": "getResetCode"
+                                        }
+                                    },
+                                    "args": []
+                                },
+                                "op": {
+                                    "type": "LTEQ",
+                                    "upath": "em.utils/HeapStatic",
+                                    "beg": {
+                                        "line": 29,
+                                        "col": 93,
+                                        "pos": 580
+                                    },
+                                    "end": {
+                                        "line": 29,
+                                        "col": 94,
+                                        "pos": 581
+                                    },
+                                    "text": "<="
+                                },
+                                "right": {
+                                    "$KIND": "Select",
+                                    "base": {
+                                        "$KIND": "Select",
+                                        "base": {
+                                            "$KIND": "Ident",
+                                            "ident": {
+                                                "type": "IDENT",
+                                                "upath": "em.utils/HeapStatic",
+                                                "beg": {
+                                                    "line": 29,
+                                                    "col": 96,
+                                                    "pos": 583
+                                                },
+                                                "end": {
+                                                    "line": 29,
+                                                    "col": 101,
+                                                    "pos": 588
+                                                },
+                                                "text": "Common"
+                                            }
+                                        },
+                                        "ident": {
+                                            "type": "IDENT",
+                                            "upath": "em.utils/HeapStatic",
+                                            "beg": {
+                                                "line": 29,
+                                                "col": 103,
+                                                "pos": 590
+                                            },
+                                            "end": {
+                                                "line": 29,
+                                                "col": 105,
+                                                "pos": 592
+                                            },
+                                            "text": "Mcu"
+                                        }
+                                    },
+                                    "ident": {
+                                        "type": "IDENT",
+                                        "upath": "em.utils/HeapStatic",
+                                        "beg": {
+                                            "line": 29,
+                                            "col": 107,
+                                            "pos": 594
+                                        },
+                                        "end": {
+                                            "line": 29,
+                                            "col": 116,
+                                            "pos": 603
+                                        },
+                                        "text": "COLD_RESET"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": {
+                "segs": [
+                    {
+                        "type": "IDENT",
+                        "upath": "em.utils/HeapStatic",
+                        "beg": {
+                            "line": 32,
+                            "col": 5,
+                            "pos": 614
+                        },
+                        "end": {
+                            "line": 32,
+                            "col": 10,
+                            "pos": 619
+                        },
+                        "text": "allocH"
+                    }
+                ]
+            },
+            "args": [
+                {
+                    "$KIND": "Arg",
+                    "flags": 0,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.utils/HeapStatic",
+                        "beg": {
+                            "line": 32,
+                            "col": 12,
+                            "pos": 621
+                        },
+                        "end": {
+                            "line": 32,
+                            "col": 15,
+                            "pos": 624
+                        },
+                        "text": "size"
+                    },
+                    "docs": []
+                }
+            ],
+            "block": {
+                "$KIND": "Block",
+                "serial": 3,
+                "stmts": [
+                    {
+                        "$KIND": "Assign",
+                        "expr": {
+                            "$KIND": "Binary",
+                            "left": {
+                                "$KIND": "Ident",
+                                "ident": {
+                                    "type": "IDENT",
+                                    "upath": "em.utils/HeapStatic",
+                                    "beg": {
+                                        "line": 33,
+                                        "col": 5,
+                                        "pos": 631
+                                    },
+                                    "end": {
+                                        "line": 33,
+                                        "col": 11,
+                                        "pos": 637
+                                    },
+                                    "text": "topAddr"
+                                }
+                            },
+                            "op": {
+                                "type": "EQ",
+                                "upath": "em.utils/HeapStatic",
+                                "beg": {
+                                    "line": 33,
+                                    "col": 13,
+                                    "pos": 639
+                                },
+                                "end": {
+                                    "line": 33,
+                                    "col": 13,
+                                    "pos": 639
+                                },
+                                "text": "="
+                            },
+                            "right": {
+                                "$KIND": "Ident",
+                                "ident": {
+                                    "type": "IDENT",
+                                    "upath": "em.utils/HeapStatic",
+                                    "beg": {
+                                        "line": 33,
+                                        "col": 15,
+                                        "pos": 641
+                                    },
+                                    "end": {
+                                        "line": 33,
+                                        "col": 22,
+                                        "pos": 648
+                                    },
+                                    "text": "baseAddr"
+                                }
+                            }
+                        },
+                        "cond": {
+                            "$KIND": "Binary",
+                            "left": {
+                                "$KIND": "Ident",
+                                "ident": {
+                                    "type": "IDENT",
+                                    "upath": "em.utils/HeapStatic",
+                                    "beg": {
+                                        "line": 33,
+                                        "col": 27,
+                                        "pos": 653
+                                    },
+                                    "end": {
+                                        "line": 33,
+                                        "col": 33,
+                                        "pos": 659
+                                    },
+                                    "text": "topAddr"
+                                }
+                            },
+                            "op": {
+                                "type": "EQEQ",
+                                "upath": "em.utils/HeapStatic",
+                                "beg": {
+                                    "line": 33,
+                                    "col": 35,
+                                    "pos": 661
+                                },
+                                "end": {
+                                    "line": 33,
+                                    "col": 36,
+                                    "pos": 662
+                                },
+                                "text": "=="
+                            },
+                            "right": {
+                                "$KIND": "Const",
+                                "val": {
+                                    "type": "NUM",
+                                    "upath": "em.utils/HeapStatic",
+                                    "beg": {
+                                        "line": 33,
+                                        "col": 38,
+                                        "pos": 664
+                                    },
+                                    "end": {
+                                        "line": 33,
+                                        "col": 38,
+                                        "pos": 664
+                                    },
+                                    "text": "0"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "$KIND": "Decl0",
+                        "decl": {
+                            "$KIND": "VarL",
+                            "flags": 0,
+                            "ident": {
+                                "type": "IDENT",
+                                "upath": "em.utils/HeapStatic",
+                                "beg": {
+                                    "line": 34,
+                                    "col": 10,
+                                    "pos": 675
+                                },
+                                "end": {
+                                    "line": 34,
+                                    "col": 10,
+                                    "pos": 675
+                                },
+                                "text": "p"
+                            },
+                            "docs": [],
+                            "init": {
+                                "$KIND": "Cast",
+                                "type": {
+                                    "$KIND": "Std",
+                                    "ident": {
+                                        "type": "TY_PTR",
+                                        "upath": "em.utils/HeapStatic",
+                                        "beg": {
+                                            "line": 34,
+                                            "col": 15,
+                                            "pos": 680
+                                        },
+                                        "end": {
+                                            "line": 34,
+                                            "col": 19,
+                                            "pos": 684
+                                        },
+                                        "text": "ptr_t"
+                                    },
+                                    "tmods": 0
+                                },
+                                "rand": {
+                                    "$KIND": "Ident",
+                                    "ident": {
+                                        "type": "IDENT",
+                                        "upath": "em.utils/HeapStatic",
+                                        "beg": {
+                                            "line": 34,
+                                            "col": 21,
+                                            "pos": 686
+                                        },
+                                        "end": {
+                                            "line": 34,
+                                            "col": 27,
+                                            "pos": 692
+                                        },
+                                        "text": "topAddr"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "$KIND": "Assign",
+                        "expr": {
+                            "$KIND": "Binary",
+                            "left": {
+                                "$KIND": "Ident",
+                                "ident": {
+                                    "type": "IDENT",
+                                    "upath": "em.utils/HeapStatic",
+                                    "beg": {
+                                        "line": 35,
+                                        "col": 5,
+                                        "pos": 698
+                                    },
+                                    "end": {
+                                        "line": 35,
+                                        "col": 11,
+                                        "pos": 704
+                                    },
+                                    "text": "topAddr"
+                                }
+                            },
+                            "op": {
+                                "type": "PLUSEQ",
+                                "upath": "em.utils/HeapStatic",
+                                "beg": {
+                                    "line": 35,
+                                    "col": 13,
+                                    "pos": 706
+                                },
+                                "end": {
+                                    "line": 35,
+                                    "col": 14,
+                                    "pos": 707
+                                },
+                                "text": "+="
+                            },
+                            "right": {
+                                "$KIND": "Ident",
+                                "ident": {
+                                    "type": "IDENT",
+                                    "upath": "em.utils/HeapStatic",
+                                    "beg": {
+                                        "line": 35,
+                                        "col": 16,
+                                        "pos": 709
+                                    },
+                                    "end": {
+                                        "line": 35,
+                                        "col": 19,
+                                        "pos": 712
+                                    },
+                                    "text": "size"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "$KIND": "Assign",
+                        "expr": {
+                            "$KIND": "Binary",
+                            "left": {
+                                "$KIND": "Ident",
+                                "ident": {
+                                    "type": "IDENT",
+                                    "upath": "em.utils/HeapStatic",
+                                    "beg": {
+                                        "line": 36,
+                                        "col": 5,
+                                        "pos": 718
+                                    },
+                                    "end": {
+                                        "line": 36,
+                                        "col": 11,
+                                        "pos": 724
+                                    },
+                                    "text": "topAddr"
+                                }
+                            },
+                            "op": {
+                                "type": "EQ",
+                                "upath": "em.utils/HeapStatic",
+                                "beg": {
+                                    "line": 36,
+                                    "col": 13,
+                                    "pos": 726
+                                },
+                                "end": {
+                                    "line": 36,
+                                    "col": 13,
+                                    "pos": 726
+                                },
+                                "text": "="
+                            },
+                            "right": {
+                                "$KIND": "Binary",
+                                "left": {
+                                    "$KIND": "Paren",
+                                    "base": {
+                                        "$KIND": "Binary",
+                                        "left": {
+                                            "$KIND": "Ident",
+                                            "ident": {
+                                                "type": "IDENT",
+                                                "upath": "em.utils/HeapStatic",
+                                                "beg": {
+                                                    "line": 36,
+                                                    "col": 16,
+                                                    "pos": 729
+                                                },
+                                                "end": {
+                                                    "line": 36,
+                                                    "col": 22,
+                                                    "pos": 735
+                                                },
+                                                "text": "topAddr"
+                                            }
+                                        },
+                                        "op": {
+                                            "type": "PLUS",
+                                            "upath": "em.utils/HeapStatic",
+                                            "beg": {
+                                                "line": 36,
+                                                "col": 24,
+                                                "pos": 737
+                                            },
+                                            "end": {
+                                                "line": 36,
+                                                "col": 24,
+                                                "pos": 737
+                                            },
+                                            "text": "+"
+                                        },
+                                        "right": {
+                                            "$KIND": "Ident",
+                                            "ident": {
+                                                "type": "IDENT",
+                                                "upath": "em.utils/HeapStatic",
+                                                "beg": {
+                                                    "line": 36,
+                                                    "col": 26,
+                                                    "pos": 739
+                                                },
+                                                "end": {
+                                                    "line": 36,
+                                                    "col": 29,
+                                                    "pos": 742
+                                                },
+                                                "text": "MASK"
+                                            }
+                                        }
+                                    }
+                                },
+                                "op": {
+                                    "type": "AMP",
+                                    "upath": "em.utils/HeapStatic",
+                                    "beg": {
+                                        "line": 36,
+                                        "col": 32,
+                                        "pos": 745
+                                    },
+                                    "end": {
+                                        "line": 36,
+                                        "col": 32,
+                                        "pos": 745
+                                    },
+                                    "text": "&"
+                                },
+                                "right": {
+                                    "$KIND": "Unary",
+                                    "rator": {
+                                        "type": "TILDE",
+                                        "upath": "em.utils/HeapStatic",
+                                        "beg": {
+                                            "line": 36,
+                                            "col": 34,
+                                            "pos": 747
+                                        },
+                                        "end": {
+                                            "line": 36,
+                                            "col": 34,
+                                            "pos": 747
+                                        },
+                                        "text": "~"
+                                    },
+                                    "rand": {
+                                        "$KIND": "Ident",
+                                        "ident": {
+                                            "type": "IDENT",
+                                            "upath": "em.utils/HeapStatic",
+                                            "beg": {
+                                                "line": 36,
+                                                "col": 35,
+                                                "pos": 748
+                                            },
+                                            "end": {
+                                                "line": 36,
+                                                "col": 38,
+                                                "pos": 751
+                                            },
+                                            "text": "MASK"
+                                        }
+                                    },
+                                    "isPostfix": false
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "$KIND": "Return",
+                        "kw": {
+                            "type": "KW_RETURN",
+                            "upath": "em.utils/HeapStatic",
+                            "beg": {
+                                "line": 37,
+                                "col": 5,
+                                "pos": 757
+                            },
+                            "end": {
+                                "line": 37,
+                                "col": 10,
+                                "pos": 762
+                            },
+                            "text": "return"
+                        },
+                        "expr": {
+                            "$KIND": "Ident",
+                            "ident": {
+                                "type": "IDENT",
+                                "upath": "em.utils/HeapStatic",
+                                "beg": {
+                                    "line": 37,
+                                    "col": 12,
+                                    "pos": 764
+                                },
+                                "end": {
+                                    "line": 37,
+                                    "col": 12,
+                                    "pos": 764
+                                },
+                                "text": "p"
+                            }
+                        },
+                        "cond": {
+                            "$KIND": "Binary",
+                            "left": {
+                                "$KIND": "Paren",
+                                "base": {
+                                    "$KIND": "Binary",
+                                    "left": {
+                                        "$KIND": "Ident",
+                                        "ident": {
+                                            "type": "IDENT",
+                                            "upath": "em.utils/HeapStatic",
+                                            "beg": {
+                                                "line": 37,
+                                                "col": 18,
+                                                "pos": 770
+                                            },
+                                            "end": {
+                                                "line": 37,
+                                                "col": 24,
+                                                "pos": 776
+                                            },
+                                            "text": "topAddr"
+                                        }
+                                    },
+                                    "op": {
+                                        "type": "MINUS",
+                                        "upath": "em.utils/HeapStatic",
+                                        "beg": {
+                                            "line": 37,
+                                            "col": 26,
+                                            "pos": 778
+                                        },
+                                        "end": {
+                                            "line": 37,
+                                            "col": 26,
+                                            "pos": 778
+                                        },
+                                        "text": "-"
+                                    },
+                                    "right": {
+                                        "$KIND": "Ident",
+                                        "ident": {
+                                            "type": "IDENT",
+                                            "upath": "em.utils/HeapStatic",
+                                            "beg": {
+                                                "line": 37,
+                                                "col": 28,
+                                                "pos": 780
+                                            },
+                                            "end": {
+                                                "line": 37,
+                                                "col": 35,
+                                                "pos": 787
+                                            },
+                                            "text": "baseAddr"
+                                        }
+                                    }
+                                }
+                            },
+                            "op": {
+                                "type": "LT",
+                                "upath": "em.utils/HeapStatic",
+                                "beg": {
+                                    "line": 37,
+                                    "col": 38,
+                                    "pos": 790
+                                },
+                                "end": {
+                                    "line": 37,
+                                    "col": 38,
+                                    "pos": 790
+                                },
+                                "text": "<"
+                            },
+                            "right": {
+                                "$KIND": "Ident",
+                                "ident": {
+                                    "type": "IDENT",
+                                    "upath": "em.utils/HeapStatic",
+                                    "beg": {
+                                        "line": 37,
+                                        "col": 40,
+                                        "pos": 792
+                                    },
+                                    "end": {
+                                        "line": 37,
+                                        "col": 47,
+                                        "pos": 799
+                                    },
+                                    "text": "maxBytes"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "$KIND": "Print",
+                        "fmt": {
+                            "$KIND": "Const",
+                            "val": {
+                                "type": "STRING",
+                                "upath": "em.utils/HeapStatic",
+                                "beg": {
+                                    "line": 38,
+                                    "col": 12,
+                                    "pos": 812
+                                },
+                                "end": {
+                                    "line": 38,
+                                    "col": 62,
+                                    "pos": 862
+                                },
+                                "text": "\"*** HeapStatic.allocH: maxBytes = %d, size = %d\\n\""
+                            }
+                        },
+                        "args": [
+                            {
+                                "$KIND": "Ident",
+                                "ident": {
+                                    "type": "IDENT",
+                                    "upath": "em.utils/HeapStatic",
+                                    "beg": {
+                                        "line": 38,
+                                        "col": 65,
+                                        "pos": 865
+                                    },
+                                    "end": {
+                                        "line": 38,
+                                        "col": 72,
+                                        "pos": 872
+                                    },
+                                    "text": "maxBytes"
+                                }
+                            },
+                            {
+                                "$KIND": "Ident",
+                                "ident": {
+                                    "type": "IDENT",
+                                    "upath": "em.utils/HeapStatic",
+                                    "beg": {
+                                        "line": 38,
+                                        "col": 75,
+                                        "pos": 875
+                                    },
+                                    "end": {
+                                        "line": 38,
+                                        "col": 78,
+                                        "pos": 878
+                                    },
+                                    "text": "size"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "$KIND": "Halt",
+                        "kw": {
+                            "type": "KW_FAIL",
+                            "upath": "em.utils/HeapStatic",
+                            "beg": {
+                                "line": 39,
+                                "col": 5,
+                                "pos": 884
+                            },
+                            "end": {
+                                "line": 39,
+                                "col": 8,
+                                "pos": 887
+                            },
+                            "text": "fail"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": {
+                "segs": [
+                    {
+                        "type": "IDENT",
+                        "upath": "em.utils/HeapStatic",
+                        "beg": {
+                            "line": 42,
+                            "col": 5,
+                            "pos": 898
+                        },
+                        "end": {
+                            "line": 42,
+                            "col": 14,
+                            "pos": 907
+                        },
+                        "text": "getTopAddr"
+                    }
+                ]
+            },
+            "args": [],
+            "block": {
+                "$KIND": "Block",
+                "serial": 4,
+                "stmts": [
+                    {
+                        "$KIND": "Return",
+                        "kw": {
+                            "type": "KW_RETURN",
+                            "upath": "em.utils/HeapStatic",
+                            "beg": {
+                                "line": 43,
+                                "col": 5,
+                                "pos": 915
+                            },
+                            "end": {
+                                "line": 43,
+                                "col": 10,
+                                "pos": 920
+                            },
+                            "text": "return"
+                        },
+                        "expr": {
+                            "$KIND": "Ident",
+                            "ident": {
+                                "type": "IDENT",
+                                "upath": "em.utils/HeapStatic",
+                                "beg": {
+                                    "line": 43,
+                                    "col": 12,
+                                    "pos": 922
+                                },
+                                "end": {
+                                    "line": 43,
+                                    "col": 18,
+                                    "pos": 928
+                                },
+                                "text": "topAddr"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": {
+                "segs": [
+                    {
+                        "type": "IDENT",
+                        "upath": "em.utils/HeapStatic",
+                        "beg": {
+                            "line": 46,
+                            "col": 5,
+                            "pos": 939
+                        },
+                        "end": {
+                            "line": 46,
+                            "col": 15,
+                            "pos": 949
+                        },
+                        "text": "getTopAddrH"
+                    }
+                ]
+            },
+            "args": [],
+            "block": {
+                "$KIND": "Block",
+                "serial": 5,
+                "stmts": [
+                    {
+                        "$KIND": "Return",
+                        "kw": {
+                            "type": "KW_RETURN",
+                            "upath": "em.utils/HeapStatic",
+                            "beg": {
+                                "line": 47,
+                                "col": 5,
+                                "pos": 957
+                            },
+                            "end": {
+                                "line": 47,
+                                "col": 10,
+                                "pos": 962
+                            },
+                            "text": "return"
+                        },
+                        "expr": {
+                            "$KIND": "Ident",
+                            "ident": {
+                                "type": "IDENT",
+                                "upath": "em.utils/HeapStatic",
+                                "beg": {
+                                    "line": 47,
+                                    "col": 12,
+                                    "pos": 964
+                                },
+                                "end": {
+                                    "line": 47,
+                                    "col": 18,
+                                    "pos": 970
+                                },
+                                "text": "topAddr"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ],
+    "docs": []
+}

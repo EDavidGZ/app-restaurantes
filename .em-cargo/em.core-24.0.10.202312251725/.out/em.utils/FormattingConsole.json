@@ -1,0 +1,750 @@
+{
+    "flags": 4,
+    "pkgName": {
+        "segs": [
+            {
+                "type": "IDENT",
+                "upath": "em.utils/FormattingConsole",
+                "beg": {
+                    "line": 1,
+                    "col": 9,
+                    "pos": 8
+                },
+                "end": {
+                    "line": 1,
+                    "col": 10,
+                    "pos": 9
+                },
+                "text": "em"
+            },
+            {
+                "type": "IDENT",
+                "upath": "em.utils/FormattingConsole",
+                "beg": {
+                    "line": 1,
+                    "col": 12,
+                    "pos": 11
+                },
+                "end": {
+                    "line": 1,
+                    "col": 16,
+                    "pos": 15
+                },
+                "text": "utils"
+            }
+        ]
+    },
+    "imps": [
+        {
+            "from": {
+                "segs": [
+                    {
+                        "type": "IDENT",
+                        "upath": "em.utils/FormattingConsole",
+                        "beg": {
+                            "line": 3,
+                            "col": 6,
+                            "pos": 23
+                        },
+                        "end": {
+                            "line": 3,
+                            "col": 7,
+                            "pos": 24
+                        },
+                        "text": "em"
+                    },
+                    {
+                        "type": "IDENT",
+                        "upath": "em.utils/FormattingConsole",
+                        "beg": {
+                            "line": 3,
+                            "col": 9,
+                            "pos": 26
+                        },
+                        "end": {
+                            "line": 3,
+                            "col": 12,
+                            "pos": 29
+                        },
+                        "text": "lang"
+                    }
+                ]
+            },
+            "uname": {
+                "type": "IDENT",
+                "upath": "em.utils/FormattingConsole",
+                "beg": {
+                    "line": 3,
+                    "col": 21,
+                    "pos": 38
+                },
+                "end": {
+                    "line": 3,
+                    "col": 36,
+                    "pos": 53
+                },
+                "text": "ConsoleProviderI"
+            }
+        },
+        {
+            "from": {
+                "segs": [
+                    {
+                        "type": "IDENT",
+                        "upath": "em.utils/FormattingConsole",
+                        "beg": {
+                            "line": 5,
+                            "col": 6,
+                            "pos": 61
+                        },
+                        "end": {
+                            "line": 5,
+                            "col": 7,
+                            "pos": 62
+                        },
+                        "text": "em"
+                    },
+                    {
+                        "type": "IDENT",
+                        "upath": "em.utils/FormattingConsole",
+                        "beg": {
+                            "line": 5,
+                            "col": 9,
+                            "pos": 64
+                        },
+                        "end": {
+                            "line": 5,
+                            "col": 11,
+                            "pos": 66
+                        },
+                        "text": "mcu"
+                    }
+                ]
+            },
+            "uname": {
+                "type": "IDENT",
+                "upath": "em.utils/FormattingConsole",
+                "beg": {
+                    "line": 5,
+                    "col": 20,
+                    "pos": 75
+                },
+                "end": {
+                    "line": 5,
+                    "col": 30,
+                    "pos": 85
+                },
+                "text": "ConsoleUart"
+            }
+        },
+        {
+            "from": {
+                "segs": [
+                    {
+                        "type": "IDENT",
+                        "upath": "em.utils/FormattingConsole",
+                        "beg": {
+                            "line": 1,
+                            "col": 9,
+                            "pos": 8
+                        },
+                        "end": {
+                            "line": 1,
+                            "col": 10,
+                            "pos": 9
+                        },
+                        "text": "em"
+                    },
+                    {
+                        "type": "IDENT",
+                        "upath": "em.utils/FormattingConsole",
+                        "beg": {
+                            "line": 1,
+                            "col": 12,
+                            "pos": 11
+                        },
+                        "end": {
+                            "line": 1,
+                            "col": 16,
+                            "pos": 15
+                        },
+                        "text": "utils"
+                    }
+                ]
+            },
+            "uname": {
+                "type": "IDENT",
+                "upath": "em.utils/FormattingConsole",
+                "beg": {
+                    "line": 7,
+                    "col": 8,
+                    "pos": 95
+                },
+                "end": {
+                    "line": 7,
+                    "col": 16,
+                    "pos": 103
+                },
+                "text": "Formatter"
+            }
+        }
+    ],
+    "exps": [],
+    "sup": {
+        "ident": {
+            "type": "IDENT",
+            "upath": "em.utils/FormattingConsole",
+            "beg": {
+                "line": 9,
+                "col": 8,
+                "pos": 113
+            },
+            "end": {
+                "line": 9,
+                "col": 24,
+                "pos": 129
+            },
+            "text": "FormattingConsole"
+        },
+        "inter": {
+            "type": "IDENT",
+            "upath": "em.utils/FormattingConsole",
+            "beg": {
+                "line": 9,
+                "col": 27,
+                "pos": 132
+            },
+            "end": {
+                "line": 9,
+                "col": 42,
+                "pos": 147
+            },
+            "text": "ConsoleProviderI"
+        }
+    },
+    "decls": [],
+    "bodies": [
+        {
+            "name": {
+                "segs": [
+                    {
+                        "type": "IDENT",
+                        "upath": "em.utils/FormattingConsole",
+                        "beg": {
+                            "line": 13,
+                            "col": 5,
+                            "pos": 159
+                        },
+                        "end": {
+                            "line": 13,
+                            "col": 9,
+                            "pos": 163
+                        },
+                        "text": "flush"
+                    }
+                ]
+            },
+            "args": [],
+            "block": {
+                "$KIND": "Block",
+                "serial": 1,
+                "stmts": [
+                    {
+                        "$KIND": "Assign",
+                        "expr": {
+                            "$KIND": "Call",
+                            "base": {
+                                "$KIND": "Select",
+                                "base": {
+                                    "$KIND": "Ident",
+                                    "ident": {
+                                        "type": "IDENT",
+                                        "upath": "em.utils/FormattingConsole",
+                                        "beg": {
+                                            "line": 14,
+                                            "col": 5,
+                                            "pos": 171
+                                        },
+                                        "end": {
+                                            "line": 14,
+                                            "col": 15,
+                                            "pos": 181
+                                        },
+                                        "text": "ConsoleUart"
+                                    }
+                                },
+                                "ident": {
+                                    "type": "IDENT",
+                                    "upath": "em.utils/FormattingConsole",
+                                    "beg": {
+                                        "line": 14,
+                                        "col": 17,
+                                        "pos": 183
+                                    },
+                                    "end": {
+                                        "line": 14,
+                                        "col": 21,
+                                        "pos": 187
+                                    },
+                                    "text": "flush"
+                                }
+                            },
+                            "args": []
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": {
+                "segs": [
+                    {
+                        "type": "IDENT",
+                        "upath": "em.utils/FormattingConsole",
+                        "beg": {
+                            "line": 17,
+                            "col": 5,
+                            "pos": 200
+                        },
+                        "end": {
+                            "line": 17,
+                            "col": 9,
+                            "pos": 204
+                        },
+                        "text": "print"
+                    }
+                ]
+            },
+            "args": [
+                {
+                    "$KIND": "Arg",
+                    "flags": 0,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.utils/FormattingConsole",
+                        "beg": {
+                            "line": 17,
+                            "col": 11,
+                            "pos": 206
+                        },
+                        "end": {
+                            "line": 17,
+                            "col": 13,
+                            "pos": 208
+                        },
+                        "text": "fmt"
+                    },
+                    "docs": []
+                },
+                {
+                    "$KIND": "Arg",
+                    "flags": 0,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.utils/FormattingConsole",
+                        "beg": {
+                            "line": 17,
+                            "col": 16,
+                            "pos": 211
+                        },
+                        "end": {
+                            "line": 17,
+                            "col": 17,
+                            "pos": 212
+                        },
+                        "text": "a1"
+                    },
+                    "docs": []
+                },
+                {
+                    "$KIND": "Arg",
+                    "flags": 0,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.utils/FormattingConsole",
+                        "beg": {
+                            "line": 17,
+                            "col": 20,
+                            "pos": 215
+                        },
+                        "end": {
+                            "line": 17,
+                            "col": 21,
+                            "pos": 216
+                        },
+                        "text": "a2"
+                    },
+                    "docs": []
+                },
+                {
+                    "$KIND": "Arg",
+                    "flags": 0,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.utils/FormattingConsole",
+                        "beg": {
+                            "line": 17,
+                            "col": 24,
+                            "pos": 219
+                        },
+                        "end": {
+                            "line": 17,
+                            "col": 25,
+                            "pos": 220
+                        },
+                        "text": "a3"
+                    },
+                    "docs": []
+                },
+                {
+                    "$KIND": "Arg",
+                    "flags": 0,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.utils/FormattingConsole",
+                        "beg": {
+                            "line": 17,
+                            "col": 28,
+                            "pos": 223
+                        },
+                        "end": {
+                            "line": 17,
+                            "col": 29,
+                            "pos": 224
+                        },
+                        "text": "a4"
+                    },
+                    "docs": []
+                },
+                {
+                    "$KIND": "Arg",
+                    "flags": 0,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.utils/FormattingConsole",
+                        "beg": {
+                            "line": 17,
+                            "col": 32,
+                            "pos": 227
+                        },
+                        "end": {
+                            "line": 17,
+                            "col": 33,
+                            "pos": 228
+                        },
+                        "text": "a5"
+                    },
+                    "docs": []
+                },
+                {
+                    "$KIND": "Arg",
+                    "flags": 0,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.utils/FormattingConsole",
+                        "beg": {
+                            "line": 17,
+                            "col": 36,
+                            "pos": 231
+                        },
+                        "end": {
+                            "line": 17,
+                            "col": 37,
+                            "pos": 232
+                        },
+                        "text": "a6"
+                    },
+                    "docs": []
+                }
+            ],
+            "block": {
+                "$KIND": "Block",
+                "serial": 2,
+                "stmts": [
+                    {
+                        "$KIND": "Assign",
+                        "expr": {
+                            "$KIND": "Call",
+                            "base": {
+                                "$KIND": "Select",
+                                "base": {
+                                    "$KIND": "Ident",
+                                    "ident": {
+                                        "type": "IDENT",
+                                        "upath": "em.utils/FormattingConsole",
+                                        "beg": {
+                                            "line": 18,
+                                            "col": 5,
+                                            "pos": 239
+                                        },
+                                        "end": {
+                                            "line": 18,
+                                            "col": 13,
+                                            "pos": 247
+                                        },
+                                        "text": "Formatter"
+                                    }
+                                },
+                                "ident": {
+                                    "type": "IDENT",
+                                    "upath": "em.utils/FormattingConsole",
+                                    "beg": {
+                                        "line": 18,
+                                        "col": 15,
+                                        "pos": 249
+                                    },
+                                    "end": {
+                                        "line": 18,
+                                        "col": 19,
+                                        "pos": 253
+                                    },
+                                    "text": "print"
+                                }
+                            },
+                            "args": [
+                                {
+                                    "$KIND": "Ident",
+                                    "ident": {
+                                        "type": "IDENT",
+                                        "upath": "em.utils/FormattingConsole",
+                                        "beg": {
+                                            "line": 18,
+                                            "col": 21,
+                                            "pos": 255
+                                        },
+                                        "end": {
+                                            "line": 18,
+                                            "col": 23,
+                                            "pos": 257
+                                        },
+                                        "text": "fmt"
+                                    }
+                                },
+                                {
+                                    "$KIND": "Ident",
+                                    "ident": {
+                                        "type": "IDENT",
+                                        "upath": "em.utils/FormattingConsole",
+                                        "beg": {
+                                            "line": 18,
+                                            "col": 26,
+                                            "pos": 260
+                                        },
+                                        "end": {
+                                            "line": 18,
+                                            "col": 27,
+                                            "pos": 261
+                                        },
+                                        "text": "a1"
+                                    }
+                                },
+                                {
+                                    "$KIND": "Ident",
+                                    "ident": {
+                                        "type": "IDENT",
+                                        "upath": "em.utils/FormattingConsole",
+                                        "beg": {
+                                            "line": 18,
+                                            "col": 30,
+                                            "pos": 264
+                                        },
+                                        "end": {
+                                            "line": 18,
+                                            "col": 31,
+                                            "pos": 265
+                                        },
+                                        "text": "a2"
+                                    }
+                                },
+                                {
+                                    "$KIND": "Ident",
+                                    "ident": {
+                                        "type": "IDENT",
+                                        "upath": "em.utils/FormattingConsole",
+                                        "beg": {
+                                            "line": 18,
+                                            "col": 34,
+                                            "pos": 268
+                                        },
+                                        "end": {
+                                            "line": 18,
+                                            "col": 35,
+                                            "pos": 269
+                                        },
+                                        "text": "a3"
+                                    }
+                                },
+                                {
+                                    "$KIND": "Ident",
+                                    "ident": {
+                                        "type": "IDENT",
+                                        "upath": "em.utils/FormattingConsole",
+                                        "beg": {
+                                            "line": 18,
+                                            "col": 38,
+                                            "pos": 272
+                                        },
+                                        "end": {
+                                            "line": 18,
+                                            "col": 39,
+                                            "pos": 273
+                                        },
+                                        "text": "a4"
+                                    }
+                                },
+                                {
+                                    "$KIND": "Ident",
+                                    "ident": {
+                                        "type": "IDENT",
+                                        "upath": "em.utils/FormattingConsole",
+                                        "beg": {
+                                            "line": 18,
+                                            "col": 42,
+                                            "pos": 276
+                                        },
+                                        "end": {
+                                            "line": 18,
+                                            "col": 43,
+                                            "pos": 277
+                                        },
+                                        "text": "a5"
+                                    }
+                                },
+                                {
+                                    "$KIND": "Ident",
+                                    "ident": {
+                                        "type": "IDENT",
+                                        "upath": "em.utils/FormattingConsole",
+                                        "beg": {
+                                            "line": 18,
+                                            "col": 46,
+                                            "pos": 280
+                                        },
+                                        "end": {
+                                            "line": 18,
+                                            "col": 47,
+                                            "pos": 281
+                                        },
+                                        "text": "a6"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": {
+                "segs": [
+                    {
+                        "type": "IDENT",
+                        "upath": "em.utils/FormattingConsole",
+                        "beg": {
+                            "line": 21,
+                            "col": 5,
+                            "pos": 293
+                        },
+                        "end": {
+                            "line": 21,
+                            "col": 7,
+                            "pos": 295
+                        },
+                        "text": "put"
+                    }
+                ]
+            },
+            "args": [
+                {
+                    "$KIND": "Arg",
+                    "flags": 0,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.utils/FormattingConsole",
+                        "beg": {
+                            "line": 21,
+                            "col": 9,
+                            "pos": 297
+                        },
+                        "end": {
+                            "line": 21,
+                            "col": 12,
+                            "pos": 300
+                        },
+                        "text": "data"
+                    },
+                    "docs": []
+                }
+            ],
+            "block": {
+                "$KIND": "Block",
+                "serial": 3,
+                "stmts": [
+                    {
+                        "$KIND": "Assign",
+                        "expr": {
+                            "$KIND": "Call",
+                            "base": {
+                                "$KIND": "Select",
+                                "base": {
+                                    "$KIND": "Ident",
+                                    "ident": {
+                                        "type": "IDENT",
+                                        "upath": "em.utils/FormattingConsole",
+                                        "beg": {
+                                            "line": 22,
+                                            "col": 5,
+                                            "pos": 307
+                                        },
+                                        "end": {
+                                            "line": 22,
+                                            "col": 15,
+                                            "pos": 317
+                                        },
+                                        "text": "ConsoleUart"
+                                    }
+                                },
+                                "ident": {
+                                    "type": "IDENT",
+                                    "upath": "em.utils/FormattingConsole",
+                                    "beg": {
+                                        "line": 22,
+                                        "col": 17,
+                                        "pos": 319
+                                    },
+                                    "end": {
+                                        "line": 22,
+                                        "col": 19,
+                                        "pos": 321
+                                    },
+                                    "text": "put"
+                                }
+                            },
+                            "args": [
+                                {
+                                    "$KIND": "Ident",
+                                    "ident": {
+                                        "type": "IDENT",
+                                        "upath": "em.utils/FormattingConsole",
+                                        "beg": {
+                                            "line": 22,
+                                            "col": 21,
+                                            "pos": 323
+                                        },
+                                        "end": {
+                                            "line": 22,
+                                            "col": 24,
+                                            "pos": 326
+                                        },
+                                        "text": "data"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ],
+    "docs": []
+}

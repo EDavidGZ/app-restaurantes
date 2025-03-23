@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Restaurantes</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_restaurants">Restaurantes</string>
+    <string name="title_menu">Menú</string>
+    <string name="title_food">Comida</string>
+    <string name="title_drinks">Bebidas</string>
+    <string name="title_complements">Complementos</string>
+    <string name="title_item_details">Detalles del Item</string>
+    <string name="search_hint">Buscar restaurantes...</string>
+    <string name="menu_food">Comida</string>
+    <string name="menu_drinks">Bebidas</string>
+    <string name="menu_complements">Complementos</string>
+    <string name="add_restaurant">Agregar restaurante</string>
+</resources>

@@ -1,0 +1,240 @@
+{
+    "flags": 3,
+    "pkgName": {
+        "segs": [
+            {
+                "type": "IDENT",
+                "upath": "em.lang/TemplateI",
+                "beg": {
+                    "line": 1,
+                    "col": 9,
+                    "pos": 8
+                },
+                "end": {
+                    "line": 1,
+                    "col": 10,
+                    "pos": 9
+                },
+                "text": "em"
+            },
+            {
+                "type": "IDENT",
+                "upath": "em.lang/TemplateI",
+                "beg": {
+                    "line": 1,
+                    "col": 12,
+                    "pos": 11
+                },
+                "end": {
+                    "line": 1,
+                    "col": 15,
+                    "pos": 14
+                },
+                "text": "lang"
+            }
+        ]
+    },
+    "imps": [],
+    "exps": [],
+    "sup": {
+        "ident": {
+            "type": "IDENT",
+            "upath": "em.lang/TemplateI",
+            "beg": {
+                "line": 3,
+                "col": 16,
+                "pos": 32
+            },
+            "end": {
+                "line": 3,
+                "col": 24,
+                "pos": 40
+            },
+            "text": "TemplateI"
+        }
+    },
+    "decls": [
+        {
+            "$KIND": "Fxn",
+            "flags": 2,
+            "ident": {
+                "type": "IDENT",
+                "upath": "em.lang/TemplateI",
+                "beg": {
+                    "line": 5,
+                    "col": 14,
+                    "pos": 57
+                },
+                "end": {
+                    "line": 5,
+                    "col": 26,
+                    "pos": 69
+                },
+                "text": "em$cacheDirty"
+            },
+            "docs": [],
+            "args": [
+                {
+                    "$KIND": "Arg",
+                    "flags": 2,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.lang/TemplateI",
+                        "beg": {
+                            "line": 5,
+                            "col": 28,
+                            "pos": 71
+                        },
+                        "end": {
+                            "line": 5,
+                            "col": 34,
+                            "pos": 77
+                        },
+                        "text": "ctimeMs"
+                    },
+                    "docs": [],
+                    "type": {
+                        "$KIND": "Std",
+                        "ident": {
+                            "type": "TY_NUMBER",
+                            "upath": "em.lang/TemplateI",
+                            "beg": {
+                                "line": 5,
+                                "col": 37,
+                                "pos": 80
+                            },
+                            "end": {
+                                "line": 5,
+                                "col": 41,
+                                "pos": 84
+                            },
+                            "text": "num_t"
+                        },
+                        "tmods": 0
+                    }
+                }
+            ],
+            "type": {
+                "$KIND": "Std",
+                "ident": {
+                    "type": "TY_BOOL",
+                    "upath": "em.lang/TemplateI",
+                    "beg": {
+                        "line": 5,
+                        "col": 45,
+                        "pos": 88
+                    },
+                    "end": {
+                        "line": 5,
+                        "col": 48,
+                        "pos": 91
+                    },
+                    "text": "bool"
+                },
+                "tmods": 0
+            }
+        },
+        {
+            "$KIND": "Fxn",
+            "flags": 34,
+            "ident": {
+                "type": "IDENT",
+                "upath": "em.lang/TemplateI",
+                "beg": {
+                    "line": 6,
+                    "col": 14,
+                    "pos": 106
+                },
+                "end": {
+                    "line": 6,
+                    "col": 28,
+                    "pos": 120
+                },
+                "text": "em$generateUnit"
+            },
+            "docs": [],
+            "args": [
+                {
+                    "$KIND": "Arg",
+                    "flags": 2,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.lang/TemplateI",
+                        "beg": {
+                            "line": 6,
+                            "col": 30,
+                            "pos": 122
+                        },
+                        "end": {
+                            "line": 6,
+                            "col": 36,
+                            "pos": 128
+                        },
+                        "text": "pkgName"
+                    },
+                    "docs": [],
+                    "type": {
+                        "$KIND": "Std",
+                        "ident": {
+                            "type": "TY_STRING",
+                            "upath": "em.lang/TemplateI",
+                            "beg": {
+                                "line": 6,
+                                "col": 39,
+                                "pos": 131
+                            },
+                            "end": {
+                                "line": 6,
+                                "col": 44,
+                                "pos": 136
+                            },
+                            "text": "string"
+                        },
+                        "tmods": 0
+                    }
+                },
+                {
+                    "$KIND": "Arg",
+                    "flags": 2,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.lang/TemplateI",
+                        "beg": {
+                            "line": 6,
+                            "col": 47,
+                            "pos": 139
+                        },
+                        "end": {
+                            "line": 6,
+                            "col": 54,
+                            "pos": 146
+                        },
+                        "text": "unitName"
+                    },
+                    "docs": [],
+                    "type": {
+                        "$KIND": "Std",
+                        "ident": {
+                            "type": "TY_STRING",
+                            "upath": "em.lang/TemplateI",
+                            "beg": {
+                                "line": 6,
+                                "col": 57,
+                                "pos": 149
+                            },
+                            "end": {
+                                "line": 6,
+                                "col": 62,
+                                "pos": 154
+                            },
+                            "text": "string"
+                        },
+                        "tmods": 0
+                    }
+                }
+            ]
+        }
+    ],
+    "bodies": [],
+    "docs": []
+}

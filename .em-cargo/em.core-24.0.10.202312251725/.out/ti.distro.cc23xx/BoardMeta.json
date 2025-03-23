@@ -1,0 +1,1561 @@
+{
+    "flags": 6,
+    "pkgName": {
+        "segs": [
+            {
+                "type": "IDENT",
+                "upath": "ti.distro.cc23xx/BoardMeta",
+                "beg": {
+                    "line": 1,
+                    "col": 9,
+                    "pos": 8
+                },
+                "end": {
+                    "line": 1,
+                    "col": 10,
+                    "pos": 9
+                },
+                "text": "ti"
+            },
+            {
+                "type": "IDENT",
+                "upath": "ti.distro.cc23xx/BoardMeta",
+                "beg": {
+                    "line": 1,
+                    "col": 12,
+                    "pos": 11
+                },
+                "end": {
+                    "line": 1,
+                    "col": 17,
+                    "pos": 16
+                },
+                "text": "distro"
+            },
+            {
+                "type": "IDENT",
+                "upath": "ti.distro.cc23xx/BoardMeta",
+                "beg": {
+                    "line": 1,
+                    "col": 19,
+                    "pos": 18
+                },
+                "end": {
+                    "line": 1,
+                    "col": 24,
+                    "pos": 23
+                },
+                "text": "cc23xx"
+            }
+        ]
+    },
+    "imps": [
+        {
+            "from": {
+                "segs": [
+                    {
+                        "type": "IDENT",
+                        "upath": "ti.distro.cc23xx/BoardMeta",
+                        "beg": {
+                            "line": 3,
+                            "col": 6,
+                            "pos": 31
+                        },
+                        "end": {
+                            "line": 3,
+                            "col": 7,
+                            "pos": 32
+                        },
+                        "text": "em"
+                    },
+                    {
+                        "type": "IDENT",
+                        "upath": "ti.distro.cc23xx/BoardMeta",
+                        "beg": {
+                            "line": 3,
+                            "col": 9,
+                            "pos": 34
+                        },
+                        "end": {
+                            "line": 3,
+                            "col": 13,
+                            "pos": 38
+                        },
+                        "text": "utils"
+                    }
+                ]
+            },
+            "uname": {
+                "type": "IDENT",
+                "upath": "ti.distro.cc23xx/BoardMeta",
+                "beg": {
+                    "line": 3,
+                    "col": 22,
+                    "pos": 47
+                },
+                "end": {
+                    "line": 3,
+                    "col": 30,
+                    "pos": 55
+                },
+                "text": "BoardMeta"
+            },
+            "as": {
+                "type": "IDENT",
+                "upath": "ti.distro.cc23xx/BoardMeta",
+                "beg": {
+                    "line": 3,
+                    "col": 35,
+                    "pos": 60
+                },
+                "end": {
+                    "line": 3,
+                    "col": 42,
+                    "pos": 67
+                },
+                "text": "BaseMeta"
+            }
+        }
+    ],
+    "exps": [],
+    "sup": {
+        "ident": {
+            "type": "IDENT",
+            "upath": "ti.distro.cc23xx/BoardMeta",
+            "beg": {
+                "line": 5,
+                "col": 13,
+                "pos": 82
+            },
+            "end": {
+                "line": 5,
+                "col": 21,
+                "pos": 90
+            },
+            "text": "BoardMeta"
+        }
+    },
+    "decls": [
+        {
+            "$KIND": "Typedef",
+            "flags": 2,
+            "ident": {
+                "type": "IDENT",
+                "upath": "ti.distro.cc23xx/BoardMeta",
+                "beg": {
+                    "line": 7,
+                    "col": 10,
+                    "pos": 102
+                },
+                "end": {
+                    "line": 7,
+                    "col": 16,
+                    "pos": 108
+                },
+                "text": "DrvDesc"
+            },
+            "docs": [],
+            "type": {
+                "$KIND": "Def",
+                "tdef": {
+                    "segs": [
+                        {
+                            "type": "IDENT",
+                            "upath": "ti.distro.cc23xx/BoardMeta",
+                            "beg": {
+                                "line": 7,
+                                "col": 19,
+                                "pos": 111
+                            },
+                            "end": {
+                                "line": 7,
+                                "col": 26,
+                                "pos": 118
+                            },
+                            "text": "BaseMeta"
+                        },
+                        {
+                            "type": "IDENT",
+                            "upath": "ti.distro.cc23xx/BoardMeta",
+                            "beg": {
+                                "line": 7,
+                                "col": 28,
+                                "pos": 120
+                            },
+                            "end": {
+                                "line": 7,
+                                "col": 34,
+                                "pos": 126
+                            },
+                            "text": "DrvDesc"
+                        }
+                    ]
+                },
+                "tmods": 0
+            }
+        },
+        {
+            "$KIND": "Agg",
+            "flags": 2,
+            "ident": {
+                "type": "IDENT",
+                "upath": "ti.distro.cc23xx/BoardMeta",
+                "beg": {
+                    "line": 9,
+                    "col": 10,
+                    "pos": 138
+                },
+                "end": {
+                    "line": 9,
+                    "col": 15,
+                    "pos": 143
+                },
+                "text": "PinMap"
+            },
+            "docs": [],
+            "kw": {
+                "type": "KW_STRUCT",
+                "upath": "ti.distro.cc23xx/BoardMeta",
+                "beg": {
+                    "line": 9,
+                    "col": 18,
+                    "pos": 146
+                },
+                "end": {
+                    "line": 9,
+                    "col": 23,
+                    "pos": 151
+                },
+                "text": "struct"
+            },
+            "fields": [
+                {
+                    "$KIND": "Field",
+                    "flags": 2,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "ti.distro.cc23xx/BoardMeta",
+                        "beg": {
+                            "line": 10,
+                            "col": 9,
+                            "pos": 161
+                        },
+                        "end": {
+                            "line": 10,
+                            "col": 14,
+                            "pos": 166
+                        },
+                        "text": "appBut"
+                    },
+                    "docs": [],
+                    "type": {
+                        "$KIND": "Std",
+                        "ident": {
+                            "type": "TY_INT8",
+                            "upath": "ti.distro.cc23xx/BoardMeta",
+                            "beg": {
+                                "line": 10,
+                                "col": 17,
+                                "pos": 169
+                            },
+                            "end": {
+                                "line": 10,
+                                "col": 20,
+                                "pos": 172
+                            },
+                            "text": "int8"
+                        },
+                        "tmods": 0
+                    }
+                },
+                {
+                    "$KIND": "Field",
+                    "flags": 2,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "ti.distro.cc23xx/BoardMeta",
+                        "beg": {
+                            "line": 11,
+                            "col": 9,
+                            "pos": 182
+                        },
+                        "end": {
+                            "line": 11,
+                            "col": 14,
+                            "pos": 187
+                        },
+                        "text": "appLed"
+                    },
+                    "docs": [],
+                    "type": {
+                        "$KIND": "Std",
+                        "ident": {
+                            "type": "TY_INT8",
+                            "upath": "ti.distro.cc23xx/BoardMeta",
+                            "beg": {
+                                "line": 11,
+                                "col": 17,
+                                "pos": 190
+                            },
+                            "end": {
+                                "line": 11,
+                                "col": 20,
+                                "pos": 193
+                            },
+                            "text": "int8"
+                        },
+                        "tmods": 0
+                    }
+                },
+                {
+                    "$KIND": "Field",
+                    "flags": 2,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "ti.distro.cc23xx/BoardMeta",
+                        "beg": {
+                            "line": 12,
+                            "col": 9,
+                            "pos": 203
+                        },
+                        "end": {
+                            "line": 12,
+                            "col": 14,
+                            "pos": 208
+                        },
+                        "text": "appOut"
+                    },
+                    "docs": [],
+                    "type": {
+                        "$KIND": "Std",
+                        "ident": {
+                            "type": "TY_INT8",
+                            "upath": "ti.distro.cc23xx/BoardMeta",
+                            "beg": {
+                                "line": 12,
+                                "col": 17,
+                                "pos": 211
+                            },
+                            "end": {
+                                "line": 12,
+                                "col": 20,
+                                "pos": 214
+                            },
+                            "text": "int8"
+                        },
+                        "tmods": 0
+                    }
+                },
+                {
+                    "$KIND": "Field",
+                    "flags": 2,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "ti.distro.cc23xx/BoardMeta",
+                        "beg": {
+                            "line": 13,
+                            "col": 9,
+                            "pos": 224
+                        },
+                        "end": {
+                            "line": 13,
+                            "col": 18,
+                            "pos": 233
+                        },
+                        "text": "extFlashCS"
+                    },
+                    "docs": [],
+                    "type": {
+                        "$KIND": "Std",
+                        "ident": {
+                            "type": "TY_INT8",
+                            "upath": "ti.distro.cc23xx/BoardMeta",
+                            "beg": {
+                                "line": 13,
+                                "col": 21,
+                                "pos": 236
+                            },
+                            "end": {
+                                "line": 13,
+                                "col": 24,
+                                "pos": 239
+                            },
+                            "text": "int8"
+                        },
+                        "tmods": 0
+                    }
+                },
+                {
+                    "$KIND": "Field",
+                    "flags": 2,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "ti.distro.cc23xx/BoardMeta",
+                        "beg": {
+                            "line": 14,
+                            "col": 9,
+                            "pos": 249
+                        },
+                        "end": {
+                            "line": 14,
+                            "col": 19,
+                            "pos": 259
+                        },
+                        "text": "extFlashCLK"
+                    },
+                    "docs": [],
+                    "type": {
+                        "$KIND": "Std",
+                        "ident": {
+                            "type": "TY_INT8",
+                            "upath": "ti.distro.cc23xx/BoardMeta",
+                            "beg": {
+                                "line": 14,
+                                "col": 22,
+                                "pos": 262
+                            },
+                            "end": {
+                                "line": 14,
+                                "col": 25,
+                                "pos": 265
+                            },
+                            "text": "int8"
+                        },
+                        "tmods": 0
+                    }
+                },
+                {
+                    "$KIND": "Field",
+                    "flags": 2,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "ti.distro.cc23xx/BoardMeta",
+                        "beg": {
+                            "line": 15,
+                            "col": 9,
+                            "pos": 275
+                        },
+                        "end": {
+                            "line": 15,
+                            "col": 20,
+                            "pos": 286
+                        },
+                        "text": "extFlashPICO"
+                    },
+                    "docs": [],
+                    "type": {
+                        "$KIND": "Std",
+                        "ident": {
+                            "type": "TY_INT8",
+                            "upath": "ti.distro.cc23xx/BoardMeta",
+                            "beg": {
+                                "line": 15,
+                                "col": 23,
+                                "pos": 289
+                            },
+                            "end": {
+                                "line": 15,
+                                "col": 26,
+                                "pos": 292
+                            },
+                            "text": "int8"
+                        },
+                        "tmods": 0
+                    }
+                },
+                {
+                    "$KIND": "Field",
+                    "flags": 2,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "ti.distro.cc23xx/BoardMeta",
+                        "beg": {
+                            "line": 16,
+                            "col": 9,
+                            "pos": 302
+                        },
+                        "end": {
+                            "line": 16,
+                            "col": 20,
+                            "pos": 313
+                        },
+                        "text": "extFlashPOCI"
+                    },
+                    "docs": [],
+                    "type": {
+                        "$KIND": "Std",
+                        "ident": {
+                            "type": "TY_INT8",
+                            "upath": "ti.distro.cc23xx/BoardMeta",
+                            "beg": {
+                                "line": 16,
+                                "col": 23,
+                                "pos": 316
+                            },
+                            "end": {
+                                "line": 16,
+                                "col": 26,
+                                "pos": 319
+                            },
+                            "text": "int8"
+                        },
+                        "tmods": 0
+                    }
+                },
+                {
+                    "$KIND": "Field",
+                    "flags": 2,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "ti.distro.cc23xx/BoardMeta",
+                        "beg": {
+                            "line": 17,
+                            "col": 9,
+                            "pos": 329
+                        },
+                        "end": {
+                            "line": 17,
+                            "col": 15,
+                            "pos": 335
+                        },
+                        "text": "sysDbgA"
+                    },
+                    "docs": [],
+                    "type": {
+                        "$KIND": "Std",
+                        "ident": {
+                            "type": "TY_INT8",
+                            "upath": "ti.distro.cc23xx/BoardMeta",
+                            "beg": {
+                                "line": 17,
+                                "col": 18,
+                                "pos": 338
+                            },
+                            "end": {
+                                "line": 17,
+                                "col": 21,
+                                "pos": 341
+                            },
+                            "text": "int8"
+                        },
+                        "tmods": 0
+                    }
+                },
+                {
+                    "$KIND": "Field",
+                    "flags": 2,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "ti.distro.cc23xx/BoardMeta",
+                        "beg": {
+                            "line": 18,
+                            "col": 9,
+                            "pos": 351
+                        },
+                        "end": {
+                            "line": 18,
+                            "col": 15,
+                            "pos": 357
+                        },
+                        "text": "sysDbgB"
+                    },
+                    "docs": [],
+                    "type": {
+                        "$KIND": "Std",
+                        "ident": {
+                            "type": "TY_INT8",
+                            "upath": "ti.distro.cc23xx/BoardMeta",
+                            "beg": {
+                                "line": 18,
+                                "col": 18,
+                                "pos": 360
+                            },
+                            "end": {
+                                "line": 18,
+                                "col": 21,
+                                "pos": 363
+                            },
+                            "text": "int8"
+                        },
+                        "tmods": 0
+                    }
+                },
+                {
+                    "$KIND": "Field",
+                    "flags": 2,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "ti.distro.cc23xx/BoardMeta",
+                        "beg": {
+                            "line": 19,
+                            "col": 9,
+                            "pos": 373
+                        },
+                        "end": {
+                            "line": 19,
+                            "col": 15,
+                            "pos": 379
+                        },
+                        "text": "sysDbgC"
+                    },
+                    "docs": [],
+                    "type": {
+                        "$KIND": "Std",
+                        "ident": {
+                            "type": "TY_INT8",
+                            "upath": "ti.distro.cc23xx/BoardMeta",
+                            "beg": {
+                                "line": 19,
+                                "col": 18,
+                                "pos": 382
+                            },
+                            "end": {
+                                "line": 19,
+                                "col": 21,
+                                "pos": 385
+                            },
+                            "text": "int8"
+                        },
+                        "tmods": 0
+                    }
+                },
+                {
+                    "$KIND": "Field",
+                    "flags": 2,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "ti.distro.cc23xx/BoardMeta",
+                        "beg": {
+                            "line": 20,
+                            "col": 9,
+                            "pos": 395
+                        },
+                        "end": {
+                            "line": 20,
+                            "col": 15,
+                            "pos": 401
+                        },
+                        "text": "sysDbgD"
+                    },
+                    "docs": [],
+                    "type": {
+                        "$KIND": "Std",
+                        "ident": {
+                            "type": "TY_INT8",
+                            "upath": "ti.distro.cc23xx/BoardMeta",
+                            "beg": {
+                                "line": 20,
+                                "col": 18,
+                                "pos": 404
+                            },
+                            "end": {
+                                "line": 20,
+                                "col": 21,
+                                "pos": 407
+                            },
+                            "text": "int8"
+                        },
+                        "tmods": 0
+                    }
+                },
+                {
+                    "$KIND": "Field",
+                    "flags": 2,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "ti.distro.cc23xx/BoardMeta",
+                        "beg": {
+                            "line": 21,
+                            "col": 9,
+                            "pos": 417
+                        },
+                        "end": {
+                            "line": 21,
+                            "col": 14,
+                            "pos": 422
+                        },
+                        "text": "sysLed"
+                    },
+                    "docs": [],
+                    "type": {
+                        "$KIND": "Std",
+                        "ident": {
+                            "type": "TY_INT8",
+                            "upath": "ti.distro.cc23xx/BoardMeta",
+                            "beg": {
+                                "line": 21,
+                                "col": 17,
+                                "pos": 425
+                            },
+                            "end": {
+                                "line": 21,
+                                "col": 20,
+                                "pos": 428
+                            },
+                            "text": "int8"
+                        },
+                        "tmods": 0
+                    }
+                }
+            ],
+            "fxns": []
+        },
+        {
+            "$KIND": "Agg",
+            "flags": 2,
+            "ident": {
+                "type": "IDENT",
+                "upath": "ti.distro.cc23xx/BoardMeta",
+                "beg": {
+                    "line": 24,
+                    "col": 10,
+                    "pos": 448
+                },
+                "end": {
+                    "line": 24,
+                    "col": 15,
+                    "pos": 453
+                },
+                "text": "Record"
+            },
+            "docs": [],
+            "kw": {
+                "type": "KW_STRUCT",
+                "upath": "ti.distro.cc23xx/BoardMeta",
+                "beg": {
+                    "line": 24,
+                    "col": 18,
+                    "pos": 456
+                },
+                "end": {
+                    "line": 24,
+                    "col": 23,
+                    "pos": 461
+                },
+                "text": "struct"
+            },
+            "fields": [
+                {
+                    "$KIND": "Field",
+                    "flags": 2,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "ti.distro.cc23xx/BoardMeta",
+                        "beg": {
+                            "line": 25,
+                            "col": 9,
+                            "pos": 471
+                        },
+                        "end": {
+                            "line": 25,
+                            "col": 21,
+                            "pos": 483
+                        },
+                        "text": "activeLowLeds"
+                    },
+                    "docs": [],
+                    "type": {
+                        "$KIND": "Std",
+                        "ident": {
+                            "type": "TY_BOOL",
+                            "upath": "ti.distro.cc23xx/BoardMeta",
+                            "beg": {
+                                "line": 25,
+                                "col": 24,
+                                "pos": 486
+                            },
+                            "end": {
+                                "line": 25,
+                                "col": 27,
+                                "pos": 489
+                            },
+                            "text": "bool"
+                        },
+                        "tmods": 0
+                    }
+                },
+                {
+                    "$KIND": "Field",
+                    "flags": 2,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "ti.distro.cc23xx/BoardMeta",
+                        "beg": {
+                            "line": 26,
+                            "col": 9,
+                            "pos": 499
+                        },
+                        "end": {
+                            "line": 26,
+                            "col": 16,
+                            "pos": 506
+                        },
+                        "text": "baudRate"
+                    },
+                    "docs": [],
+                    "type": {
+                        "$KIND": "Std",
+                        "ident": {
+                            "type": "TY_UINT32",
+                            "upath": "ti.distro.cc23xx/BoardMeta",
+                            "beg": {
+                                "line": 26,
+                                "col": 19,
+                                "pos": 509
+                            },
+                            "end": {
+                                "line": 26,
+                                "col": 24,
+                                "pos": 514
+                            },
+                            "text": "uint32"
+                        },
+                        "tmods": 0
+                    }
+                },
+                {
+                    "$KIND": "Field",
+                    "flags": 2,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "ti.distro.cc23xx/BoardMeta",
+                        "beg": {
+                            "line": 27,
+                            "col": 9,
+                            "pos": 524
+                        },
+                        "end": {
+                            "line": 27,
+                            "col": 17,
+                            "pos": 532
+                        },
+                        "text": "clockFreq"
+                    },
+                    "docs": [],
+                    "type": {
+                        "$KIND": "Std",
+                        "ident": {
+                            "type": "TY_UINT32",
+                            "upath": "ti.distro.cc23xx/BoardMeta",
+                            "beg": {
+                                "line": 27,
+                                "col": 20,
+                                "pos": 535
+                            },
+                            "end": {
+                                "line": 27,
+                                "col": 25,
+                                "pos": 540
+                            },
+                            "text": "uint32"
+                        },
+                        "tmods": 0
+                    }
+                },
+                {
+                    "$KIND": "Field",
+                    "flags": 2,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "ti.distro.cc23xx/BoardMeta",
+                        "beg": {
+                            "line": 28,
+                            "col": 9,
+                            "pos": 550
+                        },
+                        "end": {
+                            "line": 28,
+                            "col": 23,
+                            "pos": 564
+                        },
+                        "text": "extFlashDisable"
+                    },
+                    "docs": [],
+                    "type": {
+                        "$KIND": "Std",
+                        "ident": {
+                            "type": "TY_BOOL",
+                            "upath": "ti.distro.cc23xx/BoardMeta",
+                            "beg": {
+                                "line": 28,
+                                "col": 26,
+                                "pos": 567
+                            },
+                            "end": {
+                                "line": 28,
+                                "col": 29,
+                                "pos": 570
+                            },
+                            "text": "bool"
+                        },
+                        "tmods": 0
+                    }
+                },
+                {
+                    "$KIND": "Field",
+                    "flags": 2,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "ti.distro.cc23xx/BoardMeta",
+                        "beg": {
+                            "line": 29,
+                            "col": 9,
+                            "pos": 580
+                        },
+                        "end": {
+                            "line": 29,
+                            "col": 20,
+                            "pos": 591
+                        },
+                        "text": "lfXtalEnable"
+                    },
+                    "docs": [],
+                    "type": {
+                        "$KIND": "Std",
+                        "ident": {
+                            "type": "TY_BOOL",
+                            "upath": "ti.distro.cc23xx/BoardMeta",
+                            "beg": {
+                                "line": 29,
+                                "col": 23,
+                                "pos": 594
+                            },
+                            "end": {
+                                "line": 29,
+                                "col": 26,
+                                "pos": 597
+                            },
+                            "text": "bool"
+                        },
+                        "tmods": 0
+                    }
+                },
+                {
+                    "$KIND": "Field",
+                    "flags": 2,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "ti.distro.cc23xx/BoardMeta",
+                        "beg": {
+                            "line": 30,
+                            "col": 9,
+                            "pos": 607
+                        },
+                        "end": {
+                            "line": 30,
+                            "col": 14,
+                            "pos": 612
+                        },
+                        "text": "pinMap"
+                    },
+                    "docs": [],
+                    "type": {
+                        "$KIND": "Ptr",
+                        "base": {
+                            "$KIND": "Def",
+                            "tdef": {
+                                "segs": [
+                                    {
+                                        "type": "IDENT",
+                                        "upath": "ti.distro.cc23xx/BoardMeta",
+                                        "beg": {
+                                            "line": 30,
+                                            "col": 17,
+                                            "pos": 615
+                                        },
+                                        "end": {
+                                            "line": 30,
+                                            "col": 22,
+                                            "pos": 620
+                                        },
+                                        "text": "PinMap"
+                                    }
+                                ]
+                            },
+                            "tmods": 0
+                        },
+                        "tmods": 0,
+                        "isRef": true
+                    }
+                },
+                {
+                    "$KIND": "Field",
+                    "flags": 2,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "ti.distro.cc23xx/BoardMeta",
+                        "beg": {
+                            "line": 31,
+                            "col": 9,
+                            "pos": 631
+                        },
+                        "end": {
+                            "line": 31,
+                            "col": 16,
+                            "pos": 638
+                        },
+                        "text": "drvDescs"
+                    },
+                    "docs": [],
+                    "type": {
+                        "$KIND": "ArrC",
+                        "base": {
+                            "$KIND": "Ptr",
+                            "base": {
+                                "$KIND": "Def",
+                                "tdef": {
+                                    "segs": [
+                                        {
+                                            "type": "IDENT",
+                                            "upath": "ti.distro.cc23xx/BoardMeta",
+                                            "beg": {
+                                                "line": 31,
+                                                "col": 19,
+                                                "pos": 641
+                                            },
+                                            "end": {
+                                                "line": 31,
+                                                "col": 25,
+                                                "pos": 647
+                                            },
+                                            "text": "DrvDesc"
+                                        }
+                                    ]
+                                },
+                                "tmods": 0
+                            },
+                            "tmods": 0,
+                            "isRef": true
+                        }
+                    }
+                }
+            ],
+            "fxns": []
+        },
+        {
+            "$KIND": "Config",
+            "flags": 2,
+            "ident": {
+                "type": "IDENT",
+                "upath": "ti.distro.cc23xx/BoardMeta",
+                "beg": {
+                    "line": 34,
+                    "col": 12,
+                    "pos": 672
+                },
+                "end": {
+                    "line": 34,
+                    "col": 22,
+                    "pos": 682
+                },
+                "text": "baseFileLoc"
+            },
+            "docs": [],
+            "type": {
+                "$KIND": "Std",
+                "ident": {
+                    "type": "TY_STRING",
+                    "upath": "ti.distro.cc23xx/BoardMeta",
+                    "beg": {
+                        "line": 34,
+                        "col": 25,
+                        "pos": 685
+                    },
+                    "end": {
+                        "line": 34,
+                        "col": 30,
+                        "pos": 690
+                    },
+                    "text": "string"
+                },
+                "tmods": 0
+            },
+            "init": {
+                "$KIND": "Const",
+                "val": {
+                    "type": "STRING",
+                    "upath": "ti.distro.cc23xx/BoardMeta",
+                    "beg": {
+                        "line": 34,
+                        "col": 34,
+                        "pos": 694
+                    },
+                    "end": {
+                        "line": 34,
+                        "col": 61,
+                        "pos": 721
+                    },
+                    "text": "\"ti.distro.cc23xx/em-boards\""
+                }
+            }
+        },
+        {
+            "$KIND": "Config",
+            "flags": 2,
+            "ident": {
+                "type": "IDENT",
+                "upath": "ti.distro.cc23xx/BoardMeta",
+                "beg": {
+                    "line": 36,
+                    "col": 12,
+                    "pos": 735
+                },
+                "end": {
+                    "line": 36,
+                    "col": 20,
+                    "pos": 743
+                },
+                "text": "attrNames"
+            },
+            "docs": [],
+            "type": {
+                "$KIND": "ArrC",
+                "base": {
+                    "$KIND": "Std",
+                    "ident": {
+                        "type": "TY_STRING",
+                        "upath": "ti.distro.cc23xx/BoardMeta",
+                        "beg": {
+                            "line": 36,
+                            "col": 23,
+                            "pos": 746
+                        },
+                        "end": {
+                            "line": 36,
+                            "col": 28,
+                            "pos": 751
+                        },
+                        "text": "string"
+                    },
+                    "tmods": 0
+                }
+            },
+            "init": {
+                "$KIND": "Vec",
+                "vals": [
+                    {
+                        "$KIND": "Const",
+                        "val": {
+                            "type": "STRING",
+                            "upath": "ti.distro.cc23xx/BoardMeta",
+                            "beg": {
+                                "line": 37,
+                                "col": 9,
+                                "pos": 767
+                            },
+                            "end": {
+                                "line": 37,
+                                "col": 19,
+                                "pos": 777
+                            },
+                            "text": "\"$inherits\""
+                        }
+                    },
+                    {
+                        "$KIND": "Const",
+                        "val": {
+                            "type": "STRING",
+                            "upath": "ti.distro.cc23xx/BoardMeta",
+                            "beg": {
+                                "line": 38,
+                                "col": 9,
+                                "pos": 788
+                            },
+                            "end": {
+                                "line": 38,
+                                "col": 20,
+                                "pos": 799
+                            },
+                            "text": "\"$overrides\""
+                        }
+                    },
+                    {
+                        "$KIND": "Const",
+                        "val": {
+                            "type": "STRING",
+                            "upath": "ti.distro.cc23xx/BoardMeta",
+                            "beg": {
+                                "line": 39,
+                                "col": 9,
+                                "pos": 810
+                            },
+                            "end": {
+                                "line": 39,
+                                "col": 23,
+                                "pos": 824
+                            },
+                            "text": "\"activeLowLeds\""
+                        }
+                    },
+                    {
+                        "$KIND": "Const",
+                        "val": {
+                            "type": "STRING",
+                            "upath": "ti.distro.cc23xx/BoardMeta",
+                            "beg": {
+                                "line": 40,
+                                "col": 9,
+                                "pos": 835
+                            },
+                            "end": {
+                                "line": 40,
+                                "col": 18,
+                                "pos": 844
+                            },
+                            "text": "\"baudRate\""
+                        }
+                    },
+                    {
+                        "$KIND": "Const",
+                        "val": {
+                            "type": "STRING",
+                            "upath": "ti.distro.cc23xx/BoardMeta",
+                            "beg": {
+                                "line": 41,
+                                "col": 9,
+                                "pos": 855
+                            },
+                            "end": {
+                                "line": 41,
+                                "col": 19,
+                                "pos": 865
+                            },
+                            "text": "\"clockFreq\""
+                        }
+                    },
+                    {
+                        "$KIND": "Const",
+                        "val": {
+                            "type": "STRING",
+                            "upath": "ti.distro.cc23xx/BoardMeta",
+                            "beg": {
+                                "line": 42,
+                                "col": 9,
+                                "pos": 876
+                            },
+                            "end": {
+                                "line": 42,
+                                "col": 25,
+                                "pos": 892
+                            },
+                            "text": "\"extFlashDisable\""
+                        }
+                    },
+                    {
+                        "$KIND": "Const",
+                        "val": {
+                            "type": "STRING",
+                            "upath": "ti.distro.cc23xx/BoardMeta",
+                            "beg": {
+                                "line": 43,
+                                "col": 9,
+                                "pos": 903
+                            },
+                            "end": {
+                                "line": 43,
+                                "col": 22,
+                                "pos": 916
+                            },
+                            "text": "\"lfXtalEnable\""
+                        }
+                    }
+                ],
+                "brack": {
+                    "type": "LBRACK",
+                    "upath": "ti.distro.cc23xx/BoardMeta",
+                    "beg": {
+                        "line": 36,
+                        "col": 34,
+                        "pos": 757
+                    },
+                    "end": {
+                        "line": 36,
+                        "col": 34,
+                        "pos": 757
+                    },
+                    "text": "["
+                }
+            }
+        },
+        {
+            "$KIND": "Config",
+            "flags": 2,
+            "ident": {
+                "type": "IDENT",
+                "upath": "ti.distro.cc23xx/BoardMeta",
+                "beg": {
+                    "line": 46,
+                    "col": 12,
+                    "pos": 937
+                },
+                "end": {
+                    "line": 46,
+                    "col": 19,
+                    "pos": 944
+                },
+                "text": "pinNames"
+            },
+            "docs": [],
+            "type": {
+                "$KIND": "ArrC",
+                "base": {
+                    "$KIND": "Std",
+                    "ident": {
+                        "type": "TY_STRING",
+                        "upath": "ti.distro.cc23xx/BoardMeta",
+                        "beg": {
+                            "line": 46,
+                            "col": 22,
+                            "pos": 947
+                        },
+                        "end": {
+                            "line": 46,
+                            "col": 27,
+                            "pos": 952
+                        },
+                        "text": "string"
+                    },
+                    "tmods": 0
+                }
+            },
+            "init": {
+                "$KIND": "Vec",
+                "vals": [
+                    {
+                        "$KIND": "Const",
+                        "val": {
+                            "type": "STRING",
+                            "upath": "ti.distro.cc23xx/BoardMeta",
+                            "beg": {
+                                "line": 47,
+                                "col": 9,
+                                "pos": 968
+                            },
+                            "end": {
+                                "line": 47,
+                                "col": 16,
+                                "pos": 975
+                            },
+                            "text": "\"appBut\""
+                        }
+                    },
+                    {
+                        "$KIND": "Const",
+                        "val": {
+                            "type": "STRING",
+                            "upath": "ti.distro.cc23xx/BoardMeta",
+                            "beg": {
+                                "line": 48,
+                                "col": 9,
+                                "pos": 986
+                            },
+                            "end": {
+                                "line": 48,
+                                "col": 16,
+                                "pos": 993
+                            },
+                            "text": "\"appLed\""
+                        }
+                    },
+                    {
+                        "$KIND": "Const",
+                        "val": {
+                            "type": "STRING",
+                            "upath": "ti.distro.cc23xx/BoardMeta",
+                            "beg": {
+                                "line": 49,
+                                "col": 9,
+                                "pos": 1004
+                            },
+                            "end": {
+                                "line": 49,
+                                "col": 16,
+                                "pos": 1011
+                            },
+                            "text": "\"appOut\""
+                        }
+                    },
+                    {
+                        "$KIND": "Const",
+                        "val": {
+                            "type": "STRING",
+                            "upath": "ti.distro.cc23xx/BoardMeta",
+                            "beg": {
+                                "line": 50,
+                                "col": 9,
+                                "pos": 1022
+                            },
+                            "end": {
+                                "line": 50,
+                                "col": 20,
+                                "pos": 1033
+                            },
+                            "text": "\"extFlashCS\""
+                        }
+                    },
+                    {
+                        "$KIND": "Const",
+                        "val": {
+                            "type": "STRING",
+                            "upath": "ti.distro.cc23xx/BoardMeta",
+                            "beg": {
+                                "line": 51,
+                                "col": 9,
+                                "pos": 1044
+                            },
+                            "end": {
+                                "line": 51,
+                                "col": 21,
+                                "pos": 1056
+                            },
+                            "text": "\"extFlashCLK\""
+                        }
+                    },
+                    {
+                        "$KIND": "Const",
+                        "val": {
+                            "type": "STRING",
+                            "upath": "ti.distro.cc23xx/BoardMeta",
+                            "beg": {
+                                "line": 52,
+                                "col": 9,
+                                "pos": 1067
+                            },
+                            "end": {
+                                "line": 52,
+                                "col": 22,
+                                "pos": 1080
+                            },
+                            "text": "\"extFlashPICO\""
+                        }
+                    },
+                    {
+                        "$KIND": "Const",
+                        "val": {
+                            "type": "STRING",
+                            "upath": "ti.distro.cc23xx/BoardMeta",
+                            "beg": {
+                                "line": 53,
+                                "col": 9,
+                                "pos": 1091
+                            },
+                            "end": {
+                                "line": 53,
+                                "col": 22,
+                                "pos": 1104
+                            },
+                            "text": "\"extFlashPOCI\""
+                        }
+                    },
+                    {
+                        "$KIND": "Const",
+                        "val": {
+                            "type": "STRING",
+                            "upath": "ti.distro.cc23xx/BoardMeta",
+                            "beg": {
+                                "line": 54,
+                                "col": 9,
+                                "pos": 1115
+                            },
+                            "end": {
+                                "line": 54,
+                                "col": 17,
+                                "pos": 1123
+                            },
+                            "text": "\"sysDbgA\""
+                        }
+                    },
+                    {
+                        "$KIND": "Const",
+                        "val": {
+                            "type": "STRING",
+                            "upath": "ti.distro.cc23xx/BoardMeta",
+                            "beg": {
+                                "line": 55,
+                                "col": 9,
+                                "pos": 1134
+                            },
+                            "end": {
+                                "line": 55,
+                                "col": 17,
+                                "pos": 1142
+                            },
+                            "text": "\"sysDbgB\""
+                        }
+                    },
+                    {
+                        "$KIND": "Const",
+                        "val": {
+                            "type": "STRING",
+                            "upath": "ti.distro.cc23xx/BoardMeta",
+                            "beg": {
+                                "line": 56,
+                                "col": 9,
+                                "pos": 1153
+                            },
+                            "end": {
+                                "line": 56,
+                                "col": 17,
+                                "pos": 1161
+                            },
+                            "text": "\"sysDbgC\""
+                        }
+                    },
+                    {
+                        "$KIND": "Const",
+                        "val": {
+                            "type": "STRING",
+                            "upath": "ti.distro.cc23xx/BoardMeta",
+                            "beg": {
+                                "line": 57,
+                                "col": 9,
+                                "pos": 1172
+                            },
+                            "end": {
+                                "line": 57,
+                                "col": 17,
+                                "pos": 1180
+                            },
+                            "text": "\"sysDbgD\""
+                        }
+                    },
+                    {
+                        "$KIND": "Const",
+                        "val": {
+                            "type": "STRING",
+                            "upath": "ti.distro.cc23xx/BoardMeta",
+                            "beg": {
+                                "line": 58,
+                                "col": 9,
+                                "pos": 1191
+                            },
+                            "end": {
+                                "line": 58,
+                                "col": 16,
+                                "pos": 1198
+                            },
+                            "text": "\"sysLed\""
+                        }
+                    }
+                ],
+                "brack": {
+                    "type": "LBRACK",
+                    "upath": "ti.distro.cc23xx/BoardMeta",
+                    "beg": {
+                        "line": 46,
+                        "col": 33,
+                        "pos": 958
+                    },
+                    "end": {
+                        "line": 46,
+                        "col": 33,
+                        "pos": 958
+                    },
+                    "text": "["
+                }
+            }
+        }
+    ],
+    "bodies": [],
+    "docs": []
+}

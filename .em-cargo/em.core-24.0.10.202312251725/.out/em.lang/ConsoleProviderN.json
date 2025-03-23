@@ -1,0 +1,370 @@
+{
+    "flags": 4,
+    "pkgName": {
+        "segs": [
+            {
+                "type": "IDENT",
+                "upath": "em.lang/ConsoleProviderN",
+                "beg": {
+                    "line": 1,
+                    "col": 9,
+                    "pos": 8
+                },
+                "end": {
+                    "line": 1,
+                    "col": 10,
+                    "pos": 9
+                },
+                "text": "em"
+            },
+            {
+                "type": "IDENT",
+                "upath": "em.lang/ConsoleProviderN",
+                "beg": {
+                    "line": 1,
+                    "col": 12,
+                    "pos": 11
+                },
+                "end": {
+                    "line": 1,
+                    "col": 15,
+                    "pos": 14
+                },
+                "text": "lang"
+            }
+        ]
+    },
+    "imps": [
+        {
+            "from": {
+                "segs": [
+                    {
+                        "type": "IDENT",
+                        "upath": "em.lang/ConsoleProviderN",
+                        "beg": {
+                            "line": 1,
+                            "col": 9,
+                            "pos": 8
+                        },
+                        "end": {
+                            "line": 1,
+                            "col": 10,
+                            "pos": 9
+                        },
+                        "text": "em"
+                    },
+                    {
+                        "type": "IDENT",
+                        "upath": "em.lang/ConsoleProviderN",
+                        "beg": {
+                            "line": 1,
+                            "col": 12,
+                            "pos": 11
+                        },
+                        "end": {
+                            "line": 1,
+                            "col": 15,
+                            "pos": 14
+                        },
+                        "text": "lang"
+                    }
+                ]
+            },
+            "uname": {
+                "type": "IDENT",
+                "upath": "em.lang/ConsoleProviderN",
+                "beg": {
+                    "line": 3,
+                    "col": 8,
+                    "pos": 24
+                },
+                "end": {
+                    "line": 3,
+                    "col": 23,
+                    "pos": 39
+                },
+                "text": "ConsoleProviderI"
+            }
+        }
+    ],
+    "exps": [],
+    "sup": {
+        "ident": {
+            "type": "IDENT",
+            "upath": "em.lang/ConsoleProviderN",
+            "beg": {
+                "line": 5,
+                "col": 8,
+                "pos": 49
+            },
+            "end": {
+                "line": 5,
+                "col": 23,
+                "pos": 64
+            },
+            "text": "ConsoleProviderN"
+        },
+        "inter": {
+            "type": "IDENT",
+            "upath": "em.lang/ConsoleProviderN",
+            "beg": {
+                "line": 5,
+                "col": 26,
+                "pos": 67
+            },
+            "end": {
+                "line": 5,
+                "col": 41,
+                "pos": 82
+            },
+            "text": "ConsoleProviderI"
+        }
+    },
+    "decls": [],
+    "bodies": [
+        {
+            "name": {
+                "segs": [
+                    {
+                        "type": "IDENT",
+                        "upath": "em.lang/ConsoleProviderN",
+                        "beg": {
+                            "line": 9,
+                            "col": 5,
+                            "pos": 94
+                        },
+                        "end": {
+                            "line": 9,
+                            "col": 9,
+                            "pos": 98
+                        },
+                        "text": "flush"
+                    }
+                ]
+            },
+            "args": [],
+            "block": {
+                "$KIND": "Block",
+                "serial": 1,
+                "stmts": []
+            }
+        },
+        {
+            "name": {
+                "segs": [
+                    {
+                        "type": "IDENT",
+                        "upath": "em.lang/ConsoleProviderN",
+                        "beg": {
+                            "line": 12,
+                            "col": 5,
+                            "pos": 111
+                        },
+                        "end": {
+                            "line": 12,
+                            "col": 9,
+                            "pos": 115
+                        },
+                        "text": "print"
+                    }
+                ]
+            },
+            "args": [
+                {
+                    "$KIND": "Arg",
+                    "flags": 0,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.lang/ConsoleProviderN",
+                        "beg": {
+                            "line": 12,
+                            "col": 11,
+                            "pos": 117
+                        },
+                        "end": {
+                            "line": 12,
+                            "col": 13,
+                            "pos": 119
+                        },
+                        "text": "fmt"
+                    },
+                    "docs": []
+                },
+                {
+                    "$KIND": "Arg",
+                    "flags": 0,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.lang/ConsoleProviderN",
+                        "beg": {
+                            "line": 12,
+                            "col": 16,
+                            "pos": 122
+                        },
+                        "end": {
+                            "line": 12,
+                            "col": 17,
+                            "pos": 123
+                        },
+                        "text": "a1"
+                    },
+                    "docs": []
+                },
+                {
+                    "$KIND": "Arg",
+                    "flags": 0,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.lang/ConsoleProviderN",
+                        "beg": {
+                            "line": 12,
+                            "col": 20,
+                            "pos": 126
+                        },
+                        "end": {
+                            "line": 12,
+                            "col": 21,
+                            "pos": 127
+                        },
+                        "text": "a2"
+                    },
+                    "docs": []
+                },
+                {
+                    "$KIND": "Arg",
+                    "flags": 0,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.lang/ConsoleProviderN",
+                        "beg": {
+                            "line": 12,
+                            "col": 24,
+                            "pos": 130
+                        },
+                        "end": {
+                            "line": 12,
+                            "col": 25,
+                            "pos": 131
+                        },
+                        "text": "a3"
+                    },
+                    "docs": []
+                },
+                {
+                    "$KIND": "Arg",
+                    "flags": 0,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.lang/ConsoleProviderN",
+                        "beg": {
+                            "line": 12,
+                            "col": 28,
+                            "pos": 134
+                        },
+                        "end": {
+                            "line": 12,
+                            "col": 29,
+                            "pos": 135
+                        },
+                        "text": "a4"
+                    },
+                    "docs": []
+                },
+                {
+                    "$KIND": "Arg",
+                    "flags": 0,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.lang/ConsoleProviderN",
+                        "beg": {
+                            "line": 12,
+                            "col": 32,
+                            "pos": 138
+                        },
+                        "end": {
+                            "line": 12,
+                            "col": 33,
+                            "pos": 139
+                        },
+                        "text": "a5"
+                    },
+                    "docs": []
+                },
+                {
+                    "$KIND": "Arg",
+                    "flags": 0,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.lang/ConsoleProviderN",
+                        "beg": {
+                            "line": 12,
+                            "col": 36,
+                            "pos": 142
+                        },
+                        "end": {
+                            "line": 12,
+                            "col": 37,
+                            "pos": 143
+                        },
+                        "text": "a6"
+                    },
+                    "docs": []
+                }
+            ],
+            "block": {
+                "$KIND": "Block",
+                "serial": 2,
+                "stmts": []
+            }
+        },
+        {
+            "name": {
+                "segs": [
+                    {
+                        "type": "IDENT",
+                        "upath": "em.lang/ConsoleProviderN",
+                        "beg": {
+                            "line": 15,
+                            "col": 5,
+                            "pos": 155
+                        },
+                        "end": {
+                            "line": 15,
+                            "col": 7,
+                            "pos": 157
+                        },
+                        "text": "put"
+                    }
+                ]
+            },
+            "args": [
+                {
+                    "$KIND": "Arg",
+                    "flags": 0,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.lang/ConsoleProviderN",
+                        "beg": {
+                            "line": 15,
+                            "col": 9,
+                            "pos": 159
+                        },
+                        "end": {
+                            "line": 15,
+                            "col": 12,
+                            "pos": 162
+                        },
+                        "text": "data"
+                    },
+                    "docs": []
+                }
+            ],
+            "block": {
+                "$KIND": "Block",
+                "serial": 3,
+                "stmts": []
+            }
+        }
+    ],
+    "docs": []
+}

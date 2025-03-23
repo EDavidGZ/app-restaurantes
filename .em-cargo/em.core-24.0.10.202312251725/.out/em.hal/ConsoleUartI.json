@@ -1,0 +1,203 @@
+{
+    "flags": 1,
+    "pkgName": {
+        "segs": [
+            {
+                "type": "IDENT",
+                "upath": "em.hal/ConsoleUartI",
+                "beg": {
+                    "line": 1,
+                    "col": 9,
+                    "pos": 8
+                },
+                "end": {
+                    "line": 1,
+                    "col": 10,
+                    "pos": 9
+                },
+                "text": "em"
+            },
+            {
+                "type": "IDENT",
+                "upath": "em.hal/ConsoleUartI",
+                "beg": {
+                    "line": 1,
+                    "col": 12,
+                    "pos": 11
+                },
+                "end": {
+                    "line": 1,
+                    "col": 14,
+                    "pos": 13
+                },
+                "text": "hal"
+            }
+        ]
+    },
+    "imps": [],
+    "exps": [],
+    "sup": {
+        "ident": {
+            "type": "IDENT",
+            "upath": "em.hal/ConsoleUartI",
+            "beg": {
+                "line": 3,
+                "col": 11,
+                "pos": 26
+            },
+            "end": {
+                "line": 3,
+                "col": 22,
+                "pos": 37
+            },
+            "text": "ConsoleUartI"
+        }
+    },
+    "decls": [
+        {
+            "$KIND": "Fxn",
+            "flags": 2,
+            "ident": {
+                "type": "IDENT",
+                "upath": "em.hal/ConsoleUartI",
+                "beg": {
+                    "line": 5,
+                    "col": 19,
+                    "pos": 59
+                },
+                "end": {
+                    "line": 5,
+                    "col": 26,
+                    "pos": 66
+                },
+                "text": "setBaudH"
+            },
+            "docs": [],
+            "args": [
+                {
+                    "$KIND": "Arg",
+                    "flags": 2,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.hal/ConsoleUartI",
+                        "beg": {
+                            "line": 5,
+                            "col": 28,
+                            "pos": 68
+                        },
+                        "end": {
+                            "line": 5,
+                            "col": 31,
+                            "pos": 71
+                        },
+                        "text": "rate"
+                    },
+                    "docs": [],
+                    "type": {
+                        "$KIND": "Std",
+                        "ident": {
+                            "type": "TY_UINT32",
+                            "upath": "em.hal/ConsoleUartI",
+                            "beg": {
+                                "line": 5,
+                                "col": 34,
+                                "pos": 74
+                            },
+                            "end": {
+                                "line": 5,
+                                "col": 39,
+                                "pos": 79
+                            },
+                            "text": "uint32"
+                        },
+                        "tmods": 0
+                    }
+                }
+            ]
+        },
+        {
+            "$KIND": "Fxn",
+            "flags": 0,
+            "ident": {
+                "type": "IDENT",
+                "upath": "em.hal/ConsoleUartI",
+                "beg": {
+                    "line": 7,
+                    "col": 14,
+                    "pos": 100
+                },
+                "end": {
+                    "line": 7,
+                    "col": 18,
+                    "pos": 104
+                },
+                "text": "flush"
+            },
+            "docs": [],
+            "args": []
+        },
+        {
+            "$KIND": "Fxn",
+            "flags": 0,
+            "ident": {
+                "type": "IDENT",
+                "upath": "em.hal/ConsoleUartI",
+                "beg": {
+                    "line": 8,
+                    "col": 14,
+                    "pos": 121
+                },
+                "end": {
+                    "line": 8,
+                    "col": 16,
+                    "pos": 123
+                },
+                "text": "put"
+            },
+            "docs": [],
+            "args": [
+                {
+                    "$KIND": "Arg",
+                    "flags": 0,
+                    "ident": {
+                        "type": "IDENT",
+                        "upath": "em.hal/ConsoleUartI",
+                        "beg": {
+                            "line": 8,
+                            "col": 18,
+                            "pos": 125
+                        },
+                        "end": {
+                            "line": 8,
+                            "col": 21,
+                            "pos": 128
+                        },
+                        "text": "data"
+                    },
+                    "docs": [],
+                    "type": {
+                        "$KIND": "Std",
+                        "ident": {
+                            "type": "TY_UINT8",
+                            "upath": "em.hal/ConsoleUartI",
+                            "beg": {
+                                "line": 8,
+                                "col": 24,
+                                "pos": 131
+                            },
+                            "end": {
+                                "line": 8,
+                                "col": 28,
+                                "pos": 135
+                            },
+                            "text": "uint8"
+                        },
+                        "tmods": 0
+                    }
+                }
+            ]
+        }
+    ],
+    "bodies": [],
+    "docs": []
+}
