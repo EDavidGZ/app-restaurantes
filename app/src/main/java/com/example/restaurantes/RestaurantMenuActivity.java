@@ -13,8 +13,6 @@ import com.google.android.material.tabs.TabLayoutMediator;
 
 public class RestaurantMenuActivity extends AppCompatActivity {
 
-    private ViewPager2 viewPager;
-    private TabLayout tabLayout;
     private Restaurant restaurant;
 
     @Override
@@ -22,26 +20,23 @@ public class RestaurantMenuActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_restaurant_menu);
 
-        // Get restaurant from intent
+        // Obtener el restaurante pasado como extra
         restaurant = (Restaurant) getIntent().getSerializableExtra("restaurant");
 
-        // Set up toolbar
+        // Configurar la toolbar
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         if (getSupportActionBar() != null) {
-            getSupportActionBar().setDisplayHomeAsUpEnabled(true);
             getSupportActionBar().setTitle(restaurant.getName());
+            getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         }
 
-        // Set up ViewPager2 and TabLayout
-        viewPager = findViewById(R.id.viewPager);
-        tabLayout = findViewById(R.id.tabLayout);
-
-        // Create and set adapter
-        MenuPagerAdapter pagerAdapter = new MenuPagerAdapter(this, restaurant.getId());
+        // Configurar ViewPager y TabLayout
+        ViewPager2 viewPager = findViewById(R.id.viewPager);
+        TabLayout tabLayout = findViewById(R.id.tabLayout);
+        MenuPagerAdapter pagerAdapter = new MenuPagerAdapter(this, restaurant);
         viewPager.setAdapter(pagerAdapter);
 
-        // Set up TabLayoutMediator
         new TabLayoutMediator(tabLayout, viewPager, (tab, position) -> {
             switch (position) {
                 case 0:

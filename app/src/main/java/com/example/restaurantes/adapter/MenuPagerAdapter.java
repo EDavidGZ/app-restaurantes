@@ -6,14 +6,15 @@ import androidx.fragment.app.FragmentActivity;
 import androidx.viewpager2.adapter.FragmentStateAdapter;
 
 import com.example.restaurantes.fragment.MenuTabFragment;
+import com.example.restaurantes.model.Restaurant;
 
 public class MenuPagerAdapter extends FragmentStateAdapter {
 
-    private final long restaurantId;
+    private Restaurant restaurant;
 
-    public MenuPagerAdapter(@NonNull FragmentActivity fragmentActivity, long restaurantId) {
+    public MenuPagerAdapter(@NonNull FragmentActivity fragmentActivity, Restaurant restaurant) {
         super(fragmentActivity);
-        this.restaurantId = restaurantId;
+        this.restaurant = restaurant;
     }
 
     @NonNull
@@ -32,12 +33,13 @@ public class MenuPagerAdapter extends FragmentStateAdapter {
                 break;
             default:
                 type = "food";
+                break;
         }
-        return MenuTabFragment.newInstance(type, restaurantId);
+        return MenuTabFragment.newInstance(restaurant.getId(), type);
     }
 
     @Override
     public int getItemCount() {
-        return 3; // Three tabs: Food, Drinks, and Complements
+        return 3; // Comida, Bebidas, Complementos
     }
 }

@@ -34,22 +34,29 @@
         </activity>
 
         <activity
-            android:name=".RestaurantMenuActivity"
-            android:exported="false"
-            android:parentActivityName=".RestaurantListActivity">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".RestaurantListActivity" />
-        </activity>
+            android:name=".RestaurantFormActivity"
+            android:label="Agregar/Editar Restaurante"
+            android:parentActivityName=".RestaurantListActivity" />
 
         <activity
-            android:name=".ItemDetailsActivity"
-            android:exported="false"
-            android:parentActivityName=".RestaurantListActivity">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".RestaurantListActivity" />
-        </activity>
+            android:name=".RestaurantDetailActivity"
+            android:label="Detalle del Restaurante"
+            android:parentActivityName=".RestaurantListActivity" />
+
+        <activity
+            android:name=".RestaurantMenuActivity"
+            android:label="Menú del Restaurante"
+            android:parentActivityName=".RestaurantListActivity" />
+
+        <activity
+            android:name=".FoodFormActivity"
+            android:label="Agregar/Editar Alimento"
+            android:parentActivityName=".RestaurantMenuActivity" />
+
+        <activity
+            android:name=".FoodDetailsActivity"
+            android:label="Detalle del Alimento"
+            android:parentActivityName=".RestaurantMenuActivity" />
 
     </application>
 

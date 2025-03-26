@@ -5,6 +5,7 @@ import java.io.Serializable;
 public class Food implements Serializable {
 
     private long id;
+    private long restaurantId;
     private String name;
     private double price;
     private String description;
@@ -26,6 +27,14 @@ public class Food implements Serializable {
 
     public void setId(long id) {
         this.id = id;
+    }
+
+    public long getRestaurantId() {
+        return restaurantId;
+    }
+
+    public void setRestaurantId(long restaurantId) {
+        this.restaurantId = restaurantId;
     }
 
     public String getName() {

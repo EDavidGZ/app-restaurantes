@@ -101,19 +101,19 @@ public class RestaurantDetailFragment extends Fragment {
     }
 
     private void setupViewPager() {
-        MenuPagerAdapter pagerAdapter = new MenuPagerAdapter(requireActivity(), restaurant.getId());
+        MenuPagerAdapter pagerAdapter = new MenuPagerAdapter(requireActivity(), restaurant);
         viewPager.setAdapter(pagerAdapter);
 
         new TabLayoutMediator(tabLayout, viewPager, (tab, position) -> {
             switch (position) {
                 case 0:
-                    tab.setText("Food");
+                    tab.setText("Comida");
                     break;
                 case 1:
-                    tab.setText("Drinks");
+                    tab.setText("Bebidas");
                     break;
                 case 2:
-                    tab.setText("Complements");
+                    tab.setText("Complementos");
                     break;
             }
         }).attach();
